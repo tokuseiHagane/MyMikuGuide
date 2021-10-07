@@ -1,6 +1,6 @@
 
 # Hatsune Miku! Список для ознакомления
-![Miku](20211006211925.png)
+![Miku](pictures/20211006211925.png)
 
 **Hatsune Miku** (**初音ミク**, транскрипция: Хацунэ Мику, Хатсуне Мику)  — персонаж-маскот одноимённого голосового банка. Входит в состав Character Vocal Series. 
 
@@ -64,7 +64,7 @@
 
 ## Vocametal (Бери топор - руби хардкоооор)
 ### Utsu-P 
-![Utsu-P](20211007102119.png)
+![Utsu-P](pictures/20211007102119.png)
 
 **Utsu-P** (**鬱P**, Дипрессия-P) (родился 1-ого Декабря 1990), - признанный продюсер, известный своими песнями в стиле вокаметалл.
 Хотя вначале в его песнях была исключительно Мику, теперь он также использует Rin, GUMI и flower.
@@ -75,10 +75,10 @@
 **! ПРИМЕЧАНИЕ !**
 Далее в основном будут альбомы вместе с номерами треков (в большенстве учавствовала Мику, поэтому списки треков в альбомах добавлены полностью). 
 Вы же не хотите видеть такую поебень из старых клипов (ох ебать):
-![20211006232239.png|400](20211006232239.png)
+![20211006232239.png|400](pictures/20211006232239.png)
 
 #### DIARRHEA 2009
-![DIARRHEA|400](20211006233914.png)
+![DIARRHEA|400](pictures/20211006233914.png)
 **YouTube:**  https://www.youtube.com/watch?v=LGTtqLW4Q-M
  1. Poison☆Apple (Ядовитое яблоко)【ぽいずん☆あっぷる】(Hatsune Miku) [0:00](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=0s) 
  2. Corpse Attack!! (Атака трупов!!)【Mukuro Attack!! / 骸Attack!!】(Hatsune Miku) [4:18](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=258s) 
@@ -96,7 +96,7 @@
 14. Self-destruction (Саморазрушение)【Jibaku / 自爆】(Hatsune Miku) [55:54](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=3354s)
 
 #### TRAUMATIC 2010
-![TRAUMATIC|400](20211006233935.png)
+![TRAUMATIC|400](pictures/20211006233935.png)
 **YouTube:**  https://www.youtube.com/watch?v=YTjvf-HfqkA
 1. Constipation Of Death (Запор смерти)  (Kagamine Rin) [0:00](https://www.youtube.com/watch?v=YTjvf-HfqkA&t=0s)
 2. Children's World (Детский мир)【Kodomo No Sekai / 子供の世界】 (Kagamine Rin, Hatsune Miku) [4:07](https://www.youtube.com/watch?v=YTjvf-HfqkA&t=247s)
@@ -114,7 +114,7 @@
 14. Heart Sutra Hardcore (Хардкор сердечной сутры)【Hannya Shingyou Hardcore / 般若心経ハードコア 】 (Hatsune Miku)[49:53](https://www.youtube.com/watch?v=YTjvf-HfqkA&t=2993s) 
 
 #### MOKSHA 2012
-![MOKSHA|400](20211007095657.png)
+![MOKSHA|400](pictures/20211007095657.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=zDz1RrOMbkk
 
@@ -136,7 +136,7 @@
 
 
 #### GALAPAGOS
-![GALAPAGOS|400](20211006234054.png)
+![GALAPAGOS|400](pictures/20211006234054.png)
 **YouTube:**  
 
 **редакция от 06.10.2021**
