@@ -201,6 +201,7 @@
 #### GREATEST SHITS 2018
 ![GS|400](pictures/20211007122731.png)
 Альбом ремастеров (кроме некоторых треков). 
+
 **YouTube:** https://www.youtube.com/watch?v=Sybi0z3Eltw
 1. 骸Attack!!, Corpse Attack!! (鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=0s)
 2. アンチ・デジタリズム, Anti-Digitalism  (鬱P feat. 初音ミク) [3:53](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=233s)
@@ -265,6 +266,7 @@
 
 ##### Zoku (俗) 2012
 ![Zoku](pictures/20211007130527.png)
+
 **YouTube:**  https://www.youtube.com/watch?v=rwc9gC60BXc
 1. CR Peculiar World View【CR Dokutoku na Sekaikan / CR独特な世界観】(Hatsune Miku) [0:00](https://www.youtube.com/watch?v=rwc9gC60BXc&t=0s) 
 2. Red Burst【Akai Baku / あかいばく 】(Hatsune Miku) [3:54](https://www.youtube.com/watch?v=rwc9gC60BXc&t=234s) 
@@ -273,6 +275,7 @@
 5. I Want To Become A Stuffed Animal【Nuigurumi Ni Naritai / ぬいぐるみになりたい 】 (Mayu) [12:02](https://www.youtube.com/watch?v=rwc9gC60BXc&t=722s)
 ##### TEYAKI 2014
 ![TEYAKI|400](pictures/20211007125801.png)
+
 **YouTube:**  https://www.youtube.com/watch?v=CH89J435vbE
 
 1. Teller Story Teller【テラーストーリーテラー】[00:00](https://www.youtube.com/watch?v=CH89J435vbE)
