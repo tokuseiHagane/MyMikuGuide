@@ -1,6 +1,6 @@
 
 # Hatsune Miku! Список для ознакомления
-![[pictures/20211006211925.png]]
+![[20211006211925.png]]
 **Hatsune Miku** (**初音ミク**, транскрипция: Хацунэ Мику, Хатсуне Мику)  — персонаж-маскот одноимённого голосового банка. Входит в состав Character Vocal Series. 
 
 ### Общая информация
@@ -62,7 +62,7 @@
 - [Ring no Seraph (Серафим на ринге)](https://www.youtube.com/watch?v=lWuJRRCTHrg)
 
 ## Vocametal (Бери топор - руби хардкоооор)
-### Utsu-P ![[pictures/20211007102119.png]]
+### Utsu-P ![[20211007102119.png]]
 **Utsu-P** (**鬱P**, Дипрессия-P) (родился 1-ого Декабря 1990), - признанный продюсер, известный своими песнями в стиле вокаметалл.
 Хотя вначале в его песнях была исключительно Мику, теперь он также использует Rin, GUMI и flower.
 Он хорошо известен своими навыками управления голосом вокалойдов для исполнения выкриков (shouts), криков (screams) и ворчаний (grunts) с помощью фильтров и эффектов, а его мелодия обычно имеет тяжелую басовую линию.
@@ -72,10 +72,10 @@
 **! ПРИМЕЧАНИЕ !**
 Далее в основном будут альбомы вместе с номерами треков (в большенстве учавствовала Мику, поэтому списки треков в альбомах добавлены полностью). 
 Вы же не хотите видеть такую поебень из старых клипов (ох ебать):
-![[pictures/20211006232239.png]]
+![[20211006232239.png]]
 
 #### DIARRHEA 2009
-![[pictures/20211006233914.png]]
+![[20211006233914.png]]
 **YouTube:**  https://www.youtube.com/watch?v=LGTtqLW4Q-M
  1. Poison☆Apple (Ядовитое яблоко)【ぽいずん☆あっぷる】(Hatsune Miku) [0:00](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=0s) 
  2. Corpse Attack!! (Атака трупов!!)【Mukuro Attack!! / 骸Attack!!】(Hatsune Miku) [4:18](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=258s) 
@@ -93,7 +93,7 @@
 14. Self-destruction (Саморазрушение)【Jibaku / 自爆】(Hatsune Miku) [55:54](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=3354s)
 
 #### TRAUMATIC 2010
-![[pictures/20211006233935.png]]
+![[20211006233935.png]]
 **YouTube:**  https://www.youtube.com/watch?v=YTjvf-HfqkA
 1. Constipation Of Death (Запор смерти)  (Kagamine Rin) [0:00](https://www.youtube.com/watch?v=YTjvf-HfqkA&t=0s)
 2. Children's World (Детский мир)【Kodomo No Sekai / 子供の世界】 (Kagamine Rin, Hatsune Miku) [4:07](https://www.youtube.com/watch?v=YTjvf-HfqkA&t=247s)
@@ -111,7 +111,7 @@
 14. Heart Sutra Hardcore (Хардкор сердечной сутры)【Hannya Shingyou Hardcore / 般若心経ハードコア 】 (Hatsune Miku)[49:53](https://www.youtube.com/watch?v=YTjvf-HfqkA&t=2993s) 
 
 #### MOKSHA 2012
-![[pictures/20211007095657.png]]
+![[20211007095657.png]]
 **YouTube:**  https://www.youtube.com/watch?v=zDz1RrOMbkk
 1. MOKSHA (emancipation) [0:00](https://www.youtube.com/watch?v=zDz1RrOMbkk&t=0s) 
 2. 暴動 [0:47](https://www.youtube.com/watch?v=zDz1RrOMbkk&t=47s) 【Boudou / Riot】 (Kagamine Rin, Hatsune Miku) 
@@ -131,7 +131,7 @@
 
 
 #### GALAPAGOS
-![[pictures/20211006234054.png]]
+![[20211006234054.png]]
 **YouTube:**  
 
 
