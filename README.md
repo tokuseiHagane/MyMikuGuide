@@ -86,8 +86,12 @@
 #### 2019
 - [Lucky☆Orb feat. Hatsune Miku (Счастливый шар)](https://www.youtube.com/watch?v=AufydOsiD6M)
 - [Ring no Seraph (Серафим на ринге)](https://www.youtube.com/watch?v=lWuJRRCTHrg)
+#### 2020
+#### 2021
+- [ダブルラリアット (鬱P feat. 巡音ルカ)](https://www.youtube.com/watch?v=oYOmZ7a39Qo)
 
-## Vocametal 
+## Продюссеры
+
 ### Utsu-P 
 ![Utsu-P](pictures/20211007102119.png)
 
@@ -105,6 +109,7 @@
 Хоть альбом UNIQE и был выпущен ещё в ноябре 2021, его в свободном доступе нет.
 Однако сами треки есть, но слушать их придётся не в составе альбома.
 ```
+
 #### DIARRHEA 2009
 ![DIARRHEA|400](pictures/20211006233914.png)
 
@@ -126,6 +131,7 @@
 
 #### TRAUMATIC 2010
 ![TRAUMATIC|400](pictures/20211006233935.png)
+
 **YouTube:**  https://www.youtube.com/watch?v=YTjvf-HfqkA
 1. Constipation Of Death (Kagamine Rin) [0:00](https://www.youtube.com/watch?v=YTjvf-HfqkA&t=0s)
 2. Children's World【Kodomo No Sekai / 子供の世界】 (Kagamine Rin, Hatsune Miku) [4:07](https://www.youtube.com/watch?v=YTjvf-HfqkA&t=247s)
@@ -146,7 +152,6 @@
 ![MOKSHA|400](pictures/20211007232937.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=zDz1RrOMbkk
-
 1. MOKSHA (emancipation) [0:00](https://www.youtube.com/watch?v=zDz1RrOMbkk&t=0s) 
 2. 暴動【Boudou / Riot】 (Kagamine Rin, Hatsune Miku) [0:47](https://www.youtube.com/watch?v=zDz1RrOMbkk&t=47s) 
 3. 馬鹿はアノマリーに憧れる【Baka wa Anomaly ni Akogareru / The Fools Are Attracted By Anomaly】(Kagamine Rin) [4:14](https://www.youtube.com/watch?v=zDz1RrOMbkk&t=254s)
@@ -166,6 +171,7 @@
 
 #### WARUFUZAKE 2013
 ![WARUFUZAKE|400](pictures/20211007112429.png)
+
 **YouTube:**  https://www.youtube.com/watch?v=ul0ACHQED2k
 1. The Understanding of Nyan Silence【Nyan Shijima no Ryoukai / ニャン黙の了解】 (Hatsune Miku, Kagamine Rin) [0:00](https://www.youtube.com/watch?v=ul0ACHQED2k&t=0s) 
 2. The Idiot admires Anomaly【Baka wa Anomaly no Akogareru / 馬鹿はアノマリーに憧れ】 (Kagamine Rin) [3:33](https://www.youtube.com/watch?v=ul0ACHQED2k&t=213s)
@@ -179,8 +185,10 @@
 10. Corpse Attack!!【Mukuro Attack!! / 骸Attack!!】 (Hatsune Miku) [36:41](https://www.youtube.com/watch?v=ul0ACHQED2k&t=2201s)
 11. Cold【Kaze / 風邪】 (GUMI) [40:37](https://www.youtube.com/watch?v=ul0ACHQED2k&t=2437s)
 12. THE DYING MESSAGE (Kagamine Rin) [46:19](https://www.youtube.com/watch?v=ul0ACHQED2k&t=2779s)
+
 #### ALGORITM 2014
 ![ALGORITM|400](pictures/20211007110359.png)
+
 **YouTube:**  https://www.youtube.com/watch?v=OVVpxFp5lHw
 1. A final fantasy【Owari no Fantajii / 終のファンタジー】(Hatsune Miku, GUMI) [0:00](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=0s) 
 2. Baby Death Match【ベイビー・デスマッチ】(Kagamine Rin)  [3:47](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=227s)
@@ -195,6 +203,7 @@
 11. Hell Pops【Jigoku Poppusu / 地獄ポップス】(Kagamine Rin) [34:00](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=2040s) 
 12. Alien's "I Love You"【Uchuujin no Ai Rabu Yuu / 宇宙人のアイラブユー】(Hatsune Miku) [37:19](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=2239s) 
 13. MiKUSABBATH (Bonus Track) (Hatsune Miku) [43:01](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=2581s) 
+
 #### Post-Traumatic Stress Disorder 2016
 ![PTSD|400](pictures/20211007115116.png)
 
@@ -214,8 +223,10 @@
 13. ドール, Doll (鬱P feat. 初音ミク) [45:52](https://www.youtube.com/watch?v=_THZG2ZgzvU&t=2752s)
 14. 般若心経ハードコア, Heart Sutra Hardcore (鬱P feat. 初音ミク) [50:30](https://www.youtube.com/watch?v=_THZG2ZgzvU&t=3030s)
 15. Fear! The Speaker People (鬱P feat. 初音ミク) [52:28](https://www.youtube.com/watch?v=_THZG2ZgzvU&t=3148s)
+
 #### GALAPAGOS 2017
 ![GALAPAGOS|400](pictures/20211006234054.png)
+
 **YouTube:**  https://www.youtube.com/watch?v=bB3QcOX9Vcw
 1. [ガラパゴスで悪いか, Is it bad at the Galapagos Syndrome?](https://www.youtube.com/watch?v=dFPN6jIFIgo&t=0s) (鬱P feat. 初音ミク, 鏡音リン) [0:00](https://www.youtube.com/watch?v=bB3QcOX9Vcw&t=0s)
 2. [生きてるおばけは生きている, Living Ghost is Alive](https://www.youtube.com/watch?v=QvMNzt3iXyg&t=0s) (鬱P feat. flower) [2:17](https://www.youtube.com/watch?v=bB3QcOX9Vcw&t=137s)
@@ -226,6 +237,7 @@
 7. [未来の夏休み, Summer Vacation in the Future](https://www.youtube.com/watch?v=M9Tw8SVyg-0&t=0s) (鬱P feat. 初音ミク) [21:04](https://www.youtube.com/watch?v=bB3QcOX9Vcw&t=1264s)
 8. [飴ちゃん, CANDiES](https://www.youtube.com/watch?v=xB2O7Ul56OY&t=0s)   (鬱P feat. Gumi) [24:38](https://www.youtube.com/watch?v=bB3QcOX9Vcw&t=1478s)
 9. [Bonus](https://www.youtube.com/watch?v=mzEHVBEAUxw&t=0s) (鬱P feat. flower) [28:32](https://www.youtube.com/watch?v=bB3QcOX9Vcw&t=1712s)
+
 #### GREATEST SHITS 2018
 ![GS|400](pictures/20211007122731.png)
 
@@ -255,6 +267,7 @@
 
 #### RENAISSANCE 2019
 ![RENAISSANCE|400](pictures/20211007115837.png)
+
 **YouTube:** https://www.youtube.com/watch?v=nK7IBzaAmdE
 1. RENAISSANCE  (鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=0s)
 2. [The Beautiful Puke](https://www.youtube.com/watch?v=M2FqyOyCbxQ&t=0s) (鬱P feat. 初音ミク) [0:58](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=58s)
@@ -266,6 +279,7 @@
 8. [天使だと思っていたのに, I thought I was an angel](https://www.youtube.com/watch?v=UvUJbhxUKT8&t=0s) (鬱P feat. 初音ミク) [22:41](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=1361s) 
 9. [世界中に笑われても, Even if Everyone Around the World Laughed](https://www.youtube.com/watch?v=YrTvzBuNcEg&t=0s) (鬱P feat. 初音ミク) [27:50](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=1670s)
 10. Bonus Track (鬱P feat. 初音ミク) [32:45](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=1965s)
+
 #### UNIQE 2021 7/12
 ![UNIQE|400](pictures/20211007125010.png)
 - [2000年3月9日](https://www.youtube.com/watch?v=vO-DciIkNrE)
@@ -275,7 +289,9 @@
 -  [映えない / Not Photogenic](https://www.youtube.com/watch?v=GL-FTHmpXqo)
 -  [vivid feat. 巡音ルカ×初音ミク](https://www.youtube.com/watch?v=k48L7VD5Q5Q)
 -  [ATARI FRONT PROGRAM feat. 可不 [KAFU]](https://www.youtube.com/watch?v=lupVveArye8)
-#### Синглы и EP
+
+#### EP
+
 ##### DOLL 2009
 ![DOLL|400](pictures/20211007125409.png)
 
@@ -304,6 +320,7 @@
 3. Evil thoughts-kun's Theme【Janen-kun no Theme / 邪念くんのテーマ 】(Hatsune Miku, Kagamine Rin, GUMI) [6:05](https://www.youtube.com/watch?v=rwc9gC60BXc&t=365s) 
 4. Self-destruction no.2【Jibaku (2go) / 自爆２号】 (Hatsune Miku) [9:51](https://www.youtube.com/watch?v=rwc9gC60BXc&t=591s) 
 5. I Want To Become A Stuffed Animal【Nuigurumi Ni Naritai / ぬいぐるみになりたい 】(Mayu) [12:02](https://www.youtube.com/watch?v=rwc9gC60BXc&t=722s)
+
 ##### TEYAKI 2014
 ![TEYAKI|400](pictures/20211007125801.png)
 
