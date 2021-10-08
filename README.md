@@ -28,14 +28,18 @@
 # Список для ознакомления* 
 ***далеко не полный, новые редакции ожидайте в дальнейшем**
 ## Классика (J-POP, EasyPop, DancePop, Electro, Techno)
+
 #### 2008
 - [Cleaning Switch (Очищающий переключатель)](https://www.youtube.com/watch?v=5dhcFAhOcbo)
 - [Anger (Гнев)](https://www.youtube.com/watch?v=jNFCsJ16crc)
 - [Houkiboshi (Комета)](https://www.youtube.com/watch?v=pPhGeDlaMAQ)
+
 #### 2009
 - [Nebula feat. Hatsune Miku](https://www.youtube.com/watch?v=hoLu7c2XZYU)
+
 #### 2010
 - [Electric Love feat. Hatsune Miku (Электрическая любовь)](https://www.youtube.com/watch?v=fWIbhwMDigM)
+
 #### 2011
 - [Downloader (Загрузчик)](https://www.youtube.com/watch?v=zQRfQximhCU)
 - [Strobe Light (Вспышка света)](https://www.youtube.com/watch?v=7sKs7INaEoA)
@@ -44,6 +48,7 @@
 - [EDEN](https://www.youtube.com/watch?v=yyUCtd6rrWw)
 - [Sekiranun Graffiti ft. Hastsune Miku (Граффити грозовых туч)](https://www.youtube.com/watch?v=XKOoIAYSkZQ)
 - [Sweet Devil feat. Hatsune Miku (Милый дьявол)](https://www.youtube.com/watch?v=atXcWO54Ek0)
+
 #### 2012
 - [Fake Doll (Поддельная кукла)](https://www.youtube.com/watch?v=Z1VhvAIa3UA)
 - [Weekender Girl (Отдыхающая девушка)](https://www.youtube.com/watch?v=06d8SwcSm_Q)
@@ -54,6 +59,7 @@
 - [Tell Your World (Расскажи о своём мире)](https://www.youtube.com/watch?v=PqJNc9KVIZE)
 - [Yumeyume (Мечта, мечта)](https://www.youtube.com/watch?v=07r67gGbtLQ)
 - [Initiation feat. Hatsune Miku (Посвящение)](https://www.youtube.com/watch?v=dIfLTw3tbE8)
+
 #### 2013
 - [Oosouji (Уборка)](https://www.youtube.com/watch?v=HJIFqUxi4ko)
 - [HORIZON feat. Hatsune Miku (Горизонт)](https://www.youtube.com/watch?v=4jhjgoFv4D4)
@@ -61,6 +67,7 @@
 - [Redial (Повторный набор)](https://www.youtube.com/watch?v=243vPl8HdVk)
 - [GAME OVER feat. Hatsune Miku (Игра окончена)](https://www.youtube.com/watch?v=B5fIvQts65I)
 - [TRAPxTRAP feat. Hatsune Miku](https://www.youtube.com/watch?v=c2fqMoTq_tQ)
+
 #### 2014
 - [Burenai Ai de (С ясным взглядом)](https://www.youtube.com/watch?v=8kX5_69sO8Q)
 - [Rakugaki Picasso (Граффити Пикассо)](https://www.youtube.com/watch?v=Qqh_9gTk1c4)
@@ -68,27 +75,32 @@
 - [E no Umakatta Tomodachi (Друзья с картинок)](https://www.youtube.com/watch?v=0tluBqFbAgQ)
 - [Twinkle World feat. Hatsune Miku (Сверкающий мир)](https://www.youtube.com/watch?v=NiIVTXTuQug)
 - [Carry Me Off feat. Hatsune Miku (Унеси меня)](https://www.youtube.com/watch?v=UGG7tUMg77A)
+
 #### 2015
 - [B Who I Want 2 B (Быть тем, кем я хочу)](https://www.youtube.com/watch?v=oNxdk5oxbTM)
 - [Hand in Hand (Рука об руку)](https://www.youtube.com/watch?v=RKtoreimcQ8)
 - [Desktop Cinderella feat. Hatsune Miku (Золушка на рабочем столе)](https://www.youtube.com/watch?v=rQCPXcckCaQ)
 - [Little Scarlet Bad Girl feat. Hatsune Miku (Маленькая Скарлет — плохая девочка)](https://www.youtube.com/watch?v=I_bs61WyzMk)
+
 #### 2016
 - [Hiyashite Narasou Okashi no Ii Oto (Едим «Pocky» вместе)](https://www.youtube.com/watch?v=0vLUg5RWpTo)
 - [Blue Star feat. Hatsune Miku (Голубая звезда)](https://www.youtube.com/watch?v=xSnuVnOZd1U)
 - [Miku ft. Hatsune Miku](https://www.youtube.com/watch?v=NocXEwsJGOQ)
 - [Kimagure Mercy (Причудливое милосердие)](https://www.youtube.com/watch?v=o1iz4L-5zkQ)
+
 #### 2017
 - [Ohedo Julia-Night](https://www.youtube.com/watch?v=y3yyYYLyVzw)
 - [Suna no Wakusei feat. Hatsune Miku (Песочная планета)](https://www.youtube.com/watch?v=AS4q9yaWJkI)
+
 #### 2018
 - [Greenlights Serenade (Серенада зеленых огней)](https://www.youtube.com/watch?v=XSLhsjepelI)
+
 #### 2019
 - [Lucky☆Orb feat. Hatsune Miku (Счастливый шар)](https://www.youtube.com/watch?v=AufydOsiD6M)
 - [Ring no Seraph (Серафим на ринге)](https://www.youtube.com/watch?v=lWuJRRCTHrg)
 #### 2020
 #### 2021
-- [ダブルラリアット (鬱P feat. 巡音ルカ)](https://www.youtube.com/watch?v=oYOmZ7a39Qo)
+
 
 ## Продюссеры
 
