@@ -1,6 +1,6 @@
 
 # Hatsune Miku! Список для ознакомления
-![Miku](pictures/20211006211925.png)
+![Miku](pictures/20211006211925.png) 
 
 **Hatsune Miku** (**初音ミク**, транскрипция: Хацунэ Мику, Хатсуне Мику)  — персонаж-маскот одноимённого голосового банка. Входит в состав Character Vocal Series. 
 
@@ -16,6 +16,15 @@
 
 Цифровой дизайн юбки и ботинок Miku основан на программных цветах синтезатора, а полоски изображают полоски, взятые из программы по просьбе Crypton. Часть её внешнего вида основана на моделях клавиатуры YAMAHA, особенно [DX-100](https://vocaloid.fandom.com/ru/wiki/Hatsune_Miku_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6)#cite_note-4) и [DX-7](https://vocaloid.fandom.com/ru/wiki/Hatsune_Miku_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6)#cite_note-5). Квадратики вокруг хвостиков являются футуристичными ленточками, созданными из специального материала, который парит в воздухе. Как видно из артов Мику KEI, они способны держать хвостики Мику при этом не соприкасаясь с самими волосами. Также эти самые ленточки считаются деталью, которую сложнее всего изобразить в косплее персонажа.
 
+### Продвижение
+По началу система маркетинга Hatsune Miku ничем не отличалась от аналогичной у [KAITO](https://vocaloid.fandom.com/ru/wiki/KAITO_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6) "KAITO (персонаж)") и [MEIKO](https://vocaloid.fandom.com/ru/wiki/MEIKO_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6) "MEIKO (персонаж)"), посему большая часть продвижения происходила с помощью DTM MAGAZINE, поскольку читатели данного журнала в своё время оказали большое влияние на распространение вышеуказанных персонажей. Единственным же заранее запланированным ходом был выпуск диска с демо-версией голосового банка Hatsune Miku вместе с выпуском журнала за ноябрь 2007 года, чей тираж был быстро распродан. В то время как вышеуказанный голосовой банк был доступен для предзаказа также было отмечено, что [MEIKO](https://vocaloid.fandom.com/ru/wiki/MEIKO_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6) "MEIKO (персонаж)") и [KAITO](https://vocaloid.fandom.com/ru/wiki/KAITO_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6) "KAITO (персонаж)") не имеют перспектив получения обновлений, и что Miku будет исполнять их роли в [будущем](https://vocaloid.fandom.com/ru/wiki/Hatsune_Miku_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6)#cite_note-6). Кроме того, первоначально Hatsune Miku была нацелена только на профессиональных продюсеров поскольку [любительский](https://vocaloid.fandom.com/ru/wiki/Hatsune_Miku_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6)#cite_note-7) рынок и рынок [отаку](https://vocaloid.fandom.com/ru/wiki/Hatsune_Miku_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6)#cite_note-8) тогда ещё только формировались.
+
+Не смотря на всё вышеперечисленное, Hatsune Miku ждал коммерческий успех, в следствии чего были предприняты новые маркетинговые ходы. Так, например, было выпущено несколько руководств, а также линейка журналов, посвящённые исключительно её вокалу. Этот тип технического освещения стал возможен даже спустя долгое время после первоначального выпуска Мику, благодаря чему методы адаптации ее вокала наиболее хорошо задокументированы среди вокалоидов эры VOCALOID2. В марте 2012 года, согласно подсчётам Исследовательского института Номура, общая прибыль за всё время продажи лицензионных товаров под брендом "Hatsune Miku" достигла отметки в [10 000 000 000 иен](https://vocaloid.fandom.com/ru/wiki/Hatsune_Miku_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6)#cite_note-9).
+
+Поскольку успех ее голосового банка привел к расширению маркетинговых возможностей, большая часть массового маркетинга пришла после ее первоначального выпуска в ответ на ее популярность. На данный момент имя Мику является наиболее узнаваемым среди всех вокалоидов, из-за чего оно более активно используется [Crypton Future Media, Inc.](https://vocaloid.fandom.com/ru/wiki/Crypton_Future_Media,_Inc. "Crypton Future Media, Inc.") для продвижения собственных проектов, несмотря на наличие авторских прав и на некоторых других персонажей. В 2011 году началось продвижение Мику на американском рынке, в рамках которого 7 мая USAmazon разместил анонс популярной песни Supercell "World is Mine" в качестве сингла. Когда песня поступила в продажу, она заняла 7-е место в списке 10 лучших синглов мира в iTunes за [первую неделю продаж](https://vocaloid.fandom.com/ru/wiki/Hatsune_Miku_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6)#cite_note-10). 26 июня 2012 года Hatsune Miku была зарегистрирована как [товарный знак](https://vocaloid.fandom.com/ru/wiki/Hatsune_Miku_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6)#cite_note-11).
+
+На данный момент изображение Мику широко используется для продвижение продукции разного вида: с её изображением создавались фигурки, нотные тетради, книги, журналы а также многие другие товары. Кроме того, изображение Хацунэ Мику наносились на автомобили [BMW Z4 класса GT300 Super GT сезона 2008 года](https://vocaloid.fandom.com/ru/wiki/Hatsune_Miku_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6)#cite_note-12) и [Toyota Corolla в 2011 году](https://vocaloid.fandom.com/ru/wiki/Hatsune_Miku_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6)#cite_note-13). Также с 2009 года проходят "живые" концерты Мику с использованием технологии проецирования псевдотрёхмерного изображения. Помимо этого Hatsune Miku является героиней ряда игр на разных платформах, а также не каноничной манги, созданной KEI: メーカー非公式 初音みっくす.
+
 # Список для ознакомления* 
 ***далеко не полный, новые редакции ожидайте в дальнейшем**
 ## Классика (J-POP, EasyPop, DancePop, Electro, Techno)
@@ -28,12 +37,17 @@
 #### 2010
 - [Electric Love feat. Hatsune Miku (Электрическая любовь)](https://www.youtube.com/watch?v=fWIbhwMDigM)
 #### 2011
+- [Downloader (Загрузчик)](https://www.youtube.com/watch?v=zQRfQximhCU)
+- [Strobe Light (Вспышка света)](https://www.youtube.com/watch?v=7sKs7INaEoA)
 - [Baby Maniacs feat. Hatsune Miku (Крошки-маньяки)](https://www.youtube.com/watch?v=ca7QqLHEiLA)
 - [Chime (Гармония)](https://www.youtube.com/watch?v=vrshk9Z2kV8)
 - [EDEN](https://www.youtube.com/watch?v=yyUCtd6rrWw)
 - [Sekiranun Graffiti ft. Hastsune Miku (Граффити грозовых туч)](https://www.youtube.com/watch?v=XKOoIAYSkZQ)
 - [Sweet Devil feat. Hatsune Miku (Милый дьявол)](https://www.youtube.com/watch?v=atXcWO54Ek0)
 #### 2012
+- [Fake Doll (Поддельная кукла)](https://www.youtube.com/watch?v=Z1VhvAIa3UA)
+- [Weekender Girl (Отдыхающая девушка)](https://www.youtube.com/watch?v=06d8SwcSm_Q)
+- [Gift nor Art (Подарок и искусство)](https://www.youtube.com/watch?v=jZjONCvSjr0)
 - [Re Boot (Перезагрузка)](https://www.youtube.com/watch?v=3BFvN-idN1s)
 - [Bacterial Contamination (Бактериальное заражение)](https://www.youtube.com/watch?v=tktcOUi-x-A)
 - [FREELY TOMORROW (Свободное завтра)](https://www.youtube.com/watch?v=KmvydnVTriE)
@@ -41,20 +55,27 @@
 - [Yumeyume (Мечта, мечта)](https://www.youtube.com/watch?v=07r67gGbtLQ)
 - [Initiation feat. Hatsune Miku (Посвящение)](https://www.youtube.com/watch?v=dIfLTw3tbE8)
 #### 2013
+- [Oosouji (Уборка)](https://www.youtube.com/watch?v=HJIFqUxi4ko)
+- [HORIZON feat. Hatsune Miku (Горизонт)](https://www.youtube.com/watch?v=4jhjgoFv4D4)
+- [Sagashimono (Искомые вещи)](https://www.youtube.com/watch?v=EKMiScr_Quc)
 - [Redial (Повторный набор)](https://www.youtube.com/watch?v=243vPl8HdVk)
 - [GAME OVER feat. Hatsune Miku (Игра окончена)](https://www.youtube.com/watch?v=B5fIvQts65I)
 - [TRAPxTRAP feat. Hatsune Miku](https://www.youtube.com/watch?v=c2fqMoTq_tQ)
 #### 2014
+- [Decorator (Декоратор)](https://www.youtube.com/watch?v=zweVJrnE1uY)
+- [E no Umakatta Tomodachi (Друзья с картинок)](https://www.youtube.com/watch?v=0tluBqFbAgQ)
 - [Twinkle World feat. Hatsune Miku (Сверкающий мир)](https://www.youtube.com/watch?v=NiIVTXTuQug)
 - [Carry Me Off feat. Hatsune Miku (Унеси меня)](https://www.youtube.com/watch?v=UGG7tUMg77A)
 #### 2015
 - [Desktop Cinderella feat. Hatsune Miku (Золушка на рабочем столе)](https://www.youtube.com/watch?v=rQCPXcckCaQ)
 - [Little Scarlet Bad Girl feat. Hatsune Miku (Маленькая Скарлет — плохая девочка)](https://www.youtube.com/watch?v=I_bs61WyzMk)
 #### 2016
+- [Hiyashite Narasou Okashi no Ii Oto (Едим «Pocky» вместе)](https://www.youtube.com/watch?v=0vLUg5RWpTo)
 - [Blue Star feat. Hatsune Miku (Голубая звезда)](https://www.youtube.com/watch?v=xSnuVnOZd1U)
 - [Miku ft. Hatsune Miku](https://www.youtube.com/watch?v=NocXEwsJGOQ)
 - [Kimagure Mercy (Причудливое милосердие)](https://www.youtube.com/watch?v=o1iz4L-5zkQ)
 #### 2017
+- [Ohedo Julia-Night](https://www.youtube.com/watch?v=y3yyYYLyVzw)
 - [Suna no Wakusei feat. Hatsune Miku (Песочная планета)](https://www.youtube.com/watch?v=AS4q9yaWJkI)
 #### 2018
 - [Greenlights Serenade (Серенада зеленых огней)](https://www.youtube.com/watch?v=XSLhsjepelI)
@@ -62,7 +83,7 @@
 - [Lucky☆Orb feat. Hatsune Miku (Счастливый шар)](https://www.youtube.com/watch?v=AufydOsiD6M)
 - [Ring no Seraph (Серафим на ринге)](https://www.youtube.com/watch?v=lWuJRRCTHrg)
 
-## Vocametal (Бери топор - руби хардкоооор)
+## Vocametal 
 ### Utsu-P 
 ![Utsu-P](pictures/20211007102119.png)
 
@@ -74,9 +95,11 @@
 
 ### Aльбомы 
 ```md
-Альбома CD-R не будет, т.к его треки есть в составе более новых альбомов, да и сам он является просто альбомом-компиляцией.
+Альбома CD-R здесь не будет, т.к треки из него есть в составе более новых альбомов, 
+да и сам он является альбомом-компиляцией, поэтому не велика потеря 
+(если сильно хочется, то добавлю).
 Хоть альбом UNIQE и был выпущен ещё в ноябре 2021, его в свободном доступе нет.
-Однако сами треки есть, но слушать их придётся не цельным альбомом.
+Однако сами треки есть, но слушать их придётся не в составе альбома.
 ```
 #### DIARRHEA 2009
 ![DIARRHEA|400](pictures/20211006233914.png)
@@ -116,7 +139,7 @@
 14. Heart Sutra Hardcore【Hannya Shingyou Hardcore / 般若心経ハードコア 】 (Hatsune Miku)[49:53](https://www.youtube.com/watch?v=YTjvf-HfqkA&t=2993s) 
 
 #### MOKSHA 2012
-![MOKSHA|400](pictures/20211007095657.png)
+![MOKSHA|400](pictures/20211007232937.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=zDz1RrOMbkk
 
@@ -200,8 +223,8 @@
 9. [Bonus](https://www.youtube.com/watch?v=mzEHVBEAUxw&t=0s) (鬱P feat. flower) [28:32](https://www.youtube.com/watch?v=bB3QcOX9Vcw&t=1712s)
 #### GREATEST SHITS 2018
 ![GS|400](pictures/20211007122731.png)
-Альбом ремастеров (кроме некоторых треков). 
 
+Альбом ремастеров (кроме некоторых треков). 
 **YouTube:** https://www.youtube.com/watch?v=Sybi0z3Eltw
 1. 骸Attack!!, Corpse Attack!! (鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=0s)
 2. アンチ・デジタリズム, Anti-Digitalism  (鬱P feat. 初音ミク) [3:53](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=233s)
@@ -274,14 +297,21 @@
 2. Red Burst【Akai Baku / あかいばく 】(Hatsune Miku) [3:54](https://www.youtube.com/watch?v=rwc9gC60BXc&t=234s) 
 3. Evil thoughts-kun's Theme【Janen-kun no Theme / 邪念くんのテーマ 】(Hatsune Miku, Kagamine Rin, GUMI) [6:05](https://www.youtube.com/watch?v=rwc9gC60BXc&t=365s) 
 4. Self-destruction no.2【Jibaku (2go) / 自爆２号】 (Hatsune Miku) [9:51](https://www.youtube.com/watch?v=rwc9gC60BXc&t=591s) 
-5. I Want To Become A Stuffed Animal【Nuigurumi Ni Naritai / ぬいぐるみになりたい 】 (Mayu) [12:02](https://www.youtube.com/watch?v=rwc9gC60BXc&t=722s)
+5. I Want To Become A Stuffed Animal【Nuigurumi Ni Naritai / ぬいぐるみになりたい 】(Mayu) [12:02](https://www.youtube.com/watch?v=rwc9gC60BXc&t=722s)
 ##### TEYAKI 2014
 ![TEYAKI|400](pictures/20211007125801.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=CH89J435vbE
 
-1. Teller Story Teller【テラーストーリーテラー】[00:00](https://www.youtube.com/watch?v=CH89J435vbE)
-2. Self-destruction No. 3【自爆３号】 [03:38](https://www.youtube.com/watch?v=CH89J435vbE&t=218s)
-3. Song of mourning【情死の唄】[06:22](https://www.youtube.com/watch?v=CH89J435vbE&t=382s)
+1. Teller Story Teller【テラーストーリーテラー】(v flower) [00:00](https://www.youtube.com/watch?v=CH89J435vbE)
+2. Self-destruction No. 3【自爆３号】(Hatsune Miku) [03:38](https://www.youtube.com/watch?v=CH89J435vbE&t=218s)
+3. Song of mourning【情死の唄】(GUMI) [06:22](https://www.youtube.com/watch?v=CH89J435vbE&t=382s)
 
-
+## FAQ
+Q: А нахера FAQ?
+A: Для разъяснений всех "что?" и "почему?" в дизайне  и содержании документа.
+Q: Почему так много вокаметалла?
+A: Во первых, я люблю вокаметалл. Во вторых, потому что Ustu-P первый продюссер вокалойдов, с которого я вообще начал интересоваться этой темой. В дальнейшем, колличество продюссеров в документе, использующий голосовые банки с Мику, будет увеличиваться, а так же появиться привязка альбомов к году выпуска (как это сделано с классическими композициями).
+Q: Оглавление будет?
+A: Будет, но очень не скоро. Пока очень аккумулировал инфы.
+![kabayashi|200](pictures/kabayashi.gif) 
