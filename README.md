@@ -193,6 +193,7 @@
 13. MiKUSABBATH (Bonus Track) (Hatsune Miku) [43:01](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=2581s) 
 #### Post-Traumatic Stress Disorder 2016
 ![PTSD|400](pictures/20211007115116.png)
+
 **YouTube:** https://www.youtube.com/watch?v=_THZG2ZgzvU
 1. Constipation Of Death (鬱P feat. 初音ミク, 鏡音リン) [0:00](https://www.youtube.com/watch?v=_THZG2ZgzvU&t=0s)
 2. 子供の世界, Children's World (鬱P feat. 初音ミク, 鏡音リン) [4:04](https://www.youtube.com/watch?v=_THZG2ZgzvU&t=244s)
@@ -273,6 +274,7 @@
 #### Синглы и EP
 ##### DOLL 2009
 ![DOLL|400](pictures/20211007125409.png)
+
 **YouTube:**  https://www.youtube.com/watch?v=d-ieYrP2nOc
 1. Doll 【ドール】 (Hatsune Miku) [0:00](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=0s) 
 2. dope disco (Hatsune Miku) [4:32](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=272s) 
@@ -308,10 +310,15 @@
 3. Song of mourning【情死の唄】(GUMI) [06:22](https://www.youtube.com/watch?v=CH89J435vbE&t=382s)
 
 ## FAQ
-Q: А нахера FAQ?
+> Q: А нахера FAQ?
+
 A: Для разъяснений всех "что?" и "почему?" в дизайне  и содержании документа.
-Q: Почему так много вокаметалла?
+
+>Q: Почему так много вокаметалла?
+
 A: Во первых, я люблю вокаметалл. Во вторых, потому что Ustu-P первый продюссер вокалойдов, с которого я вообще начал интересоваться этой темой. В дальнейшем, колличество продюссеров в документе, использующий голосовые банки с Мику, будет увеличиваться, а так же появиться привязка альбомов к году выпуска (как это сделано с классическими композициями).
-Q: Оглавление будет?
+>Q: Оглавление будет?
+
 A: Будет, но очень не скоро. Пока очень аккумулировал инфы.
+
 ![kabayashi|200](pictures/kabayashi.gif) 
