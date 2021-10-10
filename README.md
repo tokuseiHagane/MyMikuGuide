@@ -86,6 +86,7 @@
 - [Little Scarlet Bad Girl feat. Hatsune Miku (Маленькая Скарлет — плохая девочка)](https://www.youtube.com/watch?v=I_bs61WyzMk)
 
 #### 2016
+- [39 Mujejiku! (39 Музыка!)](https://www.youtube.com/watch?v=OuLZlZ18APQ) **NEW**
 - [Hiyashite Narasou Okashi no Ii Oto (Едим «Pocky» вместе)](https://www.youtube.com/watch?v=0vLUg5RWpTo)
 - [Blue Star feat. Hatsune Miku (Голубая звезда)](https://www.youtube.com/watch?v=xSnuVnOZd1U)
 - [Miku ft. Hatsune Miku](https://www.youtube.com/watch?v=NocXEwsJGOQ)
@@ -99,9 +100,14 @@
 - [Greenlights Serenade (Серенада зеленых огней)](https://www.youtube.com/watch?v=XSLhsjepelI)
 
 #### 2019
+- [ジャズコーラスの夏闌 (Лето в джазовом хоре)](https://www.youtube.com/watch?v=SmoTeJx0BOA) **NEW**
+- [Jump for Joy ](https://www.youtube.com/watch?v=QlfXsuPEJ8s) **NEW**
+- [ぽかぽかの星 (Пока пока, планета)](https://www.youtube.com/watch?v=LxC0kD-GuBQ) **NEW**
+- [SURVIVE (ВЫЖИТЬ)](https://www.youtube.com/watch?v=j64dKj2C_bU) **NEW**
 - [Lucky☆Orb feat. Hatsune Miku (Счастливый шар)](https://www.youtube.com/watch?v=AufydOsiD6M)
 - [Ring no Seraph (Серафим на ринге)](https://www.youtube.com/watch?v=lWuJRRCTHrg)
 #### 2020
+- [まるいうなばら (Круглая роза)](https://www.youtube.com/watch?v=g5H-qwRGMjE) **NEW**
 #### 2021
 - [Unsung Melodies (Невоспетые мелодии)](https://www.youtube.com/watch?v=P82j5OIcUUU) **NEW**
 - [初音天地開闢神話 (Миф Хацунэ Тенчи Кайхо)](https://www.youtube.com/watch?v=8J6SMoVd5BY) **NEW**
