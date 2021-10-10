@@ -35,9 +35,12 @@
 - [Houkiboshi (Комета)](https://www.youtube.com/watch?v=pPhGeDlaMAQ)
 
 #### 2009
+- [ぽっぴっぽ (Po pi po)](https://www.youtube.com/watch?v=mco3UX9SqDA) **NEW**
 - [Nebula feat. Hatsune Miku](https://www.youtube.com/watch?v=hoLu7c2XZYU)
 
 #### 2010
+- [MATORYOSHKA](https://www.youtube.com/watch?v=HOz-9FzIDf0) **NEW**
+- [Rolling Girl (Катящаяся девачка)](https://www.youtube.com/watch?v=NIqm73xsias) **NEW**
 - [Electric Love feat. Hatsune Miku (Электрическая любовь)](https://www.youtube.com/watch?v=fWIbhwMDigM)
 
 #### 2011
@@ -100,6 +103,9 @@
 - [Ring no Seraph (Серафим на ринге)](https://www.youtube.com/watch?v=lWuJRRCTHrg)
 #### 2020
 #### 2021
+- [Unsung Melodies (Невоспетые мелодии)](https://www.youtube.com/watch?v=P82j5OIcUUU) **NEW**
+- [初音天地開闢神話 (Миф Хацунэ Тенчи Кайхо)](https://www.youtube.com/watch?v=8J6SMoVd5BY) **NEW**
+- [AppleApple (ЯблокоЯблоко)](https://www.youtube.com/watch?v=7s4zX7zj6vs) **NEW**
 
 
 ## Продюссеры
@@ -114,13 +120,9 @@
 Он также является участником и основателем группы **Ohayougozaimasu** (**おはようございます**, **Доброе утро**), и продюссером идол-группы **Zsasz**.
 
 ### Aльбомы 
-```md
-Альбома CD-R здесь не будет, т.к треки из него есть в составе более новых альбомов, 
-да и сам он является альбомом-компиляцией, поэтому не велика потеря 
-(если сильно хочется, то добавлю).
-Хоть альбом UNIQE и был выпущен ещё в ноябре 2021, его в свободном доступе нет.
-Однако сами треки есть, но слушать их придётся не в составе альбома.
-```
+
+>Альбома CD-R здесь не будет, т.к треки из него есть в составе более новых альбомов, да и сам он является альбомом-компиляцией, поэтому не велика потеря (если сильно хочется, то добавлю). Альбом UNIQE ожидается 10 ноября 2021. 
+
 
 #### DIARRHEA 2009
 ![DIARRHEA|400](pictures/20211006233914.png)
@@ -134,10 +136,10 @@
  6. Life with a Sex Doll【Seimei Zuke Dutchwife / 生命付ダッチワイフ】(Hatsune Miku) [21:14](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=1274s) 
  7. Desperate Society【Kakusa Shakai / かくさしゃかい】 (Hatsune Miku) [26:09](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=1569s) 
  8. Initiative【イニシアチブ】(Hatsune Miku) [29:49](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=1789s) 
- 9. Welcome to the Love Hospital【Youkoso Renai Byouin he / ようこそ恋愛病院へ】(Hatsune Miku) [33:45](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=2025s) 
+ 9. Welcome to the Love Hospital【Youkoso Renai Byouin he / ようこそ恋愛病院へ】(Hatsune Miku) [33:45](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=2025s) ❤
  10. SHIRONOIR (Hatsune Miku) [37:57](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=2277s) 
  11. Psychokinesis (Hatsune Miku) [42:23](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=2543s) 
-12. DIARRHEA (Hatsune Miku) [46:46](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=2806s) 
+12. DIARRHEA (Hatsune Miku) [46:46](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=2806s) ❤
 13. Sky Burial【Chousou / 鳥葬】(Hatsune Miku) [51:24](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=3084s) 
 14. Self-destruction【Jibaku / 自爆】(Hatsune Miku) [55:54](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=3354s)
 
@@ -178,7 +180,7 @@
 12. ブラックホールアーティスト【Black Hole Artist】(GUMI, Kagamine Rin) [38:26](https://www.youtube.com/watch?v=zDz1RrOMbkk&t=2306s)
 13. アレグラ【Allegra】(Kagamine Rin) [42:43](https://www.youtube.com/watch?v=zDz1RrOMbkk&t=2563s)
 14. ダイヤに乱れはありません【Daiya ni Midare wa Arimasen / There is No Disorder in Diamond】(GUMI) [46:28](https://www.youtube.com/watch?v=zDz1RrOMbkk&t=2788s)
-15. まっしろな毒【Masshiro na Doku / Pure White Poison】(GUMI) [50:33](https://www.youtube.com/watch?v=zDz1RrOMbkk&t=3033s)
+15. まっしろな毒【Masshiro na Doku / Pure White Poison】(GUMI) [50:33](https://www.youtube.com/watch?v=zDz1RrOMbkk&t=3033s) ❤
 16. しましまメロディ【Shima Shima Melody / Striped Melody】(GUMI) [57:29](https://www.youtube.com/watch?v=zDz1RrOMbkk&t=3449s)
 
 #### WARUFUZAKE 2013
@@ -202,19 +204,19 @@
 ![ALGORITM|400](pictures/20211007110359.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=OVVpxFp5lHw
-1. A final fantasy【Owari no Fantajii / 終のファンタジー】(Hatsune Miku, GUMI) [0:00](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=0s) 
+1. A final fantasy【Owari no Fantajii / 終のファンタジー】(Hatsune Miku, GUMI) [0:00](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=0s) ❤
 2. Baby Death Match【ベイビー・デスマッチ】(Kagamine Rin)  [3:47](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=227s)
-3. The magic of the massacre【Minagoroshi no Majikku / 皆殺しのマジック】(GUMI) [4:46](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=286s)
+3. The magic of the massacre【Minagoroshi no Majikku / 皆殺しのマジック】(GUMI) [4:46](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=286s) ❤
 4. Absolute Music Dance【Zettai Ongaku de Odore / 絶対音楽で踊れ】(flower) [9:06](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=546s)
 5. Imperfect Animals【インパーフェクトアニマルズ】(Kagamine Rin, GUMI) [13:29](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=809s)
 6. Brainwashing Technique of the Monkey Dance【Monkii Dansu no Sen'nou Jutsu / モンキーダンスの洗脳】(Kagamine Rin) [17:10](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=1030s)
-7. Chocolate girl【Chokoreito On'nanoko / チョコレイトオンナノコ】(GUMI) [21:34](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=1294s) 
+7. Chocolate girl【Chokoreito On'nanoko / チョコレイトオンナノコ】(GUMI) [21:34](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=1294s) ❤
 8. ALGORITHMIC KABUKICHO (Kagamine Rin) [25:37](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=1537s)
 9. P.O.R.N.O. (GUMI) [28:43](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=1723s)
 10. CR's Unique Worldview【CR Dokutokuna Sekai Kan / CR独特な世界観】(Hatsune Miku) [30:08](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=1808s) 
 11. Hell Pops【Jigoku Poppusu / 地獄ポップス】(Kagamine Rin) [34:00](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=2040s) 
 12. Alien's "I Love You"【Uchuujin no Ai Rabu Yuu / 宇宙人のアイラブユー】(Hatsune Miku) [37:19](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=2239s) 
-13. MiKUSABBATH (Bonus Track) (Hatsune Miku) [43:01](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=2581s) 
+13. MiKUSABBATH (Bonus Track) (Hatsune Miku) [43:01](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=2581s) ❤
 
 #### Post-Traumatic Stress Disorder 2016
 ![PTSD|400](pictures/20211007115116.png)
@@ -241,7 +243,7 @@
 
 **YouTube:**  https://www.youtube.com/watch?v=bB3QcOX9Vcw
 1. [ガラパゴスで悪いか, Is it bad at the Galapagos Syndrome?](https://www.youtube.com/watch?v=dFPN6jIFIgo&t=0s) (鬱P feat. 初音ミク, 鏡音リン) [0:00](https://www.youtube.com/watch?v=bB3QcOX9Vcw&t=0s)
-2. [生きてるおばけは生きている, Living Ghost is Alive](https://www.youtube.com/watch?v=QvMNzt3iXyg&t=0s) (鬱P feat. flower) [2:17](https://www.youtube.com/watch?v=bB3QcOX9Vcw&t=137s)
+2. [生きてるおばけは生きている, Living Ghost is Alive](https://www.youtube.com/watch?v=QvMNzt3iXyg&t=0s) (鬱P feat. flower) [2:17](https://www.youtube.com/watch?v=bB3QcOX9Vcw&t=137s) ❤
 3. [オブラートオブラブ, Sugarcoat of Love](https://www.youtube.com/watch?v=--t6I-zPuns&t=0s) (鬱P feat. 初音ミク) [5:39](https://www.youtube.com/watch?v=bB3QcOX9Vcw&t=339s)
 4. [麺屋ぐろてすく, Ramen Shop "GROTESQUE"](https://www.youtube.com/watch?v=Ch6uYySk8sA&t=0s)  (鬱P feat. 鏡音リン) [9:40](https://www.youtube.com/watch?v=bB3QcOX9Vcw&t=580s)
 5. [食事, EAT](https://www.youtube.com/watch?v=9ev44z8VAa4&t=0s)  (鬱P feat. 鏡音リン)  [13:25](https://www.youtube.com/watch?v=bB3QcOX9Vcw&t=805s)
@@ -255,7 +257,7 @@
 
 Альбом ремастеров (кроме некоторых треков). 
 **YouTube:** https://www.youtube.com/watch?v=Sybi0z3Eltw
-1. 骸Attack!!, Corpse Attack!! (鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=0s)
+1. 骸Attack!!, Corpse Attack!! (鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=0s) ❤
 2. アンチ・デジタリズム, Anti-Digitalism  (鬱P feat. 初音ミク) [3:53](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=233s)
 3. 自爆, Self-Destruct (鬱P feat. 初音ミク) [8:05](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=485s)
 4. 害虫, Vermin (鬱P feat. 初音ミク) [9:16](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=556s)
@@ -282,8 +284,8 @@
 
 **YouTube:** https://www.youtube.com/watch?v=nK7IBzaAmdE
 1. RENAISSANCE  (鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=0s)
-2. [The Beautiful Puke](https://www.youtube.com/watch?v=M2FqyOyCbxQ&t=0s) (鬱P feat. 初音ミク) [0:58](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=58s)
-3. [ハイパーリアリティショウ, Hyper Reality Show ](https://www.youtube.com/watch?v=Z4LiNMCTV20&t=0s)  鬱P feat. 初音ミク V4X  [4:03](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=243s)
+2. [The Beautiful Puke](https://www.youtube.com/watch?v=M2FqyOyCbxQ&t=0s) (鬱P feat. 初音ミク) [0:58](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=58s) ❤
+3. [ハイパーリアリティショウ, Hyper Reality Show ](https://www.youtube.com/watch?v=Z4LiNMCTV20&t=0s)  鬱P feat. 初音ミク V4X  [4:03](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=243s) ❤
 4. [お天道様とドブネズミ, The Sun Goddess and Rat](https://www.youtube.com/watch?v=dDsrLsR3rBA&t=0s) (鬱P feat. 初音ミク) [7:59](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=479s)
 5. [毒蜘蛛の娘, Poisonous Spider Daughter](https://www.youtube.com/watch?v=sgDG5BpVbLo&t=0s) (鬱P feat. 初音ミク) [12:10](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=730s)
 6. [ゴージャスビッグ対談 [2019], Gorgeous Big Conversation [2019]](https://www.youtube.com/watch?v=gzt_oi9Wg7s&t=0s) (鬱P, ピノキオピー feat. 初音ミク) [15:31](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=931s)
@@ -294,8 +296,10 @@
 
 #### UNIQE 2021 7/12
 ![UNIQE|400](pictures/20211007125010.png)
+
+**Трэйлер:** https://www.youtube.com/watch?v=vCOQQpN7ARA
 - [2000年3月9日](https://www.youtube.com/watch?v=vO-DciIkNrE)
-- [デスロウ / Death of the Law feat. 初音ミク](https://www.youtube.com/watch?v=-tXpwt29GFM)
+- [デスロウ / Death of the Law feat. 初音ミク](https://www.youtube.com/watch?v=-tXpwt29GFM) ❤
 - [OGRE feat. 初音ミク](https://www.youtube.com/watch?v=N9-M-avUjO8)
 - [ぬる / NULL feat. 初音ミク](https://www.youtube.com/watch?v=ksAd0GjaDXk)
 -  [映えない / Not Photogenic](https://www.youtube.com/watch?v=GL-FTHmpXqo)
@@ -308,7 +312,7 @@
 ![DOLL|400](pictures/20211007125409.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=d-ieYrP2nOc
-1. Doll 【ドール】 (Hatsune Miku) [0:00](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=0s) 
+1. Doll 【ドール】 (Hatsune Miku) [0:00](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=0s) ❤
 2. dope disco (Hatsune Miku) [4:32](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=272s) 
 3. Suicide Monster 【Kubikukuri・Monster / クビククリ・モンスター】 (Hatsune Miku) [9:54](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=594s) 
 4. Flower 【Hana / 華】(Hatsune Miku) [13:51](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=831s)
@@ -343,9 +347,19 @@
 3. Song of mourning【情死の唄】(GUMI) [06:22](https://www.youtube.com/watch?v=CH89J435vbE&t=382s)
 
 ## FAQ
+
+
 > Q: А нахера FAQ?
 
 A: Для разъяснений всех "что?" и "почему?" в дизайне  и содержании документа.
+
+>Q: Что такое "❤"?
+
+A: Мои любимые треки в списке. 
+
+>Q: Что такое "NEW"?
+
+A: Трек, добавленный с последней версией списка. 
 
 >Q: Почему так много вокаметалла?
 
