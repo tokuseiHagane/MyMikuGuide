@@ -40,7 +40,7 @@
 
 #### 2010
 - [MATORYOSHKA](https://www.youtube.com/watch?v=HOz-9FzIDf0) **NEW**
-- [Rolling Girl (Катящаяся девачка)](https://www.youtube.com/watch?v=NIqm73xsias) **NEW**
+- [Rolling Girl (Катящаяся девочка)](https://www.youtube.com/watch?v=NIqm73xsias) **NEW**
 - [Electric Love feat. Hatsune Miku (Электрическая любовь)](https://www.youtube.com/watch?v=fWIbhwMDigM)
 
 #### 2011
