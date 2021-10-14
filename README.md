@@ -27,9 +27,10 @@
 
 # Список для ознакомления* 
 ***далеко не полный, новые редакции ожидайте в дальнейшем**
-## Классика (J-POP, EasyPop, DancePop, Electro, Techno) (80)
+## Классика (J-POP, EasyPop, DancePop, Electro, Techno) (101)
 
-#### 2008 (3)
+#### 2008 (4)
+- [ワールドイズマイン (Мир Мой)](https://www.youtube.com/watch?v=tczcAHLCyKM) **NEW** 
 - [Cleaning Switch (Очищающий переключатель)](https://www.youtube.com/watch?v=5dhcFAhOcbo)
 - [Anger (Гнев)](https://www.youtube.com/watch?v=jNFCsJ16crc)
 - [Houkiboshi (Комета)](https://www.youtube.com/watch?v=pPhGeDlaMAQ)
@@ -38,13 +39,16 @@
 - [ぽっぴっぽ (Po pi po)](https://www.youtube.com/watch?v=mco3UX9SqDA) 
 - [Nebula feat. Hatsune Miku](https://www.youtube.com/watch?v=hoLu7c2XZYU)
 
-#### 2010 (3)
+#### 2010 (4)
+- [8th Grade Loli (Восьмиклассница)](https://www.youtube.com/watch?v=JdcUxJlWsdY) **NEW** 
 - [MATORYOSHKA](https://www.youtube.com/watch?v=HOz-9FzIDf0)
 - [Rolling Girl (Катящаяся девочка)](https://www.youtube.com/watch?v=NIqm73xsias) 
 - [Electric Love feat. Hatsune Miku (Электрическая любовь)](https://www.youtube.com/watch?v=fWIbhwMDigM)
 
-#### 2011 (8)
-- [Ievan Polkka (ох еб#ать)](https://www.youtube.com/watch?v=ZjDZrReZ4EI) **NEW**
+#### 2011 (10)
+- [からくりピエロ Karakuri Pierrot (Клоун каракури)](https://www.youtube.com/watch?v=xxFkW3PCT5M) **NEW** 
+- [Triple Baka (Трижды дурак)](https://www.youtube.com/watch?v=duPJqfKiA78) **NEW** 
+- [Ievan Polkka (ох еб#ать)](https://www.youtube.com/watch?v=ZjDZrReZ4EI) 
 - [Downloader (Загрузчик)](https://www.youtube.com/watch?v=zQRfQximhCU)
 - [Strobe Light (Вспышка света)](https://www.youtube.com/watch?v=7sKs7INaEoA)
 - [Baby Maniacs feat. Hatsune Miku (Крошки-маньяки)](https://www.youtube.com/watch?v=ca7QqLHEiLA)
@@ -54,7 +58,7 @@
 - [Sweet Devil feat. Hatsune Miku (Милый дьявол)](https://www.youtube.com/watch?v=atXcWO54Ek0)
 
 #### 2012 (10)
-- [ビクトル・ツォィ (Хочу перемен)](https://www.youtube.com/watch?v=e3uoWdpava0) **NEW** 
+- [ビクトル・ツォィ (Хочу перемен)](https://www.youtube.com/watch?v=e3uoWdpava0) 
 - [Fake Doll (Поддельная кукла)](https://www.youtube.com/watch?v=Z1VhvAIa3UA)
 - [Weekender Girl (Отдыхающая девушка)](https://www.youtube.com/watch?v=06d8SwcSm_Q)
 - [Gift nor Art (Подарок и искусство)](https://www.youtube.com/watch?v=jZjONCvSjr0)
@@ -66,7 +70,7 @@
 - [Initiation feat. Hatsune Miku (Посвящение)](https://www.youtube.com/watch?v=dIfLTw3tbE8)
 
 #### 2013 (7)
-- [Blood type (Группа крови)](https://www.youtube.com/watch?v=FjivK8LK3Hg) **NEW**
+- [Blood type (Группа крови)](https://www.youtube.com/watch?v=FjivK8LK3Hg) 
 - [Oosouji (Уборка)](https://www.youtube.com/watch?v=HJIFqUxi4ko)
 - [HORIZON feat. Hatsune Miku (Горизонт)](https://www.youtube.com/watch?v=4jhjgoFv4D4)
 - [Sagashimono (Искомые вещи)](https://www.youtube.com/watch?v=EKMiScr_Quc)
@@ -74,7 +78,9 @@
 - [GAME OVER feat. Hatsune Miku (Игра окончена)](https://www.youtube.com/watch?v=B5fIvQts65I)
 - [TRAPxTRAP feat. Hatsune Miku](https://www.youtube.com/watch?v=c2fqMoTq_tQ)
 
-#### 2014 (6)
+#### 2014 (8)
+- [恋愛裁判 Love Trial (Любовное испытание)](https://www.youtube.com/watch?v=TXzfQ0cP1P0) **NEW** 
+- [千本桜/Senbonzakura (Тысяча вишневых деревьев)](https://www.youtube.com/watch?v=shs0rAiwsGQ) **NEW** 
 - [Burenai Ai de (С ясным взглядом)](https://www.youtube.com/watch?v=8kX5_69sO8Q)
 - [Rakugaki Picasso (Граффити Пикассо)](https://www.youtube.com/watch?v=Qqh_9gTk1c4)
 - [Decorator (Декоратор)](https://www.youtube.com/watch?v=zweVJrnE1uY)
@@ -82,36 +88,49 @@
 - [Twinkle World feat. Hatsune Miku (Сверкающий мир)](https://www.youtube.com/watch?v=NiIVTXTuQug)
 - [Carry Me Off feat. Hatsune Miku (Унеси меня)](https://www.youtube.com/watch?v=UGG7tUMg77A)
 
-#### 2015 (4)
+#### 2015 (5)
+- [Aishite Aishite Aishite (Люби меня)](https://www.youtube.com/watch?v=NTrm_idbhUk) ❤ **NEW** 
 - [B Who I Want 2 B (Быть тем, кем я хочу)](https://www.youtube.com/watch?v=oNxdk5oxbTM)
 - [Hand in Hand (Рука об руку)](https://www.youtube.com/watch?v=RKtoreimcQ8)
 - [Desktop Cinderella feat. Hatsune Miku (Золушка на рабочем столе)](https://www.youtube.com/watch?v=rQCPXcckCaQ)
 - [Little Scarlet Bad Girl feat. Hatsune Miku (Маленькая Скарлет — плохая девочка)](https://www.youtube.com/watch?v=I_bs61WyzMk)
 
-#### 2016 (8)
-- [秋とは何物なんだ？(Что такое осень?)](https://www.youtube.com/watch?v=W3xV5TLmCSo) **NEW**
-- [オレの防衛 (Моя оборона)](https://www.youtube.com/watch?v=yix5YaRtsYI) **NEW**
-- [銃は祭りである (Винтовка - это праздник)](https://www.youtube.com/watch?v=ZFnQGuTW-n8) **NEW**
+#### 2016 (10)
+- [妄想感傷代償連盟 (Федерация компенсации настроений DSCF)](https://www.youtube.com/watch?v=8pGRdRhjX3o) **NEW**
+- [ゴーストルール (Правило призрака)](https://www.youtube.com/watch?v=KushW6zvazM) **NEW**
+- [秋とは何物なんだ？(Что такое осень?)](https://www.youtube.com/watch?v=W3xV5TLmCSo) 
+- [オレの防衛 (Моя оборона)](https://www.youtube.com/watch?v=yix5YaRtsYI) 
+- [銃は祭りである (Винтовка - это праздник)](https://www.youtube.com/watch?v=ZFnQGuTW-n8) 
 - [39 Mujejiku! (39 Музыка!)](https://www.youtube.com/watch?v=OuLZlZ18APQ) 
 - [Hiyashite Narasou Okashi no Ii Oto (Едим «Pocky» вместе)](https://www.youtube.com/watch?v=0vLUg5RWpTo)
 - [Blue Star feat. Hatsune Miku (Голубая звезда)](https://www.youtube.com/watch?v=xSnuVnOZd1U)
 - [Miku ft. Hatsune Miku](https://www.youtube.com/watch?v=NocXEwsJGOQ)
 - [Kimagure Mercy (Причудливое милосердие)](https://www.youtube.com/watch?v=o1iz4L-5zkQ)
 
-#### 2017 (5)
-- [文化祭 (Жизнь - весёлый карнавал)](https://www.youtube.com/watch?v=TNiOCOBY21A) **NEW**
-- [計画通り (Все идет по Плану!)](https://www.youtube.com/watch?v=0LZABJ6OvZc) **NEW**
-- [Sorcerer's Doll (Кукла колдуна)](https://www.youtube.com/watch?v=XIROsysWyL8) **NEW**
+#### 2017 (9)
+- [裏表ラバーズ (Любители спереди и сзади)](https://www.youtube.com/watch?v=b_cuMcDWwsI) **NEW** 
+- [アンハッピーリフレイン (Несчастный припев)](https://www.youtube.com/watch?v=uMlv9VWAxko) **NEW** 
+- [ワールズエンド・ダンスホール (Танцевальный зал конца света)](https://www.youtube.com/watch?v=ZB75e7vzX0I) **NEW** 
+- [アンノウン・マザーグース (Неизвестная мать гусь)](https://www.youtube.com/watch?v=P_CSdxSGfaA)(...чобля) **NEW** 
+- [文化祭 (Жизнь - весёлый карнавал)](https://www.youtube.com/watch?v=TNiOCOBY21A) 
+- [計画通り (Все идет по Плану!)](https://www.youtube.com/watch?v=0LZABJ6OvZc) 
+- [Sorcerer's Doll (Кукла колдуна)](https://www.youtube.com/watch?v=XIROsysWyL8) ❤
 - [Ohedo Julia-Night](https://www.youtube.com/watch?v=y3yyYYLyVzw)
 - [Suna no Wakusei feat. Hatsune Miku (Песочная планета)](https://www.youtube.com/watch?v=AS4q9yaWJkI)
 
-#### 2018 (2)
-- [あけましておめでとう (Новый год)](https://www.youtube.com/watch?v=rmJBWJtN0jw) **NEW**
+#### 2018 (3)
+- [初音ミクの消失 (Конец Хацунэ Мику)](https://www.youtube.com/watch?v=VWVtIg5cdDU) **NEW**
+- [あけましておめでとう (Новый год)](https://www.youtube.com/watch?v=rmJBWJtN0jw) 
 - [Greenlights Serenade (Серенада зеленых огней)](https://www.youtube.com/watch?v=XSLhsjepelI)
 
-#### 2019 (8)
-- [九月 (Сентябрь)](https://www.youtube.com/watch?v=iEocwrHbZns)(Бл#ть, крик души. Гитара поганая, вокал всратый. Кавер говно, я плачу...) **NEW**  
-- [黎明に (На заре)](https://www.youtube.com/watch?v=vjup1s1O1tE) **NEW**
+#### 2019 (13)
+- [「SHAKER」](https://www.youtube.com/watch?v=oR-a1NS_bH8) **NEW**
+- [アンドロイドガール (Девушка-андроид)](https://www.youtube.com/watch?v=uFRPeiAEO0M) **NEW**
+- [スクランブル交際 (Борьба за свидание)](https://www.youtube.com/watch?v=nj82E1_70sQ) **NEW**
+- [乙女解剖 (Вскрытие девушки)](https://www.youtube.com/watch?v=7zwCIz-Ohn4) **NEW**
+- [Gimme×Gimme (Дай мне×Дай мне)](https://www.youtube.com/watch?v=ERo-sPa1a5g) **NEW**
+- [九月 (Сентябрь)](https://www.youtube.com/watch?v=iEocwrHbZns)(Бл#ть, крик души. Гитара поганая, вокал всратый. Кавер говно, я плачу...) 
+- [黎明に (На заре)](https://www.youtube.com/watch?v=vjup1s1O1tE) 
 - [ジャズコーラスの夏闌 (Лето в джазовом хоре)](https://www.youtube.com/watch?v=SmoTeJx0BOA) 
 - [Jump for Joy ](https://www.youtube.com/watch?v=QlfXsuPEJ8s) 
 - [ぽかぽかの星 (Пока пока, планета)](https://www.youtube.com/watch?v=LxC0kD-GuBQ) 
@@ -119,20 +138,22 @@
 - [Lucky☆Orb feat. Hatsune Miku (Счастливый шар)](https://www.youtube.com/watch?v=AufydOsiD6M)
 - [Ring no Seraph (Серафим на ринге)](https://www.youtube.com/watch?v=lWuJRRCTHrg)
 
-#### 2020 (1)
+#### 2020 (2)
+- [二息歩行 (Ходьба на двух вдохах)](https://www.youtube.com/watch?v=iM8d0SzJTIU) ❤ **NEW** 
 - [まるいうなばら (Круглая роза)](https://www.youtube.com/watch?v=g5H-qwRGMjE) 
 
-#### 2021 (13)
-- [Blood type (Группа крови)](https://www.youtube.com/watch?v=cRkuMR7MsqM) **NEW**
-- [ロシアの実験分野 (Русское поле экспериментов)](https://www.youtube.com/watch?v=bFSXfZ5COmo) **NEW**
-- [Highlight](https://www.youtube.com/watch?v=AYUNaQaDfa8) **NEW**
-- [Fondant Step (Помадный шаг)](https://www.youtube.com/watch?v=vNhvnj33foU) **NEW**
-- [Happy Coaster](https://www.youtube.com/watch?v=KG-Q2v2kdsw) **NEW**
-- [レイジネスマン](https://www.youtube.com/watch?v=vaahOj5hz08) **NEW**
-- [キュリオ・シティ (Curio City)](https://www.youtube.com/watch?v=7ss1eoETcOY) **NEW**
-- [春を待つ人 (Люди ждут весны)](https://www.youtube.com/watch?v=KSXCLtAdQWc) **NEW**
-- [時代を超えた遊び場で (На вневременной игровой площадке)](https://www.youtube.com/watch?v=-pdYINexYDI) **NEW**
-- [sweety glitch (сладкий глюк)](https://www.youtube.com/watch?v=GXT88-9w2a) **NEW**
+#### 2021 (14)
+- [モザイクロール (Роль мозаики)](https://www.youtube.com/watch?v=WysuxO4yR04) **NEW** 
+- [Blood type (Группа крови)](https://www.youtube.com/watch?v=cRkuMR7MsqM) 
+- [ロシアの実験分野 (Русское поле экспериментов)](https://www.youtube.com/watch?v=bFSXfZ5COmo) 
+- [Highlight](https://www.youtube.com/watch?v=AYUNaQaDfa8) 
+- [Fondant Step (Помадный шаг)](https://www.youtube.com/watch?v=vNhvnj33foU) 
+- [Happy Coaster](https://www.youtube.com/watch?v=KG-Q2v2kdsw) 
+- [レイジネスマン](https://www.youtube.com/watch?v=vaahOj5hz08) 
+- [キュリオ・シティ (Curio City)](https://www.youtube.com/watch?v=7ss1eoETcOY) 
+- [春を待つ人 (Люди ждут весны)](https://www.youtube.com/watch?v=KSXCLtAdQWc) 
+- [時代を超えた遊び場で (На вневременной игровой площадке)](https://www.youtube.com/watch?v=-pdYINexYDI) 
+- [sweety glitch (сладкий глюк)](https://www.youtube.com/watch?v=GXT88-9w2a) 
 - [Unsung Melodies (Невоспетые мелодии)](https://www.youtube.com/watch?v=P82j5OIcUUU) 
 - [初音天地開闢神話 (Миф Хацунэ Тенчи Кайхо)](https://www.youtube.com/watch?v=8J6SMoVd5BY) 
 - [AppleApple (ЯблокоЯблоко)](https://www.youtube.com/watch?v=7s4zX7zj6vs) 
