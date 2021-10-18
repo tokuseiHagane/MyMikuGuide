@@ -7,11 +7,11 @@
 
 **Hatsune Miku** (**初音ミク**, транскрипция: Хацунэ Мику, Хатсуне Мику)  — персонаж-маскот одноимённого голосового банка. Входит в состав Character Vocal Series. 
 
-| Характеристики                             |
-|:------------------------------------------ |
-| **Пол:** Женский                           |
-| **Возраст:** 16                            |
-| **Рост:** 158 см.                          |
+| Характеристики                        |
+|:------------------------------------------|
+| **Пол:** Женский                     |
+| **Возраст:** 16                        |
+| **Рост:** 158 см.                      |
 | **Вес:** 42 кг.                            |
 | **Кодовое имя:** CV01 (Character Voice 01) |
 | **Голосовой провайдер:** Фудзита Саки      |                                   
@@ -39,7 +39,7 @@
 
 # Список для ознакомления с творчеством* 
 ***далеко не полный, новые редакции ожидайте в дальнейшем**
-## Хронология (131)
+## Хронология (176)
 
 #### 2008 (4)
 - [ワールドイズマイン (Мир Мой)](https://www.youtube.com/watch?v=tczcAHLCyKM) 
@@ -51,21 +51,27 @@
 - [ぽっぴっぽ (Po pi po)](https://www.youtube.com/watch?v=mco3UX9SqDA) 
 - [Nebula](https://www.youtube.com/watch?v=hoLu7c2XZYU)
 
-#### 2010 (9)
-- [Melody Line (Мелодическая линия) | ориг](https://www.nicovideo.jp/watch/sm12785288) **NEW**
-- [Christmas Morgue (Рождественский морг)](https://www.youtube.com/watch?v=Ftx7tjZTpsw) **NEW**
-- [ワンダーランドと羊の歌 (Страна чудес и овечья песня)](https://www.youtube.com/watch?v=wjau2XZEH4A) **NEW**
-- [モノクロ∞ブルースカイ (Монохромный∞Голубое небо)](https://www.nicovideo.jp/watch/sm12131560) **NEW**
-- [World's End Umbrella (Конец света под зонтиком)](https://www.youtube.com/watch?v=GlBWvRslL2c) **NEW**
+#### 2010 (12)
+- [NOZOMI (НАДЕЯТЬСЯ)](https://www.youtube.com/watch?v=I6urF4IRXC0) **NEW**
+- [SOU CORE](https://www.youtube.com/watch?v=mKc7G-82oto) **NEW**
+- [Sobani (Рядом)](https://www.youtube.com/watch?v=eJgnkAGzwao) **NEW**
+- [Melody Line (Мелодическая линия) | ориг](https://www.nicovideo.jp/watch/sm12785288) 
+- [Christmas Morgue (Рождественский морг)](https://www.youtube.com/watch?v=Ftx7tjZTpsw) 
+- [ワンダーランドと羊の歌 (Страна чудес и овечья песня)](https://www.youtube.com/watch?v=wjau2XZEH4A)
+- [モノクロ∞ブルースカイ (Монохромный∞Голубое небо)](https://www.nicovideo.jp/watch/sm12131560) 
+- [World's End Umbrella (Конец света под зонтиком)](https://www.youtube.com/watch?v=GlBWvRslL2c) 
 - [8th Grade Loli (Восьмиклассница)](https://www.youtube.com/watch?v=JdcUxJlWsdY) 
 - [MATORYOSHKA](https://www.youtube.com/watch?v=HOz-9FzIDf0)
 - [Rolling Girl (Катящаяся девочка)](https://www.youtube.com/watch?v=NIqm73xsias) 
 - [Electric Love (Электрическая любовь)](https://www.youtube.com/watch?v=fWIbhwMDigM)
 
-#### 2011 (13)
-- [Distorted Princess (Искажённая принцесса)](https://www.youtube.com/watch?v=NxXkCioy_qE) **NEW**
-- [Melody Line (Мелодическая линия) | клип](https://www.nicovideo.jp/watch/sm13328142) **NEW**
-- [Memories (Воспоминания)](https://www.youtube.com/watch?v=UNZisyZE4Gk) **NEW**
+#### 2011 (16)
+- [Unfragment (Разобрать на фрагменты) / ориг](https://www.youtube.com/watch?v=y_g4zbwWG_I) **NEW**
+- [tear (рвать)](https://www.youtube.com/watch?v=2KvVf92Fp1I) **NEW**
+- [いいわけLove song (Хорошая причина. Песня о любви)](https://www.nicovideo.jp/watch/sm14120872) **NEW** 
+- [Distorted Princess (Искажённая принцесса)](https://www.youtube.com/watch?v=NxXkCioy_qE)
+- [Melody Line (Мелодическая линия) | клип](https://www.nicovideo.jp/watch/sm13328142)
+- [Memories (Воспоминания)](https://www.youtube.com/watch?v=UNZisyZE4Gk) 
 - [からくりピエロ Karakuri Pierrot (Клоун каракури)](https://www.youtube.com/watch?v=xxFkW3PCT5M) 
 - [Triple Baka (Трижды дурак)](https://www.youtube.com/watch?v=duPJqfKiA78) 
 - [Ievan Polkka (ох еб#ать)](https://www.youtube.com/watch?v=ZjDZrReZ4EI) 
@@ -77,8 +83,11 @@
 - [Sekiranun Graffiti (Граффити грозовых туч)](https://www.youtube.com/watch?v=XKOoIAYSkZQ)
 - [Sweet Devil (Милый дьявол)](https://www.youtube.com/watch?v=atXcWO54Ek0)
 
-#### 2012 (11)
-- [Take It Easy (Не принимай это близко к сердцу)](https://www.youtube.com/watch?v=FjvMAlgSCRM) **NEW**
+#### 2012 (14)
+- [Memory (Память)](https://www.youtube.com/watch?v=06kzsJ9D3io) **NEW**
+- [Cold Leaf (Холодный лист)](https://www.youtube.com/watch?v=04udMvE7c_A) **NEW**
+- [愛Dee (Любовь Ди)](https://www.youtube.com/watch?v=zkLJoFp2UAE) **NEW**
+- [Take It Easy (Не принимай это близко к сердцу)](https://www.youtube.com/watch?v=FjvMAlgSCRM) 
 - [Хочу перемен](https://www.youtube.com/watch?v=e3uoWdpava0) 
 - [Fake Doll (Поддельная кукла)](https://www.youtube.com/watch?v=Z1VhvAIa3UA)
 - [Weekender Girl (Отдыхающая девушка)](https://www.youtube.com/watch?v=06d8SwcSm_Q)
@@ -90,9 +99,11 @@
 - [Yumeyume (Мечта, мечта)](https://www.youtube.com/watch?v=07r67gGbtLQ)
 - [Initiation (Посвящение)](https://www.youtube.com/watch?v=dIfLTw3tbE8)
 
-#### 2013 (9)
-- [Odds & Ends](https://www.youtube.com/watch?v=6OmwKZ9r07o) **NEW**
-- [6♥Princess (Шесть принцесс)](https://www.youtube.com/watch?v=9PbonICif-o) **NEW**
+#### 2013 (11)
+- [Arpeggio -Rebuild- (Арпеджио -Перестройка-)](https://www.youtube.com/watch?v=P0ciKKLUzbM) **NEW**
+- [- - - (Kodoku) // Одиночество](https://www.youtube.com/watch?v=Dfo28xwfhgA) **NEW**
+- [Odds & Ends](https://www.youtube.com/watch?v=6OmwKZ9r07o) 
+- [6♥Princess (Шесть принцесс)](https://www.youtube.com/watch?v=9PbonICif-o) 
 - [Blood type (Группа крови)](https://www.youtube.com/watch?v=FjivK8LK3Hg) 
 - [Oosouji (Уборка)](https://www.youtube.com/watch?v=HJIFqUxi4ko)
 - [HORIZON (Горизонт)](https://www.youtube.com/watch?v=4jhjgoFv4D4)
@@ -101,7 +112,12 @@
 - [GAME OVER (Игра окончена)](https://www.youtube.com/watch?v=B5fIvQts65I)
 - [TRAPxTRAP](https://www.youtube.com/watch?v=c2fqMoTq_tQ)
 
-#### 2014 (8)
+#### 2014 (13)
+- [LightSong Remix](https://www.youtube.com/watch?v=rJiyUloaccw) **NEW**
+- [Unfragment (Разобрать на фрагменты) / клип](https://www.youtube.com/watch?v=gcZvK1zvIbQ) **NEW**
+- [idiolect (идиолект)](https://www.youtube.com/watch?v=3U9RVqMYo6g) **NEW**
+- [プラグアウト (Отключить)](https://www.youtube.com/watch?v=GJj7UVc5hdk) **NEW**
+- [すろぉもぉしょん (ЗАмЕДлЕнИЕ)](https://www.youtube.com/watch?v=ARt2fVT33Lw) **NEW**
 - [恋愛裁判 Love Trial (Любовное испытание)](https://www.youtube.com/watch?v=TXzfQ0cP1P0) 
 - [千本桜 Senbonzakura (Тысяча вишневых деревьев)](https://www.youtube.com/watch?v=shs0rAiwsGQ) 
 - [Burenai Ai de (С ясным взглядом)](https://www.youtube.com/watch?v=8kX5_69sO8Q)
@@ -111,16 +127,27 @@
 - [Twinkle World (Сверкающий мир)](https://www.youtube.com/watch?v=NiIVTXTuQug)
 - [Carry Me Off (Унеси меня)](https://www.youtube.com/watch?v=UGG7tUMg77A)
 
-#### 2015 (6)
-- [メリュー (Мэрю)](https://www.youtube.com/watch?v=Jak2qiq_jJo) **NEW**
+#### 2015 (12)
+- [シェラ・ソンユ (Запоминаемость)](https://www.youtube.com/watch?v=RRT95V8zKUM) **NEW**
+- [メアリネス (Душевность)](https://www.youtube.com/watch?v=7QPtmA70eZc) **NEW**
+- [パズルガール (Девочка-пазл)](https://www.youtube.com/watch?v=_KdOCU-qxrg) **NEW**
+- [music](https://www.youtube.com/watch?v=q7Q3VEta4jQ) **NEW**
+- [ReA](https://www.youtube.com/watch?v=H8DJRi72k8g) **NEW**
+- [Artery (Артерия)](https://www.youtube.com/watch?v=KrUbkWj4atk) **NEW**
+- [メリュー (Мэрю)](https://www.youtube.com/watch?v=Jak2qiq_jJo) 
 - [Aishite Aishite Aishite (Люби меня)](https://www.youtube.com/watch?v=NTrm_idbhUk) ❤ 
 - [B Who I Want 2 B (Быть тем, кем я хочу)](https://www.youtube.com/watch?v=oNxdk5oxbTM)
 - [Hand in Hand (Рука об руку)](https://www.youtube.com/watch?v=RKtoreimcQ8)
 - [Desktop Cinderella (Золушка на рабочем столе)](https://www.youtube.com/watch?v=rQCPXcckCaQ)
 - [Little Scarlet Bad Girl (Маленькая Скарлет — плохая девочка)](https://www.youtube.com/watch?v=I_bs61WyzMk)
 
-#### 2016 (11)
-- [フォトンブルー Photon Blue (Фотонный синий)](https://www.youtube.com/watch?v=_qXgD8ycNUE) **NEW**
+#### 2016 (16)
+- [INCOHERENT (НЕВЕРНЫЙ)](https://www.youtube.com/watch?v=GxSiM8pfa_w) **NEW** 
+- [HEART](https://www.youtube.com/watch?v=lPWDPUf_fG4) **NEW** 
+- [EXORDIUM (ВСТУПЛЕНИЕ)](https://www.youtube.com/watch?v=q3e0ScgOSao) **NEW** 
+- [きみも悪い人でよかった (Как я рада, что ты такой же злой)](https://www.youtube.com/watch?v=PLevj9bdRRA) **NEW** 
+- [すきなことだけでいいです (Все, что тебе нужно, это то, что тебе нравится)](https://www.youtube.com/watch?v=mYHJPb9PuUM) **NEW** 
+- [フォトンブルー Photon Blue (Фотонный синий)](https://www.youtube.com/watch?v=_qXgD8ycNUE)
 - [妄想感傷代償連盟 (Федерация компенсации настроений DSCF)](https://www.youtube.com/watch?v=8pGRdRhjX3o) 
 - [ゴーストルール (Правило призрака)](https://www.youtube.com/watch?v=KushW6zvazM)
 - [秋とは何物なんだ？(Что такое осень?)](https://www.youtube.com/watch?v=W3xV5TLmCSo) 
@@ -132,11 +159,13 @@
 - [Miku](https://www.youtube.com/watch?v=NocXEwsJGOQ)
 - [Kimagure Mercy (Причудливое милосердие)](https://www.youtube.com/watch?v=o1iz4L-5zkQ)
 
-#### 2017 (13)
-- [銀河録 (Галактический рекорд)](https://www.youtube.com/watch?v=-l551HSZJzk) **NEW** 
-- [ウミユリ海底譚 (История о подводной лилии)](https://www.youtube.com/watch?v=7JANm3jOb2k) **NEW** 
-- [ドリームレス・ドリームス (Сны без сновидений)](https://www.youtube.com/watch?v=JhuaYitvAaw) **NEW** 
-- [スターナイトスノウ (Звёздная ночь снега)](https://www.youtube.com/watch?v=ZuT3xYLW7vA) **NEW** 
+#### 2017 (15)
+- [花が落ちたので (Потому что цветы упали)](https://www.youtube.com/watch?v=35iPH7jJLH0) **NEW**
+- [或る街のギギ (GIGI в определенном городе)](https://www.youtube.com/watch?v=z7DP5LxKqeM) **NEW**
+- [銀河録 (Галактический рекорд)](https://www.youtube.com/watch?v=-l551HSZJzk)
+- [ウミユリ海底譚 (История о подводной лилии)](https://www.youtube.com/watch?v=7JANm3jOb2k) 
+- [ドリームレス・ドリームス (Сны без сновидений)](https://www.youtube.com/watch?v=JhuaYitvAaw) 
+- [スターナイトスノウ (Звёздная ночь снега)](https://www.youtube.com/watch?v=ZuT3xYLW7vA) 
 - [裏表ラバーズ (Любители спереди и сзади UwU)](https://www.youtube.com/watch?v=b_cuMcDWwsI) 
 - [アンハッピーリフレイン (Несчастный припев)](https://www.youtube.com/watch?v=uMlv9VWAxko)
 - [ワールズエンド・ダンスホール (Танцевальный зал конца света)](https://www.youtube.com/watch?v=ZB75e7vzX0I) 
@@ -147,18 +176,24 @@
 - [Ohedo Julia-Night](https://www.youtube.com/watch?v=y3yyYYLyVzw)
 - [Suna no Wakusei (Песочная планета)](https://www.youtube.com/watch?v=AS4q9yaWJkI)
 
-#### 2018 (6)
-- [アスター (Aster)](https://www.youtube.com/watch?v=Tq49NR_HzfY) **NEW**
-- [セブンティーナ (Семнадцать лет)](https://www.youtube.com/watch?v=uSX7jj4-NNE) **NEW**
-- [メルティランドナイトメア (Ночной кошмар тающего города)](https://www.youtube.com/watch?v=ZEy36W1xX8c) **NEW** 
+#### 2018 (10)
+- [Decade (Десятилетие)](https://www.youtube.com/watch?v=eyn9Bvr4UQ4) **NEW**
+- [X](https://www.youtube.com/watch?v=W3hoyL1yTzE) **NEW**
+- [ROUTE (МАРШРУТ)](https://www.youtube.com/watch?v=amw9Em4j3Uw) **NEW**
+- [阿呆なるものは (Дурак - это...)](https://www.youtube.com/watch?v=gGUGv36-hOg) **NEW**
+- [アスター (Aster)](https://www.youtube.com/watch?v=Tq49NR_HzfY) 
+- [セブンティーナ (Семнадцать лет)](https://www.youtube.com/watch?v=uSX7jj4-NNE) 
+- [メルティランドナイトメア (Ночной кошмар тающего города)](https://www.youtube.com/watch?v=ZEy36W1xX8c) 
 - [初音ミクの消失 (Конец Хацунэ Мику)](https://www.youtube.com/watch?v=VWVtIg5cdDU) 
 - [あけましておめでとう (Новый год)](https://www.youtube.com/watch?v=rmJBWJtN0jw) 
 - [Greenlights Serenade (Серенада зеленых огней)](https://www.youtube.com/watch?v=XSLhsjepelI)
 
-#### 2019 (16)
-- [人質交換 (Обмен заложниками)](https://www.youtube.com/watch?v=d_svmw65Mgk) **NEW** 
-- [ネガティブ進化論 (Негативная теория эволюции)](https://www.youtube.com/watch?v=UrqEy_arieg) **NEW** 
-- [サイコグラム (Психограмма)](https://www.youtube.com/watch?v=VE4wegMHIMk) **NEW** 
+#### 2019 (18)
+- [「花のカヲリ(拾)」「Цветок Каори (Поднять)」](https://www.youtube.com/watch?v=YcDkDUasZ-k) **NEW** 
+- [エゴ (Эго)](https://www.youtube.com/watch?v=79LwIdheZts) **NEW** 
+- [人質交換 (Обмен заложниками)](https://www.youtube.com/watch?v=d_svmw65Mgk) 
+- [ネガティブ進化論 (Негативная теория эволюции)](https://www.youtube.com/watch?v=UrqEy_arieg) 
+- [サイコグラム (Психограмма)](https://www.youtube.com/watch?v=VE4wegMHIMk) 
 - [「SHAKER」](https://www.youtube.com/watch?v=oR-a1NS_bH8)
 - [アンドロイドガール (Девушка-андроид)](https://www.youtube.com/watch?v=uFRPeiAEO0M) ❤
 - [スクランブル交際 (Схватка отношений)](https://www.youtube.com/watch?v=nj82E1_70sQ) 
@@ -173,18 +208,28 @@
 - [Lucky☆Orb (Счастливый шар)](https://www.youtube.com/watch?v=AufydOsiD6M)
 - [Ring no Seraph (Серафим на ринге)](https://www.youtube.com/watch?v=lWuJRRCTHrg)
 
-#### 2020 (7)
-- [君が飛び降りるのならば (Если ты собираешься прыгнуть)](https://www.youtube.com/watch?v=PSnMvzU332k) **NEW** 
-- [ラヴィット (loveit)](https://www.youtube.com/watch?v=--41OGPMurU) **NEW** 
-- [勘違い性反希望症 (Синдром псевдо-надежды)](https://www.youtube.com/watch?v=KgczJh0uX5o) O_o **NEW** 
-- [QUI](https://www.youtube.com/watch?v=41wQdL3T05I) **NEW** 
-- [ネオネオン (Нео-неон)](https://www.youtube.com/watch?v=D7HH-3wkCJc) **NEW** 
+#### 2020 (14)
+- [买 买 买 (Покупай, покупай, покупай)](https://www.youtube.com/watch?v=uaUp71oQO9I) **NEW** 
+- [ワーワーワールド (Вау, вау, мир)](https://www.youtube.com/watch?v=okJ9Vk6owG8) **NEW** 
+- [アイドル新鋭隊 (Идол нового корпуса)](https://www.youtube.com/watch?v=4QL9tLfVFJg) **NEW** 
+- [セカイ (Секаи)](https://www.youtube.com/watch?v=9vyIPWBeRes) **NEW** 
+- [买买买 (Покупать, покупать, покупать)](https://www.youtube.com/watch?v=uaUp71oQO9I) **NEW** 
+- [キマイラ (Химера)](https://www.youtube.com/watch?v=Bz69fDuM3OE) **NEW** 
+- [トーチカ (Точка)](https://www.youtube.com/watch?v=NwAxN8aGhBM) **NEW** 
+- [君が飛び降りるのならば (Если ты собираешься прыгнуть)](https://www.youtube.com/watch?v=PSnMvzU332k) 
+- [ラヴィット (loveit)](https://www.youtube.com/watch?v=--41OGPMurU) 
+- [勘違い性反希望症 (Синдром псевдо-надежды)](https://www.youtube.com/watch?v=KgczJh0uX5o) O_o 
+- [QUI](https://www.youtube.com/watch?v=41wQdL3T05I) 
+- [ネオネオン (Нео-неон)](https://www.youtube.com/watch?v=D7HH-3wkCJc) 
 - [二息歩行 (Ходьба на двух вдохах)](https://www.youtube.com/watch?v=iM8d0SzJTIU) ❤ 
 - [まるいうなばら (Круглая роза)](https://www.youtube.com/watch?v=g5H-qwRGMjE) 
 
-#### 2021 (16)
-- [第三の心臓 (Третье сердце)](https://www.youtube.com/watch?v=9timZ-LASLQ) **NEW** 
-- [ヴァンパイア (Вампир)](https://www.youtube.com/watch?v=e1xCOsgWG0M) **NEW** 
+#### 2021 (19)
+- [ポリスピカデリ (Полиция Пикадилли)](https://www.youtube.com/watch?v=Rcc_BreWEMI) **NEW**
+- [神っぽいな (Богу-подобно)](https://www.youtube.com/watch?v=EHBFKhLUVig) **NEW**
+- [ノンブレス・オブリージュ (Бездыханный обязывает)](https://www.youtube.com/watch?v=lw7pcm1W5tw) **NEW**
+- [第三の心臓 (Третье сердце)](https://www.youtube.com/watch?v=9timZ-LASLQ) 
+- [ヴァンパイア (Вампир)](https://www.youtube.com/watch?v=e1xCOsgWG0M) 
 - [モザイクロール (Роль мозаики)](https://www.youtube.com/watch?v=WysuxO4yR04) 
 - [Blood type (Группа крови)](https://www.youtube.com/watch?v=cRkuMR7MsqM) 
 - [ロシアの実験分野 (Русское поле экспериментов)](https://www.youtube.com/watch?v=bFSXfZ5COmo) 
