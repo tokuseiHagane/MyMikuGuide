@@ -39,7 +39,7 @@
 
 # Список для ознакомления с творчеством* 
 ***далеко не полный, новые редакции ожидайте в дальнейшем**
-## Хронология (301)
+## Хронология (300)
 
 #### 2008 (9)
 - [Dear (Дорогой)](https://www.youtube.com/watch?v=PfpE43nIE5o) **NEW**
@@ -77,7 +77,7 @@
 #### 2011 (17)
 - [アストロノーツ (Космонавты)](https://www.youtube.com/watch?v=fGVYGS-O58w) **NEW**
 - [未来線 (Грань будущего)](https://www.youtube.com/watch?v=fgvRideQH_k) 
-- [Unfragment (Разобрать на фрагменты) / ориг](https://www.youtube.com/watch?v=y_g4zbwWG_I) 
+- [Unfragment (Разобрать на фрагменты)](https://www.youtube.com/watch?v=gcZvK1zvIbQ) [(ориг)](https://www.youtube.com/watch?v=y_g4zbwWG_I) 
 - [tear (рвать)](https://www.youtube.com/watch?v=2KvVf92Fp1I) 
 - [いいわけLove song (Хорошая причина. Песня о любви)](https://www.nicovideo.jp/watch/sm14120872) 
 - [Distorted Princess (Искажённая принцесса)](https://www.youtube.com/watch?v=NxXkCioy_qE)
@@ -135,7 +135,7 @@
 - [GAME OVER (Игра окончена)](https://www.youtube.com/watch?v=B5fIvQts65I)
 - [TRAPxTRAP](https://www.youtube.com/watch?v=c2fqMoTq_tQ)
 
-#### 2014 (20)
+#### 2014 (19)
 - [ぶれないアイで (Непоколебимым взглядом)](https://www.youtube.com/watch?v=8kX5_69sO8Q) **NEW**
 - [8月31日 (31-ое августа)](https://www.youtube.com/watch?v=WlXW5O-YX7w) (др Мику) 
 - [おじゃま虫 (Беспокойное насекомое)](https://www.youtube.com/watch?v=wv2P0PLz9fw) 
@@ -144,7 +144,6 @@
 - [Party×Party](https://www.youtube.com/watch?v=sjKi6OyeRTk)
 - [ヒビカセ (Резонировать)](https://www.youtube.com/watch?v=TkroHwQYpFE) 
 - [LightSong Remix](https://www.youtube.com/watch?v=rJiyUloaccw) 
-- [Unfragment (Разобрать на фрагменты) / клип](https://www.youtube.com/watch?v=gcZvK1zvIbQ) 
 - [idiolect (идиолект)](https://www.youtube.com/watch?v=3U9RVqMYo6g) 
 - [プラグアウト (Отключить)](https://www.youtube.com/watch?v=GJj7UVc5hdk) 
 - [すろぉもぉしょん (ЗАмЕДлЕнИЕ)](https://www.youtube.com/watch?v=ARt2fVT33Lw) 
