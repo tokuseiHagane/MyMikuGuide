@@ -39,22 +39,28 @@
 
 # Список для ознакомления с творчеством* 
 ***далеко не полный, новые редакции ожидайте в дальнейшем**
-## Хронология (254)
+## Хронология (301)
 
-#### 2008 (7)
-- [ハジメテノオト (Первая мелодия)](https://www.youtube.com/watch?v=phNFXwRN1ZM) **NEW**
-- [歌に形はないけれど (Песня не имеет формы)](https://www.youtube.com/watch?v=UdTc4ENv9gc) **NEW**
-- [メルト (Таять)](https://www.youtube.com/watch?v=o1jAMSQyVPc) **NEW**
+#### 2008 (9)
+- [Dear (Дорогой)](https://www.youtube.com/watch?v=PfpE43nIE5o) **NEW**
+- [恋は戦争 (Любовь это война)](https://www.youtube.com/watch?v=dDnpRQhT2qE) [(ориг)](https://www.youtube.com/watch?v=jDop41Bxq2A) **NEW**
+- [ハジメテノオト (Первая мелодия)](https://www.youtube.com/watch?v=phNFXwRN1ZM) 
+- [歌に形はないけれど (Песня не имеет формы)](https://www.youtube.com/watch?v=UdTc4ENv9gc) 
+- [メルト (Таять)](https://www.youtube.com/watch?v=o1jAMSQyVPc) 
 - [ワールドイズマイン (Мир Мой)](https://www.youtube.com/watch?v=tczcAHLCyKM) 
 - [Cleaning Switch (Очищающий переключатель)](https://www.youtube.com/watch?v=5dhcFAhOcbo)
 - [Anger (Гнев)](https://www.youtube.com/watch?v=jNFCsJ16crc)
 - [Houkiboshi (Комета)](https://www.youtube.com/watch?v=pPhGeDlaMAQ)
 
-#### 2009 (2)
+#### 2009 (4)
+- [ロミオとシンデレラ (Ромео и Золушка)](https://www.youtube.com/watch?v=YXfM0Rkg5jA) **NEW**
+- [～とりぷるばか～ (Трижды дурак)](https://www.youtube.com/watch?v=duPJqfKiA78) [(ориг)](https://www.youtube.com/watch?v=GuauKWD2SbU)
 - [ぽっぴっぽ (Po pi po)](https://www.youtube.com/watch?v=mco3UX9SqDA) 
 - [Nebula](https://www.youtube.com/watch?v=hoLu7c2XZYU)
 
-#### 2010 (12)
+#### 2010 (14)
+- [初めての恋が終わる時 (Когда заканчивается первая любовь)](https://www.youtube.com/watch?v=WbdzdkHLt-E) **NEW**
+- [ハロ／ハワユ (привет / Как ты)](https://www.youtube.com/watch?v=Q5fKGRYcER0) **NEW**
 - [NOZOMI (НАДЕЯТЬСЯ)](https://www.youtube.com/watch?v=I6urF4IRXC0) 
 - [SOU CORE](https://www.youtube.com/watch?v=mKc7G-82oto) 
 - [Sobani (Рядом)](https://www.youtube.com/watch?v=eJgnkAGzwao) 
@@ -69,7 +75,8 @@
 - [Electric Love (Электрическая любовь)](https://www.youtube.com/watch?v=fWIbhwMDigM)
 
 #### 2011 (17)
-- [未来線 (Грань будущего)](https://www.youtube.com/watch?v=fgvRideQH_k) **NEW**
+- [アストロノーツ (Космонавты)](https://www.youtube.com/watch?v=fGVYGS-O58w) **NEW**
+- [未来線 (Грань будущего)](https://www.youtube.com/watch?v=fgvRideQH_k) 
 - [Unfragment (Разобрать на фрагменты) / ориг](https://www.youtube.com/watch?v=y_g4zbwWG_I) 
 - [tear (рвать)](https://www.youtube.com/watch?v=2KvVf92Fp1I) 
 - [いいわけLove song (Хорошая причина. Песня о любви)](https://www.nicovideo.jp/watch/sm14120872) 
@@ -77,7 +84,6 @@
 - [Melody Line (Мелодическая линия) | клип](https://www.nicovideo.jp/watch/sm13328142)
 - [Memories (Воспоминания)](https://www.youtube.com/watch?v=UNZisyZE4Gk) 
 - [からくりピエロ Karakuri Pierrot (Клоун каракури)](https://www.youtube.com/watch?v=xxFkW3PCT5M) 
-- [Triple Baka (Трижды дурак)](https://www.youtube.com/watch?v=duPJqfKiA78) 
 - [Ievan Polkka (ох еб#ать)](https://www.youtube.com/watch?v=ZjDZrReZ4EI) 
 - [Downloader (Загрузчик)](https://www.youtube.com/watch?v=zQRfQximhCU)
 - [Strobe Light (Вспышка света)](https://www.youtube.com/watch?v=7sKs7INaEoA)
@@ -87,9 +93,13 @@
 - [Sekiranun Graffiti (Граффити грозовых туч)](https://www.youtube.com/watch?v=XKOoIAYSkZQ)
 - [Sweet Devil (Милый дьявол)](https://www.youtube.com/watch?v=atXcWO54Ek0)
 
-#### 2012 (16)
-- [恥ずかs××× (Смущающий с×××)](https://www.youtube.com/watch?v=m5Qhk-OYQsI) (Are you winning son?) **NEW**
-- [タイムマシン (Машина времени)](https://www.youtube.com/watch?v=EgOWe9ByNaE) **NEW**
+#### 2012 (20)
+- [Snow Song Show (Шоу снежной песни)](https://www.youtube.com/watch?v=6YbqME4xI00) **NEW**
+- [39](https://www.youtube.com/watch?v=ecU_uJRzhfk) **NEW**
+- [はいてないってすばらしぃ。(Не носить их - это прекрасно.)](https://www.youtube.com/watch?v=4jPmn4QTaTI) (Б#ЯЯЯЯЯЯЯ) **NEW**
+- [ストロベリー (Клубника)](https://www.youtube.com/watch?v=zpvJzKA_k7c) **NEW**
+- [恥ずかs××× (Смущающий с×××)](https://www.youtube.com/watch?v=m5Qhk-OYQsI) (Are you winning son?) 
+- [タイムマシン (Машина времени)](https://www.youtube.com/watch?v=EgOWe9ByNaE) 
 - [Memory (Память)](https://www.youtube.com/watch?v=06kzsJ9D3io) 
 - [Cold Leaf (Холодный лист)](https://www.youtube.com/watch?v=04udMvE7c_A) 
 - [愛Dee (Любовь Ди)](https://www.youtube.com/watch?v=zkLJoFp2UAE) 
@@ -105,9 +115,14 @@
 - [Yumeyume (Мечта, мечта)](https://www.youtube.com/watch?v=07r67gGbtLQ)
 - [Initiation (Посвящение)](https://www.youtube.com/watch?v=dIfLTw3tbE8)
 
-#### 2013 (13)
-- [ビバハピ (Вива счастью)](https://www.youtube.com/watch?v=WiUjG9fF3zw) **NEW**
-- [狐の嫁入り (Лисья свадьба)](https://www.youtube.com/watch?v=QqfFieDY14E) **NEW**
+#### 2013 (18)
+- [妄想税 (Налог на заблуждение)](https://www.youtube.com/watch?v=sWvZfwY8beg) **NEW**
+- [アゲアゲアゲイン (Возраст снова)](https://www.youtube.com/watch?v=uwwU55zBYlQ) **NEW**
+- [HOME](https://www.youtube.com/watch?v=Tzs4g9jqxAM) **NEW**
+- [脳漿炸裂ガール (Девочка - вынос мозга)](https://www.youtube.com/watch?v=Ey_NHZNYTeE) **NEW**
+- [愛の詩 (Песня любви)](https://www.youtube.com/watch?v=2lEVGk6LwHQ) (V3) 
+- [ビバハピ (Вива счастью)](https://www.youtube.com/watch?v=WiUjG9fF3zw) 
+- [狐の嫁入り (Лисья свадьба)](https://www.youtube.com/watch?v=QqfFieDY14E) 
 - [Arpeggio -Rebuild- (Арпеджио -Перестройка-)](https://www.youtube.com/watch?v=P0ciKKLUzbM) 
 - [- - - (Kodoku) // Одиночество](https://www.youtube.com/watch?v=Dfo28xwfhgA) 
 - [Odds & Ends](https://www.youtube.com/watch?v=6OmwKZ9r07o) 
@@ -120,13 +135,14 @@
 - [GAME OVER (Игра окончена)](https://www.youtube.com/watch?v=B5fIvQts65I)
 - [TRAPxTRAP](https://www.youtube.com/watch?v=c2fqMoTq_tQ)
 
-#### 2014 (19)
-- [8月31日 (31-ое августа)](https://www.youtube.com/watch?v=WlXW5O-YX7w) (др Мику) **NEW**
-- [おじゃま虫 (Беспокойное насекомое)](https://www.youtube.com/watch?v=wv2P0PLz9fw) **NEW**
-- [愛! 雪! 魔法! (Люблю! Снег! Волшебство!)](https://www.youtube.com/watch?v=79N1O0lF0GY) **NEW**
-- [怪盗Fの台本 (Сценарий: Призрачный вор F) ](https://www.youtube.com/watch?v=a0GrJUh-hz8) **NEW**
-- [Party×Party](https://www.youtube.com/watch?v=sjKi6OyeRTk) **NEW**
-- [ヒビカセ (Резонировать)](https://www.youtube.com/watch?v=TkroHwQYpFE) **NEW**
+#### 2014 (20)
+- [ぶれないアイで (Непоколебимым взглядом)](https://www.youtube.com/watch?v=8kX5_69sO8Q) **NEW**
+- [8月31日 (31-ое августа)](https://www.youtube.com/watch?v=WlXW5O-YX7w) (др Мику) 
+- [おじゃま虫 (Беспокойное насекомое)](https://www.youtube.com/watch?v=wv2P0PLz9fw) 
+- [愛! 雪! 魔法! (Люблю! Снег! Волшебство!)](https://www.youtube.com/watch?v=79N1O0lF0GY) 
+- [怪盗Fの台本 (Сценарий: Призрачный вор F) ](https://www.youtube.com/watch?v=a0GrJUh-hz8) 
+- [Party×Party](https://www.youtube.com/watch?v=sjKi6OyeRTk)
+- [ヒビカセ (Резонировать)](https://www.youtube.com/watch?v=TkroHwQYpFE) 
 - [LightSong Remix](https://www.youtube.com/watch?v=rJiyUloaccw) 
 - [Unfragment (Разобрать на фрагменты) / клип](https://www.youtube.com/watch?v=gcZvK1zvIbQ) 
 - [idiolect (идиолект)](https://www.youtube.com/watch?v=3U9RVqMYo6g) 
@@ -141,26 +157,27 @@
 - [Twinkle World (Сверкающий мир)](https://www.youtube.com/watch?v=NiIVTXTuQug)
 - [Carry Me Off (Унеси меня)](https://www.youtube.com/watch?v=UGG7tUMg77A)
 
-#### 2015 (30)
-- [さよならスーヴェニア (Прощай, сувенир)](https://www.youtube.com/watch?v=wapEYJo5QXE) **NEW**
-- [作曲するならいまのうち！(Если вы хотите творить, сейчас самое время!)](https://www.youtube.com/watch?v=JK3aw90R8Dk) **NEW**
-- [愛の詩 (Любовное стихотворение)](https://www.youtube.com/watch?v=E2oRrLUxWKo) (V3) **NEW**
-- [今日も怯えていますか？(Тебе сегодня страшно?)](https://www.youtube.com/watch?v=ehzCiLAnWJM) **NEW**
-- [空調不調 (Неисправность кондиционера)](https://www.youtube.com/watch?v=ORrxy8NLafQ) **NEW**
-- [ぽっぴっぽー (По пи по)](https://www.youtube.com/watch?v=ikgQhG4AlVk) (V3Edition) **NEW**
-- [七日は今だけ (Семь дней только сейчас)](https://www.youtube.com/watch?v=61NHQdsqiOQ) **NEW**
-- [通過性マジックペン (Сносная волшебная ручка)](https://www.youtube.com/watch?v=4uIsBncy-Yk) **NEW**
-- [Sleeping, Forest Night. (Сон, ночь в лесу.)](https://www.youtube.com/watch?v=un3HqAIJAZw) **NEW**
-- [デレ化現象100％ (Явление конверсии Дере 100%)](https://www.youtube.com/watch?v=a8OCC1Qcz94) **NEW**
-- [ないないなな拍子 (Нет бита)](https://www.youtube.com/watch?v=FuGFjcD2y0k) **NEW**
-- [Snow Fairy Story (История снежной феи)](https://www.youtube.com/watch?v=_of2sKbRUko) **NEW**
-- [くるくるぱぁ (Снова и снова)](https://www.youtube.com/watch?v=u7-fgUHhfV4) **NEW**
-- [ミクちゃんの手作りシンフォニア (Симфония ручной работы Мику-чан)](https://www.youtube.com/watch?v=PfN4CwLIjRg) **NEW**
-- [恋のプログラム発動-short (Вызов программы любви - короткая версия)](https://www.youtube.com/watch?v=ldSffG5_N1s) **NEW**
-- [Twilight ∞ nighT (Сумрачная ночь)](https://www.youtube.com/watch?v=x847XAeQxAQ) **NEW**
-- [Bad ∞ End ∞ Night (Ночь плохой концовки)](https://www.youtube.com/watch?v=WDUA7z3703g) **NEW**
-- [Crazy ∞ nighT (Безумная ночь)](https://www.youtube.com/watch?v=M7O11PAcAw4) **NEW**
-- [EveR ∞ LastinG ∞ NighT (Бесконечная ночь)](https://www.youtube.com/watch?v=UkkfI12kIK8) **NEW**
+#### 2015 (32)
+- [声 (Голос)](https://www.youtube.com/watch?v=whYLalwjI38) **NEW**
+- [ループメモリー (Циклическая память)](https://www.youtube.com/watch?v=-Sd-FULSaFs) (Remake) **NEW**
+- [さよならスーヴェニア (Прощай, сувенир)](https://www.youtube.com/watch?v=wapEYJo5QXE) 
+- [作曲するならいまのうち！(Если вы хотите творить, сейчас самое время!)](https://www.youtube.com/watch?v=JK3aw90R8Dk) 
+- [今日も怯えていますか？(Тебе сегодня страшно?)](https://www.youtube.com/watch?v=ehzCiLAnWJM) 
+- [空調不調 (Неисправность кондиционера)](https://www.youtube.com/watch?v=ORrxy8NLafQ) 
+- [ぽっぴっぽー (По пи по)](https://www.youtube.com/watch?v=ikgQhG4AlVk) (V3Edition)
+- [七日は今だけ (Семь дней только сейчас)](https://www.youtube.com/watch?v=61NHQdsqiOQ) 
+- [通過性マジックペン (Сносная волшебная ручка)](https://www.youtube.com/watch?v=4uIsBncy-Yk) 
+- [Sleeping, Forest Night. (Сон, ночь в лесу.)](https://www.youtube.com/watch?v=un3HqAIJAZw) 
+- [デレ化現象100％ (Явление конверсии Дере 100%)](https://www.youtube.com/watch?v=a8OCC1Qcz94) 
+- [ないないなな拍子 (Нет бита)](https://www.youtube.com/watch?v=FuGFjcD2y0k) 
+- [Snow Fairy Story (История снежной феи)](https://www.youtube.com/watch?v=_of2sKbRUko) 
+- [くるくるぱぁ (Снова и снова)](https://www.youtube.com/watch?v=u7-fgUHhfV4) 
+- [ミクちゃんの手作りシンフォニア (Симфония ручной работы Мику-чан)](https://www.youtube.com/watch?v=PfN4CwLIjRg) 
+- [恋のプログラム発動-short (Вызов программы любви - короткая версия)](https://www.youtube.com/watch?v=ldSffG5_N1s) 
+- [Twilight ∞ nighT (Сумрачная ночь)](https://www.youtube.com/watch?v=x847XAeQxAQ) 
+- [Bad ∞ End ∞ Night (Ночь плохой концовки)](https://www.youtube.com/watch?v=WDUA7z3703g)
+- [Crazy ∞ nighT (Безумная ночь)](https://www.youtube.com/watch?v=M7O11PAcAw4) 
+- [EveR ∞ LastinG ∞ NighT (Бесконечная ночь)](https://www.youtube.com/watch?v=UkkfI12kIK8) 
 - [シェラ・ソンユ (Запоминаемость)](https://www.youtube.com/watch?v=RRT95V8zKUM) 
 - [メアリネス (Душевность)](https://www.youtube.com/watch?v=7QPtmA70eZc) 
 - [パズルガール (Девочка-пазл)](https://www.youtube.com/watch?v=_KdOCU-qxrg) 
@@ -174,16 +191,20 @@
 - [Desktop Cinderella (Золушка на рабочем столе)](https://www.youtube.com/watch?v=rQCPXcckCaQ)
 - [Little Scarlet Bad Girl (Маленькая Скарлет — плохая девочка)](https://www.youtube.com/watch?v=I_bs61WyzMk)
 
-#### 2016 (25)
-- [ミクがネギを背負ってやって来る (Мику идет с зеленым луком на спине)](https://www.youtube.com/watch?v=GwMEqZBPdWA) **NEW**
-- [雪がとける前に (Пока не растает снег)](https://www.youtube.com/watch?v=zLpQTF_2TZM) **NEW**
-- [ニューロニズム (Нейронизм)](https://www.youtube.com/watch?v=w3Gmz47kUpg) **NEW**
-- [驚天動地 (Удивительное место)](https://www.youtube.com/watch?v=Vr3OSBFVvWk) **NEW**
-- [Call (Вызов)](https://www.youtube.com/watch?v=LxhtpD7AnXY) **NEW**
-- [I say love (Я говорю - любовь!)](https://www.youtube.com/watch?v=qVHBJ-7jUCE) (V4Xver) **NEW**
-- [やだ働かない (Не работает!)](https://www.youtube.com/watch?v=qhDD4q1PnqE) **NEW**
-- [だらけたい (Я хочу быть сытым)](https://www.youtube.com/watch?v=SqWkFUCJ5NU) **NEW**
-- [祝福のメシアとアイの塔 (Благословенный Мессия и башня ИИ)](https://www.youtube.com/watch?v=CiEC329xPos) **NEW**
+#### 2016 (29)
+- [Tomorrow (Завтра)](https://www.youtube.com/watch?v=AENjIA-j7yo) **NEW**
+- [Pathos (Пафос)](https://www.youtube.com/watch?v=Y3ySiI03cv0) **NEW**
+- [サクラサク (Цветение вишни)](https://www.youtube.com/watch?v=-YsyIj-0RtE) **NEW**
+- [溜息の行方 (Местонахождение вздоха)](https://www.youtube.com/watch?v=TdfTLpXM3HA) **NEW**
+- [ミクがネギを背負ってやって来る (Мику идет с зеленым луком на спине)](https://www.youtube.com/watch?v=GwMEqZBPdWA) 
+- [雪がとける前に (Пока не растает снег)](https://www.youtube.com/watch?v=zLpQTF_2TZM) 
+- [ニューロニズム (Нейронизм)](https://www.youtube.com/watch?v=w3Gmz47kUpg) 
+- [驚天動地 (Удивительное место)](https://www.youtube.com/watch?v=Vr3OSBFVvWk) 
+- [Call (Вызов)](https://www.youtube.com/watch?v=LxhtpD7AnXY) 
+- [I say love (Я говорю - любовь!)](https://www.youtube.com/watch?v=qVHBJ-7jUCE) (V4Xver) 
+- [やだ働かない (Не работает!)](https://www.youtube.com/watch?v=qhDD4q1PnqE)
+- [だらけたい (Я хочу быть сытым)](https://www.youtube.com/watch?v=SqWkFUCJ5NU) 
+- [祝福のメシアとアイの塔 (Благословенный Мессия и башня ИИ)](https://www.youtube.com/watch?v=CiEC329xPos) 
 - [INCOHERENT (НЕВЕРНЫЙ)](https://www.youtube.com/watch?v=GxSiM8pfa_w) 
 - [HEART](https://www.youtube.com/watch?v=lPWDPUf_fG4) 
 - [EXORDIUM (ВСТУПЛЕНИЕ)](https://www.youtube.com/watch?v=q3e0ScgOSao) 
@@ -201,27 +222,35 @@
 - [Miku](https://www.youtube.com/watch?v=NocXEwsJGOQ)
 - [気まぐれメルシィ (Причудливое милосердие)](https://www.youtube.com/watch?v=o1iz4L-5zkQ)
 
-#### 2017 (35)
-- [ぼくらはみんな意味不明 (Ни в ком из нас нет смысла)](https://www.youtube.com/watch?v=LtSNzPyo0lA) **NEW**
-- [never ender (никогда не заканчивайся)](https://www.youtube.com/watch?v=z5A0joDLq38) **NEW**
-- [君が飛び降りるのなら (Если ты спрыгнешь)](https://www.youtube.com/watch?v=kK3mfxQ1oZE) **NEW**
-- [ハンドメイド・アニバーサリー (Юбилей ручной работы)](https://www.youtube.com/watch?v=dJFMuprtE9E)  **NEW**
-- [I (don't) love you // Я (не) люблю тебя](https://www.youtube.com/watch?v=5m1D2SEKAYo) (Часть.Ⅰ) **NEW**
-- [＊＊ぽ (＊＊ПО)](https://www.youtube.com/watch?v=Jid7ZNO1YgM) **NEW**
-- [スパムジャック (Спам-джек)](https://www.youtube.com/watch?v=m7SfTZFmM5M) **NEW**
-- [First Storm (Первый шторм)](https://www.youtube.com/watch?v=KDnhH8UNHYI)【Японская версия】**NEW**
-- [最初の一歩から (С первого шага)](https://www.youtube.com/watch?v=Fb5ymJ9u-pA) **NEW**
-- [お姉ちゃんって呼びかけて？(Зовите меня своей сестрой?)](https://www.youtube.com/watch?v=hhHwRFOl_0s) **NEW**
-- [優しい一日になれたなら (Если у тебя будет нежный день)](https://www.youtube.com/watch?v=VxTjUzcg24E) **NEW**
-- [Advance](https://www.youtube.com/watch?v=sqaBb-jho20) (Халтура какая-то...) **NEW**
-- [時間が足りなさすぎた (У меня не было достаточно времени)](https://www.youtube.com/watch?v=2_SpXHgIkAM) **NEW**
-- [Swimsuit (Купальник)](https://www.youtube.com/watch?v=pRzrBvOEiO8) **NEW**
-- [バタフライ・グラフィティ(Бабочка-граффити)](https://www.youtube.com/watch?v=j0FlDw87Bdc) **NEW**
-- [めでぃかる☆どりーむ☆ふぉーまっと (Формат ☆Медицины ☆ Мечты)](https://www.youtube.com/watch?v=5PCf_WU_cxw) **NEW**
-- [TODAY THE FUTURE (СЕГОДНЯ БУДУЩЕЕ)](https://www.youtube.com/watch?v=3aF8l_iiK6g) **NEW**
-- [ヒバナ (Хибана)](https://www.youtube.com/watch?v=hxSg2Ioz3LM) **NEW**
-- [四角い地球を丸くする (Вокруг квадратной Земли)](https://www.youtube.com/watch?v=KdNHFKTKX2s) **NEW**
-- [ストロベリー (Клубника)](https://www.youtube.com/watch?v=pEJHbwiOBCM) **NEW**
+#### 2017 (43)
+- [Singularity (Сингулярность)](https://www.youtube.com/watch?v=Blc2HbNaUsg) **NEW**
+- [スターナイトスノウ (Снег в звёздной ночи)](https://www.youtube.com/watch?v=ZuT3xYLW7vA) **NEW**
+- [Hatsune (Первый звук)](https://www.youtube.com/watch?v=MiNo7f2oBKk) **NEW**
+- [運命決定論 (Детерминизм судьбы)](https://www.youtube.com/watch?v=ibV8-5-kIEI) **NEW**
+- [ひとりぼっちのひとりごと (В одиночестве)](https://www.youtube.com/watch?v=qK0c0S7hNPA) **NEW**
+- [Initial Song (Начальная песня)](https://www.youtube.com/watch?v=PRsXzHI-n8k) **NEW**
+- [夢よ未来へ (Мечта в будущее)](https://www.youtube.com/watch?v=gdJpGXoTUtE) **NEW**
+- [アップルドットコム (Яблочко.com)](https://www.youtube.com/watch?v=h1pSSrmdEtw) **NEW**
+- [ぼくらはみんな意味不明 (Ни в ком из нас нет смысла)](https://www.youtube.com/watch?v=LtSNzPyo0lA) 
+- [never ender (никогда не заканчивайся)](https://www.youtube.com/watch?v=z5A0joDLq38) 
+- [君が飛び降りるのなら (Если ты спрыгнешь)](https://www.youtube.com/watch?v=kK3mfxQ1oZE) 
+- [ハンドメイド・アニバーサリー (Юбилей ручной работы)](https://www.youtube.com/watch?v=dJFMuprtE9E)  
+- [I (don't) love you // Я (не) люблю тебя](https://www.youtube.com/watch?v=5m1D2SEKAYo) (Часть.Ⅰ) 
+- [＊＊ぽ (＊＊ПО)](https://www.youtube.com/watch?v=Jid7ZNO1YgM) 
+- [スパムジャック (Спам-джек)](https://www.youtube.com/watch?v=m7SfTZFmM5M) 
+- [First Storm (Первый шторм)](https://www.youtube.com/watch?v=KDnhH8UNHYI)【Японская версия】
+- [最初の一歩から (С первого шага)](https://www.youtube.com/watch?v=Fb5ymJ9u-pA) 
+- [お姉ちゃんって呼びかけて？(Зовите меня своей сестрой?)](https://www.youtube.com/watch?v=hhHwRFOl_0s) 
+- [優しい一日になれたなら (Если у тебя будет нежный день)](https://www.youtube.com/watch?v=VxTjUzcg24E)
+- [Advance](https://www.youtube.com/watch?v=sqaBb-jho20) (Халтура какая-то...) 
+- [時間が足りなさすぎた (У меня не было достаточно времени)](https://www.youtube.com/watch?v=2_SpXHgIkAM) 
+- [Swimsuit (Купальник)](https://www.youtube.com/watch?v=pRzrBvOEiO8) 
+- [バタフライ・グラフィティ(Бабочка-граффити)](https://www.youtube.com/watch?v=j0FlDw87Bdc)
+- [めでぃかる☆どりーむ☆ふぉーまっと (Формат ☆Медицины ☆ Мечты)](https://www.youtube.com/watch?v=5PCf_WU_cxw) 
+- [TODAY THE FUTURE (СЕГОДНЯ БУДУЩЕЕ)](https://www.youtube.com/watch?v=3aF8l_iiK6g) 
+- [ヒバナ (Искра)](https://www.youtube.com/watch?v=hxSg2Ioz3LM) 
+- [四角い地球を丸くする (Вокруг квадратной Земли)](https://www.youtube.com/watch?v=KdNHFKTKX2s) 
+- [ストロベリー (Клубника)](https://www.youtube.com/watch?v=pEJHbwiOBCM)  (V4X_shortver)
 - [花が落ちたので (Потому что цветы упали)](https://www.youtube.com/watch?v=35iPH7jJLH0) 
 - [或る街のギギ (GIGI в определенном городе)](https://www.youtube.com/watch?v=z7DP5LxKqeM) 
 - [銀河録 (Галактический рекорд)](https://www.youtube.com/watch?v=-l551HSZJzk)
@@ -238,9 +267,17 @@
 - [Ohedo Julia-Night](https://www.youtube.com/watch?v=y3yyYYLyVzw)
 - [Suna no Wakusei (Песочная планета)](https://www.youtube.com/watch?v=AS4q9yaWJkI)
 
-#### 2018 (12)
-- [世界中で一番 (Лучший в мире)](https://www.youtube.com/watch?v=Cy1wYBFkakI) **NEW**
-- [今日より少しだけ幸せな日々を。(Желаю вам более счастливых дней, чем сегодня.)](https://www.youtube.com/watch?v=WbmdpzLfsLA) **NEW**
+#### 2018 (20)
+- [ここまで かれこれ (Пока это)](https://www.youtube.com/watch?v=XYdyL-y6F8Q) **NEW**
+- [I Lost Your Love (Я потеряла твою любовь)](https://www.youtube.com/watch?v=sl1Hb2zl4V4) **NEW**
+- [愛言葉Ⅲ (Любовные слова Ⅲ)](https://www.youtube.com/watch?v=WptXk39wiIQ) **NEW**
+- [Horizon (Горизонт)](https://www.youtube.com/watch?v=CMjXsuabeuo) **NEW**
+- [妄想犯 (Заблуждавшийся преступник)](https://www.youtube.com/watch?v=OG_y6vAahlI) **NEW**
+- [愛と呼んでもいいでしょう (Вы можете назвать это любовью)](https://www.youtube.com/watch?v=Y1GbuExnF70) **NEW**
+- [Maison Hatsune (Дом Хацунэ)](https://www.youtube.com/watch?v=buRFjDSIu4o) **NEW**
+- [僕が夢を捨てて大人になるまで (Пока я не откажусь от своей мечты и вырасту)](https://www.youtube.com/watch?v=sjGK_jWADRE) **NEW**
+- [世界中で一番 (Лучший в мире)](https://www.youtube.com/watch?v=Cy1wYBFkakI) 
+- [今日より少しだけ幸せな日々を。(Желаю вам более счастливых дней, чем сегодня.)](https://www.youtube.com/watch?v=WbmdpzLfsLA) 
 - [Decade (Десятилетие)](https://www.youtube.com/watch?v=eyn9Bvr4UQ4) 
 - [X](https://www.youtube.com/watch?v=W3hoyL1yTzE) 
 - [ROUTE (МАРШРУТ)](https://www.youtube.com/watch?v=amw9Em4j3Uw) 
@@ -252,21 +289,30 @@
 - [あけましておめでとう (Новый год)](https://www.youtube.com/watch?v=rmJBWJtN0jw) 
 - [Greenlights Serenade (Серенада зеленых огней)](https://www.youtube.com/watch?v=XSLhsjepelI)
 
-#### 2019 (32)
-- [泣かないあなたの守り方 (Как защитить тебя, не плача)](https://www.youtube.com/watch?v=7jdtSik5qUQ) **NEW**
-- [適度なカンケイ (Умеренные отношения)](https://www.youtube.com/watch?v=nlCGa2ahniA) **NEW**
-- [Catch the Wave (Лови волну)](https://www.youtube.com/watch?v=pqiJ7krbEDM) **NEW**
-- [宝物のかけら (Фрагмент сокровища)](https://www.youtube.com/watch?v=smaX9C3V_u8) **NEW**
-- [浅黄色のマイルストーン (Светло-желтая веха)](https://www.youtube.com/watch?v=hI-0QsZk9OU) **NEW**
-- [フィクションブルー (Художественный синий)](https://www.youtube.com/watch?v=tqR74vsc6Mc) **NEW**
-- [Happy!! Snow World!! (Счастье!! Снежный мир!!)](https://www.youtube.com/watch?v=tgJPyLc-zAU) **NEW**
-- [ミクの日に手を繋ごう企画2019 (Планирую держаться за руки в день Мику 2019)](https://www.youtube.com/watch?v=6-VtqmoPbuE) (Десятилетняя годовщина снежной Мику) **NEW**
-- [8.32](https://www.youtube.com/watch?v=Ig-a4aJR3jM) (Акустическая версия) **NEW**
-- [還ル (Возвращение)](https://www.youtube.com/watch?v=NMY9PJuoTmk) **NEW**
-- [LIFE](https://www.youtube.com/watch?v=syD6riNwXcw) **NEW**
-- [1フェムトの大空 (Одно Фемто небо)](https://www.youtube.com/watch?v=TJ485ozOm88) **NEW**
-- [アイ (ИИ)](https://www.youtube.com/watch?v=RHqOdDG3Jjg) **NEW**
-- [Bless Your Breath (Благославляю твоё дыхание)](https://www.youtube.com/watch?v=a-Nf3QUFkOU) **NEW**
+#### 2019 (41)
+- [Eidetic image (Эйдетический образ)](https://www.youtube.com/watch?v=_c4XPAbgTgw) **NEW**
+- [SAKURA](https://www.youtube.com/watch?v=UDjeGjcFolA) **NEW**
+- [ある計画は今も密かに (План все еще тайный)](https://www.youtube.com/watch?v=t-rFruLNaE0) **NEW**
+- [失敗作少女 (Неудачная девушка)](https://www.youtube.com/watch?v=TXfJVNqaHiM) **NEW**
+- [そこに命はありますか。(Это ли означает жить?)](https://www.youtube.com/watch?v=Fb1_fpuYX1I) **NEW**
+- [蟒蛇 (Питон)](https://www.youtube.com/watch?v=JbHRgTl--fo) (Короткая версия) **NEW**
+- [SHIGANAI (Ничего не поделаешь)](https://www.youtube.com/watch?v=CEbO8Bwp0d0) **NEW**
+- [夜行性ハイズ (Ночные высоты)](https://www.youtube.com/watch?v=WXl1ZPk--Zs) **NEW**
+- [イロドリミライ (Цветное будущее)](https://www.youtube.com/watch?v=fBmgYsw-NB0) **NEW**
+- [泣かないあなたの守り方 (Как защитить тебя, не плача)](https://www.youtube.com/watch?v=7jdtSik5qUQ) 
+- [適度なカンケイ (Умеренные отношения)](https://www.youtube.com/watch?v=nlCGa2ahniA) 
+- [Catch the Wave (Лови волну)](https://www.youtube.com/watch?v=pqiJ7krbEDM)
+- [宝物のかけら (Фрагмент сокровища)](https://www.youtube.com/watch?v=smaX9C3V_u8) 
+- [浅黄色のマイルストーン (Светло-желтая веха)](https://www.youtube.com/watch?v=hI-0QsZk9OU) 
+- [フィクションブルー (Художественный синий)](https://www.youtube.com/watch?v=tqR74vsc6Mc) 
+- [Happy!! Snow World!! (Счастье!! Снежный мир!!)](https://www.youtube.com/watch?v=tgJPyLc-zAU) 
+- [ミクの日に手を繋ごう企画2019 (Планирую держаться за руки в день Мику 2019)](https://www.youtube.com/watch?v=6-VtqmoPbuE) (Десятилетняя годовщина снежной Мику)
+- [8.32](https://www.youtube.com/watch?v=Ig-a4aJR3jM) (Акустическая версия) 
+- [還ル (Возвращение)](https://www.youtube.com/watch?v=NMY9PJuoTmk) 
+- [LIFE](https://www.youtube.com/watch?v=syD6riNwXcw) 
+- [1フェムトの大空 (Одно Фемто небо)](https://www.youtube.com/watch?v=TJ485ozOm88) 
+- [アイ (ИИ)](https://www.youtube.com/watch?v=RHqOdDG3Jjg) 
+- [Bless Your Breath (Благославляю твоё дыхание)](https://www.youtube.com/watch?v=a-Nf3QUFkOU)
 - [「花のカヲリ(拾)」「Цветок Каори (Поднять)」](https://www.youtube.com/watch?v=YcDkDUasZ-k) 
 - [エゴ (Эго)](https://www.youtube.com/watch?v=79LwIdheZts)
 - [人質交換 (Обмен заложниками)](https://www.youtube.com/watch?v=d_svmw65Mgk) 
@@ -302,8 +348,8 @@
 - [まるいうなばら (Круглая роза)](https://www.youtube.com/watch?v=g5H-qwRGMjE) 
 
 #### 2021 (21)
-- [Rainy Love (Дождливая любовь)](https://www.youtube.com/watch?v=8S7-tO__Mw4) (Часть.II, первая в 2017) **NEW**
-- [始動 (Начинать)](https://www.youtube.com/watch?v=U71kYRnZNk4) **NEW**
+- [Rainy Love (Дождливая любовь)](https://www.youtube.com/watch?v=8S7-tO__Mw4) (Часть.II, первая в 2017) 
+- [始動 (Начинать)](https://www.youtube.com/watch?v=U71kYRnZNk4) 
 - [ポリスピカデリ (Полиция Пикадилли)](https://www.youtube.com/watch?v=Rcc_BreWEMI)
 - [神っぽいな (Богу-подобно)](https://www.youtube.com/watch?v=EHBFKhLUVig) 
 - [ノンブレス・オブリージュ (Бездыханный обязывает)](https://www.youtube.com/watch?v=lw7pcm1W5tw) 
@@ -492,7 +538,7 @@
 9. Corona【コロナ】(鬱P feat. 鏡音リン) [28:29](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=1709s)
 10. Fools Are Attracted To Anomaly【馬鹿はアノマリーに憧れる】(鬱P feat. 鏡音リン) [32:26](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=1946s)
 11. Chocolate Girl【チョコレイトオンナノコ】(鬱P feat. GUMI) [36:46](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=2206s)
-12. Ghost under the Umbrella (鬱P feat. V3 GUMI (Power)) [40:48](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=2448s)
+12. Ghost under the Umbrella (鬱P feat. V3 GUMI (Power)) [40:48](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=2448s) ❤
 13. Poster Girl's Prank【看板娘の悪巫山戯】 (鬱P feat. 鏡音リン, 初音ミク Append (Dark), V3 GUMI (Power)) [45:27](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=2727s) 
 14. The Magic of the Massacre【皆殺しのマジック】(鬱P feat. V3 GUMI (Power)) [49:12](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=2952s) 
 15. Imperfect Animals【インパーフェクトアニマルズ】(鬱P feat. 鏡音リン, V3 GUMI (Power)) [53:31](https://www.youtube.com/watch?v=Sybi0z3Eltw&t=3211s)
@@ -579,23 +625,20 @@
 
 ## FAQ
 
-> Q: А нахера FAQ?
+> **Q:** А нахера FAQ?
 
-A: Для разъяснений всех "что?" и "почему?" в дизайне  и содержании документа.
+**A:** Для разъяснений всех "что?" и "почему?" в дизайне  и содержании документа.
 
->Q: Что такое "❤"?
+>**Q:** Что такое "❤"?
 
-A: Мои любимые треки в списке. 
+**A:** Мои любимые треки в списке. 
 
->Q: Что такое "NEW"?
+>**Q:** Что такое "NEW"?
 
-A: Трек, добавленный с последней версией списка. 
+**A:** Трек, добавленный с последней версией списка. 
 
->Q: Почему так много вокаметалла?
+>**Q:** Оглавление будет?
 
-A: Во первых, я люблю вокаметалл. Во вторых, потому что Ustu-P первый продюссер вокалойдов, с которого я вообще начал интересоваться этой темой. В дальнейшем, колличество продюссеров в документе, использующий голосовые банки с Мику, будет увеличиваться, а так же появиться привязка альбомов к году выпуска (как это сделано с классическими композициями).
->Q: Оглавление будет?
-
-A: Будет, но очень не скоро. Пока очень мало аккумулировал инфы.
+**A:** Будет, но очень не скоро. Пока очень мало аккумулировал инфы.
 
 ![kabayashi|200](pictures/kabayashi.gif) 
