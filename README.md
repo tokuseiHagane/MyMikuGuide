@@ -53,7 +53,7 @@
 - [Houkiboshi (Комета)](https://www.youtube.com/watch?v=pPhGeDlaMAQ)
 
 #### 2009 (4)
-- [ロミオとシンデレラ (Ромео и Золушка)](https://www.youtube.com/watch?v=YXfM0Rkg5jA) **NEW**
+- [ロミオとシンデレラ (Ромео и Золушка)](https://www.youtube.com/watch?v=swqbfMh467A) [(ориг)](https://www.youtube.com/watch?v=kp-plPYAPq8) **NEW**
 - [～とりぷるばか～ (Трижды дурак)](https://www.youtube.com/watch?v=duPJqfKiA78) [(ориг)](https://www.youtube.com/watch?v=GuauKWD2SbU)
 - [ぽっぴっぽ (Po pi po)](https://www.youtube.com/watch?v=mco3UX9SqDA) 
 - [Nebula](https://www.youtube.com/watch?v=hoLu7c2XZYU)
