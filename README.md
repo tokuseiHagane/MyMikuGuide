@@ -381,10 +381,17 @@
 Кроме того, его тексты часто несколько сложны, и их скрытый смысл трудно уловить с первого раза.
 Он также является участником и основателем группы **Ohayougozaimasu** (**おはようございます**, **Доброе утро**), и продюссером идол-группы **Zsasz**.
 
-### Aльбомы 
-
 >Альбома CD-R здесь не будет, т.к треки из него есть в составе более новых альбомов, да и сам он является альбомом-компиляцией, поэтому не велика потеря (если сильно хочется, то добавлю). Альбом UNIQE ожидается 10 ноября 2021. 
 
+##### DOLL 2009
+
+![DOLL|400](pictures/20211007125409.png)
+
+**YouTube:**  https://www.youtube.com/watch?v=d-ieYrP2nOc
+1. Doll 【ドール】 (鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=0s) ❤
+2. dope disco (鬱P feat. 初音ミク) [4:32](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=272s) 
+3. Suicide Monster 【Kubikukuri・Monster / クビククリ・モンスター】 (鬱P feat. 初音ミク) [9:54](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=594s) 
+4. Flower 【Hana / 華】(鬱P feat. 初音ミク) [13:51](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=831s)
 
 #### DIARRHEA 2009
 ![DIARRHEA|400](pictures/20211006233914.png)
@@ -425,6 +432,28 @@
 13. Doll【ドール】 (鬱P feat. 初音ミク) [45:12](https://www.youtube.com/watch?v=YTjvf-HfqkA&t=2712s)
 14. Heart Sutra Hardcore【般若心経ハードコア 】 (鬱P feat. 初音ミク) [49:53](https://www.youtube.com/watch?v=YTjvf-HfqkA&t=2993s) 
 
+##### P 2011
+
+![P|400](pictures/20211007130109.png)
+
+**YouTube:**  https://www.youtube.com/watch?v=w04JwJDSToU
+1. Playback【再生】 (GUMI) [0:00](https://www.youtube.com/watch?v=w04JwJDSToU&t=0s) 
+2. Shit【ダイベン】 (鬱P feat. 初音ミク) [3:52](https://www.youtube.com/watch?v=w04JwJDSToU&t=232s) 
+3. Flower【華】 (鬱P feat. 初音ミク) [7:27](https://www.youtube.com/watch?v=w04JwJDSToU&t=447s) 
+4. Fear! The Speaker People (new ver.)【恐怖！スピーカー人間】 (鬱P feat. 初音ミク) [13:12](https://www.youtube.com/watch?v=w04JwJDSToU&t=792s) 
+5. #ffffff (Ito Shirataki) [15:35](https://www.youtube.com/watch?v=w04JwJDSToU&t=935s)
+
+##### Zoku (俗) 2012
+
+![Zoku](pictures/20211007130527.png)
+
+**YouTube:**  https://www.youtube.com/watch?v=rwc9gC60BXc
+1. CR Peculiar World View【CR独特な世界観】(鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=rwc9gC60BXc&t=0s) 
+2. Red Burst【あかいばく】(鬱P feat. 初音ミク) [3:54](https://www.youtube.com/watch?v=rwc9gC60BXc&t=234s) 
+3. Evil thoughts-kun's Theme【邪念くんのテーマ 】(鬱P feat. 初音ミク, 鏡音リン, GUMI) [6:05](https://www.youtube.com/watch?v=rwc9gC60BXc&t=365s) 
+4. Self-destruction no.2【自爆２号】 (鬱P feat. 初音ミク) [9:51](https://www.youtube.com/watch?v=rwc9gC60BXc&t=591s) 
+5. I Want To Become A Stuffed Animal【ぬいぐるみになりたい 】(鬱P feat. MAYU) [12:02](https://www.youtube.com/watch?v=rwc9gC60BXc&t=722s)
+
 #### MOKSHA 2012
 
 ![MOKSHA|400](pictures/20211007232937.png)
@@ -464,6 +493,16 @@
 10. Corpse Attack!!【骸Attack!!】 (鬱P feat. 初音ミク) [36:41](https://www.youtube.com/watch?v=ul0ACHQED2k&t=2201s)
 11. Cold【風邪】 (鬱P feat. GUMI) [40:37](https://www.youtube.com/watch?v=ul0ACHQED2k&t=2437s)
 12. THE DYING MESSAGE (鬱P feat. 鏡音リン) [46:19](https://www.youtube.com/watch?v=ul0ACHQED2k&t=2779s)
+
+##### TEYAKI 2014
+
+![TEYAKI|400](pictures/20211007125801.png)
+
+**YouTube:**  https://www.youtube.com/watch?v=CH89J435vbE
+
+1. Teller Story Teller【テラーストーリーテラー】(鬱P feat. flower) [00:00](https://www.youtube.com/watch?v=CH89J435vbE)
+2. Self-destruction No. 3【自爆３号】(鬱P feat. 初音ミク) [03:38](https://www.youtube.com/watch?v=CH89J435vbE&t=218s)
+3. Song of mourning【情死の唄】(鬱P feat. GUMI) [06:22](https://www.youtube.com/watch?v=CH89J435vbE&t=382s)
 
 #### ALGORITM 2014
 
@@ -578,49 +617,132 @@
 -  [vivid](https://www.youtube.com/watch?v=k48L7VD5Q5Q) (鬱P feat. 巡音ルカ, 初音ミク) 
 -  [ATARI FRONT PROGRAM](https://www.youtube.com/watch?v=lupVveArye8) (鬱P feat. 可不 [KAFU])
 
-#### EP
+### Okame-P
 
-##### DOLL 2009
+![CALVI](pictures/20211027120329.png)
 
-![DOLL|400](pictures/20211007125409.png)
+**Okame-P** (**オカメP**), также известный как **Кальви Таро**  (**かるび太郎**), вокарок продюссер известный за грустное, "прощальное" содержание своих текстов. Он использует грустные мелодии на пианино и переводит их на более жесткие тона. Его песня 'Our Fortia' посвящена цунами 11 марта 2011 года в Японии.
 
-**YouTube:**  https://www.youtube.com/watch?v=d-ieYrP2nOc
-1. Doll 【ドール】 (鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=0s) ❤
-2. dope disco (鬱P feat. 初音ミク) [4:32](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=272s) 
-3. Suicide Monster 【Kubikukuri・Monster / クビククリ・モンスター】 (鬱P feat. 初音ミク) [9:54](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=594s) 
-4. Flower 【Hana / 華】(鬱P feat. 初音ミク) [13:51](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=831s)
+Он начал использовать "Okame" (букв. "Корелла") в память о его питомце-корелле, умершем в 2009 году. Его песни также иногда ассоциируются с белой кореллой, изображенной в именах и изображениях.
 
-##### P 2011
+Вокалоиды, которые он использует, - это Хацунэ Мику, GUMI, Мегуринэ Лука и IA. На первом месте по использованию - Хацунэ Мику, а на втором - GUMI.
 
-![P|400](pictures/20211007130109.png)
+На момент 18 июня 2016 года Okame-P создал много работ, большинство из которых находятся в его цифровых альбомах. Важно отметить, что многие его работы НЕ доступны ни в одном из его альбомов.
+[(Оффициальный сайт)](http://il-cremonese.net/)
 
-**YouTube:**  https://www.youtube.com/watch?v=w04JwJDSToU
-1. Playback【再生】 (GUMI) [0:00](https://www.youtube.com/watch?v=w04JwJDSToU&t=0s) 
-2. Shit【ダイベン】 (鬱P feat. 初音ミク) [3:52](https://www.youtube.com/watch?v=w04JwJDSToU&t=232s) 
-3. Flower【華】 (鬱P feat. 初音ミク) [7:27](https://www.youtube.com/watch?v=w04JwJDSToU&t=447s) 
-4. Fear! The Speaker People (new ver.)【恐怖！スピーカー人間】 (鬱P feat. 初音ミク) [13:12](https://www.youtube.com/watch?v=w04JwJDSToU&t=792s) 
-5. #ffffff (Ito Shirataki) [15:35](https://www.youtube.com/watch?v=w04JwJDSToU&t=935s)
+#### Cockatiel 2013
 
-##### Zoku (俗) 2012
+![Cockatiel|400](pictures/20211027121041.png)
 
-![Zoku](pictures/20211007130527.png)
+**YouTube:** https://www.youtube.com/watch?v=EqR0q1bna_Q
+1. no way【やだよ】(オカメP feat. GUMI) [0:00](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=0s)
+2. Cold dream【冷たい夢】(オカメP feat. GUMI) [4:16](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=256s)
+3. kyrie eleison (オカメP feat. 初音ミク Append (Dark)) [9:04](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=544s)
+4. dreams and visions (オカメP feat. GUMI) [15:06](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=906s)
+5. long breath【吐息】(オカメP feat. GUMI) [18:49](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=1129s)
+6. Emotive Issue (オカメP feat. GUMI) [23:22](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=1402s)
+7. The end words【最果ての言葉】(オカメP feat. GUMI) [26:53](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=1613s)
+8. you're not alone (オカメP feat. GUMI) [30:46](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=1846s)
+9. Rest In Peace (オカメP feat. GUMI) [34:45](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=2085s)
+10. I'm telling the truth (オカメP feat. GUMI) [39:06](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=2346s)
+11. Flower language【花言葉 】(オカメP feat. GUMI) [43:05](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=2585s) 
+12. Imaginary Infinity【想像のインフィニティ】(オカメP feat. IA) [47:00](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=2820s)
 
-**YouTube:**  https://www.youtube.com/watch?v=rwc9gC60BXc
-1. CR Peculiar World View【CR独特な世界観】(鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=rwc9gC60BXc&t=0s) 
-2. Red Burst【あかいばく】(鬱P feat. 初音ミク) [3:54](https://www.youtube.com/watch?v=rwc9gC60BXc&t=234s) 
-3. Evil thoughts-kun's Theme【邪念くんのテーマ 】(鬱P feat. 初音ミク, 鏡音リン, GUMI) [6:05](https://www.youtube.com/watch?v=rwc9gC60BXc&t=365s) 
-4. Self-destruction no.2【自爆２号】 (鬱P feat. 初音ミク) [9:51](https://www.youtube.com/watch?v=rwc9gC60BXc&t=591s) 
-5. I Want To Become A Stuffed Animal【ぬいぐるみになりたい 】(鬱P feat. MAYU) [12:02](https://www.youtube.com/watch?v=rwc9gC60BXc&t=722s)
+#### Lamento 2015
 
-##### TEYAKI 2014
+![Lamento|400](pictures/20211027121841.png)
 
-![TEYAKI|400](pictures/20211007125801.png)
+**YouTube:** https://www.youtube.com/watch?v=AUYkm7JTUY0
 
-**YouTube:**  https://www.youtube.com/watch?v=CH89J435vbE
+1. Let me hear  (オカメP feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=0s)
+2. [heart's cry](https://www.youtube.com/watch?v=AhwT6fLx6O4&t=0s) (オカメP feat. 初音ミク) [3:44](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=224s)
+3. LAMENTO (オカメP feat. 初音ミク) [7:51](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=471s)
+4. [Lamentation of Kalima【カルミアの慟哭】](https://www.youtube.com/watch?v=jSua5JFKH6k&t=0s) (オカメP feat. 初音ミク) [11:05](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=665s)
+5. [acedia](https://www.youtube.com/watch?v=30w-PlDZWn0&t=0s) (オカメP feat. 初音ミク) [14:41](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=881s)
+6. [Take this all away](https://www.youtube.com/watch?v=LVMwxaQnZDg&t=0s) (オカメP feat. 初音ミク Append (Dark)) [18:05](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=1085s)
+7. [Miserere Novice【ミゼレーレノービス】](https://www.youtube.com/watch?v=0wBn0chw194&t=0s) (オカメP feat. 初音ミク) [22:04](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=1324s)
+8. [When the Cluster Amaryllis Withers【彼岸花の枯れる頃に】](https://www.youtube.com/watch?v=Ufs85bFc-ko&t=0s) (オカメP feat. 初音ミク) [26:44](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=1604s) 
+9. [Des mélodies entrecroisées](https://www.youtube.com/watch?v=8_w9i3WGYMA&t=0s) (オカメP feat. 初音ミク) [30:28](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=1828s) 
+10. Submerged City【水没都市】(オカメP feat. GUMI) [35:06](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=2106s)
+11. [On My Own](https://www.youtube.com/watch?v=TpZGUfWi3Dg&t=0s) (オカメP feat. GUMI) [38:29](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=2309s)
+12. [Faraway Light【悠遠の光】](https://www.youtube.com/watch?v=NtSAEqOorXA&t=0s) (オカメP feat. 初音ミク) [41:42](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=2502s)
+13. [EdelWeiss](https://www.youtube.com/watch?v=XJV6XtuXuqc&t=0s) (オカメP feat. 初音ミク) [47:25](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=2845s) 
+14. make me cry (オカメP feat. 初音ミク) [51:08](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=3068s)
+15. Tears of Dawn【東雲に涙】(オカメP feat. 初音ミク) [55:05](https://www.youtube.com/watch?v=AUYkm7JTUY0&t=3305s)
 
-1. Teller Story Teller【テラーストーリーテラー】(鬱P feat. flower) [00:00](https://www.youtube.com/watch?v=CH89J435vbE)
-2. Self-destruction No. 3【自爆３号】(鬱P feat. 初音ミク) [03:38](https://www.youtube.com/watch?v=CH89J435vbE&t=218s)
-3. Song of mourning【情死の唄】(鬱P feat. GUMI) [06:22](https://www.youtube.com/watch?v=CH89J435vbE&t=382s)
+#### Dreaming Colors 2015
+
+![DC|400](pictures/20211027123533.png)
+
+**YouTube:** https://www.youtube.com/watch?v=Nh88x0Y1dI4
+1. Away if you can feel me (オカメP feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=0s) 
+2. Why did the world choose me?【何故、世界は僕を選んだのか】(オカメP feat. 初音ミク) [3:51](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=231s) 
+3. Flowers in the Mud【泥の中の花】(オカメP feat. 初音ミク) [7:30](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=450s)
+4. Heath (オカメP feat. 初音ミク) [11:30](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=690s)
+5. Melancholy of Craspedia【クラスペディアの憂鬱】(オカメP feat. 初音ミク Append (Dark)) [15:48](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=948s) 
+6. Eternal Moonlight【悠久の月光】(オカメP feat. 初音ミク) [19:38](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=1178s) 
+7. It Hurts 【痛いよ】(オカメP feat. 初音ミク) [23:22](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=1402s)
+8. The music that left the feeling【想いを残した楽譜】(オカメP feat. 初音ミク) [26:49](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=1609s) 
+9. Playing a Dream【夢を奏でて】(オカメP feat. 初音ミク) [30:53](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=1853s) 
+10. Freesia refracta (オカメP feat. 初音ミク) [35:00](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=2100s) 
+11. Ensemble to play with you【君と奏でるアンサンブル】(オカメP feat. 初音ミク) [38:58](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=2338s) 
+12. Lullaby of Allium【アリウムの子守唄】(オカメP feat. 初音ミク) [43:07](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=2587s) 
+13. It's your way【それが君の道】(オカメP feat. 初音ミク) [46:44](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=2804s) 
+
+#### A peaceful death 2016
+
+![Apd|400](pictures/20211027124943.png)
+
+**YouTube** https://www.youtube.com/watch?v=bSGCpxkJsVI
+
+1. The Notes of Life【奏でる命の音色】(オカメP feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=0s)
+2. Dirty Sorrow【汚れた哀婉】(オカメP feat. 巡音ルカ) [3:13](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=193s)
+3. Your Dream With Me【君の夢と僕】(オカメP feat. 初音ミク) [6:34](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=394s) 
+4. The Song With No End【終わらない唄を】(オカメP feat. 巡音ルカ) [9:51](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=591s) 
+5. Transparent Consciousness【意識は透明】(オカメP feat. 初音ミク V3 (Dark)) [13:10](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=790s)
+6. You're fucking beautiful (オカメP feat. 巡音ルカ) [17:03](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=1023s) 
+7. Panikhida (オカメP feat. V3 GUMI (Power)) [20:40](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=1240s) 
+8. Daydream of the ideals (オカメP feat. 初音ミク) [24:51](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=1491s) 
+9. Happy Tears of Blood【幸せな血涙】(オカメP feat. 巡音ルカ) [28:21](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=1701s) 
+10. these tears won't wash you away (オカメP feat. 初音ミク) [31:55](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=1915s) 
+11. A peaceful death (オカメP feat. 巡音ルカ) [35:45](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=2145s) 
+12. The End of This Noise【このノイズの先には】(オカメP feat. 初音ミク) [39:03](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=2343s) 
+13. Leaving Your Heart Behind【心に残して】(オカメP feat. 巡音ルカ) [43:33](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=2613s) 
+14. Placing Feelings【想いを乗せて】(オカメP feat. 初音ミク) [47:37](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=2857s) 
+15. Brilliant Colors【鮮やかに色づいて】(オカメP feat. 初音ミク) [51:25](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=3085s) 
+16. Hold hands with you (オカメP feat. 巡音ルカ) [55:46](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=3346s) 
+17. Last Words to You【君へ贈る最後の言葉】(オカメP feat. 初音ミク) [1:00:12](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=3612s) 
+18. COLOR (オカメP feat. 初音ミク) [1:04:07](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=3847s) 
+19. Heart (オカメP feat. 初音ミク) [1:07:54](https://www.youtube.com/watch?v=bSGCpxkJsVI&t=4074s) 
+
+#### Sanctuary 2016
+
+![Sanctuary|400](pictures/20211027130536.png)
+
+1. [You and My Sanctuary【君と僕のサンクチュアリィ】](https://www.youtube.com/watch?v=J3PO8bZIVuo) (オカメP feat. 初音ミク)
+2. [Almost Broken Spiritual World【壊れかけの世界】](https://www.youtube.com/watch?v=qPP0NQXLJm4) (オカメP feat. 初音ミク)
+3. [Cry, Cry, Cry](https://www.youtube.com/watch?v=xm84IP8H9vA) (オカメP feat. 初音ミク)
+4. [Gods Giving Miracle【神様がくれた奇跡】](https://www.youtube.com/watch?v=gIdLapV_BQ0) (オカメP feat. 初音ミク)
+5. [Your Voice in a Dream【夢を見れば君の声】](https://www.youtube.com/watch?v=zNZ-RKj2BhU) (オカメP feat. 初音ミク)
+6. [My Precious](https://www.youtube.com/watch?v=OOaopNjCjd4) (オカメP feat. 初音ミク)
+
+#### Die For You 2017
+
+![Diy|400](pictures/20211027132025.png)
+
+**YouTube** https://www.youtube.com/watch?v=a0oTWoJlV3E
+1. Very Empty Voice【空虚なとても空虚な声で】(オカメP feat. 初音ミク Append (Dark)) [0:00](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=0s) 
+2. -2009- The Beginning of a Dream【-2009-夢の始まり】(オカメP feat. 巡音ルカ) [4:18](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=258s) 
+3. Regret Message (オカメP feat. 巡音ルカ) [7:28](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=448s) 
+4. Lonesome (オカメP feat. 巡音ルカ) [10:46](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=646s) 
+5. I'm a Fake (オカメP feat. 初音ミク Append (Dark)) [14:38](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=878s) 
+6. Sentimental Voice【感傷的な声】(オカメP feat. 初音ミク Append (Dark)) [18:34](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=1114s) 
+7. Sorrow (オカメP feat. 初音ミク Append (Dark)) [22:35](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=1355s) 
+8. Hopes and fears (オカメP feat. 初音ミク Append (Dark)) [26:05](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=1565s) 
+9. F clef (オカメP feat. 初音ミク Append (Dark)) [29:31](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=1771s) 
+10. Cynthia Scent【シンシアの香り】(オカメP feat. 初音ミク Append (Dark)) [32:51](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=1971s) 
+11. Die For You (オカメP feat. 初音ミク Append (Dark)) [37:04](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=2224s) 
+12. -2017- The End of a Dream【-2017-夢の終わりに】(オカメP feat. 初音ミク Append (Dark)) [41:14](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=2474s)
 
 ## FAQ
 
