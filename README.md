@@ -648,6 +648,13 @@
 11. Flower language【花言葉 】(オカメP feat. GUMI) [43:05](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=2585s) 
 12. Imaginary Infinity【想像のインフィニティ】(オカメP feat. IA) [47:00](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=2820s)
 
+#### Erica 2014
+
+![Erica|400](pictures/20211029160528.png) 
+
+1. [Erica](http://www.nicovideo.jp/watch/sm21962371) (オカメP feat. 初音ミク Append (Dark))
+2. [The Atonement Я](https://www.youtube.com/watch?v=tS4vDulqHYc) (オカメP feat. 初音ミク)
+
 #### Lamento 2015
 
 ![Lamento|400](pictures/20211027121841.png)
@@ -743,6 +750,31 @@
 10. Cynthia Scent【シンシアの香り】(オカメP feat. 初音ミク Append (Dark)) [32:51](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=1971s) 
 11. Die For You (オカメP feat. 初音ミク Append (Dark)) [37:04](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=2224s) 
 12. -2017- The End of a Dream【-2017-夢の終わりに】(オカメP feat. 初音ミク Append (Dark)) [41:14](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=2474s)
+
+#### ワスレナグサ (Forget-me-not) 2018
+
+![ワスレナグサ|400](pictures/20211029162525.png)
+
+1. [I'm so sick](https://www.youtube.com/watch?v=j4eMi2gC8LM) (オカメP feat. 初音ミク)
+2. [Bygone world【過ぎ去りし世界】](https://www.youtube.com/watch?v=fOG6RbZzn6I) (オカメP feat. 初音ミク)
+3. [Devil's investigation【悪魔の調べ】](https://www.youtube.com/watch?v=rJ8rojcCerM) (オカメP feat. 巡音ルカ)
+4. [Forget-me-not【ワスレナグサ】](https://www.nicovideo.jp/watch/sm32995098) (オカメP feat. 初音ミク)
+5. [Invisible](https://www.youtube.com/watch?v=eCWeCok0nMY) (オカメP feat. 初音ミク)
+6. [Hi...【ねぇ・・・】](https://www.youtube.com/watch?v=tCbE18PBju8) (オカメP feat. 初音ミク, 巡音ルカ)
+7. [Between you and the world【君と世界の狭間】](https://www.youtube.com/watch?v=XGQiQ1ivgFM) (オカメP feat. 巡音ルカ)
+8. [Fall](https://www.youtube.com/watch?v=EcT07sj03ks) (オカメP feat. 初音ミク)
+9. [Aika【愛花】](https://www.youtube.com/watch?v=DayyIGCUzyo) (オカメP feat. 初音ミク)
+
+#### Your voice 2019
+
+![Yv|400](pictures/20211029161451.png)
+
+1. [Erase Me](https://www.youtube.com/watch?v=alQpzxtgLtg) (オカメP feat. 初音ミク)
+2. [My heart color](https://www.youtube.com/watch?v=AHar51Mk8hI) (オカメP feat. 巡音ルカ)
+3. [Empty happiness](https://www.youtube.com/watch?v=g20qpvWFr28) (オカメP feat. 初音ミク)
+4. [I believed in eternity](https://www.youtube.com/watch?v=vt3kFpUHKok) (オカメP feat. 巡音ルカ)
+5. [I feel you](https://www.youtube.com/watch?v=d5h4LjHCQbY) (オカメP feat. 初音ミク)
+6. [Your voice dancing in the wind【風に舞う君の声】](https://www.youtube.com/watch?v=PcETcFaC6QU) (オカメP feat. 初音ミク)
 
 ## FAQ
 
