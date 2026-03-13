@@ -1,0 +1,78 @@
+{
+  "artistLinks": [],
+  "artistType": "OtherIndividual",
+  "createDate": "2013-09-22T20:26:50",
+  "defaultName": "はるお",
+  "defaultNameLanguage": "Japanese",
+  "description": "",
+  "id": 14679,
+  "mainPicture": {
+    "mime": "image/jpeg",
+    "urlOriginal": "https://static.vocadb.net/img/Artist/mainOrig/14679.jpg?v=5",
+    "urlSmallThumb": "https://static.vocadb.net/img/Artist/mainSmall/14679.jpg?v=5",
+    "urlThumb": "https://static.vocadb.net/img/Artist/mainThumb/14679.jpg?v=5",
+    "urlTinyThumb": "https://static.vocadb.net/img/Artist/mainTiny/14679.jpg?v=5"
+  },
+  "name": "Haluo",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "はるお"
+    },
+    {
+      "language": "Unspecified",
+      "value": "ロリの腹部大好きP "
+    },
+    {
+      "language": "English",
+      "value": "Haluo"
+    }
+  ],
+  "pictureMime": "image/jpeg",
+  "status": "Finished",
+  "version": 5,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "NND MyList",
+      "disabled": false,
+      "id": 29249,
+      "url": "http://www.nicovideo.jp/mylist/35442246"
+    },
+    {
+      "category": "Official",
+      "description": "NND Account",
+      "disabled": false,
+      "id": 29250,
+      "url": "http://www.nicovideo.jp/user/22413835"
+    },
+    {
+      "category": "Official",
+      "description": "Twitter",
+      "disabled": false,
+      "id": 29251,
+      "url": "https://twitter.com/haluo_haluo"
+    },
+    {
+      "category": "Official",
+      "description": "TmBOX",
+      "disabled": false,
+      "id": 76208,
+      "url": "http://tmbox.net/user/haluo_haluo"
+    },
+    {
+      "category": "Reference",
+      "description": "UtaiteDB",
+      "disabled": false,
+      "id": 76209,
+      "url": "http://utaitedb.net/Ar/10402"
+    },
+    {
+      "category": "Official",
+      "description": "NND MyList (2)",
+      "disabled": false,
+      "id": 147467,
+      "url": "http://www.nicovideo.jp/mylist/34541690"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "additionalNames": [],
+  "albumIds": [],
+  "artistType": "OtherGroup",
+  "defaultName": "Omoi",
+  "descriptionShort": "A circle that began in 2013 and consists of Sakurai and Kimura.\nSakurai does the lyrics, composition, tuning, and drums, while Kimura does the synthesis, keyboard and guitar.",
+  "displayName": "Omoi",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/37582888"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/Omoi3965"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/33110496"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "http://www.youtube.com/user/Omoi3965"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/28820.html"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/omoi3965"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Lyrics Wiki",
+      "official": true,
+      "service": "vocaloidlyrics.miraheze.org",
+      "url": "https://vocaloidlyrics.miraheze.org/wiki/Category:Omoi_songs_list"
+    },
+    {
+      "kind": "official",
+      "label": "Blog",
+      "official": true,
+      "service": "omoi3965.blog.fc2.com",
+      "url": "http://omoi3965.blog.fc2.com/"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": false,
+      "service": "omoi3965.com",
+      "url": "https://www.omoi3965.com/"
+    },
+    {
+      "kind": "official",
+      "label": "Bilibili",
+      "official": true,
+      "service": "space.bilibili.com",
+      "url": "https://space.bilibili.com/396817746/"
+    },
+    {
+      "kind": "official",
+      "label": "Weibo",
+      "official": true,
+      "service": "weibo.com",
+      "url": "https://weibo.com/6415314132/"
+    },
+    {
+      "kind": "commercial",
+      "label": "TuneCore Japan",
+      "official": true,
+      "service": "tunecore.co.jp",
+      "url": "https://www.tunecore.co.jp/artist/Omoi"
+    },
+    {
+      "kind": "commercial",
+      "label": "BOOTH",
+      "official": true,
+      "service": "omoi.booth.pm",
+      "url": "https://omoi.booth.pm/"
+    },
+    {
+      "kind": "official",
+      "label": "Pixiv FANBOX",
+      "official": true,
+      "service": "pixiv.net",
+      "url": "https://www.pixiv.net/fanbox/creator/21144433"
+    },
+    {
+      "kind": "official",
+      "label": "Pixiv",
+      "official": true,
+      "service": "pixiv.net",
+      "url": "https://www.pixiv.net/member.php?id=21144433"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "play.spotify.com",
+      "url": "https://play.spotify.com/artist/1infnYC6dYWHOK0xtPRmAq?si=7NEhGD_qRRely02wuywS7w"
+    },
+    {
+      "kind": "commercial",
+      "label": "KARENT",
+      "official": true,
+      "service": "karent.jp",
+      "url": "https://karent.jp/artist/pp000832"
+    },
+    {
+      "kind": "reference",
+      "label": "Discogs",
+      "official": true,
+      "service": "discogs.com",
+      "url": "https://www.discogs.com/artist/6614411"
+    },
+    {
+      "kind": "reference",
+      "label": "MusicBrainz",
+      "official": true,
+      "service": "musicbrainz.org",
+      "url": "https://musicbrainz.org/artist/c932914d-88b6-4eea-b937-43c834fe0077"
+    },
+    {
+      "kind": "official",
+      "label": "osu! Featured Artist Listing",
+      "official": true,
+      "service": "osu.ppy.sh",
+      "url": "https://osu.ppy.sh/beatmaps/artists/104"
+    }
+  ],
+  "groups": [
+    "artist-276"
+  ],
+  "id": "artist-10137",
+  "name": "Omoi",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/10137.jpg?v=31",
+  "rawHash": "163feca05008ceb054bbb1ac88628489a442e07dbb045e6e273327a1064b6e4b",
+  "relatedArtistIds": [
+    "artist-276"
+  ],
+  "slug": "omoi--vocadb-10137",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/10137",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/omoi--vocadb-10137/",
+  "vocadbId": 10137,
+  "voicebanks": []
+}

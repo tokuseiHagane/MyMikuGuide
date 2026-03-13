@@ -1,0 +1,179 @@
+{
+  "artistLinks": [
+    {
+      "artist": {
+        "additionalNames": "カレント, KarenT",
+        "artistType": "Label",
+        "deleted": false,
+        "id": 276,
+        "name": "KARENT",
+        "pictureMime": "image/jpeg",
+        "status": "Locked",
+        "version": 28
+      },
+      "linkType": "Group"
+    }
+  ],
+  "artistType": "Producer",
+  "createDate": "2020-05-13T15:54:19.297",
+  "defaultName": "Kanaria",
+  "defaultNameLanguage": "Japanese",
+  "description": "",
+  "id": 80976,
+  "mainPicture": {
+    "mime": "image/jpeg",
+    "urlOriginal": "https://static.vocadb.net/img/Artist/mainOrig/80976.jpg?v=10",
+    "urlSmallThumb": "https://static.vocadb.net/img/Artist/mainSmall/80976.jpg?v=10",
+    "urlThumb": "https://static.vocadb.net/img/Artist/mainThumb/80976.jpg?v=10",
+    "urlTinyThumb": "https://static.vocadb.net/img/Artist/mainTiny/80976.jpg?v=10"
+  },
+  "name": "Kanaria",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "Kanaria"
+    },
+    {
+      "language": "Unspecified",
+      "value": "KANA-RiA"
+    }
+  ],
+  "pictureMime": "image/jpeg",
+  "status": "Approved",
+  "version": 10,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "NND Account",
+      "disabled": false,
+      "id": 196746,
+      "url": "https://www.nicovideo.jp/user/95303437"
+    },
+    {
+      "category": "Official",
+      "description": "NND MyList",
+      "disabled": false,
+      "id": 196747,
+      "url": "https://www.nicovideo.jp/mylist/67884328"
+    },
+    {
+      "category": "Official",
+      "description": "Twitter",
+      "disabled": false,
+      "id": 196748,
+      "url": "https://twitter.com/Kanaria390"
+    },
+    {
+      "category": "Official",
+      "description": "YouTube Channel",
+      "disabled": false,
+      "id": 196749,
+      "url": "https://www.youtube.com/channel/UC10BM9XdLdrvB8japwmRUvA"
+    },
+    {
+      "category": "Commercial",
+      "description": "iTunes (JP)",
+      "disabled": false,
+      "id": 229929,
+      "url": "https://music.apple.com/jp/artist/kanaria/1522309252"
+    },
+    {
+      "category": "Commercial",
+      "description": "Spotify",
+      "disabled": false,
+      "id": 229930,
+      "url": "https://open.spotify.com/artist/1k5LyiTCRzPjORzcgHqJxF?si=eLHQxo3tTYmIkmVVy35lbQ&dl_branch=1"
+    },
+    {
+      "category": "Commercial",
+      "description": "MySound",
+      "disabled": false,
+      "id": 229931,
+      "url": "https://mysound.jp/art/447443/"
+    },
+    {
+      "category": "Commercial",
+      "description": "OTOTOY",
+      "disabled": false,
+      "id": 229932,
+      "url": "https://ototoy.jp/_/default/a/773793"
+    },
+    {
+      "category": "Commercial",
+      "description": "music.jp",
+      "disabled": false,
+      "id": 229933,
+      "url": "https://music-book.jp/music/Artist/1446279"
+    },
+    {
+      "category": "Commercial",
+      "description": "KARENT",
+      "disabled": false,
+      "id": 247939,
+      "url": "https://karent.jp/artist/pp000923"
+    },
+    {
+      "category": "Reference",
+      "description": "Vocaloid Wiki",
+      "disabled": false,
+      "id": 260312,
+      "url": "https://vocaloid.fandom.com/wiki/Kanaria"
+    },
+    {
+      "category": "Official",
+      "description": "Website",
+      "disabled": false,
+      "id": 260313,
+      "url": "https://kanaria.codes/"
+    },
+    {
+      "category": "Official",
+      "description": "TikTok",
+      "disabled": false,
+      "id": 260314,
+      "url": "https://www.tiktok.com/@kanaria390"
+    },
+    {
+      "category": "Reference",
+      "description": "MikuWiki",
+      "disabled": false,
+      "id": 260315,
+      "url": "https://w.atwiki.jp/hmiku/pages/41353.html"
+    },
+    {
+      "category": "Reference",
+      "description": "NicoNicoPedia",
+      "disabled": false,
+      "id": 260316,
+      "url": "http://dic.nicovideo.jp/a/Kanaria"
+    },
+    {
+      "category": "Reference",
+      "description": "UtaiteDB",
+      "disabled": false,
+      "id": 260317,
+      "url": "http://utaitedb.net/Ar/23450"
+    },
+    {
+      "category": "Commercial",
+      "description": "TuneCore Japan",
+      "disabled": false,
+      "id": 270246,
+      "url": "https://www.tunecore.co.jp/artists?id=620342"
+    },
+    {
+      "category": "Reference",
+      "description": "Wikipedia (EN)",
+      "disabled": false,
+      "id": 371678,
+      "url": "https://en.wikipedia.org/wiki/Kanaria_(musician)"
+    },
+    {
+      "category": "Reference",
+      "description": "Wikipedia (JP)",
+      "disabled": false,
+      "id": 371679,
+      "url": "https://ja.wikipedia.org/wiki/Kanaria"
+    }
+  ]
+}

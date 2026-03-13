@@ -1,0 +1,433 @@
+{
+  "albums": [
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.03, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.03",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2022-05-12T04:49:20.377",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 32376,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.03",
+      "ratingAverage": 4.81,
+      "ratingCount": 11,
+      "releaseDate": {
+        "day": 4,
+        "isEmpty": false,
+        "month": 5,
+        "year": 2022
+      },
+      "status": "Finished",
+      "version": 18
+    }
+  ],
+  "artistString": "HoneyWorks feat. Hatsune Miku",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "初音ミク, 初音未来, Chūyīn Wèilái, 하츠네 미쿠, 初音未來",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 1,
+        "name": "Hatsune Miku",
+        "pictureMime": "image/png",
+        "releaseDate": "2007-08-31T00:00:00Z",
+        "status": "Locked",
+        "version": 39
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 897421,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Hatsune Miku",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "ハニーワークス, ハニワ, Haniwa",
+        "artistType": "OtherGroup",
+        "deleted": false,
+        "id": 855,
+        "name": "HoneyWorks",
+        "pictureMime": "image/jpeg",
+        "status": "Approved",
+        "version": 27
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Composer",
+      "id": 897422,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "HoneyWorks",
+      "roles": "Composer"
+    },
+    {
+      "artist": {
+        "additionalNames": "のう, nounoknown, チキンナゲット",
+        "artistType": "Illustrator",
+        "deleted": false,
+        "id": 10026,
+        "name": "nou",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 15
+      },
+      "categories": "Illustrator",
+      "effectiveRoles": "Illustrator",
+      "id": 897423,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "nou",
+      "roles": "Illustrator"
+    },
+    {
+      "artist": {
+        "additionalNames": "利波　雷",
+        "artistType": "Animator",
+        "deleted": false,
+        "id": 23906,
+        "name": "Rinami Rai",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 6
+      },
+      "categories": "Animator",
+      "effectiveRoles": "Animator",
+      "id": 897424,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Rinami Rai",
+      "roles": "Animator"
+    },
+    {
+      "artist": {
+        "additionalNames": "裕木レオン",
+        "artistType": "Instrumentalist",
+        "deleted": false,
+        "id": 55059,
+        "name": "Yuki Leon",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 6
+      },
+      "categories": "Other",
+      "effectiveRoles": "Instrumentalist",
+      "id": 897829,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Yuki Leon",
+      "roles": "Instrumentalist"
+    },
+    {
+      "artist": {
+        "additionalNames": "コミヤマリオ, こみやまりお",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 82714,
+        "name": "Komiya Mario",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 6
+      },
+      "categories": "Other",
+      "effectiveRoles": "Other",
+      "id": 897830,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Komiya Mario",
+      "roles": "Other"
+    },
+    {
+      "artist": {
+        "additionalNames": "宇都圭輝, cake",
+        "artistType": "Instrumentalist",
+        "deleted": false,
+        "id": 14786,
+        "name": "Uto Keiki",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 11
+      },
+      "categories": "Other",
+      "effectiveRoles": "Instrumentalist, Other",
+      "id": 897831,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Uto Keiki",
+      "roles": "Instrumentalist, Other"
+    },
+    {
+      "artist": {
+        "additionalNames": "中西, ピストン, Piston",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 781,
+        "name": "Nakanishi",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 13
+      },
+      "categories": "Other",
+      "effectiveRoles": "Instrumentalist",
+      "id": 897832,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Nakanishi",
+      "roles": "Instrumentalist"
+    },
+    {
+      "artist": {
+        "additionalNames": "海賊王, Oji, 星野雄紀, Hoshino Yuuki",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 2115,
+        "name": "Kaizoku Ou",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 13
+      },
+      "categories": "Other",
+      "effectiveRoles": "Instrumentalist",
+      "id": 1414455,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Kaizoku Ou",
+      "roles": "Instrumentalist"
+    },
+    {
+      "artist": {
+        "additionalNames": "桐谷",
+        "artistType": "Illustrator",
+        "deleted": false,
+        "id": 170411,
+        "name": "Kiritani",
+        "pictureMime": "image/png",
+        "status": "Finished",
+        "version": 2
+      },
+      "categories": "Illustrator",
+      "effectiveRoles": "Illustrator",
+      "id": 2445984,
+      "isCustomName": false,
+      "isSupport": true,
+      "name": "Kiritani",
+      "roles": "Illustrator"
+    }
+  ],
+  "createDate": "2021-04-29T14:20:32.333",
+  "defaultName": "アリスブルー",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 3,
+  "id": 330937,
+  "lengthSeconds": 205,
+  "mainPicture": {
+    "urlOriginal": "https://i1.ytimg.com/vi/xU5XVtN-uqY/hqdefault.jpg",
+    "urlThumb": "https://nicovideo.cdn.nimg.jp/thumbnails/38696181/38696181.21279032"
+  },
+  "name": "Alice Blue",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "アリスブルー"
+    },
+    {
+      "language": "English",
+      "value": "Alice Blue"
+    }
+  ],
+  "publishDate": "2021-04-29T00:00:00Z",
+  "pvServices": "NicoNicoDouga, Youtube",
+  "pvs": [
+    {
+      "author": "HoneyWorks OFFICIAL",
+      "disabled": true,
+      "id": 482050,
+      "length": 205,
+      "name": "アリスブルー feat. 初音ミク／HoneyWorks【#コンパス​】",
+      "publishDate": "2021-04-29T00:00:00",
+      "pvId": "xU5XVtN-uqY",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/xU5XVtN-uqY/default.jpg",
+      "url": "https://youtu.be/xU5XVtN-uqY"
+    },
+    {
+      "author": "ゴム（HoneyWorks）",
+      "disabled": true,
+      "id": 482141,
+      "length": 204,
+      "name": "アリスブルー feat. 初音ミク／HoneyWorks【#コンパス​】",
+      "publishDate": "2021-04-29T00:00:00",
+      "pvId": "sm38644656",
+      "pvType": "Original",
+      "service": "NicoNicoDouga",
+      "thumbUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/38644656/38644656.85898222",
+      "url": "http://www.nicovideo.jp/watch/sm38644656"
+    },
+    {
+      "author": "ゴム（HoneyWorks）",
+      "disabled": false,
+      "id": 484849,
+      "length": 204,
+      "name": "アリスブルー feat. 初音ミク／HoneyWorks【#コンパス​】",
+      "publishDate": "2021-05-06T00:00:00",
+      "pvId": "sm38696181",
+      "pvType": "Original",
+      "service": "NicoNicoDouga",
+      "thumbUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/38696181/38696181.21279032",
+      "url": "http://www.nicovideo.jp/watch/sm38696181"
+    },
+    {
+      "author": "HoneyWorks OFFICIAL",
+      "disabled": false,
+      "id": 484850,
+      "length": 205,
+      "name": "アリスブルー feat. 初音ミク／HoneyWorks【#コンパス​】",
+      "publishDate": "2021-05-06T00:00:00",
+      "pvId": "GZy-zHU1daw",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/GZy-zHU1daw/default.jpg",
+      "url": "https://youtu.be/GZy-zHU1daw"
+    },
+    {
+      "author": "Release - Topic",
+      "disabled": false,
+      "id": 926991,
+      "length": 205,
+      "name": "アリスブルー",
+      "publishDate": "2024-03-31T00:00:00",
+      "pvId": "VKiV4eH4tTg",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/VKiV4eH4tTg/default.jpg",
+      "url": "https://youtu.be/VKiV4eH4tTg"
+    }
+  ],
+  "ratingScore": 51,
+  "songType": "Original",
+  "status": "Finished",
+  "tags": [
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "可愛い, adorable, かわいい, kawaii, sweet",
+        "categoryName": "Subjective",
+        "id": 81,
+        "name": "cute",
+        "urlSlug": "cute"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "ポップ・ロック, pop-rock, guitar pop",
+        "categoryName": "Genres",
+        "id": 343,
+        "name": "pop rock",
+        "urlSlug": "pop-rock"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "パワーポップ, power-pop",
+        "categoryName": "Genres",
+        "id": 348,
+        "name": "power pop",
+        "urlSlug": "power-pop"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "visual novel official soundtrack release, video game soundtrack, visual novel soundtrack",
+        "categoryName": "Sources",
+        "id": 456,
+        "name": "video game official soundtrack release",
+        "urlSlug": "video-game-official-soundtrack"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "ロック, vocarock, utaurock, 摇滚",
+        "categoryName": "Genres",
+        "id": 481,
+        "name": "rock",
+        "urlSlug": "rock"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "J-POP‎ , ポップス, pops, Jpop, ジェイポップ, ジェーポップ",
+        "categoryName": "Genres",
+        "id": 1654,
+        "name": "J-pop",
+        "urlSlug": "j-pop"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "unknown artist, entry missing producer, entry missing vocalists",
+        "categoryName": "Editor notes",
+        "id": 2808,
+        "name": "entry missing artists",
+        "urlSlug": "entry-missing-artists"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "お洒落, fashionable, おしゃれ",
+        "categoryName": "Subjective",
+        "id": 3015,
+        "name": "stylish",
+        "urlSlug": "stylish"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "不思議の国のアリス, Alice's Adventures in Wonderland",
+        "categoryName": "Themes",
+        "id": 3082,
+        "name": "Alice in Wonderland",
+        "urlSlug": "alice-in-wonderland"
+      }
+    },
+    {
+      "count": 4,
+      "tag": {
+        "additionalNames": "#コンパス, 戦闘摂理解析システム, NND Compass",
+        "categoryName": "Copyrights",
+        "id": 6107,
+        "name": "#compass",
+        "urlSlug": "compass"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "青, ao, azure, アジュール",
+        "categoryName": "Themes",
+        "id": 8909,
+        "name": "blue",
+        "urlSlug": "blue"
+      }
+    }
+  ],
+  "version": 18,
+  "webLinks": [
+    {
+      "category": "Reference",
+      "description": "Vocaloid Lyrics Wiki",
+      "disabled": false,
+      "id": 100396,
+      "url": "https://vocaloidlyrics.miraheze.org/wiki/%E3%82%A2%E3%83%AA%E3%82%B9%E3%83%96%E3%83%AB%E3%83%BC_(Alice_Blue)"
+    }
+  ]
+}

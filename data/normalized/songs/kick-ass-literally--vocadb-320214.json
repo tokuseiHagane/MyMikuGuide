@@ -1,0 +1,131 @@
+{
+  "additionalNames": [
+    "リアルにぶっとばす",
+    "揍你哦 说真的",
+    "Real ni Buttobasu",
+    "리얼로 날려버려"
+  ],
+  "albumIds": [
+    "album-29924",
+    "album-30255",
+    "album-32376"
+  ],
+  "artistIds": [
+    "artist-28",
+    "artist-2506",
+    "artist-522",
+    "artist-11830",
+    "artist-50235"
+  ],
+  "defaultName": "リアルにぶっとばす",
+  "displayName": "KICK-ASS *LITERALLY",
+  "durationSeconds": 208,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Pixiv (illustrations)",
+      "official": true,
+      "service": "pixiv.net",
+      "url": "https://www.pixiv.net/en/artworks/88252397"
+    },
+    {
+      "kind": "original",
+      "label": "ピノキオピー - リアルにぶっとばす feat. 初音ミク / KICK-ASS *LITERALLY",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/f4hb4Fyyylc"
+    },
+    {
+      "kind": "original",
+      "label": "【初音ミク】揍你哦 说真的【ピノキオピー】",
+      "official": true,
+      "service": "bilibili",
+      "url": "https://www.bilibili.com/video/av459401824"
+    },
+    {
+      "kind": "original",
+      "label": "リアルにぶっとばす / 初音ミク",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm38352773"
+    },
+    {
+      "kind": "original",
+      "label": "リアルにぶっとばす",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/ynqb7oj6Aos"
+    },
+    {
+      "kind": "original",
+      "label": "リアルにぶっとばす",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/aATiE_bL8nM"
+    },
+    {
+      "kind": "original",
+      "label": "PinocchioP / ピノキオピー - KICK-ASS *LITERALLY",
+      "official": true,
+      "service": "bandcamp",
+      "url": "https://pinocchiop.bandcamp.com/track/kick-ass-literally"
+    },
+    {
+      "kind": "original",
+      "label": "リアルにぶっとばす",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/2iMM5U5kpj8"
+    }
+  ],
+  "id": "song-320214",
+  "primaryImage": "https://i1.ytimg.com/vi/f4hb4Fyyylc/hqdefault.jpg",
+  "publishDate": "2021-03-05T00:00:00Z",
+  "rawHash": "bfc2df8c5f3376a14b5d80573f18184aa5b0ee054a26c0ce97064edfba2cecd2",
+  "slug": "kick-ass-literally--vocadb-320214",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/320214",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "tags": [
+    "video game official soundtrack release",
+    "tsundere",
+    "flashing lights warning",
+    "stylish",
+    "karaoke available",
+    "funny",
+    "battle",
+    "2D animated PV",
+    "comics PV",
+    "catchy",
+    "good tuning",
+    "explosions",
+    "J-rock",
+    "#compass",
+    "chibi",
+    "breakup",
+    "gun",
+    "English subtitles",
+    "Doushite-chan",
+    "Aimaina-chan",
+    "green",
+    "energetic",
+    "#COMPASS LIVE ARENA",
+    "vivid",
+    "colorful",
+    "stem data distribution (VocaColle)",
+    "anger",
+    "multilingual subtitles"
+  ],
+  "title": "KICK-ASS *LITERALLY",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/kick-ass-literally--vocadb-320214/",
+  "vocadbId": 320214,
+  "vocalistIds": [
+    "artist-11830",
+    "artist-50235"
+  ],
+  "year": 2021
+}

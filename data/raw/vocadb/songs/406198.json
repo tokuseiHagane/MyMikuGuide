@@ -1,0 +1,115 @@
+{
+  "albums": [
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.03, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.03",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2022-05-12T04:49:20.377",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 32376,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.03",
+      "ratingAverage": 4.81,
+      "ratingCount": 11,
+      "releaseDate": {
+        "day": 4,
+        "isEmpty": false,
+        "month": 5,
+        "year": 2022
+      },
+      "status": "Finished",
+      "version": 18
+    }
+  ],
+  "artistString": "Utsu-P feat. Hatsune Miku",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "鬱P, 郁P, 우츠P",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 90,
+        "name": "Utsu-P",
+        "pictureMime": "image/png",
+        "status": "Approved",
+        "version": 47
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Default",
+      "id": 1113124,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Utsu-P",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "初音ミク, 初音未来, Chūyīn Wèilái, 하츠네 미쿠, 初音未來",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 1,
+        "name": "Hatsune Miku",
+        "pictureMime": "image/png",
+        "releaseDate": "2007-08-31T00:00:00Z",
+        "status": "Locked",
+        "version": 39
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 1113125,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Hatsune Miku",
+      "roles": "Default"
+    }
+  ],
+  "createDate": "2022-05-12T04:58:39.257",
+  "defaultName": "キレキャリオン Remixed by 鬱P",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 4,
+  "id": 406198,
+  "lengthSeconds": 201,
+  "mainPicture": {
+    "urlOriginal": "https://i1.ytimg.com/vi/drq965sOWGA/hqdefault.jpg",
+    "urlThumb": "https://i.ytimg.com/vi/drq965sOWGA/default.jpg"
+  },
+  "name": "Kill, Carry On Remixed by Utsu-P",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "キレキャリオン Remixed by 鬱P"
+    },
+    {
+      "language": "Romaji",
+      "value": "Kire Carry On Remixed by Utsu-P"
+    },
+    {
+      "language": "English",
+      "value": "Kill, Carry On Remixed by Utsu-P"
+    }
+  ],
+  "originalVersionId": 143259,
+  "publishDate": "2022-05-04T00:00:00Z",
+  "pvServices": "Youtube",
+  "pvs": [
+    {
+      "author": "HUMANOID-SV",
+      "disabled": false,
+      "id": 754372,
+      "length": 201,
+      "name": "[Utsu-P Metalcore Remix] Police Piccadilly - Kire Carry On (feat. Hatsune Miku)",
+      "publishDate": "2021-10-11T00:00:00",
+      "pvId": "drq965sOWGA",
+      "pvType": "Reprint",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/drq965sOWGA/default.jpg",
+      "url": "https://youtu.be/drq965sOWGA"
+    }
+  ],
+  "ratingScore": 32,
+  "songType": "Remix",
+  "status": "Finished",
+  "tags": [],
+  "version": 8,
+  "webLinks": []
+}

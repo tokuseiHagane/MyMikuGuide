@@ -1,0 +1,592 @@
+{
+  "albums": [
+    {
+      "additionalNames": "リアルにぶっとばす",
+      "artistString": "PinocchioP feat. Hatsune Miku",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2021-04-07T06:44:59.673",
+      "deleted": false,
+      "discType": "Single",
+      "id": 29924,
+      "name": "KICK-ASS *LITERALLY",
+      "ratingAverage": 5,
+      "ratingCount": 2,
+      "releaseDate": {
+        "day": 6,
+        "isEmpty": false,
+        "month": 4,
+        "year": 2021
+      },
+      "status": "Finished",
+      "version": 6
+    },
+    {
+      "additionalNames": "ラヴ",
+      "artistString": "PinocchioP feat. various",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2021-05-26T07:37:06.953",
+      "deleted": false,
+      "discType": "Album",
+      "id": 30255,
+      "name": "LOVE",
+      "ratingAverage": 4.77,
+      "ratingCount": 68,
+      "releaseDate": {
+        "day": 11,
+        "isEmpty": false,
+        "month": 8,
+        "year": 2021
+      },
+      "status": "Approved",
+      "version": 18
+    },
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.03, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.03",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2022-05-12T04:49:20.377",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 32376,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.03",
+      "ratingAverage": 4.81,
+      "ratingCount": 11,
+      "releaseDate": {
+        "day": 4,
+        "isEmpty": false,
+        "month": 5,
+        "year": 2022
+      },
+      "status": "Finished",
+      "version": 18
+    }
+  ],
+  "artistString": "PinocchioP feat. Hatsune Miku V4X (Solid)",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "ピノキオピー, ピノキオP, 工藤大発見, DAIHAKKEN, Kudou Daihakken, 匹诺曹P, 피노키오피",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 28,
+        "name": "PinocchioP",
+        "pictureMime": "image/jpeg",
+        "status": "Approved",
+        "version": 38
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Default",
+      "id": 865830,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "PinocchioP",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "野良いぬ",
+        "artistType": "Animator",
+        "deleted": false,
+        "id": 2506,
+        "name": "Norainu",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 7
+      },
+      "categories": "Animator",
+      "effectiveRoles": "Animator",
+      "id": 865832,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Norainu",
+      "roles": "Animator"
+    },
+    {
+      "artist": {
+        "additionalNames": "ヤヅキ, 激おこP, ヤヅキ激おこＰ, Yaduki GekiokoP, Yaduki Maru, YADSUKI GEKIOKOP, YADSUKI GEKIOKO P",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 522,
+        "name": "Yaduki",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 22
+      },
+      "categories": "Other",
+      "effectiveRoles": "Instrumentalist",
+      "id": 865833,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Yaduki",
+      "roles": "Instrumentalist"
+    },
+    {
+      "artist": {
+        "additionalNames": "女声1 (AquesTalk), Josei 1 (AquesTalk), Female 1 (AquesTalk), F1 (AquesTalk)",
+        "artistType": "OtherVoiceSynthesizer",
+        "deleted": false,
+        "id": 11830,
+        "name": "Female Voice 1 (AquesTalk)",
+        "releaseDate": "2006-05-25T00:00:00Z",
+        "status": "Finished",
+        "version": 48
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 867248,
+      "isCustomName": false,
+      "isSupport": true,
+      "name": "Female Voice 1 (AquesTalk)",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "初音ミク V4X (Solid)",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 50235,
+        "name": "Hatsune Miku V4X (Solid)",
+        "pictureMime": "image/png",
+        "releaseDate": "2016-08-31T00:00:00Z",
+        "status": "Finished",
+        "version": 9
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 1704068,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Hatsune Miku V4X (Solid)",
+      "roles": "Default"
+    }
+  ],
+  "createDate": "2021-03-05T12:13:12.857",
+  "defaultName": "リアルにぶっとばす",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 38,
+  "id": 320214,
+  "lengthSeconds": 208,
+  "mainPicture": {
+    "urlOriginal": "https://i1.ytimg.com/vi/f4hb4Fyyylc/hqdefault.jpg",
+    "urlThumb": "https://i.ytimg.com/vi/f4hb4Fyyylc/default.jpg"
+  },
+  "name": "KICK-ASS *LITERALLY",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "リアルにぶっとばす"
+    },
+    {
+      "language": "English",
+      "value": "KICK-ASS *LITERALLY"
+    },
+    {
+      "language": "Unspecified",
+      "value": "揍你哦 说真的"
+    },
+    {
+      "language": "Romaji",
+      "value": "Real ni Buttobasu"
+    },
+    {
+      "language": "Unspecified",
+      "value": "리얼로 날려버려"
+    }
+  ],
+  "publishDate": "2021-03-05T00:00:00Z",
+  "pvServices": "NicoNicoDouga, Youtube, Bilibili, Bandcamp",
+  "pvs": [
+    {
+      "author": "ピノキオピー PINOCCHIOP OFFICIAL CHANNEL",
+      "disabled": false,
+      "id": 465170,
+      "length": 208,
+      "name": "ピノキオピー - リアルにぶっとばす feat. 初音ミク / KICK-ASS *LITERALLY",
+      "publishDate": "2021-03-05T00:00:00",
+      "pvId": "f4hb4Fyyylc",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/f4hb4Fyyylc/default.jpg",
+      "url": "https://youtu.be/f4hb4Fyyylc"
+    },
+    {
+      "author": "ピノキオピー_official",
+      "disabled": false,
+      "extendedMetadata": {
+        "json": "{\"Aid\":459401824,\"Bvid\":\"BV1C5411N7Rk\",\"Cid\":304755225}"
+      },
+      "id": 465171,
+      "length": 208,
+      "name": "【初音ミク】揍你哦 说真的【ピノキオピー】",
+      "publishDate": "2021-03-05T00:00:00",
+      "pvId": "459401824",
+      "pvType": "Original",
+      "service": "Bilibili",
+      "thumbUrl": "http://i0.hdslb.com/bfs/archive/57a22eec799b932523f1ba4767af6f5bd9c86c30.jpg",
+      "url": "https://www.bilibili.com/video/av459401824"
+    },
+    {
+      "author": "ピノキオピー",
+      "disabled": false,
+      "id": 465172,
+      "length": 207,
+      "name": "リアルにぶっとばす / 初音ミク",
+      "publishDate": "2021-03-05T00:00:00",
+      "pvId": "sm38352773",
+      "pvType": "Original",
+      "service": "NicoNicoDouga",
+      "thumbUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/38352773/38352773.20474521",
+      "url": "http://www.nicovideo.jp/watch/sm38352773"
+    },
+    {
+      "author": "PinocchioP - Topic",
+      "disabled": false,
+      "id": 474359,
+      "length": 208,
+      "name": "リアルにぶっとばす",
+      "publishDate": "2021-04-06T00:00:00",
+      "pvId": "ynqb7oj6Aos",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/ynqb7oj6Aos/default.jpg",
+      "url": "https://youtu.be/ynqb7oj6Aos"
+    },
+    {
+      "author": "PinocchioP - Topic",
+      "disabled": false,
+      "id": 513588,
+      "length": 208,
+      "name": "リアルにぶっとばす",
+      "publishDate": "2021-08-10T00:00:00",
+      "pvId": "aATiE_bL8nM",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/aATiE_bL8nM/default.jpg",
+      "url": "https://youtu.be/aATiE_bL8nM"
+    },
+    {
+      "author": "PinocchioP / ピノキオピー",
+      "disabled": false,
+      "extendedMetadata": {
+        "json": "{\"Url\":\"https://pinocchiop.bandcamp.com/track/kick-ass-literally\"}"
+      },
+      "id": 575278,
+      "length": 207,
+      "name": "PinocchioP / ピノキオピー - KICK-ASS *LITERALLY",
+      "publishDate": "2022-02-12T00:00:00",
+      "pvId": "1298156585",
+      "pvType": "Original",
+      "service": "Bandcamp",
+      "thumbUrl": "https://f4.bcbits.com/img/a0430182675_5.jpg",
+      "url": "https://pinocchiop.bandcamp.com/track/kick-ass-literally"
+    },
+    {
+      "author": "PinocchioP - Topic",
+      "disabled": false,
+      "id": 926990,
+      "length": 208,
+      "name": "リアルにぶっとばす",
+      "publishDate": "2024-03-31T00:00:00",
+      "pvId": "2iMM5U5kpj8",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/2iMM5U5kpj8/default.jpg",
+      "url": "https://youtu.be/2iMM5U5kpj8"
+    }
+  ],
+  "ratingScore": 280,
+  "songType": "Original",
+  "status": "Finished",
+  "tags": [
+    {
+      "count": 4,
+      "tag": {
+        "additionalNames": "visual novel official soundtrack release, video game soundtrack, visual novel soundtrack",
+        "categoryName": "Sources",
+        "id": 456,
+        "name": "video game official soundtrack release",
+        "urlSlug": "video-game-official-soundtrack"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "ツンデレ, 傲娇",
+        "categoryName": "Themes",
+        "id": 1527,
+        "name": "tsundere",
+        "urlSlug": "tsundere"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "てんかん警告, seizure warning, flashing lights, epilepsy warning, strobe warning",
+        "categoryName": "Animation",
+        "id": 2913,
+        "name": "flashing lights warning",
+        "urlSlug": "flashing-lights-warning"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "お洒落, fashionable, おしゃれ",
+        "categoryName": "Subjective",
+        "id": 3015,
+        "name": "stylish",
+        "urlSlug": "stylish"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "カラオケ配布, off vocal available, instrumental available, インストルメンタル配布, off-vocal available, インスト配布, inst配布, オフボ配布, オフボーカル配布",
+        "categoryName": "Distribution",
+        "id": 3113,
+        "name": "karaoke available",
+        "urlSlug": "karaoke-available"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "ネタ, neta, joke, 喜劇, comedy, コメディ, コミカル, comical, silly, humorous, goofy",
+        "categoryName": "Subjective",
+        "id": 3158,
+        "name": "funny",
+        "urlSlug": "funny"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "戦闘, fight, 戦い",
+        "categoryName": "Themes",
+        "id": 3207,
+        "name": "battle",
+        "urlSlug": "battle"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "2DアニメーションPV, 2DPV, 2DMV, 2D PV",
+        "categoryName": "Animation",
+        "id": 3287,
+        "name": "2D animated PV",
+        "urlSlug": "2d-animated-pv"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "漫画PV, manga PV",
+        "categoryName": "Animation",
+        "id": 3304,
+        "name": "comics PV",
+        "urlSlug": "comics-pv"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "earworm, addictive",
+        "categoryName": "Subjective",
+        "id": 4564,
+        "name": "catchy",
+        "urlSlug": "catchy"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "良調声, 良調教, good training, 神調声, 神調教, 魂実装済み, realistic tuning",
+        "categoryName": "Subjective",
+        "id": 4582,
+        "name": "good tuning",
+        "urlSlug": "good-tuning"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "爆発",
+        "categoryName": "Themes",
+        "id": 4847,
+        "name": "explosions",
+        "urlSlug": "explosions"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "ジェイロック, Jrock, 邦ロック",
+        "categoryName": "Genres",
+        "id": 4933,
+        "name": "J-rock",
+        "urlSlug": "j-rock"
+      }
+    },
+    {
+      "count": 4,
+      "tag": {
+        "additionalNames": "#コンパス, 戦闘摂理解析システム, NND Compass",
+        "categoryName": "Copyrights",
+        "id": 6107,
+        "name": "#compass",
+        "urlSlug": "compass"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "ちび, デフォルメ, SD, super deformed",
+        "categoryName": "Animation",
+        "id": 6358,
+        "name": "chibi",
+        "urlSlug": "chibi"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "破局",
+        "categoryName": "Themes",
+        "id": 6438,
+        "name": "breakup",
+        "urlSlug": "breakup"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "銃",
+        "categoryName": "Themes",
+        "id": 7237,
+        "name": "gun",
+        "urlSlug": "gun"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "英語字幕, English subs, English translation",
+        "categoryName": "Sources",
+        "id": 7406,
+        "name": "English subtitles",
+        "urlSlug": "english-subtitles"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "どうしてちゃん, Doushite Chan, Doushitechan",
+        "categoryName": "Animation",
+        "id": 8643,
+        "name": "Doushite-chan",
+        "urlSlug": "doushite-chan"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "アイマイナちゃん, Aimaina Chan, Aimainachan",
+        "categoryName": "Animation",
+        "id": 8644,
+        "name": "Aimaina-chan",
+        "urlSlug": "aimaina-chan"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "緑, midori, chartreuse, 黄緑",
+        "categoryName": "Themes",
+        "id": 8910,
+        "name": "green",
+        "urlSlug": "green"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "lively, hyper",
+        "categoryName": "Subjective",
+        "id": 9001,
+        "name": "energetic",
+        "urlSlug": "energetic"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "#コンパス ライブアリーナ",
+        "categoryName": "Games",
+        "id": 9078,
+        "name": "#COMPASS LIVE ARENA",
+        "urlSlug": "compass-live-arena"
+      }
+    },
+    {
+      "count": 4,
+      "tag": {
+        "additionalNames": "ビビッド, neon, ネオン, vibrant, fluorescent, 蛍光, bright colors",
+        "categoryName": "Animation",
+        "id": 9442,
+        "name": "vivid",
+        "urlSlug": "vivid"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "多彩, tasai, カラフル, multiple colors, rainbow colors, multiple colours, rainbow colours, colourful, multicolored",
+        "categoryName": "Animation",
+        "id": 9495,
+        "name": "colorful",
+        "urlSlug": "colorful"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "stemデータ配布 (ボカコレ), stem data distributor (VocaColle), stem data available (VocaColle)",
+        "categoryName": "Distribution",
+        "id": 9534,
+        "name": "stem data distribution (VocaColle)",
+        "urlSlug": "stem-data-distribution-vocacol"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "怒り, ikari, rage, wrath, fury, temper, angry",
+        "categoryName": "Themes",
+        "id": 9771,
+        "name": "anger",
+        "urlSlug": "anger"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "多言語字幕, multilingual subs, multiple translations",
+        "categoryName": "Sources",
+        "id": 11286,
+        "name": "multilingual subtitles",
+        "urlSlug": "multilingual-subtitles"
+      }
+    }
+  ],
+  "version": 20,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "Pixiv (illustrations)",
+      "disabled": false,
+      "id": 98789,
+      "url": "https://www.pixiv.net/en/artworks/88252397"
+    }
+  ]
+}

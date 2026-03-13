@@ -1,0 +1,342 @@
+{
+  "albums": [
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.02, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.02",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2018-12-25T11:20:54.287",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 26139,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.02",
+      "ratingAverage": 4.92,
+      "ratingCount": 13,
+      "releaseDate": {
+        "day": 20,
+        "isEmpty": false,
+        "month": 2,
+        "year": 2019
+      },
+      "status": "Finished",
+      "version": 26
+    },
+    {
+      "additionalNames": "ダーリンシンドローム",
+      "artistString": "Kairiki bear feat. various",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2021-06-25T15:56:15.75",
+      "deleted": false,
+      "discType": "Album",
+      "id": 30418,
+      "name": "DARLING SYNDROME",
+      "ratingAverage": 4.57,
+      "ratingCount": 69,
+      "releaseDate": {
+        "day": 19,
+        "isEmpty": false,
+        "month": 6,
+        "year": 2021
+      },
+      "status": "Finished",
+      "version": 20
+    }
+  ],
+  "artistString": "Kairiki bear feat. Hatsune Miku, Kagamine Rin",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "かいりきベア",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 885,
+        "name": "Kairiki bear",
+        "pictureMime": "image/jpeg",
+        "status": "Approved",
+        "version": 23
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Default",
+      "id": 569606,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Kairiki bear",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "初音ミク, 初音未来, Chūyīn Wèilái, 하츠네 미쿠, 初音未來",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 1,
+        "name": "Hatsune Miku",
+        "pictureMime": "image/png",
+        "releaseDate": "2007-08-31T00:00:00Z",
+        "status": "Locked",
+        "version": 39
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 591844,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Hatsune Miku",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "鏡音リン, 鏡音鈴, 카가미네 린, 镜音铃",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 14,
+        "name": "Kagamine Rin",
+        "pictureMime": "image/png",
+        "releaseDate": "2007-12-27T00:00:00Z",
+        "status": "Locked",
+        "version": 34
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 591845,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Kagamine Rin",
+      "roles": "Default"
+    }
+  ],
+  "createDate": "2018-12-25T12:05:48.41",
+  "defaultName": "リラルラドリーミング VOCALOID ver.",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 15,
+  "id": 219830,
+  "lengthSeconds": 262,
+  "mainPicture": {
+    "urlOriginal": "https://i1.ytimg.com/vi/rWAyZbsIhZM/hqdefault.jpg",
+    "urlThumb": "https://i.ytimg.com/vi/rWAyZbsIhZM/default.jpg"
+  },
+  "name": "LyraRuraDreaming VOCALOID ver.",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "リラルラドリーミング VOCALOID ver."
+    },
+    {
+      "language": "Romaji",
+      "value": "Rirarura Dreaming VOCALOID ver."
+    },
+    {
+      "language": "English",
+      "value": "LyraRuraDreaming VOCALOID ver."
+    },
+    {
+      "language": "Unspecified",
+      "value": "LYRALURA DREAMING VOCALOID ver."
+    },
+    {
+      "language": "Unspecified",
+      "value": "リラルラドリーミング (REBOOT ver.)"
+    },
+    {
+      "language": "Unspecified",
+      "value": "LYRALURA DREAMING (REBOOT ver.)"
+    },
+    {
+      "language": "Unspecified",
+      "value": "LyraRuraDreaming (REBOOT ver.)"
+    }
+  ],
+  "publishDate": "2019-02-20T00:00:00Z",
+  "pvServices": "Youtube",
+  "pvs": [
+    {
+      "author": "Kairiki Bear - Topic",
+      "disabled": false,
+      "id": 534763,
+      "length": 264,
+      "name": "リラルラドリーミング (REBOOT ver.)",
+      "publishDate": "2021-10-09T00:00:00",
+      "pvId": "rWAyZbsIhZM",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/rWAyZbsIhZM/default.jpg",
+      "url": "https://youtu.be/rWAyZbsIhZM"
+    },
+    {
+      "author": "Neko-Chan subs",
+      "disabled": false,
+      "id": 644831,
+      "length": 265,
+      "name": "リラルラドリーミング/rirarura dreaming 【english subs】",
+      "publishDate": "2021-09-29T00:00:00",
+      "pvId": "nkbtMG2APAY",
+      "pvType": "Reprint",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/nkbtMG2APAY/default.jpg",
+      "url": "https://youtu.be/nkbtMG2APAY"
+    }
+  ],
+  "ratingScore": 97,
+  "songType": "Cover",
+  "status": "Finished",
+  "tags": [
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "チップチューン, ピコピコサウンド, 芯片音乐, 像素音乐",
+        "categoryName": "Genres",
+        "id": 62,
+        "name": "chiptune",
+        "urlSlug": "chiptune"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "可愛い, adorable, かわいい, kawaii, sweet",
+        "categoryName": "Subjective",
+        "id": 81,
+        "name": "cute",
+        "urlSlug": "cute"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "エレクトロポップ, ボカロエレクトロ, electronic pop, electro-pop",
+        "categoryName": "Genres",
+        "id": 124,
+        "name": "electropop",
+        "urlSlug": "electropop"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "セルフカバー",
+        "categoryName": "Sources",
+        "id": 391,
+        "name": "self-cover",
+        "urlSlug": "self-cover"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "original from visual novel, video game song cover, visual novel song cover, visual novel arrangement, video game arrangement",
+        "categoryName": "Sources",
+        "id": 455,
+        "name": "original from video game",
+        "urlSlug": "original-from-video-game"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "百合, ガールズラブ, girls' love, shoujo-ai, ゆり, GL, lesbian manga, lesbian comic",
+        "categoryName": "Themes",
+        "id": 493,
+        "name": "yuri",
+        "urlSlug": "yuri"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "",
+        "categoryName": "Genres",
+        "id": 1575,
+        "name": "bitpop",
+        "urlSlug": "bitpop"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "デジタルロック, エレクトロ ロック, electro-rock, electrorock, electronic rock, synth rock, synthrock, technorock",
+        "categoryName": "Genres",
+        "id": 2878,
+        "name": "digital rock",
+        "urlSlug": "digital-rock"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "レトロ, retraux",
+        "categoryName": "Themes",
+        "id": 2996,
+        "name": "retro",
+        "urlSlug": "retro"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "デュエット, duo, 二重唱, 2 vocalists, 2 singers",
+        "categoryName": "Vocalists",
+        "id": 3180,
+        "name": "duet",
+        "urlSlug": "duet"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "",
+        "categoryName": "Sources",
+        "id": 3193,
+        "name": "human original",
+        "urlSlug": "human-original"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "原曲が収録範囲外",
+        "categoryName": "Sources",
+        "id": 3282,
+        "name": "original out of scope",
+        "urlSlug": "original-out-of-scope"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "ジェイロック, Jrock, 邦ロック",
+        "categoryName": "Genres",
+        "id": 4933,
+        "name": "J-rock",
+        "urlSlug": "j-rock"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "#コンパス, 戦闘摂理解析システム, NND Compass",
+        "categoryName": "Copyrights",
+        "id": 6107,
+        "name": "#compass",
+        "urlSlug": "compass"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "魔法少女, mahou shoujo",
+        "categoryName": "Themes",
+        "id": 6407,
+        "name": "magical girl",
+        "urlSlug": "magical-girl"
+      }
+    }
+  ],
+  "version": 20,
+  "webLinks": [
+    {
+      "category": "Reference",
+      "description": "UtaiteDB",
+      "disabled": false,
+      "id": 145144,
+      "url": "https://utaitedb.net/S/60018"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "additionalNames": [],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "Kimura",
+  "descriptionShort": "",
+  "displayName": "Kimura",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "Discogs",
+      "official": true,
+      "service": "discogs.com",
+      "url": "https://www.discogs.com/artist/6731153-Kimura-18"
+    },
+    {
+      "kind": "reference",
+      "label": "MusicBrainz",
+      "official": true,
+      "service": "musicbrainz.org",
+      "url": "https://musicbrainz.org/artist/55cf8756-1ab4-408e-8d6b-b0e8aba5eff9"
+    }
+  ],
+  "groups": [
+    "artist-10137"
+  ],
+  "id": "artist-105272",
+  "name": "Kimura",
+  "primaryImage": null,
+  "rawHash": "7d25dc6ff026dcea634b6d61eb804d7080d398867ce7bd2621955f79b420a726",
+  "relatedArtistIds": [
+    "artist-10137"
+  ],
+  "slug": "kimura--vocadb-105272",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/105272",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/kimura--vocadb-105272/",
+  "vocadbId": 105272,
+  "voicebanks": []
+}

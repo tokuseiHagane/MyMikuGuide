@@ -1,0 +1,259 @@
+{
+  "albums": [
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.03, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.03",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2022-05-12T04:49:20.377",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 32376,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.03",
+      "ratingAverage": 4.81,
+      "ratingCount": 11,
+      "releaseDate": {
+        "day": 4,
+        "isEmpty": false,
+        "month": 5,
+        "year": 2022
+      },
+      "status": "Finished",
+      "version": 18
+    }
+  ],
+  "artistString": "Kanaria feat. Hatsune Miku",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "初音ミク, 初音未来, Chūyīn Wèilái, 하츠네 미쿠, 初音未來",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 1,
+        "name": "Hatsune Miku",
+        "pictureMime": "image/png",
+        "releaseDate": "2007-08-31T00:00:00Z",
+        "status": "Locked",
+        "version": 39
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 1014768,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Hatsune Miku",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "KANA-RiA",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 80976,
+        "name": "Kanaria",
+        "pictureMime": "image/jpeg",
+        "status": "Approved",
+        "version": 10
+      },
+      "categories": "Vocalist, Producer",
+      "effectiveRoles": "Composer, Instrumentalist, Vocalist",
+      "id": 1014769,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Kanaria",
+      "roles": "Composer, Instrumentalist, Vocalist"
+    },
+    {
+      "artist": {
+        "additionalNames": "白咲まぐる",
+        "artistType": "Illustrator",
+        "deleted": false,
+        "id": 72511,
+        "name": "Shirasaki Maguru",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 5
+      },
+      "categories": "Illustrator",
+      "effectiveRoles": "Illustrator",
+      "id": 1014787,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Shirasaki Maguru",
+      "roles": "Illustrator"
+    }
+  ],
+  "createDate": "2021-12-19T12:21:04.117",
+  "defaultName": "アイロニック",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 14,
+  "id": 372154,
+  "lengthSeconds": 143,
+  "mainPicture": {
+    "urlOriginal": "https://i1.ytimg.com/vi/Xff61DKSZYQ/hqdefault.jpg",
+    "urlThumb": "https://nicovideo.cdn.nimg.jp/thumbnails/39776265/39776265.73688731"
+  },
+  "name": "Ironic",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "アイロニック"
+    },
+    {
+      "language": "English",
+      "value": "Ironic"
+    }
+  ],
+  "publishDate": "2021-12-19T00:00:00Z",
+  "pvServices": "NicoNicoDouga, Youtube",
+  "pvs": [
+    {
+      "author": "kanaria",
+      "disabled": false,
+      "id": 555749,
+      "length": 143,
+      "name": "【初音ミク】アイロニック【Kanaria】",
+      "publishDate": "2021-12-19T00:00:00",
+      "pvId": "sm39776265",
+      "pvType": "Original",
+      "service": "NicoNicoDouga",
+      "thumbUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/39776265/39776265.73688731",
+      "url": "http://www.nicovideo.jp/watch/sm39776265"
+    },
+    {
+      "author": "Magenetra",
+      "disabled": false,
+      "id": 647670,
+      "length": 144,
+      "name": "【Kanaria feat. Hatsune Miku】Ironic (English Subs)",
+      "publishDate": "2022-07-24T00:00:00",
+      "pvId": "WInxt7GlAT8",
+      "pvType": "Other",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/WInxt7GlAT8/default.jpg",
+      "url": "https://youtu.be/WInxt7GlAT8"
+    },
+    {
+      "author": "08nchu",
+      "disabled": false,
+      "id": 903305,
+      "length": 144,
+      "name": "【初音ミク】アイロニック【kanaria】",
+      "publishDate": "2021-12-30T00:00:00",
+      "pvId": "XVfT3ruw_Lo",
+      "pvType": "Reprint",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/XVfT3ruw_Lo/default.jpg",
+      "url": "https://youtu.be/XVfT3ruw_Lo"
+    },
+    {
+      "author": "Kanaria - Topic",
+      "disabled": false,
+      "id": 926992,
+      "length": 144,
+      "name": "アイロニック",
+      "publishDate": "2024-03-31T00:00:00",
+      "pvId": "Xff61DKSZYQ",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/Xff61DKSZYQ/default.jpg",
+      "url": "https://youtu.be/Xff61DKSZYQ"
+    }
+  ],
+  "ratingScore": 92,
+  "songType": "Original",
+  "status": "Finished",
+  "tags": [
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "ゴシックロック, goth rock, ゴスロック",
+        "categoryName": "Genres",
+        "id": 171,
+        "name": "gothic rock (Japanese)",
+        "urlSlug": "gothic-rock-japanese"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "デジタルロック, エレクトロ ロック, electro-rock, electrorock, electronic rock, synth rock, synthrock, technorock",
+        "categoryName": "Genres",
+        "id": 2878,
+        "name": "digital rock",
+        "urlSlug": "digital-rock"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "お洒落, fashionable, おしゃれ",
+        "categoryName": "Subjective",
+        "id": 3015,
+        "name": "stylish",
+        "urlSlug": "stylish"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "カラオケ配布, off vocal available, instrumental available, インストルメンタル配布, off-vocal available, インスト配布, inst配布, オフボ配布, オフボーカル配布",
+        "categoryName": "Distribution",
+        "id": 3113,
+        "name": "karaoke available",
+        "urlSlug": "karaoke-available"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "ジェイロック, Jrock, 邦ロック",
+        "categoryName": "Genres",
+        "id": 4933,
+        "name": "J-rock",
+        "urlSlug": "j-rock"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "#コンパス, 戦闘摂理解析システム, NND Compass",
+        "categoryName": "Copyrights",
+        "id": 6107,
+        "name": "#compass",
+        "urlSlug": "compass"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "チュウニズム",
+        "categoryName": "Games",
+        "id": 6717,
+        "name": "CHUNITHM",
+        "urlSlug": "chunithm"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "異形頭",
+        "categoryName": "Themes",
+        "id": 7197,
+        "name": "object head",
+        "urlSlug": "object-head"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "#コンパス ライブアリーナ",
+        "categoryName": "Games",
+        "id": 9078,
+        "name": "#COMPASS LIVE ARENA",
+        "urlSlug": "compass-live-arena"
+      }
+    }
+  ],
+  "version": 14,
+  "webLinks": []
+}

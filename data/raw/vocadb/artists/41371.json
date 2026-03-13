@@ -1,0 +1,148 @@
+{
+  "artistLinks": [
+    {
+      "artist": {
+        "additionalNames": "カレント, KarenT",
+        "artistType": "Label",
+        "deleted": false,
+        "id": 276,
+        "name": "KARENT",
+        "pictureMime": "image/jpeg",
+        "status": "Locked",
+        "version": 28
+      },
+      "linkType": "Group"
+    }
+  ],
+  "artistType": "Producer",
+  "createDate": "2015-09-03T19:15:20",
+  "defaultName": "ポリスピカデリー",
+  "defaultNameLanguage": "Japanese",
+  "description": "",
+  "id": 41371,
+  "mainPicture": {
+    "mime": "image/jpeg",
+    "urlOriginal": "https://static.vocadb.net/img/Artist/mainOrig/41371.jpg?v=21",
+    "urlSmallThumb": "https://static.vocadb.net/img/Artist/mainSmall/41371.jpg?v=21",
+    "urlThumb": "https://static.vocadb.net/img/Artist/mainThumb/41371.jpg?v=21",
+    "urlTinyThumb": "https://static.vocadb.net/img/Artist/mainTiny/41371.jpg?v=21"
+  },
+  "name": "Police Piccadilly",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "ポリスピカデリー"
+    },
+    {
+      "language": "English",
+      "value": "Police Piccadilly"
+    },
+    {
+      "language": "Unspecified",
+      "value": "폴리스 피카딜리"
+    }
+  ],
+  "pictureMime": "image/jpeg",
+  "status": "Finished",
+  "version": 21,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "NND Account",
+      "disabled": false,
+      "id": 88231,
+      "url": "http://www.nicovideo.jp/user/49132820"
+    },
+    {
+      "category": "Official",
+      "description": "Twitter",
+      "disabled": false,
+      "id": 88232,
+      "url": "https://twitter.com/_policep"
+    },
+    {
+      "category": "Official",
+      "description": "YouTube Channel",
+      "disabled": false,
+      "id": 88260,
+      "url": "https://www.youtube.com/channel/UCDOTPjUW-NhQMDmYbgMvQKA"
+    },
+    {
+      "category": "Official",
+      "description": "Piapro",
+      "disabled": false,
+      "id": 88896,
+      "url": "http://piapro.jp/policep"
+    },
+    {
+      "category": "Official",
+      "description": "TmBOX",
+      "disabled": true,
+      "id": 94659,
+      "url": "http://tmbox.net/user/_policep"
+    },
+    {
+      "category": "Official",
+      "description": "NND MyList",
+      "disabled": false,
+      "id": 99215,
+      "url": "http://www.nicovideo.jp/mylist/53849103"
+    },
+    {
+      "category": "Reference",
+      "description": "UtaiteDB",
+      "disabled": false,
+      "id": 104859,
+      "url": "http://utaitedb.net/Ar/17151"
+    },
+    {
+      "category": "Official",
+      "description": "SoundCloud",
+      "disabled": true,
+      "id": 126731,
+      "url": "https://soundcloud.com/police-piccadilly"
+    },
+    {
+      "category": "Reference",
+      "description": "MikuWiki",
+      "disabled": false,
+      "id": 150504,
+      "url": "https://www5.atwiki.jp/hmiku/pages/36561.html"
+    },
+    {
+      "category": "Reference",
+      "description": "MusicBrainz",
+      "disabled": false,
+      "id": 258628,
+      "url": "https://musicbrainz.org/artist/137a8260-0813-42cb-9248-363a74539b00"
+    },
+    {
+      "category": "Commercial",
+      "description": "KarenT",
+      "disabled": false,
+      "id": 268140,
+      "url": "https://karent.jp/artist/pp000824"
+    },
+    {
+      "category": "Commercial",
+      "description": "Spotify",
+      "disabled": false,
+      "id": 415168,
+      "url": "https://open.spotify.com/artist/4yUIW4t2Jp0Ywa8O2UAeeb?si=zVbBLM6lQ2GP9rYrxzBwgg"
+    },
+    {
+      "category": "Reference",
+      "description": "Vocaloid Lyrics Wiki",
+      "disabled": false,
+      "id": 471207,
+      "url": "https://vocaloidlyrics.miraheze.org/wiki/Police_Piccadilly"
+    },
+    {
+      "category": "Reference",
+      "description": "Vocaloid Wiki",
+      "disabled": false,
+      "id": 471208,
+      "url": "https://vocaloid.fandom.com/wiki/Police_Piccadilly"
+    }
+  ]
+}

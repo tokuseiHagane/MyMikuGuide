@@ -1,0 +1,143 @@
+{
+  "albums": [
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.03, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.03",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2022-05-12T04:49:20.377",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 32376,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.03",
+      "ratingAverage": 4.81,
+      "ratingCount": 11,
+      "releaseDate": {
+        "day": 4,
+        "isEmpty": false,
+        "month": 5,
+        "year": 2022
+      },
+      "status": "Finished",
+      "version": 18
+    }
+  ],
+  "artistString": "サンリオ, Unknown producer(s) feat. Hatsune Miku V4X (Dark)",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "初音ミク V4X (Dark)",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 50233,
+        "name": "Hatsune Miku V4X (Dark)",
+        "pictureMime": "image/png",
+        "releaseDate": "2016-08-31T00:00:00Z",
+        "status": "Finished",
+        "version": 10
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 752760,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Hatsune Miku V4X (Dark)",
+      "roles": "Default"
+    },
+    {
+      "categories": "Producer, Circle",
+      "effectiveRoles": "Composer, Publisher",
+      "id": 752761,
+      "isCustomName": true,
+      "isSupport": false,
+      "name": "サンリオ",
+      "roles": "Composer, Publisher"
+    },
+    {
+      "artist": {
+        "additionalNames": "Unknown arranger, Anonymous producer(s), Anonymous arranger, 作者不明, 名無し, ななし, 774, ななしのよっしん, 匿名, 匿名希望, 账号已注销",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 23966,
+        "name": "Unknown producer(s)",
+        "status": "Finished",
+        "version": 9
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Default",
+      "id": 1015047,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Unknown producer(s)",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "株式会社サンリオ, Kabushikigaisha Sanrio, Sanrio Wave Co., Ltd., Sanrio Wave Hong Kong Co., Ltd, サンリオ, Sanrio",
+        "artistType": "Label",
+        "deleted": false,
+        "id": 94024,
+        "name": "Sanrio Company, Ltd.",
+        "pictureMime": "image/png",
+        "status": "Finished",
+        "version": 16
+      },
+      "categories": "Label",
+      "effectiveRoles": "Default",
+      "id": 1394126,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Sanrio Company, Ltd.",
+      "roles": "Default"
+    }
+  ],
+  "createDate": "2020-05-17T09:03:49.1",
+  "defaultName": "惑星のダンスフロア",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 2,
+  "id": 282073,
+  "lengthSeconds": 325,
+  "name": "The World's Dancefloor",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "惑星のダンスフロア"
+    },
+    {
+      "language": "Romaji",
+      "value": "Wakusei no Dancefloor"
+    },
+    {
+      "language": "English",
+      "value": "The World's Dancefloor"
+    }
+  ],
+  "pvServices": "Nothing",
+  "pvs": [],
+  "ratingScore": 8,
+  "songType": "Original",
+  "status": "Finished",
+  "tags": [
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "",
+        "categoryName": "Editor notes",
+        "id": 3034,
+        "name": "limited artist information",
+        "urlSlug": "limited-artist-information"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "ショウ・バイ・ロック!!, Show by Rock!! Gonna be a Music Millionaire!",
+        "categoryName": "Copyrights",
+        "id": 7767,
+        "name": "SHOW BY ROCK!!",
+        "urlSlug": "show-by-rock"
+      }
+    }
+  ],
+  "version": 9,
+  "webLinks": []
+}

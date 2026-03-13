@@ -1,0 +1,79 @@
+{
+  "artistLinks": [
+    {
+      "artist": {
+        "additionalNames": "",
+        "artistType": "OtherGroup",
+        "deleted": false,
+        "id": 56968,
+        "name": "Aquest",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 3
+      },
+      "linkType": "Group"
+    }
+  ],
+  "artistType": "OtherVoiceSynthesizer",
+  "createDate": "2013-08-12T17:24:17",
+  "defaultName": "女声1 (AquesTalk)",
+  "defaultNameLanguage": "Japanese",
+  "description": "* Female 1 is the voice behind [Yukkuri Reimu](https://vocadb.net/T/9432). As such, it's decently popular to pair her with \"[女声2](https://vocadb.net/Ar/104088)\", who plays the role of [Yukkuri Marisa](https://vocadb.net/T/9433).\n* Due to [Taberungo no Uta](https://vocadb.net/S/277588), she is commonly used in [Taberungo](https://vocadb.net/T/7461/taberungo) memes as well.\n* Her third area of frequent usage is in [subeana](https://vocadb.net/T/7526) songs, since they like to imitate Niconico's [error messages](https://vocadb.net/T/7854/error-message).",
+  "id": 11830,
+  "name": "Female Voice 1 (AquesTalk)",
+  "names": [
+    {
+      "language": "English",
+      "value": "Female Voice 1 (AquesTalk)"
+    },
+    {
+      "language": "Japanese",
+      "value": "女声1 (AquesTalk)"
+    },
+    {
+      "language": "Romaji",
+      "value": "Josei 1 (AquesTalk)"
+    },
+    {
+      "language": "Unspecified",
+      "value": "Female 1 (AquesTalk)"
+    },
+    {
+      "language": "Unspecified",
+      "value": "F1 (AquesTalk)"
+    }
+  ],
+  "releaseDate": "2006-05-25T00:00:00Z",
+  "status": "Finished",
+  "version": 48,
+  "webLinks": [
+    {
+      "category": "Reference",
+      "description": "UtaiteDB",
+      "disabled": false,
+      "id": 53535,
+      "url": "http://utaitedb.net/Ar/4970"
+    },
+    {
+      "category": "Reference",
+      "description": "TouhouDB",
+      "disabled": false,
+      "id": 149815,
+      "url": "https://touhoudb.com/Ar/224"
+    },
+    {
+      "category": "Reference",
+      "description": "Yukkuri Wiki",
+      "disabled": false,
+      "id": 175650,
+      "url": "https://yukkuri.fandom.com/wiki/Yukkuri_Reimu"
+    },
+    {
+      "category": "Official",
+      "description": "AquesTalk Website",
+      "disabled": false,
+      "id": 296207,
+      "url": "https://www.a-quest.com/products/aquestalk.html"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "artistLinks": [
+    {
+      "artist": {
+        "additionalNames": "",
+        "artistType": "Circle",
+        "deleted": false,
+        "id": 152767,
+        "name": "びびびびーむ葱抜きで",
+        "status": "Draft",
+        "version": 2
+      },
+      "linkType": "Group"
+    }
+  ],
+  "artistType": "CoverArtist",
+  "createDate": "2013-02-20T01:17:27",
+  "defaultName": "びび",
+  "defaultNameLanguage": "Japanese",
+  "description": "",
+  "id": 5658,
+  "mainPicture": {
+    "mime": "image/jpeg",
+    "urlOriginal": "https://static.vocadb.net/img/Artist/mainOrig/5658.jpg?v=16",
+    "urlSmallThumb": "https://static.vocadb.net/img/Artist/mainSmall/5658.jpg?v=16",
+    "urlThumb": "https://static.vocadb.net/img/Artist/mainThumb/5658.jpg?v=16",
+    "urlTinyThumb": "https://static.vocadb.net/img/Artist/mainTiny/5658.jpg?v=16"
+  },
+  "name": "bibi",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "びび"
+    },
+    {
+      "language": "Romaji",
+      "value": "bibi"
+    },
+    {
+      "language": "Unspecified",
+      "value": "びびびびーむ"
+    },
+    {
+      "language": "Unspecified",
+      "value": "bibian0115"
+    }
+  ],
+  "pictureMime": "image/jpeg",
+  "status": "Finished",
+  "version": 16,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "NND MyList",
+      "disabled": false,
+      "id": 13090,
+      "url": "http://www.nicovideo.jp/mylist/34845701"
+    },
+    {
+      "category": "Official",
+      "description": "Twitter",
+      "disabled": false,
+      "id": 13091,
+      "url": "https://twitter.com/bibian0115"
+    },
+    {
+      "category": "Official",
+      "description": "NND Account",
+      "disabled": false,
+      "id": 29247,
+      "url": "http://www.nicovideo.jp/user/30471090"
+    },
+    {
+      "category": "Official",
+      "description": "NND MyList (VOCALOID covers)",
+      "disabled": false,
+      "id": 72467,
+      "url": "http://www.nicovideo.jp/mylist/38610717"
+    },
+    {
+      "category": "Reference",
+      "description": "UtaiteDB",
+      "disabled": false,
+      "id": 72468,
+      "url": "http://utaitedb.net/Ar/9711"
+    },
+    {
+      "category": "Official",
+      "description": "YouTube Channel",
+      "disabled": false,
+      "id": 102748,
+      "url": "https://www.youtube.com/channel/UCwf1a72ugdpr9b9HXJx3qrQ"
+    },
+    {
+      "category": "Official",
+      "description": "Website (twpf)",
+      "disabled": false,
+      "id": 121474,
+      "url": "http://twpf.jp/bibian0115"
+    },
+    {
+      "category": "Official",
+      "description": "Pixiv",
+      "disabled": false,
+      "id": 121475,
+      "url": "http://www.pixiv.net/member.php?id=16807163"
+    },
+    {
+      "category": "Official",
+      "description": "Foriio",
+      "disabled": false,
+      "id": 367496,
+      "url": "https://www.foriio.com/bibian0115"
+    }
+  ]
+}

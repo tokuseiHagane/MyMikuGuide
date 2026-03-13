@@ -1,0 +1,45 @@
+{
+  "additionalNames": [
+    "キレキャリオン Remixed by 鬱P",
+    "Kire Carry On Remixed by Utsu-P"
+  ],
+  "albumIds": [
+    "album-32376"
+  ],
+  "artistIds": [
+    "artist-90",
+    "artist-1"
+  ],
+  "defaultName": "キレキャリオン Remixed by 鬱P",
+  "displayName": "Kill, Carry On Remixed by Utsu-P",
+  "durationSeconds": 201,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "reprint",
+      "label": "[Utsu-P Metalcore Remix] Police Piccadilly - Kire Carry On (feat. Hatsune Miku)",
+      "official": false,
+      "service": "youtube",
+      "url": "https://youtu.be/drq965sOWGA"
+    }
+  ],
+  "id": "song-406198",
+  "primaryImage": "https://i1.ytimg.com/vi/drq965sOWGA/hqdefault.jpg",
+  "publishDate": "2022-05-04T00:00:00Z",
+  "rawHash": "a3ef45147953b42880a94ce373b128a6982fb98cb60640a7ccf7a82180b13024",
+  "slug": "kill-carry-on-remixed-by-utsu-p--vocadb-406198",
+  "songType": "Remix",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/406198",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "tags": [],
+  "title": "Kill, Carry On Remixed by Utsu-P",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/kill-carry-on-remixed-by-utsu-p--vocadb-406198/",
+  "vocadbId": 406198,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2022
+}

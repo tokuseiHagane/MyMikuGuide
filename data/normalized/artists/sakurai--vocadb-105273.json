@@ -1,0 +1,45 @@
+{
+  "additionalNames": [],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "Sakurai",
+  "descriptionShort": "",
+  "displayName": "Sakurai",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "Discogs",
+      "official": true,
+      "service": "discogs.com",
+      "url": "https://www.discogs.com/artist/6731154-Sakurai-8"
+    },
+    {
+      "kind": "reference",
+      "label": "MusicBrainz",
+      "official": true,
+      "service": "musicbrainz.org",
+      "url": "https://musicbrainz.org/artist/bc0b687a-488a-4cd9-9665-363209cc1395"
+    }
+  ],
+  "groups": [
+    "artist-10137"
+  ],
+  "id": "artist-105273",
+  "name": "Sakurai",
+  "primaryImage": null,
+  "rawHash": "bb9453ad40e71ecd4d5cccb7e33531554908df045e8d3dde5e88f225714d20a9",
+  "relatedArtistIds": [
+    "artist-10137"
+  ],
+  "slug": "sakurai--vocadb-105273",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/105273",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/sakurai--vocadb-105273/",
+  "vocadbId": 105273,
+  "voicebanks": []
+}

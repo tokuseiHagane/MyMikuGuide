@@ -1,0 +1,185 @@
+{
+  "artistLinks": [
+    {
+      "artist": {
+        "additionalNames": "ドリーマーズ",
+        "artistType": "Circle",
+        "deleted": false,
+        "id": 124818,
+        "name": "DREAMERS",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 3
+      },
+      "linkType": "Group"
+    }
+  ],
+  "artistType": "Producer",
+  "createDate": "2013-01-17T21:10:58",
+  "defaultName": "syudou",
+  "defaultNameLanguage": "Romaji",
+  "description": "",
+  "id": 4834,
+  "mainPicture": {
+    "mime": "image/jpeg",
+    "urlOriginal": "https://static.vocadb.net/img/Artist/mainOrig/4834.jpg?v=26",
+    "urlSmallThumb": "https://static.vocadb.net/img/Artist/mainSmall/4834.jpg?v=26",
+    "urlThumb": "https://static.vocadb.net/img/Artist/mainThumb/4834.jpg?v=26",
+    "urlTinyThumb": "https://static.vocadb.net/img/Artist/mainTiny/4834.jpg?v=26"
+  },
+  "name": "syudou",
+  "names": [
+    {
+      "language": "Romaji",
+      "value": "syudou"
+    },
+    {
+      "language": "Unspecified",
+      "value": "シャノワール"
+    },
+    {
+      "language": "Japanese",
+      "value": "しゅどう"
+    },
+    {
+      "language": "Unspecified",
+      "value": "シュドー"
+    },
+    {
+      "language": "Unspecified",
+      "value": "Chat noir"
+    },
+    {
+      "language": "Unspecified",
+      "value": "tikandame"
+    },
+    {
+      "language": "Unspecified",
+      "value": "aaa"
+    }
+  ],
+  "pictureMime": "image/jpeg",
+  "status": "Approved",
+  "version": 26,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "NND MyList",
+      "disabled": false,
+      "id": 11051,
+      "url": "http://www.nicovideo.jp/mylist/34911106"
+    },
+    {
+      "category": "Official",
+      "description": "Twitter",
+      "disabled": false,
+      "id": 11052,
+      "url": "https://twitter.com/tikandame"
+    },
+    {
+      "category": "Official",
+      "description": "NND Account",
+      "disabled": false,
+      "id": 58775,
+      "url": "http://www.nicovideo.jp/user/3489219"
+    },
+    {
+      "category": "Official",
+      "description": "Piapro",
+      "disabled": false,
+      "id": 58776,
+      "url": "http://piapro.jp/syudou"
+    },
+    {
+      "category": "Official",
+      "description": "YouTube Channel",
+      "disabled": false,
+      "id": 108067,
+      "url": "https://www.youtube.com/channel/UCraC7460yGQF4GDmSjCecpQ"
+    },
+    {
+      "category": "Commercial",
+      "description": "Spotify",
+      "disabled": false,
+      "id": 175863,
+      "url": "https://open.spotify.com/artist/43XkWaoCS0wKjuMJrWFgoa"
+    },
+    {
+      "category": "Reference",
+      "description": "Wikipedia (JP)",
+      "disabled": false,
+      "id": 196527,
+      "url": "https://ja.wikipedia.org/wiki/Syudou"
+    },
+    {
+      "category": "Official",
+      "description": "Website",
+      "disabled": false,
+      "id": 206569,
+      "url": "https://www.syudou.com/"
+    },
+    {
+      "category": "Official",
+      "description": "Instagram",
+      "disabled": false,
+      "id": 209799,
+      "url": "https://www.instagram.com/syudou279/"
+    },
+    {
+      "category": "Official",
+      "description": "Bilibili",
+      "disabled": false,
+      "id": 286646,
+      "url": "https://space.bilibili.com/514533622"
+    },
+    {
+      "category": "Reference",
+      "description": "MikuWiki",
+      "disabled": false,
+      "id": 325390,
+      "url": "https://w.atwiki.jp/hmiku/pages/32382.html"
+    },
+    {
+      "category": "Reference",
+      "description": "Vocaloid Lyrics Wiki",
+      "disabled": false,
+      "id": 325391,
+      "url": "https://vocaloidlyrics.miraheze.org/wiki/Syudou"
+    },
+    {
+      "category": "Official",
+      "description": "TikTok",
+      "disabled": false,
+      "id": 341005,
+      "url": "https://www.tiktok.com/@syudou"
+    },
+    {
+      "category": "Official",
+      "description": "Note",
+      "disabled": false,
+      "id": 341006,
+      "url": "https://note.com/syudoublog"
+    },
+    {
+      "category": "Commercial",
+      "description": "KarenT",
+      "disabled": false,
+      "id": 362796,
+      "url": "https://karent.jp/artist/pp001022"
+    },
+    {
+      "category": "Official",
+      "description": "Stickam",
+      "disabled": true,
+      "id": 369261,
+      "url": "https://www.stickam.jp/profile/syudou"
+    },
+    {
+      "category": "Reference",
+      "description": "UtaiteDB",
+      "disabled": false,
+      "id": 427619,
+      "url": "https://utaitedb.net/Ar/23101"
+    }
+  ]
+}

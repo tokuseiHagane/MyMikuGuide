@@ -1,0 +1,91 @@
+{
+  "artistLinks": [
+    {
+      "artist": {
+        "additionalNames": "ヤマハ株式会社, Yamaha Kabushiki Gaisha, Yamaha",
+        "artistType": "Label",
+        "deleted": false,
+        "id": 157,
+        "name": "Yamaha Corporation",
+        "pictureMime": "image/png",
+        "status": "Approved",
+        "version": 11
+      },
+      "linkType": "Group"
+    },
+    {
+      "artist": {
+        "additionalNames": "なぎみそ, うなP, UnaP, pppanda, una, unapy",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 1637,
+        "name": "nagimiso",
+        "pictureMime": "image/jpeg",
+        "status": "Approved",
+        "version": 27
+      },
+      "linkType": "Illustrator"
+    },
+    {
+      "artist": {
+        "additionalNames": "ビープラッツ株式会社",
+        "artistType": "Label",
+        "deleted": false,
+        "id": 48393,
+        "name": "Bplats Inc.",
+        "pictureMime": "image/png",
+        "status": "Finished",
+        "version": 4
+      },
+      "linkType": "Group"
+    }
+  ],
+  "artistType": "Vocaloid",
+  "createDate": "2011-10-15T23:40:35",
+  "defaultName": "VY2",
+  "defaultNameLanguage": "English",
+  "description": "The second voicebank, after [VY1](http://vocadb.net/Ar/117), to be produced by Yamaha itself. VY2 is intended for professional musicians and, according to Yamaha, is intended to be a high quality voicebank. As a note of the previous Vocaloid VY1, VY2 can be viewed as whatever the user wishes it to be, though the voice itself is a \"young masculine\" vocal. The tone of voice was intended to convey the image of a handsome young male with the voicebank itself being easy to use without heavy modifications. The scripts used for recording the samples were identical to those of its counterpart VY1.\n\nThough VY2 has no official avatar, a design by the illustrator [Manbou no Ane](http://vocadb.net/Ar/2569) won a Vocaloid Festa (VocaFes) contest for her fan visualization. Manbou no Ane's design, nicknamed 66, or ロロ (Roro), has become the most common fan depiction of VY2.\n\nVY2 has since received an updated VOCALOID3 voicebank, as well as a voicebank designed for singing falsetto.\n\nEngine: VOCALOID2\nDeveloper: Bplats, Inc.; Yamaha\nLanguage: Japanese\nVoice Type: Masculine (no officially set gender)\nVoice Provider: credited as __S__ in the booklet for [THE VOCALOID produced by Yamaha](https://vocadb.net/Al/161); otherwise unknown\nIllustrator: なぎみそ(Nagimiso) (boxart); [風乃(Kazeno)](http://vocadb.net/Ar/13437) (interior illustration), Manbou no Ane (マンボウの姉) (fan visualization)",
+  "id": 118,
+  "mainPicture": {
+    "mime": "image/png",
+    "urlOriginal": "https://static.vocadb.net/img/Artist/mainOrig/118.png?v=27",
+    "urlSmallThumb": "https://static.vocadb.net/img/Artist/mainSmall/118.png?v=27",
+    "urlThumb": "https://static.vocadb.net/img/Artist/mainThumb/118.png?v=27",
+    "urlTinyThumb": "https://static.vocadb.net/img/Artist/mainTiny/118.png?v=27"
+  },
+  "name": "VY2",
+  "names": [
+    {
+      "language": "English",
+      "value": "VY2"
+    },
+    {
+      "language": "Unspecified",
+      "value": "勇馬"
+    },
+    {
+      "language": "Unspecified",
+      "value": "Yuuma"
+    }
+  ],
+  "pictureMime": "image/png",
+  "releaseDate": "2011-04-25T00:00:00Z",
+  "status": "Approved",
+  "version": 27,
+  "webLinks": [
+    {
+      "category": "Reference",
+      "description": "Vocaloid Wiki",
+      "disabled": false,
+      "id": 311,
+      "url": "http://vocaloid.wikia.com/wiki/VY2"
+    },
+    {
+      "category": "Reference",
+      "description": "Hatsune Miku wiki",
+      "disabled": false,
+      "id": 1785,
+      "url": "http://www5.atwiki.jp/hmiku/pages/15131.html"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "artistLinks": [],
+  "artistType": "Vocaloid",
+  "createDate": "2016-08-05T20:04:39",
+  "defaultName": "初音ミク V4X (Solid)",
+  "defaultNameLanguage": "Japanese",
+  "description": "Solid voicebank of Hatsune Miku V4X. Includes voice colours Power and Soft, as well as breath release.\n\nRange: D2 ~ C4\nTempo: 65 ~ 160 BPM",
+  "id": 50235,
+  "mainPicture": {
+    "mime": "image/png",
+    "urlOriginal": "https://static.vocadb.net/img/Artist/mainOrig/50235.png?v=9",
+    "urlSmallThumb": "https://static.vocadb.net/img/Artist/mainSmall/50235.png?v=9",
+    "urlThumb": "https://static.vocadb.net/img/Artist/mainThumb/50235.png?v=9",
+    "urlTinyThumb": "https://static.vocadb.net/img/Artist/mainTiny/50235.png?v=9"
+  },
+  "name": "Hatsune Miku V4X (Solid)",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "初音ミク V4X (Solid)"
+    },
+    {
+      "language": "Romaji",
+      "value": "Hatsune Miku V4X (Solid)"
+    }
+  ],
+  "pictureMime": "image/png",
+  "releaseDate": "2016-08-31T00:00:00Z",
+  "status": "Finished",
+  "version": 9,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "Crypton Future Media",
+      "disabled": false,
+      "id": 109071,
+      "url": "http://www.crypton.co.jp/mp/pages/prod/vocaloid/mikuv4x.jsp"
+    },
+    {
+      "category": "Official",
+      "description": "Sonicwire",
+      "disabled": false,
+      "id": 109072,
+      "url": "http://sonicwire.com/product/vocaloid/special/mikuv4x"
+    },
+    {
+      "category": "Reference",
+      "description": "Wikipedia (EN)",
+      "disabled": false,
+      "id": 177844,
+      "url": "https://en.wikipedia.org/wiki/Vocaloid_4#Hatsune_Miku_V4X"
+    },
+    {
+      "category": "Reference",
+      "description": "Vocaloid Wiki",
+      "disabled": false,
+      "id": 177845,
+      "url": "https://vocaloid.fandom.com/wiki/Hatsune_Miku_V4X"
+    },
+    {
+      "category": "Reference",
+      "description": "NicoNicoPedia",
+      "disabled": false,
+      "id": 177846,
+      "url": "https://dic.nicovideo.jp/a/%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AFv4x"
+    }
+  ]
+}

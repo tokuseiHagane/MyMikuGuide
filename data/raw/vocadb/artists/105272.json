@@ -1,0 +1,48 @@
+{
+  "artistLinks": [
+    {
+      "artist": {
+        "additionalNames": "",
+        "artistType": "OtherGroup",
+        "deleted": false,
+        "id": 10137,
+        "name": "Omoi",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 31
+      },
+      "linkType": "Group"
+    }
+  ],
+  "artistType": "Producer",
+  "createDate": "2022-07-07T02:49:45.253",
+  "defaultName": "Kimura",
+  "defaultNameLanguage": "Romaji",
+  "description": "",
+  "id": 105272,
+  "name": "Kimura",
+  "names": [
+    {
+      "language": "Romaji",
+      "value": "Kimura"
+    }
+  ],
+  "status": "Finished",
+  "version": 3,
+  "webLinks": [
+    {
+      "category": "Reference",
+      "description": "Discogs",
+      "disabled": false,
+      "id": 265318,
+      "url": "https://www.discogs.com/artist/6731153-Kimura-18"
+    },
+    {
+      "category": "Reference",
+      "description": "MusicBrainz",
+      "disabled": false,
+      "id": 265320,
+      "url": "https://musicbrainz.org/artist/55cf8756-1ab4-408e-8d6b-b0e8aba5eff9"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "additionalNames": [
+    "萌す心を",
+    "Kizasu Kokoro o"
+  ],
+  "albumIds": [
+    "album-32376"
+  ],
+  "artistIds": [
+    "artist-50264",
+    "artist-1",
+    "artist-53247"
+  ],
+  "defaultName": "萌す心を",
+  "displayName": "Budding Heart",
+  "durationSeconds": 215,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Piapro (Karaoke)",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "https://piapro.jp/t/ZuMq"
+    },
+    {
+      "kind": "reference",
+      "label": "NND Compass Wiki",
+      "official": true,
+      "service": "nnd-compass.fandom.com",
+      "url": "https://nnd-compass.fandom.com/wiki/Budding_Heart"
+    },
+    {
+      "kind": "original",
+      "label": "萌す心を／初音ミク",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/_oLA_7lM7aY"
+    },
+    {
+      "kind": "original",
+      "label": "萌す心を／初音ミク",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm37439262"
+    },
+    {
+      "kind": "original",
+      "label": "萌す心を／初音ミク",
+      "official": true,
+      "service": "bilibili",
+      "url": "https://www.bilibili.com/video/av926969234"
+    },
+    {
+      "kind": "original",
+      "label": "萌す心を",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/MT6BS8Kz-Ro"
+    }
+  ],
+  "id": "song-293493",
+  "primaryImage": "https://i1.ytimg.com/vi/_oLA_7lM7aY/hqdefault.jpg",
+  "publishDate": "2020-08-31T00:00:00Z",
+  "rawHash": "8323b133ab96423dfbc8f1d609de889f7195928283a083dfb975470163302d86",
+  "slug": "budding-heart--vocadb-293493",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/293493",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "tags": [
+    "traditional Japanese music style",
+    "video game official soundtrack release",
+    "rock",
+    "Japanesque",
+    "unspecified voicebank",
+    "karaoke available",
+    "sword",
+    "folk rock",
+    "J-rock",
+    "#compass",
+    "Japanese mythology",
+    "energetic",
+    "#COMPASS LIVE ARENA",
+    "traditional Japanese clothing",
+    "stem data distribution (VocaColle)"
+  ],
+  "title": "Budding Heart",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/budding-heart--vocadb-293493/",
+  "vocadbId": 293493,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2020
+}

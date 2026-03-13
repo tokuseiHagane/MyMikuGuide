@@ -1,0 +1,121 @@
+{
+  "albums": [
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.03, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.03",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2022-05-12T04:49:20.377",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 32376,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.03",
+      "ratingAverage": 4.81,
+      "ratingCount": 11,
+      "releaseDate": {
+        "day": 4,
+        "isEmpty": false,
+        "month": 5,
+        "year": 2022
+      },
+      "status": "Finished",
+      "version": 18
+    }
+  ],
+  "artistString": "HachioujiP feat. Hatsune Miku, VY2",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "八王子P, 8#Prince, HachiojiP, 802P, dj8ouji, 하치오지P",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 38,
+        "name": "HachioujiP",
+        "pictureMime": "image/jpeg",
+        "status": "Approved",
+        "version": 49
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Arranger",
+      "id": 1113127,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "HachioujiP",
+      "roles": "Arranger"
+    },
+    {
+      "artist": {
+        "additionalNames": "初音ミク, 初音未来, Chūyīn Wèilái, 하츠네 미쿠, 初音未來",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 1,
+        "name": "Hatsune Miku",
+        "pictureMime": "image/png",
+        "releaseDate": "2007-08-31T00:00:00Z",
+        "status": "Locked",
+        "version": 39
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 1113128,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Hatsune Miku",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "勇馬, Yuuma",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 118,
+        "name": "VY2",
+        "pictureMime": "image/png",
+        "releaseDate": "2011-04-25T00:00:00Z",
+        "status": "Approved",
+        "version": 27
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 1113129,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "VY2",
+      "roles": "Default"
+    }
+  ],
+  "createDate": "2022-05-12T05:00:10.693",
+  "defaultName": "パラレルレイヤー Remixed by 八王子P",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 1,
+  "id": 406199,
+  "lengthSeconds": 237,
+  "name": "PARALLEL LAYER Remixed by HachioujiP",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "パラレルレイヤー Remixed by 八王子P"
+    },
+    {
+      "language": "English",
+      "value": "PARALLEL LAYER Remixed by HachioujiP"
+    },
+    {
+      "language": "Unspecified",
+      "value": "パラレルレイヤー -八王子P Remix-"
+    },
+    {
+      "language": "Unspecified",
+      "value": "PARALLEL LAYER -八王子P Remix-"
+    }
+  ],
+  "originalVersionId": 300008,
+  "publishDate": "2022-05-04T00:00:00Z",
+  "pvServices": "Nothing",
+  "pvs": [],
+  "ratingScore": 7,
+  "songType": "Remix",
+  "status": "Finished",
+  "tags": [],
+  "version": 10,
+  "webLinks": []
+}

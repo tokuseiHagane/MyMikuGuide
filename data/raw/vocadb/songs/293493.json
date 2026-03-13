@@ -1,0 +1,341 @@
+{
+  "albums": [
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.03, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.03",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2022-05-12T04:49:20.377",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 32376,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.03",
+      "ratingAverage": 4.81,
+      "ratingCount": 11,
+      "releaseDate": {
+        "day": 4,
+        "isEmpty": false,
+        "month": 5,
+        "year": 2022
+      },
+      "status": "Finished",
+      "version": 18
+    }
+  ],
+  "artistString": "Hifumi feat. Hatsune Miku",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "一二三, Hihumi, 히후미",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 50264,
+        "name": "Hifumi",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 16
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Default",
+      "id": 790427,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Hifumi",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "初音ミク, 初音未来, Chūyīn Wèilái, 하츠네 미쿠, 初音未來",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 1,
+        "name": "Hatsune Miku",
+        "pictureMime": "image/png",
+        "releaseDate": "2007-08-31T00:00:00Z",
+        "status": "Locked",
+        "version": 39
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 790428,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Hatsune Miku",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "慧子",
+        "artistType": "Illustrator",
+        "deleted": false,
+        "id": 53247,
+        "name": "Keiko",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 8
+      },
+      "categories": "Illustrator",
+      "effectiveRoles": "Illustrator",
+      "id": 790429,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Keiko",
+      "roles": "Illustrator"
+    }
+  ],
+  "createDate": "2020-08-31T14:17:14.763",
+  "defaultName": "萌す心を",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 7,
+  "id": 293493,
+  "lengthSeconds": 215,
+  "mainPicture": {
+    "urlOriginal": "https://i1.ytimg.com/vi/_oLA_7lM7aY/hqdefault.jpg",
+    "urlThumb": "https://i.ytimg.com/vi/_oLA_7lM7aY/default.jpg"
+  },
+  "name": "Budding Heart",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "萌す心を"
+    },
+    {
+      "language": "Romaji",
+      "value": "Kizasu Kokoro o"
+    },
+    {
+      "language": "English",
+      "value": "Budding Heart"
+    }
+  ],
+  "publishDate": "2020-08-31T00:00:00Z",
+  "pvServices": "NicoNicoDouga, Youtube, Bilibili",
+  "pvs": [
+    {
+      "author": "一二三",
+      "disabled": false,
+      "id": 423699,
+      "length": 215,
+      "name": "萌す心を／初音ミク",
+      "publishDate": "2020-08-31T00:00:00",
+      "pvId": "_oLA_7lM7aY",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/_oLA_7lM7aY/default.jpg",
+      "url": "https://youtu.be/_oLA_7lM7aY"
+    },
+    {
+      "author": "一二三",
+      "disabled": false,
+      "id": 423700,
+      "length": 214,
+      "name": "萌す心を／初音ミク",
+      "publishDate": "2020-08-31T00:00:00",
+      "pvId": "sm37439262",
+      "pvType": "Original",
+      "service": "NicoNicoDouga",
+      "thumbUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/37439262/37439262.55105678",
+      "url": "http://www.nicovideo.jp/watch/sm37439262"
+    },
+    {
+      "author": "hihumi_v",
+      "disabled": false,
+      "extendedMetadata": {
+        "json": "{\"Aid\":926969234,\"Bvid\":\"BV1hT4y1w77W\",\"Cid\":230894268}"
+      },
+      "id": 698991,
+      "length": 216,
+      "name": "萌す心を／初音ミク",
+      "publishDate": "2020-08-31T00:00:00",
+      "pvId": "926969234",
+      "pvType": "Original",
+      "service": "Bilibili",
+      "thumbUrl": "http://i2.hdslb.com/bfs/archive/5ee42e7950d02f635492191f3ee4186e4c070c8e.jpg",
+      "url": "https://www.bilibili.com/video/av926969234"
+    },
+    {
+      "author": "Release - Topic",
+      "disabled": false,
+      "id": 926987,
+      "length": 216,
+      "name": "萌す心を",
+      "publishDate": "2024-03-31T00:00:00",
+      "pvId": "MT6BS8Kz-Ro",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/MT6BS8Kz-Ro/default.jpg",
+      "url": "https://youtu.be/MT6BS8Kz-Ro"
+    }
+  ],
+  "ratingScore": 59,
+  "songType": "Original",
+  "status": "Finished",
+  "tags": [
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "和風, 和ロック, warock, Japanese style music, wafuu, Japanese traditional music",
+        "categoryName": "Genres",
+        "id": 434,
+        "name": "traditional Japanese music style",
+        "urlSlug": "traditional-japanese-music-sty"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "visual novel official soundtrack release, video game soundtrack, visual novel soundtrack",
+        "categoryName": "Sources",
+        "id": 456,
+        "name": "video game official soundtrack release",
+        "urlSlug": "video-game-official-soundtrack"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "ロック, vocarock, utaurock, 摇滚",
+        "categoryName": "Genres",
+        "id": 481,
+        "name": "rock",
+        "urlSlug": "rock"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "Japanesey, Japonism",
+        "categoryName": "Themes",
+        "id": 2887,
+        "name": "Japanesque",
+        "urlSlug": "japanesque"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "unknown voicebank",
+        "categoryName": "Editor notes",
+        "id": 2982,
+        "name": "unspecified voicebank",
+        "urlSlug": "unspecified-voicebank"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "カラオケ配布, off vocal available, instrumental available, インストルメンタル配布, off-vocal available, インスト配布, inst配布, オフボ配布, オフボーカル配布",
+        "categoryName": "Distribution",
+        "id": 3113,
+        "name": "karaoke available",
+        "urlSlug": "karaoke-available"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "剣",
+        "categoryName": "Themes",
+        "id": 3341,
+        "name": "sword",
+        "urlSlug": "sword"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "",
+        "categoryName": "Genres",
+        "id": 4787,
+        "name": "folk rock",
+        "urlSlug": "folk-rock"
+      }
+    },
+    {
+      "count": 5,
+      "tag": {
+        "additionalNames": "ジェイロック, Jrock, 邦ロック",
+        "categoryName": "Genres",
+        "id": 4933,
+        "name": "J-rock",
+        "urlSlug": "j-rock"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "#コンパス, 戦闘摂理解析システム, NND Compass",
+        "categoryName": "Copyrights",
+        "id": 6107,
+        "name": "#compass",
+        "urlSlug": "compass"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "日本神話",
+        "categoryName": "Themes",
+        "id": 7735,
+        "name": "Japanese mythology",
+        "urlSlug": "japanese-mythology"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "lively, hyper",
+        "categoryName": "Subjective",
+        "id": 9001,
+        "name": "energetic",
+        "urlSlug": "energetic"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "#コンパス ライブアリーナ",
+        "categoryName": "Games",
+        "id": 9078,
+        "name": "#COMPASS LIVE ARENA",
+        "urlSlug": "compass-live-arena"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "traditional Japanese attire, traditional Japanese dress, traditional Japanese suit, kimono, yukata, wafuku, haori, hakama, happi, hanten, samue, jinbei, fundoshi, furisode, 和装, 袴, 着物, 和服, 浴衣, 振袖, 作務衣, 法被, 甚平, 羽織, 袢纏, ふんどし",
+        "categoryName": "Themes",
+        "id": 9436,
+        "name": "traditional Japanese clothing",
+        "urlSlug": "traditional-japanese-clothing"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "stemデータ配布 (ボカコレ), stem data distributor (VocaColle), stem data available (VocaColle)",
+        "categoryName": "Distribution",
+        "id": 9534,
+        "name": "stem data distribution (VocaColle)",
+        "urlSlug": "stem-data-distribution-vocacol"
+      }
+    }
+  ],
+  "version": 12,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "Piapro (Karaoke)",
+      "disabled": false,
+      "id": 98258,
+      "url": "https://piapro.jp/t/ZuMq"
+    },
+    {
+      "category": "Reference",
+      "description": "NND Compass Wiki",
+      "disabled": false,
+      "id": 112137,
+      "url": "https://nnd-compass.fandom.com/wiki/Budding_Heart"
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "albums": [
+    {
+      "additionalNames": "",
+      "artistString": "Eve feat. Hatsune Miku",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2022-02-09T22:30:57.36",
+      "deleted": false,
+      "discType": "Album",
+      "id": 31653,
+      "name": "Eve Vocaloid 01",
+      "ratingAverage": 4.77,
+      "ratingCount": 18,
+      "releaseDate": {
+        "day": 9,
+        "isEmpty": false,
+        "month": 2,
+        "year": 2022
+      },
+      "status": "Approved",
+      "version": 10
+    },
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.03, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.03",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2022-05-12T04:49:20.377",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 32376,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.03",
+      "ratingAverage": 4.81,
+      "ratingCount": 11,
+      "releaseDate": {
+        "day": 4,
+        "isEmpty": false,
+        "month": 5,
+        "year": 2022
+      },
+      "status": "Finished",
+      "version": 18
+    }
+  ],
+  "artistString": "Eve, Tomoki Numano feat. Hatsune Miku",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 10233,
+        "name": "Eve",
+        "pictureMime": "image/jpeg",
+        "status": "Approved",
+        "version": 18
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Composer, Lyricist",
+      "id": 742061,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Eve",
+      "roles": "Composer, Lyricist"
+    },
+    {
+      "artist": {
+        "additionalNames": "初音ミク, 初音未来, Chūyīn Wèilái, 하츠네 미쿠, 初音未來",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 1,
+        "name": "Hatsune Miku",
+        "pictureMime": "image/png",
+        "releaseDate": "2007-08-31T00:00:00Z",
+        "status": "Locked",
+        "version": 39
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 742062,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Hatsune Miku",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "りゅうせー",
+        "artistType": "Animator",
+        "deleted": false,
+        "id": 1389,
+        "name": "ryuuseee",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 11
+      },
+      "categories": "Other",
+      "effectiveRoles": "Other",
+      "id": 1622098,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "ryuuseee",
+      "roles": "Other"
+    },
+    {
+      "artist": {
+        "additionalNames": "檀上大空, skyw315",
+        "artistType": "Illustrator",
+        "deleted": false,
+        "id": 18601,
+        "name": "Danjou Sora",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 15
+      },
+      "categories": "Illustrator",
+      "effectiveRoles": "Illustrator",
+      "id": 1622099,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Danjou Sora",
+      "roles": "Illustrator"
+    },
+    {
+      "artist": {
+        "additionalNames": "柚璃遥, ろまじん, romajinn, romajinndeshita, ろーまじん, Romajin",
+        "artistType": "Animator",
+        "deleted": false,
+        "id": 44803,
+        "name": "Yuzuri Hal",
+        "pictureMime": "image/jpeg",
+        "status": "Approved",
+        "version": 22
+      },
+      "categories": "Other",
+      "effectiveRoles": "Other",
+      "id": 1622100,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Yuzuri Hal",
+      "roles": "Other"
+    },
+    {
+      "artist": {
+        "additionalNames": "狂zip, Kyou zip",
+        "artistType": "Illustrator",
+        "deleted": false,
+        "id": 12897,
+        "name": "kyo zip",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 6
+      },
+      "categories": "Other",
+      "effectiveRoles": "Other",
+      "id": 1622101,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "kyo zip",
+      "roles": "Other"
+    },
+    {
+      "artist": {
+        "additionalNames": "ヨル, 熊猫よる",
+        "artistType": "Animator",
+        "deleted": false,
+        "id": 132518,
+        "name": "Yoru",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 2
+      },
+      "categories": "Animator",
+      "effectiveRoles": "Animator",
+      "id": 1622102,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Yoru",
+      "roles": "Animator"
+    },
+    {
+      "artist": {
+        "additionalNames": "沼能友樹, Numa",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 58413,
+        "name": "Tomoki Numano",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 6
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Arranger, Instrumentalist",
+      "id": 1622105,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Tomoki Numano",
+      "roles": "Arranger, Instrumentalist"
+    }
+  ],
+  "createDate": "2020-04-15T04:54:15.223",
+  "defaultName": "やどりぎ",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 9,
+  "id": 278544,
+  "lengthSeconds": 230,
+  "mainPicture": {
+    "urlOriginal": "https://i1.ytimg.com/vi/AdJlCZ1Swxk/hqdefault.jpg",
+    "urlThumb": "https://nicovideo.cdn.nimg.jp/thumbnails/43309410/43309410.41316012"
+  },
+  "name": "Mistletoe",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "やどりぎ"
+    },
+    {
+      "language": "Romaji",
+      "value": "Yadorigi"
+    },
+    {
+      "language": "English",
+      "value": "Mistletoe"
+    }
+  ],
+  "publishDate": "2022-02-09T00:00:00Z",
+  "pvServices": "NicoNicoDouga, Youtube, Bilibili",
+  "pvs": [
+    {
+      "author": "#コンパス 戦闘摂理解析システム (ID:ch2626010)",
+      "disabled": false,
+      "id": 887232,
+      "length": 230,
+      "name": "【#コンパス】やどりぎ / Eve feat.初音ミク【ソーン=ユーリエフ】",
+      "publishDate": "2024-01-28T00:00:00",
+      "pvId": "so43309410",
+      "pvType": "Original",
+      "service": "NicoNicoDouga",
+      "thumbUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/43309410/43309410.41316012",
+      "url": "http://www.nicovideo.jp/watch/so43309410"
+    },
+    {
+      "author": "Eve - Topic",
+      "disabled": false,
+      "id": 1263050,
+      "length": 231,
+      "name": "Yadorigi",
+      "publishDate": "2022-02-08T00:00:00",
+      "pvId": "AdJlCZ1Swxk",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/AdJlCZ1Swxk/default.jpg",
+      "url": "https://youtu.be/AdJlCZ1Swxk"
+    },
+    {
+      "author": "Eve - Topic",
+      "disabled": false,
+      "id": 1263051,
+      "length": 231,
+      "name": "Yadorigi",
+      "publishDate": "2022-02-08T00:00:00",
+      "pvId": "iWHbJDI2Zio",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/iWHbJDI2Zio/default.jpg",
+      "url": "https://youtu.be/iWHbJDI2Zio"
+    },
+    {
+      "author": "Release - Topic",
+      "disabled": false,
+      "id": 1263052,
+      "length": 230,
+      "name": "やどりぎ",
+      "publishDate": "2024-03-31T00:00:00",
+      "pvId": "xiV9FGcNcIM",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/xiV9FGcNcIM/default.jpg",
+      "url": "https://youtu.be/xiV9FGcNcIM"
+    },
+    {
+      "author": "SenaRinka_Tao",
+      "disabled": false,
+      "extendedMetadata": {
+        "json": "{\"Aid\":411753340,\"Bvid\":\"BV1iV411Q7fD\",\"Cid\":1422127446}"
+      },
+      "id": 1355725,
+      "length": 231,
+      "name": "【初音ミク】やどりぎ (槲寄生)【Eve】【#コンパス (#COMPASS) / 英雄「ソーン=ユーリエフ (索恩=尤里耶夫)」主題曲】",
+      "publishDate": "2024-01-28T00:00:00",
+      "pvId": "411753340",
+      "pvType": "Reprint",
+      "service": "Bilibili",
+      "thumbUrl": "http://i0.hdslb.com/bfs/archive/715f4fee6056fa1fe09a3bc46ab5504c1a0688fc.jpg",
+      "url": "https://www.bilibili.com/video/av411753340"
+    }
+  ],
+  "ratingScore": 35,
+  "songType": "Original",
+  "status": "Finished",
+  "tags": [
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "セルフカバー",
+        "categoryName": "Sources",
+        "id": 391,
+        "name": "self-cover",
+        "urlSlug": "self-cover"
+      }
+    },
+    {
+      "count": 4,
+      "tag": {
+        "additionalNames": "visual novel official soundtrack release, video game soundtrack, visual novel soundtrack",
+        "categoryName": "Sources",
+        "id": 456,
+        "name": "video game official soundtrack release",
+        "urlSlug": "video-game-official-soundtrack"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "J-POP‎ , ポップス, pops, Jpop, ジェイポップ, ジェーポップ",
+        "categoryName": "Genres",
+        "id": 1654,
+        "name": "J-pop",
+        "urlSlug": "j-pop"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "元気が出る曲",
+        "categoryName": "Subjective",
+        "id": 2876,
+        "name": "uplifting",
+        "urlSlug": "uplifting"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "",
+        "categoryName": "Sources",
+        "id": 3193,
+        "name": "human original",
+        "urlSlug": "human-original"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "原曲が収録範囲外",
+        "categoryName": "Sources",
+        "id": 3282,
+        "name": "original out of scope",
+        "urlSlug": "original-out-of-scope"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "同時投稿, カテゴリ並行うｐ",
+        "categoryName": "Editor notes",
+        "id": 4946,
+        "name": "simultaneous upload",
+        "urlSlug": "simultaneous-upload"
+      }
+    },
+    {
+      "count": 5,
+      "tag": {
+        "additionalNames": "#コンパス, 戦闘摂理解析システム, NND Compass",
+        "categoryName": "Copyrights",
+        "id": 6107,
+        "name": "#compass",
+        "urlSlug": "compass"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "クール, kickbutt, awesome, かっこいい",
+        "categoryName": "Subjective",
+        "id": 6565,
+        "name": "cool",
+        "urlSlug": "cool"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "イメージソング, キャラクターソング, キャラソン, character song",
+        "categoryName": "Themes",
+        "id": 7989,
+        "name": "image song",
+        "urlSlug": "image-song"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "region-blocked, region-locked, region locked, region restriction, geo blocked",
+        "categoryName": "Distribution",
+        "id": 8226,
+        "name": "region blocked",
+        "urlSlug": "region-blocked"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "#コンパス ライブアリーナ",
+        "categoryName": "Games",
+        "id": 9078,
+        "name": "#COMPASS LIVE ARENA",
+        "urlSlug": "compass-live-arena"
+      }
+    }
+  ],
+  "version": 26,
+  "webLinks": [
+    {
+      "category": "Reference",
+      "description": "UtaiteDB (Human version)",
+      "disabled": false,
+      "id": 92613,
+      "url": "https://utaitedb.net/S/40824"
+    }
+  ]
+}

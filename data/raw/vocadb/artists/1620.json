@@ -1,0 +1,216 @@
+{
+  "artistLinks": [
+    {
+      "artist": {
+        "additionalNames": "",
+        "artistType": "Circle",
+        "deleted": false,
+        "id": 90832,
+        "name": "BASYAUMA RECORDS",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 2
+      },
+      "linkType": "Group"
+    },
+    {
+      "artist": {
+        "additionalNames": "カレント, KarenT",
+        "artistType": "Label",
+        "deleted": false,
+        "id": 276,
+        "name": "KARENT",
+        "pictureMime": "image/jpeg",
+        "status": "Locked",
+        "version": 28
+      },
+      "linkType": "Group"
+    }
+  ],
+  "artistType": "Producer",
+  "createDate": "2012-05-19T06:40:20",
+  "defaultName": "*Luna",
+  "defaultNameLanguage": "Japanese",
+  "description": "",
+  "id": 1620,
+  "mainPicture": {
+    "mime": "image/png",
+    "urlOriginal": "https://static.vocadb.net/img/Artist/mainOrig/1620.png?v=29",
+    "urlSmallThumb": "https://static.vocadb.net/img/Artist/mainSmall/1620.png?v=29",
+    "urlThumb": "https://static.vocadb.net/img/Artist/mainThumb/1620.png?v=29",
+    "urlTinyThumb": "https://static.vocadb.net/img/Artist/mainTiny/1620.png?v=29"
+  },
+  "name": "*Luna",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "*Luna"
+    }
+  ],
+  "pictureMime": "image/png",
+  "status": "Finished",
+  "version": 29,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "NND MyList",
+      "disabled": true,
+      "id": 3281,
+      "url": "http://www.nicovideo.jp/mylist/30108248"
+    },
+    {
+      "category": "Official",
+      "description": "Twitter",
+      "disabled": false,
+      "id": 8949,
+      "url": "https://twitter.com/Luna_miko00"
+    },
+    {
+      "category": "Official",
+      "description": "Blog",
+      "disabled": false,
+      "id": 9074,
+      "url": "http://ameblo.jp/luna-niconico/"
+    },
+    {
+      "category": "Official",
+      "description": "NND Community",
+      "disabled": true,
+      "id": 9189,
+      "url": "http://com.nicovideo.jp/community/co1569781"
+    },
+    {
+      "category": "Official",
+      "description": "Piapro",
+      "disabled": false,
+      "id": 9191,
+      "url": "http://piapro.jp/Luna_"
+    },
+    {
+      "category": "Official",
+      "description": "NND Account",
+      "disabled": false,
+      "id": 26354,
+      "url": "http://www.nicovideo.jp/user/25646141"
+    },
+    {
+      "category": "Official",
+      "description": "SoundCloud",
+      "disabled": true,
+      "id": 87659,
+      "url": "https://soundcloud.com/luna-catbird"
+    },
+    {
+      "category": "Official",
+      "description": "Tumblr",
+      "disabled": true,
+      "id": 107385,
+      "url": "http://luna-catbird.tumblr.com/"
+    },
+    {
+      "category": "Official",
+      "description": "Blogspot",
+      "disabled": false,
+      "id": 107386,
+      "url": "http://luna-catbird.blogspot.jp/"
+    },
+    {
+      "category": "Official",
+      "description": "LINE",
+      "disabled": false,
+      "id": 126979,
+      "url": "https://line.me/R/ti/p/%40rep7613k"
+    },
+    {
+      "category": "Commercial",
+      "description": "BOOTH",
+      "disabled": false,
+      "id": 140975,
+      "url": "https://luna-catbird.booth.pm/"
+    },
+    {
+      "category": "Official",
+      "description": "Pixiv",
+      "disabled": false,
+      "id": 140976,
+      "url": "https://www.pixiv.net/member.php?id=16315505"
+    },
+    {
+      "category": "Official",
+      "description": "Bilibili",
+      "disabled": false,
+      "id": 153733,
+      "url": "https://space.bilibili.com/252199770#/"
+    },
+    {
+      "category": "Commercial",
+      "description": "Bandcamp",
+      "disabled": true,
+      "id": 156484,
+      "url": "https://luna-miko00.bandcamp.com/"
+    },
+    {
+      "category": "Reference",
+      "description": "MikuWiki",
+      "disabled": false,
+      "id": 167477,
+      "url": "https://www5.atwiki.jp/hmiku/pages/23616.html"
+    },
+    {
+      "category": "Reference",
+      "description": "Vocaloid Wiki",
+      "disabled": false,
+      "id": 167478,
+      "url": "https://vocaloid.wikia.com/wiki/*Luna"
+    },
+    {
+      "category": "Reference",
+      "description": "NicoNicoPedia",
+      "disabled": false,
+      "id": 167479,
+      "url": "https://dic.nicovideo.jp/a/%2Aluna"
+    },
+    {
+      "category": "Reference",
+      "description": "UtaiteDB",
+      "disabled": false,
+      "id": 167480,
+      "url": "https://utaitedb.net/Ar/22118"
+    },
+    {
+      "category": "Official",
+      "description": "Website",
+      "disabled": false,
+      "id": 230142,
+      "url": "https://www.ast-luna.com/"
+    },
+    {
+      "category": "Commercial",
+      "description": "KARENT",
+      "disabled": false,
+      "id": 268257,
+      "url": "https://karent.jp/artist/pp000797"
+    },
+    {
+      "category": "Official",
+      "description": "YouTube Channel",
+      "disabled": false,
+      "id": 439058,
+      "url": "https://www.youtube.com/channel/UCGGY3oTOQ9g9FCu9hLFJsqw"
+    },
+    {
+      "category": "Official",
+      "description": "YouTube Channel (Custom - user)",
+      "disabled": false,
+      "id": 439059,
+      "url": "https://www.youtube.com/user/catbird00"
+    },
+    {
+      "category": "Official",
+      "description": "YouTube Channel (Custom - @)",
+      "disabled": false,
+      "id": 439060,
+      "url": "https://www.youtube.com/@ast-Luna"
+    }
+  ]
+}

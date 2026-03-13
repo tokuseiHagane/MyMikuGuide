@@ -1,0 +1,342 @@
+{
+  "albums": [
+    {
+      "additionalNames": "音絵本Ⅱ, OTOEHONⅡ",
+      "artistString": "YASUHIRO feat. various",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2019-12-26T14:32:07.903",
+      "deleted": false,
+      "discType": "Album",
+      "id": 27884,
+      "name": "An illustrated book of sound Ⅱ",
+      "ratingAverage": 5,
+      "ratingCount": 4,
+      "releaseDate": {
+        "day": 31,
+        "isEmpty": false,
+        "month": 12,
+        "year": 2019
+      },
+      "releaseEvent": {
+        "category": "Unspecified",
+        "date": "2019-12-28T00:00:00Z",
+        "endDate": "2019-12-31T00:00:00Z",
+        "id": 2012,
+        "name": "Comiket 97",
+        "seriesId": 3,
+        "seriesNumber": 97,
+        "seriesSuffix": "",
+        "status": "Draft",
+        "urlSlug": "comiket-97",
+        "venueName": "",
+        "version": 6
+      },
+      "status": "Approved",
+      "version": 4
+    },
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.03, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.03",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2022-05-12T04:49:20.377",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 32376,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.03",
+      "ratingAverage": 4.81,
+      "ratingCount": 11,
+      "releaseDate": {
+        "day": 4,
+        "isEmpty": false,
+        "month": 5,
+        "year": 2022
+      },
+      "status": "Finished",
+      "version": 18
+    }
+  ],
+  "artistString": "YASUHIRO feat. Kagamine Rin",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "康寛, やすひろ, 야스히로",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 16228,
+        "name": "YASUHIRO",
+        "pictureMime": "image/png",
+        "status": "Finished",
+        "version": 16
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Default",
+      "id": 658278,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "YASUHIRO",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "鏡音リン, 鏡音鈴, 카가미네 린, 镜音铃",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 14,
+        "name": "Kagamine Rin",
+        "pictureMime": "image/png",
+        "releaseDate": "2007-12-27T00:00:00Z",
+        "status": "Locked",
+        "version": 34
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 658279,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Kagamine Rin",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "キヨイチ, kiyoichi261",
+        "artistType": "Illustrator",
+        "deleted": false,
+        "id": 62417,
+        "name": "Kiyoichi",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 5
+      },
+      "categories": "Illustrator",
+      "effectiveRoles": "Illustrator",
+      "id": 658280,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Kiyoichi",
+      "roles": "Illustrator"
+    },
+    {
+      "artist": {
+        "additionalNames": "こもも, こもも ももけた, Komomo Momoketa",
+        "artistType": "Illustrator",
+        "deleted": false,
+        "id": 16229,
+        "name": "Komomo",
+        "pictureMime": "image/png",
+        "status": "Finished",
+        "version": 5
+      },
+      "categories": "Illustrator",
+      "effectiveRoles": "Illustrator",
+      "id": 658281,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Komomo",
+      "roles": "Illustrator"
+    },
+    {
+      "artist": {
+        "additionalNames": "γしめぢ",
+        "artistType": "Animator",
+        "deleted": false,
+        "id": 48907,
+        "name": "γshimedi",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 5
+      },
+      "categories": "Animator",
+      "effectiveRoles": "Animator",
+      "id": 658282,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "γshimedi",
+      "roles": "Animator"
+    }
+  ],
+  "createDate": "2019-08-17T16:00:49.96",
+  "defaultName": "アブソリュート",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 13,
+  "id": 249742,
+  "lengthSeconds": 260,
+  "mainPicture": {
+    "urlOriginal": "https://i1.ytimg.com/vi/waKONiYYouU/hqdefault.jpg",
+    "urlThumb": "http://nicovideo.cdn.nimg.jp/thumbnails/35552172/35552172.96766456"
+  },
+  "name": "Absolute ",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "アブソリュート"
+    },
+    {
+      "language": "English",
+      "value": "Absolute "
+    },
+    {
+      "language": "Unspecified",
+      "value": "앱솔루트"
+    }
+  ],
+  "publishDate": "2019-08-17T00:00:00Z",
+  "pvServices": "NicoNicoDouga, Youtube",
+  "pvs": [
+    {
+      "author": "YASUHIRO(康寛)",
+      "disabled": false,
+      "id": 357263,
+      "length": 260,
+      "name": "アブソリュート - 鏡音リン MV",
+      "publishDate": "2019-08-17T00:00:00",
+      "pvId": "sm35552172",
+      "pvType": "Original",
+      "service": "NicoNicoDouga",
+      "thumbUrl": "http://nicovideo.cdn.nimg.jp/thumbnails/35552172/35552172.96766456",
+      "url": "http://www.nicovideo.jp/watch/sm35552172"
+    },
+    {
+      "author": "YASUHIROのあかうんと",
+      "disabled": false,
+      "id": 357264,
+      "length": 261,
+      "name": "アブソリュート YASUHIRO(康寛) feat.鏡音リン",
+      "publishDate": "2019-08-17T00:00:00",
+      "pvId": "waKONiYYouU",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/waKONiYYouU/default.jpg",
+      "url": "https://youtu.be/waKONiYYouU"
+    },
+    {
+      "author": "YASUHIRO(康寛) - Topic",
+      "disabled": false,
+      "id": 926981,
+      "length": 261,
+      "name": "アブソリュート",
+      "publishDate": "2024-03-31T00:00:00",
+      "pvId": "ObbqMWVA0XY",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/ObbqMWVA0XY/default.jpg",
+      "url": "https://youtu.be/ObbqMWVA0XY"
+    }
+  ],
+  "ratingScore": 79,
+  "songType": "Original",
+  "status": "Finished",
+  "tags": [
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "スウィング, スウィング・ジャズ, swing jazz",
+        "categoryName": "Genres",
+        "id": 418,
+        "name": "swing",
+        "urlSlug": "swing"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "visual novel official soundtrack release, video game soundtrack, visual novel soundtrack",
+        "categoryName": "Sources",
+        "id": 456,
+        "name": "video game official soundtrack release",
+        "urlSlug": "video-game-official-soundtrack"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "J-POP‎ , ポップス, pops, Jpop, ジェイポップ, ジェーポップ",
+        "categoryName": "Genres",
+        "id": 1654,
+        "name": "J-pop",
+        "urlSlug": "j-pop"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "お洒落, fashionable, おしゃれ",
+        "categoryName": "Subjective",
+        "id": 3015,
+        "name": "stylish",
+        "urlSlug": "stylish"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "エレクトロスウィング, エレクトロスイング, electroswing, electric swing, 电子摇摆",
+        "categoryName": "Genres",
+        "id": 3373,
+        "name": "electro swing",
+        "urlSlug": "electro-swing"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "ジェイロック, Jrock, 邦ロック",
+        "categoryName": "Genres",
+        "id": 4933,
+        "name": "J-rock",
+        "urlSlug": "j-rock"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "#コンパス, 戦闘摂理解析システム, NND Compass",
+        "categoryName": "Copyrights",
+        "id": 6107,
+        "name": "#compass",
+        "urlSlug": "compass"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "モノクローム, black and white, モノクロ, grayscale, greyscale, achromatic",
+        "categoryName": "Themes",
+        "id": 7527,
+        "name": "monochrome",
+        "urlSlug": "monochrome"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "赤, aka",
+        "categoryName": "Themes",
+        "id": 8912,
+        "name": "red",
+        "urlSlug": "red"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "#コンパス ライブアリーナ",
+        "categoryName": "Games",
+        "id": 9078,
+        "name": "#COMPASS LIVE ARENA",
+        "urlSlug": "compass-live-arena"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "stemデータ配布 (ボカコレ), stem data distributor (VocaColle), stem data available (VocaColle)",
+        "categoryName": "Distribution",
+        "id": 9534,
+        "name": "stem data distribution (VocaColle)",
+        "urlSlug": "stem-data-distribution-vocacol"
+      }
+    }
+  ],
+  "version": 10,
+  "webLinks": []
+}

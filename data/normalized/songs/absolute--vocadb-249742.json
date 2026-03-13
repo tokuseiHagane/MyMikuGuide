@@ -1,0 +1,75 @@
+{
+  "additionalNames": [
+    "アブソリュート",
+    "앱솔루트"
+  ],
+  "albumIds": [
+    "album-27884",
+    "album-32376"
+  ],
+  "artistIds": [
+    "artist-16228",
+    "artist-14",
+    "artist-62417",
+    "artist-16229",
+    "artist-48907"
+  ],
+  "defaultName": "アブソリュート",
+  "displayName": "Absolute ",
+  "durationSeconds": 260,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "アブソリュート - 鏡音リン MV",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm35552172"
+    },
+    {
+      "kind": "original",
+      "label": "アブソリュート YASUHIRO(康寛) feat.鏡音リン",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/waKONiYYouU"
+    },
+    {
+      "kind": "original",
+      "label": "アブソリュート",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/ObbqMWVA0XY"
+    }
+  ],
+  "id": "song-249742",
+  "primaryImage": "https://i1.ytimg.com/vi/waKONiYYouU/hqdefault.jpg",
+  "publishDate": "2019-08-17T00:00:00Z",
+  "rawHash": "37bd5692d0ab605cc4eaa666ebe0c475241e43e55898bce24a07017313d84f3f",
+  "slug": "absolute--vocadb-249742",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/249742",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "tags": [
+    "swing",
+    "video game official soundtrack release",
+    "J-pop",
+    "stylish",
+    "electro swing",
+    "J-rock",
+    "#compass",
+    "monochrome",
+    "red",
+    "#COMPASS LIVE ARENA",
+    "stem data distribution (VocaColle)"
+  ],
+  "title": "Absolute ",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/absolute--vocadb-249742/",
+  "vocadbId": 249742,
+  "vocalistIds": [
+    "artist-14"
+  ],
+  "year": 2019
+}

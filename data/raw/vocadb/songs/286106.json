@@ -1,0 +1,449 @@
+{
+  "albums": [
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.03, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.03",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2022-05-12T04:49:20.377",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 32376,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.03",
+      "ratingAverage": 4.81,
+      "ratingCount": 11,
+      "releaseDate": {
+        "day": 4,
+        "isEmpty": false,
+        "month": 5,
+        "year": 2022
+      },
+      "status": "Finished",
+      "version": 18
+    },
+    {
+      "additionalNames": "かいりきベア 1stワンマンライブ「病み垢ステロイド」",
+      "artistString": "Kairiki bear",
+      "coverPictureMime": "image/png",
+      "createDate": "2025-04-04T12:02:30.373",
+      "deleted": false,
+      "discType": "Video",
+      "id": 46200,
+      "name": "Kairiki bear 1st ONE-MAN LIVE \"Yamiaka Steroid\"",
+      "ratingAverage": 0,
+      "ratingCount": 0,
+      "releaseDate": {
+        "day": 18,
+        "isEmpty": false,
+        "month": 6,
+        "year": 2025
+      },
+      "status": "Draft",
+      "version": 9
+    }
+  ],
+  "artistString": "Kairiki bear feat. Kagamine Rin V4X (Power)",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "かいりきベア",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 885,
+        "name": "Kairiki bear",
+        "pictureMime": "image/jpeg",
+        "status": "Approved",
+        "version": 23
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Default",
+      "id": 766299,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Kairiki bear",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "のう, nounoknown, チキンナゲット",
+        "artistType": "Illustrator",
+        "deleted": false,
+        "id": 10026,
+        "name": "nou",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 15
+      },
+      "categories": "Illustrator",
+      "effectiveRoles": "Illustrator",
+      "id": 766301,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "nou",
+      "roles": "Illustrator"
+    },
+    {
+      "artist": {
+        "additionalNames": "鏡音リン V4X (Power)",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 43217,
+        "name": "Kagamine Rin V4X (Power)",
+        "pictureMime": "image/png",
+        "releaseDate": "2015-12-24T00:00:00Z",
+        "status": "Finished",
+        "version": 14
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 2538901,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Kagamine Rin V4X (Power)",
+      "roles": "Default"
+    }
+  ],
+  "createDate": "2020-06-27T15:41:14.957",
+  "defaultName": "アイ情劣等生",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 55,
+  "id": 286106,
+  "lengthSeconds": 252,
+  "mainPicture": {
+    "urlOriginal": "https://i1.ytimg.com/vi/eEuIHatfgkE/hqdefault.jpg",
+    "urlThumb": "https://i.ytimg.com/vi/eEuIHatfgkE/default.jpg"
+  },
+  "name": "Underachieving Lover",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "アイ情劣等生"
+    },
+    {
+      "language": "Romaji",
+      "value": "Aijou Rettousei"
+    },
+    {
+      "language": "English",
+      "value": "Underachieving Lover"
+    },
+    {
+      "language": "Unspecified",
+      "value": "Affection/Sadness Underachiever"
+    },
+    {
+      "language": "Unspecified",
+      "value": "애정 열등생"
+    }
+  ],
+  "publishDate": "2020-06-27T00:00:00Z",
+  "pvServices": "NicoNicoDouga, Youtube",
+  "pvs": [
+    {
+      "author": "かいりきベア／Kairiki bear",
+      "disabled": false,
+      "id": 411089,
+      "length": 252,
+      "name": "【公式】 アイ情劣等生／かいりきベア feat.鏡音リン",
+      "publishDate": "2020-06-27T00:00:00",
+      "pvId": "eEuIHatfgkE",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/eEuIHatfgkE/default.jpg",
+      "url": "https://youtu.be/eEuIHatfgkE"
+    },
+    {
+      "author": "かいりきベア",
+      "disabled": false,
+      "id": 411090,
+      "length": 251,
+      "name": "アイ情劣等生 / 鏡音リン",
+      "publishDate": "2020-06-27T00:00:00",
+      "pvId": "sm37081741",
+      "pvType": "Original",
+      "service": "NicoNicoDouga",
+      "thumbUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/37081741/37081741.57992817",
+      "url": "http://www.nicovideo.jp/watch/sm37081741"
+    },
+    {
+      "author": "ナカナカ",
+      "disabled": false,
+      "id": 411457,
+      "length": 252,
+      "name": "【かいりきベア feat. 鏡音リン】 アイ情劣等生 (Underachieving Lover) 【ENGLISH SUBTITLES】",
+      "publishDate": "2020-06-27T00:00:00",
+      "pvId": "tLSzLUB8I68",
+      "pvType": "Reprint",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/tLSzLUB8I68/default.jpg",
+      "url": "https://youtu.be/tLSzLUB8I68"
+    },
+    {
+      "author": "Release - Topic",
+      "disabled": false,
+      "id": 926983,
+      "length": 253,
+      "name": "アイ情劣等生",
+      "publishDate": "2024-03-31T00:00:00",
+      "pvId": "gXf2l1BMmuk",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/gXf2l1BMmuk/default.jpg",
+      "url": "https://youtu.be/gXf2l1BMmuk"
+    },
+    {
+      "author": "kisu_odd",
+      "disabled": false,
+      "id": 1380210,
+      "length": 252,
+      "name": "【Kairiki Bear】Affection Underachiever【English Sub】",
+      "publishDate": "2021-10-17T00:00:00",
+      "pvId": "XGtf7nb_dTs",
+      "pvType": "Reprint",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/XGtf7nb_dTs/default.jpg",
+      "url": "https://youtu.be/XGtf7nb_dTs"
+    }
+  ],
+  "ratingScore": 353,
+  "songType": "Original",
+  "status": "Finished",
+  "tags": [
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "怖い, scary, unsettling, eerie, spooky",
+        "categoryName": "Subjective",
+        "id": 77,
+        "name": "creepy",
+        "urlSlug": "creepy"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "visual novel official soundtrack release, video game soundtrack, visual novel soundtrack",
+        "categoryName": "Sources",
+        "id": 456,
+        "name": "video game official soundtrack release",
+        "urlSlug": "video-game-official-soundtrack"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "ロック, vocarock, utaurock, 摇滚",
+        "categoryName": "Genres",
+        "id": 481,
+        "name": "rock",
+        "urlSlug": "rock"
+      }
+    },
+    {
+      "count": 4,
+      "tag": {
+        "additionalNames": "ヤンデレ, 病娇",
+        "categoryName": "Themes",
+        "id": 489,
+        "name": "yandere",
+        "urlSlug": "yandere"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "百合, ガールズラブ, girls' love, shoujo-ai, ゆり, GL, lesbian manga, lesbian comic",
+        "categoryName": "Themes",
+        "id": 493,
+        "name": "yuri",
+        "urlSlug": "yuri"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "幻想狂気, gensou kyouki, fantasy madness, surreal horror, dark surrealism",
+        "categoryName": "Themes",
+        "id": 3001,
+        "name": "insane fantasy",
+        "urlSlug": "gensou-kyouki"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "カラオケ配布, off vocal available, instrumental available, インストルメンタル配布, off-vocal available, インスト配布, inst配布, オフボ配布, オフボーカル配布",
+        "categoryName": "Distribution",
+        "id": 3113,
+        "name": "karaoke available",
+        "urlSlug": "karaoke-available"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "",
+        "categoryName": "Themes",
+        "id": 3512,
+        "name": "obsession",
+        "urlSlug": "obsession"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "良調声, 良調教, good training, 神調声, 神調教, 魂実装済み, realistic tuning",
+        "categoryName": "Subjective",
+        "id": 4582,
+        "name": "good tuning",
+        "urlSlug": "good-tuning"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "ジェイロック, Jrock, 邦ロック",
+        "categoryName": "Genres",
+        "id": 4933,
+        "name": "J-rock",
+        "urlSlug": "j-rock"
+      }
+    },
+    {
+      "count": 5,
+      "tag": {
+        "additionalNames": "#コンパス, 戦闘摂理解析システム, NND Compass",
+        "categoryName": "Copyrights",
+        "id": 6107,
+        "name": "#compass",
+        "urlSlug": "compass"
+      }
+    },
+    {
+      "count": 5,
+      "tag": {
+        "additionalNames": "魔法少女, mahou shoujo",
+        "categoryName": "Themes",
+        "id": 6407,
+        "name": "magical girl",
+        "urlSlug": "magical-girl"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "チュウニズム",
+        "categoryName": "Games",
+        "id": 6717,
+        "name": "CHUNITHM",
+        "urlSlug": "chunithm"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "LGBTQIA2S+, queer, bisexual, non-heterosexual, non-cisgender, gay, homosexual, lesbian, sapphic, GLBT",
+        "categoryName": "Themes",
+        "id": 7025,
+        "name": "LGBTQ+",
+        "urlSlug": "lgbtq"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "息音, breathing",
+        "categoryName": "Vocalists",
+        "id": 7347,
+        "name": "breath effect",
+        "urlSlug": "breath-effect"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "英語字幕, English subs, English translation",
+        "categoryName": "Sources",
+        "id": 7406,
+        "name": "English subtitles",
+        "urlSlug": "english-subtitles"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "イメージソング, キャラクターソング, キャラソン, character song",
+        "categoryName": "Themes",
+        "id": 7989,
+        "name": "image song",
+        "urlSlug": "image-song"
+      }
+    },
+    {
+      "count": 4,
+      "tag": {
+        "additionalNames": "threequel song, prequel song",
+        "categoryName": "Sources",
+        "id": 8117,
+        "name": "sequel song",
+        "urlSlug": "sequel-song"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "オレンジ色, orange (colour), orange",
+        "categoryName": "Themes",
+        "id": 8911,
+        "name": "orange (color)",
+        "urlSlug": "orange-color"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "茶色, chairo, copper (color), beige, ベージュ, sepia, セピア",
+        "categoryName": "Themes",
+        "id": 8918,
+        "name": "brown",
+        "urlSlug": "brown"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "#コンパス ライブアリーナ",
+        "categoryName": "Games",
+        "id": 9078,
+        "name": "#COMPASS LIVE ARENA",
+        "urlSlug": "compass-live-arena"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "fear of abandonment",
+        "categoryName": "Themes",
+        "id": 11639,
+        "name": "abandonment",
+        "urlSlug": "abandonment"
+      }
+    }
+  ],
+  "version": 26,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "Piapro (Karaoke)",
+      "disabled": false,
+      "id": 94192,
+      "url": "https://piapro.jp/t/OMJ_"
+    },
+    {
+      "category": "Official",
+      "description": "Piapro (Lyrics)",
+      "disabled": false,
+      "id": 117652,
+      "url": "https://piapro.jp/t/C7KU"
+    }
+  ]
+}

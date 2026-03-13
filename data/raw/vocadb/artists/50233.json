@@ -1,0 +1,82 @@
+{
+  "artistLinks": [
+    {
+      "artist": {
+        "additionalNames": "クリプトン・フューチャー・メディア, CFM, クリプトン・フューチャー・メディア（株）, Crypton Future Media, Inc., SONICWIRE, piapro",
+        "artistType": "Label",
+        "deleted": false,
+        "id": 25,
+        "name": "Crypton Future Media",
+        "pictureMime": "image/gif",
+        "status": "Locked",
+        "version": 30
+      },
+      "linkType": "Group"
+    }
+  ],
+  "artistType": "Vocaloid",
+  "createDate": "2016-08-05T19:52:06",
+  "defaultName": "初音ミク V4X (Dark)",
+  "defaultNameLanguage": "Japanese",
+  "description": "Whisper voicebank of Hatsune Miku V4X. Includes breath release but no voice colours.\n\nRange: D2 ~ B3\nTempo: 60 ~ 160 BPM",
+  "id": 50233,
+  "mainPicture": {
+    "mime": "image/png",
+    "urlOriginal": "https://static.vocadb.net/img/Artist/mainOrig/50233.png?v=10",
+    "urlSmallThumb": "https://static.vocadb.net/img/Artist/mainSmall/50233.png?v=10",
+    "urlThumb": "https://static.vocadb.net/img/Artist/mainThumb/50233.png?v=10",
+    "urlTinyThumb": "https://static.vocadb.net/img/Artist/mainTiny/50233.png?v=10"
+  },
+  "name": "Hatsune Miku V4X (Dark)",
+  "names": [
+    {
+      "language": "Romaji",
+      "value": "Hatsune Miku V4X (Dark)"
+    },
+    {
+      "language": "Japanese",
+      "value": "初音ミク V4X (Dark)"
+    }
+  ],
+  "pictureMime": "image/png",
+  "releaseDate": "2016-08-31T00:00:00Z",
+  "status": "Finished",
+  "version": 10,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "Crypton Future Media ",
+      "disabled": false,
+      "id": 109062,
+      "url": "http://www.crypton.co.jp/mp/pages/prod/vocaloid/mikuv4x.jsp"
+    },
+    {
+      "category": "Official",
+      "description": "Sonicwire",
+      "disabled": false,
+      "id": 109063,
+      "url": "http://sonicwire.com/product/vocaloid/special/mikuv4x"
+    },
+    {
+      "category": "Reference",
+      "description": "Wikipedia (EN)",
+      "disabled": false,
+      "id": 117942,
+      "url": "https://en.wikipedia.org/wiki/Vocaloid_4#Hatsune_Miku_V4X"
+    },
+    {
+      "category": "Reference",
+      "description": "Vocaloid Wiki",
+      "disabled": false,
+      "id": 177837,
+      "url": "https://vocaloid.fandom.com/wiki/Hatsune_Miku_V4X"
+    },
+    {
+      "category": "Reference",
+      "description": "NicoNicoPedia",
+      "disabled": false,
+      "id": 177838,
+      "url": "https://dic.nicovideo.jp/a/%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AFv4x"
+    }
+  ]
+}

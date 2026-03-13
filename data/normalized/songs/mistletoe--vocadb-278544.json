@@ -1,0 +1,100 @@
+{
+  "additionalNames": [
+    "やどりぎ",
+    "Yadorigi"
+  ],
+  "albumIds": [
+    "album-31653",
+    "album-32376"
+  ],
+  "artistIds": [
+    "artist-10233",
+    "artist-1",
+    "artist-1389",
+    "artist-18601",
+    "artist-44803",
+    "artist-12897",
+    "artist-132518",
+    "artist-58413"
+  ],
+  "defaultName": "やどりぎ",
+  "displayName": "Mistletoe",
+  "durationSeconds": 230,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "UtaiteDB (Human version)",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "https://utaitedb.net/S/40824"
+    },
+    {
+      "kind": "original",
+      "label": "【#コンパス】やどりぎ / Eve feat.初音ミク【ソーン=ユーリエフ】",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/so43309410"
+    },
+    {
+      "kind": "original",
+      "label": "Yadorigi",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/AdJlCZ1Swxk"
+    },
+    {
+      "kind": "original",
+      "label": "Yadorigi",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/iWHbJDI2Zio"
+    },
+    {
+      "kind": "original",
+      "label": "やどりぎ",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/xiV9FGcNcIM"
+    },
+    {
+      "kind": "reprint",
+      "label": "【初音ミク】やどりぎ (槲寄生)【Eve】【#コンパス (#COMPASS) / 英雄「ソーン=ユーリエフ (索恩=尤里耶夫)」主題曲】",
+      "official": false,
+      "service": "bilibili",
+      "url": "https://www.bilibili.com/video/av411753340"
+    }
+  ],
+  "id": "song-278544",
+  "primaryImage": "https://i1.ytimg.com/vi/AdJlCZ1Swxk/hqdefault.jpg",
+  "publishDate": "2022-02-09T00:00:00Z",
+  "rawHash": "f0b1679216c4ecd2166e95ba593a745263b2cf9b42550d3e072a9f424788b548",
+  "slug": "mistletoe--vocadb-278544",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/278544",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "tags": [
+    "self-cover",
+    "video game official soundtrack release",
+    "J-pop",
+    "uplifting",
+    "human original",
+    "original out of scope",
+    "simultaneous upload",
+    "#compass",
+    "cool",
+    "image song",
+    "region blocked",
+    "#COMPASS LIVE ARENA"
+  ],
+  "title": "Mistletoe",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/mistletoe--vocadb-278544/",
+  "vocadbId": 278544,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2022
+}

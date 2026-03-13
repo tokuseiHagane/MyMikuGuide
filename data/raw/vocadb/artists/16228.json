@@ -1,0 +1,192 @@
+{
+  "artistLinks": [
+    {
+      "artist": {
+        "additionalNames": "",
+        "artistType": "Circle",
+        "deleted": false,
+        "id": 5031,
+        "name": "MOtOLOiD",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 12
+      },
+      "linkType": "Group"
+    },
+    {
+      "artist": {
+        "additionalNames": "カレント, KarenT",
+        "artistType": "Label",
+        "deleted": false,
+        "id": 276,
+        "name": "KARENT",
+        "pictureMime": "image/jpeg",
+        "status": "Locked",
+        "version": 28
+      },
+      "linkType": "Group"
+    },
+    {
+      "artist": {
+        "additionalNames": "",
+        "artistType": "Label",
+        "deleted": false,
+        "id": 177526,
+        "name": "TOKYO LOGIC",
+        "pictureMime": "image/png",
+        "status": "Finished",
+        "version": 3
+      },
+      "linkType": "Group"
+    }
+  ],
+  "artistType": "Producer",
+  "createDate": "2013-12-06T16:23:01",
+  "defaultName": "YASUHIRO",
+  "defaultNameLanguage": "Romaji",
+  "description": "",
+  "id": 16228,
+  "mainPicture": {
+    "mime": "image/png",
+    "urlOriginal": "https://static.vocadb.net/img/Artist/mainOrig/16228.png?v=16",
+    "urlSmallThumb": "https://static.vocadb.net/img/Artist/mainSmall/16228.png?v=16",
+    "urlThumb": "https://static.vocadb.net/img/Artist/mainThumb/16228.png?v=16",
+    "urlTinyThumb": "https://static.vocadb.net/img/Artist/mainTiny/16228.png?v=16"
+  },
+  "name": "YASUHIRO",
+  "names": [
+    {
+      "language": "Romaji",
+      "value": "YASUHIRO"
+    },
+    {
+      "language": "Japanese",
+      "value": "康寛"
+    },
+    {
+      "language": "Unspecified",
+      "value": "やすひろ"
+    },
+    {
+      "language": "Unspecified",
+      "value": "야스히로"
+    }
+  ],
+  "pictureMime": "image/png",
+  "status": "Finished",
+  "version": 16,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "NND MyList",
+      "disabled": false,
+      "id": 35235,
+      "url": "http://www.nicovideo.jp/mylist/38971645"
+    },
+    {
+      "category": "Official",
+      "description": "NND Account",
+      "disabled": false,
+      "id": 35236,
+      "url": "http://www.nicovideo.jp/user/9078534"
+    },
+    {
+      "category": "Official",
+      "description": "Twitter",
+      "disabled": false,
+      "id": 35237,
+      "url": "https://twitter.com/yasuhiro_vanq "
+    },
+    {
+      "category": "Official",
+      "description": "Blog",
+      "disabled": false,
+      "id": 35238,
+      "url": "http://ameblo.jp/yasuhiro-ruins/"
+    },
+    {
+      "category": "Official",
+      "description": "Piapro",
+      "disabled": false,
+      "id": 88182,
+      "url": "http://piapro.jp/zark3235"
+    },
+    {
+      "category": "Reference",
+      "description": "MikuWiki",
+      "disabled": false,
+      "id": 115370,
+      "url": "http://www5.atwiki.jp/hmiku/pages/29368.html"
+    },
+    {
+      "category": "Official",
+      "description": "YouTube Channel",
+      "disabled": false,
+      "id": 115371,
+      "url": "http://www.youtube.com/user/ZARK3235"
+    },
+    {
+      "category": "Reference",
+      "description": "UtaiteDB",
+      "disabled": false,
+      "id": 115372,
+      "url": "http://utaitedb.net/Ar/1313"
+    },
+    {
+      "category": "Commercial",
+      "description": "iTunes (JP)",
+      "disabled": false,
+      "id": 133603,
+      "url": "https://itunes.apple.com/jp/artist/yasuhiro-kang-kuan/id885684506"
+    },
+    {
+      "category": "Commercial",
+      "description": "Booth",
+      "disabled": false,
+      "id": 145000,
+      "url": "https://yasuhiromusic.booth.pm/"
+    },
+    {
+      "category": "Reference",
+      "description": "TouhouDB",
+      "disabled": false,
+      "id": 188894,
+      "url": "https://touhoudb.com/Ar/6170"
+    },
+    {
+      "category": "Commercial",
+      "description": "Spotify",
+      "disabled": false,
+      "id": 236432,
+      "url": "https://open.spotify.com/artist/2KpcAoYq2KiTAJXxx9hlEO"
+    },
+    {
+      "category": "Commercial",
+      "description": "KarenT",
+      "disabled": false,
+      "id": 268235,
+      "url": "https://karent.jp/artist/pp000678"
+    },
+    {
+      "category": "Official",
+      "description": "YouTube Channel (Sub)",
+      "disabled": false,
+      "id": 357165,
+      "url": "https://www.youtube.com/@yasuhiro_sub/videos"
+    },
+    {
+      "category": "Official",
+      "description": "Instagram",
+      "disabled": false,
+      "id": 357166,
+      "url": "https://www.instagram.com/yasuhiro_vanq/"
+    },
+    {
+      "category": "Official",
+      "description": "SoundCloud",
+      "disabled": false,
+      "id": 357167,
+      "url": "https://soundcloud.com/yasuhiro_vanq"
+    }
+  ]
+}
