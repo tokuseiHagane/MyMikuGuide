@@ -1,0 +1,125 @@
+{
+  "additionalNames": [
+    "ラヴィ"
+  ],
+  "albumIds": [
+    "album-40951",
+    "album-47199",
+    "album-51263",
+    "album-52570"
+  ],
+  "artistIds": [
+    "artist-64856",
+    "artist-104802",
+    "artist-80433",
+    "artist-98133",
+    "artist-43213",
+    "artist-98132"
+  ],
+  "defaultName": "ラヴィ",
+  "displayName": "Lavie",
+  "durationSeconds": 180,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "UtaiteDB (すりぃ ver.)",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "https://utaitedb.net/S/56288"
+    },
+    {
+      "kind": "original",
+      "label": "ラヴィ(Lavie) / すりぃ feat.鏡音レン",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/mq88yUFdVng"
+    },
+    {
+      "kind": "original",
+      "label": "ラヴィ(Lavie) / すりぃ feat.鏡音レン",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm41295783"
+    },
+    {
+      "kind": "original",
+      "label": "ラヴィ",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/YXtyv3Mzj1U"
+    },
+    {
+      "kind": "original",
+      "label": "ラヴィ (feat. 鏡音レン)",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/U7xdu2dVSFg"
+    }
+  ],
+  "id": "song-449282",
+  "primaryImage": "https://i1.ytimg.com/vi/mq88yUFdVng/hqdefault.jpg",
+  "publishDate": "2022-10-29T00:00:00Z",
+  "rawHash": "7a93a46c1cc11e5be903ff8e8e3064de026328bd84ad70e779951955c472a2e6",
+  "slug": "lavie--vocadb-449282",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/449282",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "tags": [
+    "cute",
+    "pop",
+    "pop rock",
+    "rapping",
+    "cross-dressing as female",
+    "rock",
+    "love",
+    "trap music",
+    "J-pop",
+    "digital rock",
+    "unspecified voicebank",
+    "vampire",
+    "wings",
+    "stylish",
+    "karaoke available",
+    "Magical Mirai",
+    "kinetic typography",
+    "catchy",
+    "good tuning",
+    "#compass",
+    "progressive music",
+    "pink",
+    "cool",
+    "cross",
+    "CHUNITHM",
+    "maimai",
+    "ProSeka",
+    "motion graphics",
+    "bat",
+    "image song",
+    "high voice",
+    "crying",
+    "punk fashion",
+    "energetic",
+    "landmine-type",
+    "yakousei",
+    "fangs",
+    "animation meme source",
+    "gender nonconforming",
+    "hand heart",
+    "kiss",
+    "light novel adaptation",
+    "fishnets",
+    "piercing",
+    "heart eyes"
+  ],
+  "title": "Lavie",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/lavie--vocadb-449282/",
+  "vocadbId": 449282,
+  "vocalistIds": [
+    "artist-43213"
+  ],
+  "year": 2022
+}

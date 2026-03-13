@@ -1,0 +1,107 @@
+{
+  "additionalNames": [
+    "中西",
+    "ピストン",
+    "Piston"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "中西",
+  "descriptionShort": "録音機材\r\nESP HORIZON　Fender ST-43",
+  "displayName": "Nakanishi",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/14052593"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/3136073"
+    },
+    {
+      "kind": "official",
+      "label": "NND Community",
+      "official": false,
+      "service": "com.nicovideo.jp",
+      "url": "http://com.nicovideo.jp/community/co264006"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/NAKA_NISHI"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/konanishi"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/1201"
+    },
+    {
+      "kind": "reference",
+      "label": "VGMdb",
+      "official": true,
+      "service": "vgmdb.net",
+      "url": "https://vgmdb.net/artist/25798"
+    },
+    {
+      "kind": "official",
+      "label": "Blog",
+      "official": true,
+      "service": "ameblo.jp",
+      "url": "https://ameblo.jp/nakanishi0731/"
+    },
+    {
+      "kind": "reference",
+      "label": "MusicBrainz",
+      "official": true,
+      "service": "musicbrainz.org",
+      "url": "https://musicbrainz.org/artist/08781462-bb57-46cb-9d3f-555896a6bdc5"
+    },
+    {
+      "kind": "official",
+      "label": "Instagram",
+      "official": true,
+      "service": "instagram.com",
+      "url": "https://www.instagram.com/nakanishi_gt/"
+    }
+  ],
+  "groups": [
+    "artist-855",
+    "artist-96284"
+  ],
+  "id": "artist-781",
+  "name": "Nakanishi",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/781.jpg?v=13",
+  "rawHash": "ffe0886610bdd75c171ffbd71fcfc26cdbe49320727b4648f34ed06e6c8d2b79",
+  "relatedArtistIds": [
+    "artist-855",
+    "artist-96284"
+  ],
+  "slug": "nakanishi--vocadb-781",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/781",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/nakanishi--vocadb-781/",
+  "vocadbId": 781,
+  "voicebanks": []
+}

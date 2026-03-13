@@ -1,0 +1,74 @@
+{
+  "additionalNames": [
+    "エウレカレプリカ"
+  ],
+  "albumIds": [
+    "album-40956",
+    "album-44314",
+    "album-51263"
+  ],
+  "artistIds": [
+    "artist-88469",
+    "artist-71657",
+    "artist-75363",
+    "artist-88549"
+  ],
+  "defaultName": "エウレカレプリカ",
+  "displayName": "Eureka Replica",
+  "durationSeconds": 133,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "エウレカレプリカ / 鳴花ミコト",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/H1229Kl5ACY"
+    },
+    {
+      "kind": "original",
+      "label": "エウレカレプリカ / 鳴花ミコト",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm41654802"
+    },
+    {
+      "kind": "original",
+      "label": "エウレカレプリカ / 鳴花ミコト",
+      "official": true,
+      "service": "bilibili",
+      "url": "https://www.bilibili.com/video/av265272312"
+    },
+    {
+      "kind": "original",
+      "label": "エウレカレプリカ",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/alHZSWGTrfs"
+    }
+  ],
+  "id": "song-468166",
+  "primaryImage": "https://i1.ytimg.com/vi/H1229Kl5ACY/hqdefault.jpg",
+  "publishDate": "2023-01-15T00:00:00Z",
+  "rawHash": "b8e2682ffb49f9e0dfb3511cd0402d2e948c4c889ce59942311c892edb424570",
+  "slug": "eureka-replica--vocadb-468166",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/468166",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "tags": [
+    "video game official soundtrack release",
+    "fast tempo",
+    "#compass",
+    "gemstone"
+  ],
+  "title": "Eureka Replica",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/eureka-replica--vocadb-468166/",
+  "vocadbId": 468166,
+  "vocalistIds": [
+    "artist-71657"
+  ],
+  "year": 2023
+}

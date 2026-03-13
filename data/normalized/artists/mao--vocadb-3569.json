@@ -1,0 +1,114 @@
+{
+  "additionalNames": [
+    "アルパカ",
+    "Alpaca"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "mao",
+  "descriptionShort": "",
+  "displayName": "mao",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND Community",
+      "official": false,
+      "service": "com.nicovideo.jp",
+      "url": "http://com.nicovideo.jp/community/co360358"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList (bass & collab)",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/14134845"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": false,
+      "service": "twitter.com",
+      "url": "https://twitter.com/mao_alpaca_love"
+    },
+    {
+      "kind": "official",
+      "label": "Blog",
+      "official": true,
+      "service": "ameblo.jp",
+      "url": "http://ameblo.jp/mao-alpaca/"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "https://dic.nicovideo.jp/a/mao@アルパカ"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/1115"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/2348963"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList (mix)",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/18921109"
+    },
+    {
+      "kind": "reference",
+      "label": "Discogs",
+      "official": true,
+      "service": "discogs.com",
+      "url": "https://www.discogs.com/artist/6038552"
+    },
+    {
+      "kind": "reference",
+      "label": "MusicBrainz",
+      "official": true,
+      "service": "musicbrainz.org",
+      "url": "https://musicbrainz.org/artist/6fb6a99b-8020-4094-919a-213f2513033d"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/mao_omedeta"
+    },
+    {
+      "kind": "official",
+      "label": "Instagram",
+      "official": true,
+      "service": "instagram.com",
+      "url": "https://www.instagram.com/mao_omedeta/"
+    }
+  ],
+  "groups": [],
+  "id": "artist-3569",
+  "name": "mao",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/3569.png?v=9",
+  "rawHash": "8ae6a3e878494ee86408c1ccf82109781dd5e868d65f97f8c986ccc78b0b1246",
+  "relatedArtistIds": [],
+  "slug": "mao--vocadb-3569",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/3569",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/mao--vocadb-3569/",
+  "vocadbId": 3569,
+  "voicebanks": []
+}

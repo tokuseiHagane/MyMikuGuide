@@ -1,0 +1,75 @@
+{
+  "additionalNames": [
+    "パラレルレイヤー"
+  ],
+  "albumIds": [
+    "album-32376"
+  ],
+  "artistIds": [
+    "artist-1",
+    "artist-118",
+    "artist-1456",
+    "artist-7810"
+  ],
+  "defaultName": "パラレルレイヤー",
+  "displayName": "Parallel Layer",
+  "durationSeconds": 240,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "【初音ミク・VY2】パラレルレイヤー【オリジナル】",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm37728658"
+    },
+    {
+      "kind": "original",
+      "label": "lumo - パラレルレイヤー feat. 初音ミク & VY2",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/AegqO851dwY"
+    },
+    {
+      "kind": "original",
+      "label": "パラレルレイヤー",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/HwA2mdcA7tk"
+    }
+  ],
+  "id": "song-300008",
+  "primaryImage": "https://i1.ytimg.com/vi/AegqO851dwY/hqdefault.jpg",
+  "publishDate": "2020-10-28T00:00:00Z",
+  "rawHash": "f14532d4a5a8818da01be8fd918f436d33ac196387ca74fa8e71580eb34e5466",
+  "slug": "parallel-layer--vocadb-300008",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/300008",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "cyberpunk",
+    "electropop",
+    "video game official soundtrack release",
+    "electronica",
+    "duet",
+    "2D animated PV",
+    "second year syndrome",
+    "#compass",
+    "sci-fi",
+    "multiple selves",
+    "UK garage",
+    "#COMPASS LIVE ARENA",
+    "stem data distribution (VocaColle)"
+  ],
+  "title": "Parallel Layer",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/parallel-layer--vocadb-300008/",
+  "vocadbId": 300008,
+  "vocalistIds": [
+    "artist-1",
+    "artist-118"
+  ],
+  "year": 2020
+}

@@ -1,0 +1,114 @@
+{
+  "additionalNames": [
+    "ドクハク",
+    "Dokuhaku",
+    "Soliloquy",
+    "독백"
+  ],
+  "albumIds": [
+    "album-22831",
+    "album-30540"
+  ],
+  "artistIds": [
+    "artist-1",
+    "artist-1665",
+    "artist-75"
+  ],
+  "defaultName": "ドクハク",
+  "displayName": "Monologue",
+  "durationSeconds": 243,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "Vocaloid Lyrics Wiki",
+      "official": true,
+      "service": "vocaloidlyrics.miraheze.org",
+      "url": "https://vocaloidlyrics.miraheze.org/wiki/%E3%83%89%E3%82%AF%E3%83%8F%E3%82%AF_(Dokuhaku)"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "https://www5.atwiki.jp/hmiku/pages/35787.html"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro (Off vocal)",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/t/oEJ9"
+    },
+    {
+      "kind": "original",
+      "label": "【初音ミク】　ドクハク　【オリジナル】",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm30301328"
+    },
+    {
+      "kind": "original",
+      "label": "【初音ミク】　ドクハク　【オリジナル】",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/nCO9j_L894U"
+    },
+    {
+      "kind": "original",
+      "label": "ドクハク",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/0-kOTCfB6Fo"
+    },
+    {
+      "kind": "original",
+      "label": "ドクハク",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/dA0lJZRq4SY"
+    },
+    {
+      "kind": "original",
+      "label": "ドクハク",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/NVcKi2fMMmM"
+    }
+  ],
+  "id": "song-145258",
+  "primaryImage": "https://i1.ytimg.com/vi/nCO9j_L894U/hqdefault.jpg",
+  "publishDate": "2016-12-27T00:00:00Z",
+  "rawHash": "5b588f8d6dab9a9fdc5f848905db101b2460a264c174929001f3cf7846874b1a",
+  "slug": "monologue--vocadb-145258",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/145258",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "chiptune",
+    "video game official soundtrack release",
+    "rock",
+    "digital rock",
+    "dark",
+    "karaoke available",
+    "sampling",
+    "unspecified voicebank version",
+    "#compass",
+    "maimai",
+    "monochrome",
+    "image song",
+    "karaoke available (DAM&JOY)",
+    "#COMPASS LIVE ARENA"
+  ],
+  "title": "Monologue",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/monologue--vocadb-145258/",
+  "vocadbId": 145258,
+  "vocalistIds": [
+    "artist-1",
+    "artist-75"
+  ],
+  "year": 2016
+}

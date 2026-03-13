@@ -1,0 +1,44 @@
+---
+import { entityBadge, entityDescription, entityImage, entityMeta, formatDateTime, withBase } from "../lib/site-utils";
+import type { Album, Artist, Song } from "../lib/models";
+
+interface Props {
+  entity: Artist | Song | Album;
+  compact?: boolean;
+}
+
+const { entity, compact = false } = Astro.props;
+const image = entityImage(entity);
+const description = entityDescription(entity);
+const meta = entityMeta(entity);
+---
+
+<article class:list={["entity-card", compact && "entity-card--compact"]}>
+  <a class="entity-card__image" href={withBase(entity.url)} aria-label={entity.displayName}>
+    {image ? (
+      <img src={image} alt={entity.displayName} loading="lazy" />
+    ) : (
+      <div class="entity-card__placeholder" aria-hidden="true">{entity.displayName.slice(0, 1)}</div>
+    )}
+  </a>
+
+  <div class="entity-card__body">
+    <div class="entity-card__header">
+      <span class="entity-pill">{entityBadge(entity)}</span>
+      {typeof entity.upstreamVersion === "number" ? <span class="entity-pill entity-pill--muted">v{entity.upstreamVersion}</span> : null}
+    </div>
+
+    <h3 class="entity-card__title">
+      <a href={withBase(entity.url)}>{entity.displayName}</a>
+    </h3>
+
+    {description ? <p class="entity-card__description">{description}</p> : null}
+
+    <ul class="entity-card__meta">
+      {meta.map((item) => (
+        <li>{item}</li>
+      ))}
+      <li>Обновлено: {formatDateTime(entity.syncedAt)}</li>
+    </ul>
+  </div>
+</article>

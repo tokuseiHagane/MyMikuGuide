@@ -6,9 +6,9 @@ description: Оригинальный монолитный README проекта
 
 # Знакомьтесь: **Hatsune Miku**! 
 
-![label](/pictures/20211015231051.png)
+![label](../../pictures/20211015231051.png)
 
-![Miku](/pictures/20211006211925.png)
+![Miku](../../pictures/20211006211925.png)
 
 **Hatsune Miku** (**初音ミク**, транскрипция: Хацунэ Мику, Хатсуне Мику)  — персонаж-маскот одноимённого голосового банка. Входит в состав Character Vocal Series. 
 
@@ -378,7 +378,7 @@ description: Оригинальный монолитный README проекта
 ## Продюссеры
 
 ### Utsu-P 
-![Utsu-P](/pictures/20211007102119.png)
+![Utsu-P](../../pictures/20211007102119.png)
 
 **Utsu-P** (**鬱P**, Дипрессия-P) (родился 1-ого Декабря 1990), - признанный продюсер, известный своими песнями в стиле вокаметалл.
 Хотя вначале в его песнях была исключительно Мику, теперь он также использует Rin, GUMI и flower.
@@ -390,7 +390,7 @@ description: Оригинальный монолитный README проекта
 
 ##### DOLL 2009
 
-![DOLL|400](/pictures/20211007125409.png)
+![DOLL|400](../../pictures/20211007125409.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=d-ieYrP2nOc
 1. Doll 【ドール】 (鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=0s) ❤
@@ -399,7 +399,7 @@ description: Оригинальный монолитный README проекта
 4. Flower 【Hana / 華】(鬱P feat. 初音ミク) [13:51](https://www.youtube.com/watch?v=d-ieYrP2nOc&t=831s)
 
 #### DIARRHEA 2009
-![DIARRHEA|400](/pictures/20211006233914.png)
+![DIARRHEA|400](../../pictures/20211006233914.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=LGTtqLW4Q-M
  1. Poison☆Apple【ぽいずん☆あっぷる】(鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=LGTtqLW4Q-M&t=0s) 
@@ -419,7 +419,7 @@ description: Оригинальный монолитный README проекта
 
 #### TRAUMATIC 2010
 
-![TRAUMATIC|400](/pictures/20211006233935.png)
+![TRAUMATIC|400](../../pictures/20211006233935.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=YTjvf-HfqkA
 1. Constipation Of Death (鬱P feat. 鏡音リン) [0:00](https://www.youtube.com/watch?v=YTjvf-HfqkA&t=0s)
@@ -439,7 +439,7 @@ description: Оригинальный монолитный README проекта
 
 ##### P 2011
 
-![P|400](/pictures/20211007130109.png)
+![P|400](../../pictures/20211007130109.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=w04JwJDSToU
 1. Playback【再生】 (GUMI) [0:00](https://www.youtube.com/watch?v=w04JwJDSToU&t=0s) 
@@ -450,7 +450,7 @@ description: Оригинальный монолитный README проекта
 
 ##### Zoku (俗) 2012
 
-![Zoku](/pictures/20211007130527.png)
+![Zoku](../../pictures/20211007130527.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=rwc9gC60BXc
 1. CR Peculiar World View【CR独特な世界観】(鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=rwc9gC60BXc&t=0s) 
@@ -461,7 +461,7 @@ description: Оригинальный монолитный README проекта
 
 #### MOKSHA 2012
 
-![MOKSHA|400](/pictures/20211007232937.png)
+![MOKSHA|400](../../pictures/20211007232937.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=zDz1RrOMbkk
 1. MOKSHA (emancipation) [0:00](https://www.youtube.com/watch?v=zDz1RrOMbkk&t=0s) 
@@ -483,7 +483,7 @@ description: Оригинальный монолитный README проекта
 
 #### WARUFUZAKE 2013
 
-![WARUFUZAKE|400](/pictures/20211007112429.png)
+![WARUFUZAKE|400](../../pictures/20211007112429.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=ul0ACHQED2k
 1. The Understanding of Nyan Silence【ニャン黙の了解】 (鬱P feat. 初音ミク, 鏡音リン) [0:00](https://www.youtube.com/watch?v=ul0ACHQED2k&t=0s) 
@@ -501,7 +501,7 @@ description: Оригинальный монолитный README проекта
 
 ##### TEYAKI 2014
 
-![TEYAKI|400](/pictures/20211007125801.png)
+![TEYAKI|400](../../pictures/20211007125801.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=CH89J435vbE
 
@@ -511,7 +511,7 @@ description: Оригинальный монолитный README проекта
 
 #### ALGORITM 2014
 
-![ALGORITM|400](/pictures/20211007110359.png)
+![ALGORITM|400](../../pictures/20211007110359.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=OVVpxFp5lHw
 1. A final fantasy【終のファンタジー】(鬱P feat. 初音ミク, GUMI) [0:00](https://www.youtube.com/watch?v=OVVpxFp5lHw&t=0s) ❤
@@ -530,7 +530,7 @@ description: Оригинальный монолитный README проекта
 
 #### Post-Traumatic Stress Disorder 2016
 
-![PTSD|400](/pictures/20211007115116.png)
+![PTSD|400](../../pictures/20211007115116.png)
 
 **YouTube:** https://www.youtube.com/watch?v=_THZG2ZgzvU
 1. Constipation Of Death (鬱P feat. 初音ミク, 鏡音リン) [0:00](https://www.youtube.com/watch?v=_THZG2ZgzvU&t=0s)
@@ -551,7 +551,7 @@ description: Оригинальный монолитный README проекта
 
 #### GALAPAGOS 2017
 
-![GALAPAGOS|400](/pictures/20211006234054.png)
+![GALAPAGOS|400](../../pictures/20211006234054.png)
 
 **YouTube:**  https://www.youtube.com/watch?v=bB3QcOX9Vcw
 1. [Is it bad at the Galapagos Syndrome?【ガラパゴスで悪いか】](https://www.youtube.com/watch?v=dFPN6jIFIgo&t=0s) (鬱P feat. 初音ミク, 鏡音リン) [0:00](https://www.youtube.com/watch?v=bB3QcOX9Vcw&t=0s)
@@ -566,7 +566,7 @@ description: Оригинальный монолитный README проекта
 
 #### GREATEST SHITS 2018
 
-![GS|400](/pictures/20211007122731.png)
+![GS|400](../../pictures/20211007122731.png)
 
 Альбом ремастеров (кроме некоторых треков). 
 **YouTube:** https://www.youtube.com/watch?v=Sybi0z3Eltw
@@ -594,7 +594,7 @@ description: Оригинальный монолитный README проекта
 
 #### RENAISSANCE 2019
 
-![RENAISSANCE|400](/pictures/20211007115837.png)
+![RENAISSANCE|400](../../pictures/20211007115837.png)
 
 **YouTube:** https://www.youtube.com/watch?v=nK7IBzaAmdE
 1. RENAISSANCE  (鬱P feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=nK7IBzaAmdE&t=0s)
@@ -610,7 +610,7 @@ description: Оригинальный монолитный README проекта
 
 #### UNIQE 2021 8/12
 
-![UNIQE|400](/pictures/20211007125010.png)
+![UNIQE|400](../../pictures/20211007125010.png)
 
 **Трэйлер:** https://www.youtube.com/watch?v=vCOQQpN7ARA
 - [2000年3月9日](https://www.youtube.com/watch?v=vO-DciIkNrE) (鬱P feat. 初音ミク) 
@@ -624,7 +624,7 @@ description: Оригинальный монолитный README проекта
 
 ### Okame-P
 
-![CALVI](/pictures/20211027120329.png)
+![CALVI](../../pictures/20211027120329.png)
 
 **Okame-P** (**オカメP**), также известный как **Кальви Таро**  (**かるび太郎**), вокарок продюссер известный за грустное, "прощальное" содержание своих текстов. Он использует грустные мелодии на пианино и переводит их на более жесткие тона. Его песня 'Our Fortia' посвящена цунами 11 марта 2011 года в Японии.
 
@@ -637,7 +637,7 @@ description: Оригинальный монолитный README проекта
 
 #### Cockatiel 2013
 
-![Cockatiel|400](/pictures/20211027121041.png)
+![Cockatiel|400](../../pictures/20211027121041.png)
 
 **YouTube:** https://www.youtube.com/watch?v=EqR0q1bna_Q
 1. no way【やだよ】(オカメP feat. GUMI) [0:00](https://www.youtube.com/watch?v=EqR0q1bna_Q&t=0s)
@@ -655,14 +655,14 @@ description: Оригинальный монолитный README проекта
 
 #### Erica 2014
 
-![Erica|400](/pictures/20211029160528.png) 
+![Erica|400](../../pictures/20211029160528.png) 
 
 1. [Erica](http://www.nicovideo.jp/watch/sm21962371) (オカメP feat. 初音ミク Append (Dark))
 2. [The Atonement Я](https://www.youtube.com/watch?v=tS4vDulqHYc) (オカメP feat. 初音ミク)
 
 #### Lamento 2015
 
-![Lamento|400](/pictures/20211027121841.png)
+![Lamento|400](../../pictures/20211027121841.png)
 
 **YouTube:** https://www.youtube.com/watch?v=AUYkm7JTUY0
 
@@ -684,7 +684,7 @@ description: Оригинальный монолитный README проекта
 
 #### Dreaming Colors 2015
 
-![DC|400](/pictures/20211027123533.png)
+![DC|400](../../pictures/20211027123533.png)
 
 **YouTube:** https://www.youtube.com/watch?v=Nh88x0Y1dI4
 1. Away if you can feel me (オカメP feat. 初音ミク) [0:00](https://www.youtube.com/watch?v=Nh88x0Y1dI4&t=0s) 
@@ -703,7 +703,7 @@ description: Оригинальный монолитный README проекта
 
 #### A peaceful death 2016
 
-![Apd|400](/pictures/20211027124943.png)
+![Apd|400](../../pictures/20211027124943.png)
 
 **YouTube** https://www.youtube.com/watch?v=bSGCpxkJsVI
 
@@ -729,7 +729,7 @@ description: Оригинальный монолитный README проекта
 
 #### Sanctuary 2016
 
-![Sanctuary|400](/pictures/20211027130536.png)
+![Sanctuary|400](../../pictures/20211027130536.png)
 
 1. [You and My Sanctuary【君と僕のサンクチュアリィ】](https://www.youtube.com/watch?v=J3PO8bZIVuo) (オカメP feat. 初音ミク)
 2. [Almost Broken Spiritual World【壊れかけの世界】](https://www.youtube.com/watch?v=qPP0NQXLJm4) (オカメP feat. 初音ミク)
@@ -740,7 +740,7 @@ description: Оригинальный монолитный README проекта
 
 #### Die For You 2017
 
-![Diy|400](/pictures/20211027132025.png)
+![Diy|400](../../pictures/20211027132025.png)
 
 **YouTube** https://www.youtube.com/watch?v=a0oTWoJlV3E
 1. Very Empty Voice【空虚なとても空虚な声で】(オカメP feat. 初音ミク Append (Dark)) [0:00](https://www.youtube.com/watch?v=a0oTWoJlV3E&t=0s) 
@@ -758,7 +758,7 @@ description: Оригинальный монолитный README проекта
 
 #### ワスレナグサ (Forget-me-not) 2018
 
-![ワスレナグサ|400](/pictures/20211029162525.png)
+![ワスレナグサ|400](../../pictures/20211029162525.png)
 
 1. [I'm so sick](https://www.youtube.com/watch?v=j4eMi2gC8LM) (オカメP feat. 初音ミク)
 2. [Bygone world【過ぎ去りし世界】](https://www.youtube.com/watch?v=fOG6RbZzn6I) (オカメP feat. 初音ミク)
@@ -772,7 +772,7 @@ description: Оригинальный монолитный README проекта
 
 #### Your voice 2019
 
-![Yv|400](/pictures/20211029161451.png)
+![Yv|400](../../pictures/20211029161451.png)
 
 1. [Erase Me](https://www.youtube.com/watch?v=alQpzxtgLtg) (オカメP feat. 初音ミク)
 2. [My heart color](https://www.youtube.com/watch?v=AHar51Mk8hI) (オカメP feat. 巡音ルカ)
@@ -799,4 +799,4 @@ description: Оригинальный монолитный README проекта
 
 **A:** Будет, но очень не скоро. Пока очень мало аккумулировал инфы.
 
-![kabayashi|200](/pictures/kabayashi.gif) 
+![kabayashi|200](../../pictures/kabayashi.gif) 

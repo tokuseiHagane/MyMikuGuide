@@ -1,0 +1,164 @@
+{
+  "additionalNames": [
+    "山上智矢",
+    "Yamaue Tomoya",
+    "ぽりふぉ",
+    "Polypho",
+    "폴리포",
+    "PB"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "PolyphonicBranch",
+  "descriptionShort": "",
+  "displayName": "PolyphonicBranch",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/5350.html"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/PolyphonicBranch"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": true,
+      "service": "polyphonicbranch.com",
+      "url": "http://www.polyphonicbranch.com/"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/12878576"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/Tomoya_PB"
+    },
+    {
+      "kind": "official",
+      "label": "Blog",
+      "official": true,
+      "service": "polyphonicbranch.seesaa.net",
+      "url": "http://polyphonicbranch.seesaa.net/"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/1561183"
+    },
+    {
+      "kind": "official",
+      "label": "NND Community",
+      "official": false,
+      "service": "com.nicovideo.jp",
+      "url": "http://com.nicovideo.jp/community/co275686"
+    },
+    {
+      "kind": "commercial",
+      "label": "KarenT",
+      "official": true,
+      "service": "karent.jp",
+      "url": "http://karent.jp/artist/pp000377"
+    },
+    {
+      "kind": "official",
+      "label": "Blomaga",
+      "official": true,
+      "service": "ch.nicovideo.jp",
+      "url": "http://ch.nicovideo.jp/PolyphonicBranch"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.wikia.com",
+      "url": "http://vocaloid.wikia.com/wiki/PolyphonicBranch"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/a/polyphonicbranch"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/1473"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "play.spotify.com",
+      "url": "https://play.spotify.com/artist/2wlgxcLUDaeSoqEcdYtmLN"
+    },
+    {
+      "kind": "commercial",
+      "label": "Booth",
+      "official": true,
+      "service": "polyphonicbranch.booth.pm",
+      "url": "https://polyphonicbranch.booth.pm/"
+    },
+    {
+      "kind": "official",
+      "label": "Bilibili",
+      "official": true,
+      "service": "space.bilibili.com",
+      "url": "https://space.bilibili.com/3546772653738586"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCooGmyC5ax5zM9IzP9cy1QQ"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel (Custom - @)",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/@PolyphonicBranch"
+    }
+  ],
+  "groups": [
+    "artist-276"
+  ],
+  "id": "artist-311",
+  "name": "PolyphonicBranch",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/311.jpg?v=27",
+  "rawHash": "f9bba81bd0bcc6ca7ad501eb1f9530142ca6bce8ff37bf086ea934de9c050f2c",
+  "relatedArtistIds": [
+    "artist-276"
+  ],
+  "slug": "polyphonicbranch--vocadb-311",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/311",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/polyphonicbranch--vocadb-311/",
+  "vocadbId": 311,
+  "voicebanks": []
+}

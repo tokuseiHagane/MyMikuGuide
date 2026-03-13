@@ -1,0 +1,114 @@
+{
+  "additionalNames": [
+    "レトロマニア狂想曲",
+    "Retro Mania Kyousoukyoku"
+  ],
+  "albumIds": [
+    "album-22831",
+    "album-45511"
+  ],
+  "artistIds": [
+    "artist-14",
+    "artist-311",
+    "artist-23288",
+    "artist-2124",
+    "artist-15"
+  ],
+  "defaultName": "レトロマニア狂想曲",
+  "displayName": "Retro Mania Rhapsody",
+  "durationSeconds": 196,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Piapro (illustration)",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/t/T4HZ"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro (karaoke)",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/t/pWd7"
+    },
+    {
+      "kind": "original",
+      "label": "【鏡音リン・レン】レトロマニア狂想曲【オリジナル】",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm30194224"
+    },
+    {
+      "kind": "original",
+      "label": "【鏡音リン・レン】レトロマニア狂想曲 / Retro Mania Rhapsody【Kagamine Rin・Len】",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/amHYeH2HkUU"
+    },
+    {
+      "kind": "other",
+      "label": "[PolyphonicBranch ft. Kagamine Rin & Len] Retro Mania Rhapsody (English/Romaji/Malay Subbed)",
+      "official": false,
+      "service": "youtube",
+      "url": "https://youtu.be/ieW3N8zaIIw"
+    },
+    {
+      "kind": "original",
+      "label": "レトロマニア狂想曲",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/CUEdc78fHN8"
+    },
+    {
+      "kind": "original",
+      "label": "【鏡音リン・レン】レトロマニア狂想曲 / ぽりふぉ[PolyphonicBranch]",
+      "official": true,
+      "service": "bilibili",
+      "url": "https://www.bilibili.com/video/av113562911513082"
+    }
+  ],
+  "id": "song-141819",
+  "primaryImage": "https://i1.ytimg.com/vi/amHYeH2HkUU/hqdefault.jpg",
+  "publishDate": "2016-12-09T00:00:00Z",
+  "rawHash": "d35e1a473b5a6a54ffc153a922f3ba58ac45b2ac4dbb8ca5cb3640012b096ee6",
+  "slug": "retro-mania-rhapsody--vocadb-141819",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/141819",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "chiptune",
+    "video game official soundtrack release",
+    "rock",
+    "uplifting",
+    "digital rock",
+    "flashing lights warning",
+    "retro",
+    "karaoke available",
+    "duet",
+    "Super Mario",
+    "#compass",
+    "video game",
+    "CHUNITHM",
+    "Len dies",
+    "Taiko no Tatsujin",
+    "English subtitles",
+    "rhapsody",
+    "karaoke available (DAM&JOY)",
+    "#COMPASS LIVE ARENA",
+    "censorship",
+    "stem data distribution (VocaColle)"
+  ],
+  "title": "Retro Mania Rhapsody",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/retro-mania-rhapsody--vocadb-141819/",
+  "vocadbId": 141819,
+  "vocalistIds": [
+    "artist-14",
+    "artist-15"
+  ],
+  "year": 2016
+}

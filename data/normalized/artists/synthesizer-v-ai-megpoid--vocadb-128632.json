@@ -1,0 +1,71 @@
+{
+  "additionalNames": [
+    "Synthesizer V AI メグッポイド",
+    "Megpoid SV",
+    "メグッポイド SV",
+    "グミ SV",
+    "GUMI SV"
+  ],
+  "albumIds": [],
+  "artistType": "SynthesizerV",
+  "defaultName": "Synthesizer V AI Megpoid",
+  "descriptionShort": "Developed by [AHS](/Ar/192) using the same samples as [the Vocaloid 6 voicebank](/Ar/110052).",
+  "displayName": "Synthesizer V AI Megpoid",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "commercial",
+      "label": "Internet Co (Digital)",
+      "official": true,
+      "service": "www3.ssw.co.jp",
+      "url": "https://www3.ssw.co.jp/item.asp?sno=SSV-MG1-DL"
+    },
+    {
+      "kind": "commercial",
+      "label": "Internet Co (Physical)",
+      "official": true,
+      "service": "www3.ssw.co.jp",
+      "url": "https://www3.ssw.co.jp/item.asp?sno=SSV-MG1"
+    },
+    {
+      "kind": "commercial",
+      "label": "Internet Co (Physical Starter Pack)",
+      "official": false,
+      "service": "www3.ssw.co.jp",
+      "url": "https://www3.ssw.co.jp/item.asp?sno=SSV-MG1SP"
+    },
+    {
+      "kind": "official",
+      "label": "X (Twitter)",
+      "official": true,
+      "service": "x.com",
+      "url": "https://x.com/GUMIfromMegpoid"
+    }
+  ],
+  "groups": [
+    "artist-29",
+    "artist-192"
+  ],
+  "id": "artist-128632",
+  "name": "Synthesizer V AI Megpoid",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/128632.png?v=20",
+  "rawHash": "db2352a25cdb2c97f4118a90be78dde9f9532622c39428de82d9680b861d820e",
+  "relatedArtistIds": [
+    "artist-10026",
+    "artist-23920",
+    "artist-29",
+    "artist-192"
+  ],
+  "slug": "synthesizer-v-ai-megpoid--vocadb-128632",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/128632",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/synthesizer-v-ai-megpoid--vocadb-128632/",
+  "vocadbId": 128632,
+  "voicebanks": [
+    "artist-23920"
+  ]
+}

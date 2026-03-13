@@ -1,31 +1,37 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { loadNewEntries, loadLastRun } from "../../lib/site-data";
+import { entityTypeLabel, formatDateTime, withBase } from "../../lib/site-utils";
 
 const [entries, lastRun] = await Promise.all([loadNewEntries(), loadLastRun()]);
 ---
 
 <BaseLayout title="Новые Записи | MyMikuGuide">
   <section class="panel">
-    <h1>Новые записи</h1>
-    <p class="muted">
-      Карточки, которые впервые появились в локальном снапшоте во время последнего sync-прогона.
-    </p>
-    <p class="muted">
-      Последний sync: {lastRun.mode}, закончился {lastRun.finishedAt ? new Date(lastRun.finishedAt).toLocaleString("ru-RU") : "ещё не зафиксирован"}.
-    </p>
+    <div class="section-header">
+      <div>
+        <h1>Новые записи</h1>
+        <p class="muted">
+          Карточки, которые впервые появились в локальном снапшоте во время последнего sync-прогона.
+        </p>
+        <p class="muted">
+          Последний sync: {lastRun.mode}, закончился {formatDateTime(lastRun.finishedAt)}.
+        </p>
+      </div>
+      <a class="button-link button-link--ghost" href={withBase("/updates/")}>Назад к обзору</a>
+    </div>
   </section>
 
-  <section style="margin-top: 1rem;" class="panel">
+  <section style="margin-top: 1rem;" class="panel stack">
     <ul class="clean">
       {entries.length === 0 ? <li class="muted">В последнем sync-прогоне новые карточки не появились.</li> : null}
       {entries.map((entry) => (
-        <li>
-          <a href={entry.url}>{entry.displayName}</a>
-          <span class="muted">
-            {" "}· {entry.entityType} · {new Date(entry.syncedAt).toLocaleString("ru-RU")}
+        <li class="panel">
+          <a href={withBase(entry.url)}>{entry.displayName}</a>
+          <div class="muted">
+            {entityTypeLabel(entry.entityType)} · {formatDateTime(entry.syncedAt)}
             {typeof entry.upstreamVersion === "number" ? ` · upstream v${entry.upstreamVersion}` : ""}
-          </span>
+          </div>
         </li>
       ))}
     </ul>

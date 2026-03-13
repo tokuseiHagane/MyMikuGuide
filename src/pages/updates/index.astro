@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { loadGraphSummary, loadLastRun, loadNewEntries, loadRecentlyUpdated } from "../../lib/site-data";
+import { formatDateTime, withBase } from "../../lib/site-utils";
 
 const [summary, lastRun, recent, fresh] = await Promise.all([
   loadGraphSummary(),
@@ -12,34 +13,42 @@ const [summary, lastRun, recent, fresh] = await Promise.all([
 
 <BaseLayout title="Обновления | MyMikuGuide">
   <section class="panel">
-    <h1>Обновления</h1>
-    <p>
-      Служебный раздел по локальному снапшоту: что обновлялось недавно, что попало в последний прогон
-      и как прошла последняя синхронизация.
-    </p>
-    <p class="muted">
-      Последняя сводка графа: {summary.artistCount} артистов, {summary.songCount} песен, {summary.albumCount} альбомов.
-      {summary.syncedAt ? ` Сводка собрана ${new Date(summary.syncedAt).toLocaleString("ru-RU")}.` : ""}
-    </p>
-    <p class="muted">
-      Последний sync: {lastRun.mode}, запросов {lastRun.requestCount}, full fetch {lastRun.fullFetches}, probe hit {lastRun.probeHits}, ошибок {lastRun.errors.length}.
-    </p>
+    <div class="section-header">
+      <div>
+        <h1>Обновления</h1>
+        <p>
+          Служебный раздел по локальному снапшоту: что обновлялось недавно, что попало в последний прогон
+          и как прошла последняя синхронизация.
+        </p>
+      </div>
+      <a class="button-link button-link--ghost" href={withBase("/")}>На главную</a>
+    </div>
+    <div class="chip-list">
+      <span class="chip">{summary.artistCount} артистов</span>
+      <span class="chip">{summary.songCount} песен</span>
+      <span class="chip">{summary.albumCount} альбомов</span>
+      <span class="chip">Сводка: {formatDateTime(summary.syncedAt)}</span>
+      <span class="chip">Sync: {lastRun.mode}</span>
+      <span class="chip">{lastRun.requestCount} запросов</span>
+      <span class="chip">{lastRun.probeHits} probe hit</span>
+      <span class="chip">{lastRun.errors.length} ошибок</span>
+    </div>
   </section>
 
   <section style="margin-top: 1rem;" class="grid">
     <article class="panel">
-      <h2><a href="/updates/recent/">Недавно обновлялось</a></h2>
+      <h2><a href={withBase("/updates/recent/")}>Недавно обновлялось</a></h2>
       <p class="muted">Последние сущности по `syncedAt`.</p>
       <p>Сейчас в индексе: {recent.length}</p>
     </article>
 
     <article class="panel">
-      <h2><a href="/updates/today/">Обновлено сегодня</a></h2>
+      <h2><a href={withBase("/updates/today/")}>Обновлено сегодня</a></h2>
       <p class="muted">Сущности, чья локальная синхронизация пришлась на текущую дату последнего снапшота.</p>
     </article>
 
     <article class="panel">
-      <h2><a href="/updates/new/">Новые записи</a></h2>
+      <h2><a href={withBase("/updates/new/")}>Новые записи</a></h2>
       <p class="muted">Карточки, впервые появившиеся в последнем sync-проходе.</p>
       <p>Сейчас в индексе: {fresh.length}</p>
     </article>

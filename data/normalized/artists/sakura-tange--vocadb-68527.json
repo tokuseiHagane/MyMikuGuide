@@ -1,0 +1,44 @@
+{
+  "additionalNames": [
+    "丹下桜",
+    "Tange Sakura"
+  ],
+  "albumIds": [],
+  "artistType": "OtherVocalist",
+  "defaultName": "丹下桜",
+  "descriptionShort": "",
+  "displayName": "Sakura Tange",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "Wikipedia (JP)",
+      "official": true,
+      "service": "ja.wikipedia.org",
+      "url": "https://ja.wikipedia.org/wiki/%E4%B8%B9%E4%B8%8B%E6%A1%9C"
+    },
+    {
+      "kind": "reference",
+      "label": "Wikipedia (EN)",
+      "official": true,
+      "service": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/Sakura_Tange"
+    }
+  ],
+  "groups": [],
+  "id": "artist-68527",
+  "name": "Sakura Tange",
+  "primaryImage": null,
+  "rawHash": "10e48b369b2e12bac153f58f74faa3d6d8a83dd344fb6689494048ab2690967d",
+  "relatedArtistIds": [],
+  "slug": "sakura-tange--vocadb-68527",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/68527",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/sakura-tange--vocadb-68527/",
+  "vocadbId": 68527,
+  "voicebanks": []
+}

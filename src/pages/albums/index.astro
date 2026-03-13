@@ -1,27 +1,25 @@
 ---
+import EntityCard from "../../components/EntityCard.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { loadAlbums } from "../../lib/site-data";
+import { withBase } from "../../lib/site-utils";
 
 const albums = await loadAlbums();
 ---
 
 <BaseLayout title="Альбомы | MyMikuGuide">
   <section class="panel">
-    <h1>Альбомы</h1>
-    <p class="muted">Все синхронизированные альбомы из локального снапшота.</p>
+    <div class="section-header">
+      <div>
+        <h1>Альбомы</h1>
+        <p class="muted">Все синхронизированные альбомы из локального снапшота с обложками и метаданными.</p>
+      </div>
+      <a class="button-link button-link--ghost" href={withBase("/updates/")}>Служебный раздел</a>
+    </div>
   </section>
 
-  <section style="margin-top: 1rem;" class="grid">
+  <section style="margin-top: 1rem;" class="grid grid--wide">
     {albums.length === 0 ? <div class="panel muted">Данные ещё не синхронизированы.</div> : null}
-    {albums.map((album) => (
-      <article class="panel">
-        <h2><a href={album.url}>{album.displayName}</a></h2>
-        <p class="muted">{album.albumType} · {album.year ?? "Без даты"}</p>
-        <p class="muted">
-          Локально синхронизирован: {new Date(album.syncedAt).toLocaleString("ru-RU")}
-          {typeof album.upstreamVersion === "number" ? ` · upstream v${album.upstreamVersion}` : ""}
-        </p>
-      </article>
-    ))}
+    {albums.map((album) => <EntityCard entity={album} />)}
   </section>
 </BaseLayout>

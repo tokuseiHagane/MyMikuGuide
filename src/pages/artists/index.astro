@@ -1,28 +1,25 @@
 ---
+import EntityCard from "../../components/EntityCard.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { loadArtists } from "../../lib/site-data";
+import { withBase } from "../../lib/site-utils";
 
 const artists = await loadArtists();
 ---
 
 <BaseLayout title="Артисты | MyMikuGuide">
   <section class="panel">
-    <h1>Артисты</h1>
-    <p class="muted">Все синхронизированные артисты из локального снапшота.</p>
+    <div class="section-header">
+      <div>
+        <h1>Артисты</h1>
+        <p class="muted">Все синхронизированные артисты из локального снапшота с карточками и изображениями.</p>
+      </div>
+      <a class="button-link button-link--ghost" href={withBase("/updates/recent/")}>Недавние обновления</a>
+    </div>
   </section>
 
-  <section style="margin-top: 1rem;" class="grid">
+  <section style="margin-top: 1rem;" class="grid grid--wide">
     {artists.length === 0 ? <div class="panel muted">Данные ещё не синхронизированы.</div> : null}
-    {artists.map((artist) => (
-      <article class="panel">
-        <h2><a href={artist.url}>{artist.displayName}</a></h2>
-        <p class="muted">{artist.artistType}</p>
-        {artist.descriptionShort ? <p>{artist.descriptionShort}</p> : null}
-        <p class="muted">
-          Локально синхронизирован: {new Date(artist.syncedAt).toLocaleString("ru-RU")}
-          {typeof artist.upstreamVersion === "number" ? ` · upstream v${artist.upstreamVersion}` : ""}
-        </p>
-      </article>
-    ))}
+    {artists.map((artist) => <EntityCard entity={artist} />)}
   </section>
 </BaseLayout>

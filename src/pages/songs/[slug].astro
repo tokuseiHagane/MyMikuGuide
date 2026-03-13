@@ -1,6 +1,8 @@
 ---
+import EntityCard from "../../components/EntityCard.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { loadSongs } from "../../lib/site-data";
+import { loadAlbums, loadArtists, loadSongs } from "../../lib/site-data";
+import { buildEntityMap, formatDateTime, linkedEntities } from "../../lib/site-utils";
 
 export async function getStaticPaths() {
   const songs = await loadSongs();
@@ -11,18 +13,92 @@ export async function getStaticPaths() {
 }
 
 const { song } = Astro.props;
+const [artists, albums] = await Promise.all([loadArtists(), loadAlbums()]);
+const artistMap = buildEntityMap(artists);
+const albumMap = buildEntityMap(albums);
+const relatedArtists = linkedEntities(song.artistIds, artistMap).slice(0, 8);
+const relatedAlbums = linkedEntities(song.albumIds, albumMap).slice(0, 6);
 ---
 
 <BaseLayout title={`${song.displayName} | MyMikuGuide`}>
-  <article class="panel">
-    <h1>{song.displayName}</h1>
-    <p class="muted">{song.songType} · {song.year ?? "Без даты"}</p>
-    <p>Связанных артистов: {song.artistIds.length}. Связанных альбомов: {song.albumIds.length}.</p>
-    <p>Длительность: {song.durationSeconds ? `${song.durationSeconds} сек.` : "Неизвестно"}.</p>
-    <p><a href={song.sourceUrl}>Страница в VocaDB</a></p>
-    <p class="muted">
-      Локально синхронизирована: {new Date(song.syncedAt).toLocaleString("ru-RU")}
-      {typeof song.upstreamVersion === "number" ? ` · upstream v${song.upstreamVersion}` : ""}
-    </p>
-  </article>
+  <section class="panel entity-hero">
+    <div class="entity-hero__media">
+      {song.primaryImage ? (
+        <img src={song.primaryImage} alt={song.displayName} />
+      ) : (
+        <div class="entity-hero__fallback" aria-hidden="true">{song.displayName.slice(0, 1)}</div>
+      )}
+    </div>
+
+    <div class="stack">
+      <div>
+        <div class="chip-list">
+          <span class="chip">{song.songType}</span>
+          <span class="chip">{song.year ?? "Без даты"}</span>
+          {typeof song.upstreamVersion === "number" ? <span class="chip">upstream v{song.upstreamVersion}</span> : null}
+        </div>
+        <h1>{song.displayName}</h1>
+        {song.additionalNames.length > 0 ? <p class="muted">Другие имена: {song.additionalNames.slice(0, 6).join(", ")}</p> : null}
+      </div>
+
+      <ul class="meta-list">
+        <li>Локально синхронизирована: {formatDateTime(song.syncedAt)}</li>
+        <li>Связанных артистов: {song.artistIds.length}</li>
+        <li>Связанных альбомов: {song.albumIds.length}</li>
+        <li>Длительность: {song.durationSeconds ? `${song.durationSeconds} сек.` : "Неизвестно"}</li>
+        <li>Дата публикации: {song.publishDate ? formatDateTime(song.publishDate) : "Неизвестно"}</li>
+      </ul>
+
+      {song.tags.length > 0 ? (
+        <div class="chip-list">
+          {song.tags.slice(0, 12).map((tag) => (
+            <span class="chip">{tag}</span>
+          ))}
+        </div>
+      ) : null}
+
+      <div class="hero__actions">
+        <a class="button-link" href={song.sourceUrl}>Открыть в VocaDB</a>
+      </div>
+    </div>
+  </section>
+
+  <section style="margin-top: 1rem;" class="detail-grid">
+    <article class="panel">
+      <h2>Внешние ссылки</h2>
+      <div class="link-list">
+        {song.externalLinks.slice(0, 10).map((link) => (
+          <a href={link.url}>
+            <span>{link.label}</span>
+            <span class="muted">{link.service}</span>
+          </a>
+        ))}
+        {song.externalLinks.length === 0 ? <p class="muted">У этой песни пока нет сохранённых внешних ссылок.</p> : null}
+      </div>
+    </article>
+  </section>
+
+  {relatedArtists.length > 0 ? (
+    <section style="margin-top: 1rem;" class="stack">
+      <div class="section-header">
+        <div>
+          <h2>Артисты</h2>
+          <p class="muted">Кто связан с этой песней внутри локального графа.</p>
+        </div>
+      </div>
+      <div class="grid">{relatedArtists.map((artist) => <EntityCard entity={artist} compact />)}</div>
+    </section>
+  ) : null}
+
+  {relatedAlbums.length > 0 ? (
+    <section style="margin-top: 1rem;" class="stack">
+      <div class="section-header">
+        <div>
+          <h2>Альбомы</h2>
+          <p class="muted">Альбомы, в которых песня уже встречается в локальном снапшоте.</p>
+        </div>
+      </div>
+      <div class="grid">{relatedAlbums.map((album) => <EntityCard entity={album} compact />)}</div>
+    </section>
+  ) : null}
 </BaseLayout>

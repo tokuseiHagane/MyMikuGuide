@@ -1,0 +1,122 @@
+{
+  "additionalNames": [
+    "マチガイサガシ",
+    "Machigai Sagashi",
+    "Spot the Difference"
+  ],
+  "albumIds": [
+    "album-22831",
+    "album-31319"
+  ],
+  "artistIds": [
+    "artist-1459",
+    "artist-504",
+    "artist-46198"
+  ],
+  "defaultName": "マチガイサガシ",
+  "displayName": "Looking for Mistakes",
+  "durationSeconds": 183,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "Vocaloid Lyrics Wiki",
+      "official": true,
+      "service": "vocaloidlyrics.miraheze.org",
+      "url": "https://vocaloidlyrics.miraheze.org/wiki/%E3%83%9E%E3%83%81%E3%82%AC%E3%82%A4%E3%82%B5%E3%82%AC%E3%82%B7_(Machigai_Sagashi)"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "https://www5.atwiki.jp/hmiku/pages/36422.html"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/S/37506"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro (Karaoke)",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/t/Bs1w"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/v/sm31480307"
+    },
+    {
+      "kind": "original",
+      "label": "マチガイサガシ／IA feat.まふまふ",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm31480307"
+    },
+    {
+      "kind": "original",
+      "label": "[MV]マチガイサガシ／IA feat.まふまふ【オリジナル曲】",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/YXTmB26L22Y"
+    },
+    {
+      "kind": "original",
+      "label": "Matigai sagashi",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/qrVlRYGjB4Q"
+    },
+    {
+      "kind": "original",
+      "label": "マチガイサガシ",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/q0DdPFc-s7A"
+    },
+    {
+      "kind": "original",
+      "label": "マチガイサガシ / まふまふ feat. IA",
+      "official": true,
+      "service": "bilibili",
+      "url": "https://www.bilibili.com/video/av37069888"
+    }
+  ],
+  "id": "song-156372",
+  "primaryImage": "https://i1.ytimg.com/vi/YXTmB26L22Y/hqdefault.jpg",
+  "publishDate": "2017-04-29T00:00:00Z",
+  "rawHash": "ed3acc64b8308935d85abd550dc0ea59b1324970bdb82effa7518008f0daef9b",
+  "slug": "looking-for-mistakes--vocadb-156372",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/156372",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "video game official soundtrack release",
+    "rock",
+    "karaoke available",
+    "history",
+    "#compass",
+    "CHUNITHM",
+    "multiple selves",
+    "O.N.G.E.K.I.",
+    "#COMPASS LIVE ARENA",
+    "Jeanne d'Arc"
+  ],
+  "title": "Looking for Mistakes",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/looking-for-mistakes--vocadb-156372/",
+  "vocadbId": 156372,
+  "vocalistIds": [
+    "artist-504"
+  ],
+  "year": 2017
+}

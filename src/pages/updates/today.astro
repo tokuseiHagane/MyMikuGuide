@@ -1,6 +1,8 @@
 ---
+import EntityCard from "../../components/EntityCard.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { loadAlbums, loadArtists, loadGraphSummary, loadSongs } from "../../lib/site-data";
+import { withBase } from "../../lib/site-utils";
 
 const [artists, songs, albums, summary] = await Promise.all([
   loadArtists(),
@@ -17,25 +19,20 @@ const todayEntries = [...artists, ...songs, ...albums]
 
 <BaseLayout title="Обновлено Сегодня | MyMikuGuide">
   <section class="panel">
-    <h1>Обновлено сегодня</h1>
-    <p class="muted">
-      Здесь показаны сущности, чья локальная синхронизация пришлась на дату последней сборки снапшота:
-      {snapshotDay ? ` ${snapshotDay}` : " дата пока неизвестна"}.
-    </p>
+    <div class="section-header">
+      <div>
+        <h1>Обновлено сегодня</h1>
+        <p class="muted">
+          Здесь показаны сущности, чья локальная синхронизация пришлась на дату последней сборки снапшота:
+          {snapshotDay ? ` ${snapshotDay}` : " дата пока неизвестна"}.
+        </p>
+      </div>
+      <a class="button-link button-link--ghost" href={withBase("/updates/")}>Назад к обзору</a>
+    </div>
   </section>
 
-  <section style="margin-top: 1rem;" class="panel">
-    <ul class="clean">
-      {todayEntries.length === 0 ? <li class="muted">На дату последнего снапшота обновлений не найдено.</li> : null}
-      {todayEntries.map((entry) => (
-        <li>
-          <a href={entry.url}>{entry.displayName}</a>
-          <span class="muted">
-            {" "}· {entry.entityType} · {new Date(entry.syncedAt).toLocaleString("ru-RU")}
-            {typeof entry.upstreamVersion === "number" ? ` · upstream v${entry.upstreamVersion}` : ""}
-          </span>
-        </li>
-      ))}
-    </ul>
+  <section style="margin-top: 1rem;" class="grid">
+    {todayEntries.length === 0 ? <div class="panel muted">На дату последнего снапшота обновлений не найдено.</div> : null}
+    {todayEntries.map((entry) => <EntityCard entity={entry} compact />)}
   </section>
 </BaseLayout>

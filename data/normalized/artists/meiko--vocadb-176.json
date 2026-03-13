@@ -1,0 +1,95 @@
+{
+  "additionalNames": [
+    "メイコ"
+  ],
+  "albumIds": [],
+  "artistType": "Vocaloid",
+  "defaultName": "MEIKO",
+  "descriptionShort": "MEIKO was the first Japanese-language Vocaloid produced and released. She is the female counterpart to [KAITO](http://vocadb.net/Ar/71); both were designed to provide professional vocals for professional musicians. MEIKO's voice is noted to be steady, straightforward, and suitabl",
+  "displayName": "MEIKO",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Crypton Future Media Product Page",
+      "official": true,
+      "service": "ec.crypton.co.jp",
+      "url": "https://ec.crypton.co.jp/product/detail/25220"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "https://www5.atwiki.jp/hmiku/pages/237.html"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/a/meiko"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki (Character)",
+      "official": true,
+      "service": "vocaloid.fandom.com",
+      "url": "https://vocaloid.fandom.com/wiki/MEIKO"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki (Voicebank)",
+      "official": true,
+      "service": "vocaloid.fandom.com",
+      "url": "https://vocaloid.fandom.com/wiki/MEIKO_(VOCALOID1)"
+    },
+    {
+      "kind": "reference",
+      "label": "Wikipedia (EN)",
+      "official": true,
+      "service": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/Meiko_(software)"
+    },
+    {
+      "kind": "reference",
+      "label": "Wikipedia (JP)",
+      "official": true,
+      "service": "ja.wikipedia.org",
+      "url": "https://ja.wikipedia.org/wiki/MEIKO"
+    },
+    {
+      "kind": "reference",
+      "label": "MusicBrainz",
+      "official": true,
+      "service": "musicbrainz.org",
+      "url": "https://musicbrainz.org/artist/50940bfc-ab9a-4e35-9f8e-00a6d7f90a8e"
+    }
+  ],
+  "groups": [
+    "artist-25",
+    "artist-157"
+  ],
+  "id": "artist-176",
+  "name": "MEIKO",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/176.png?v=34",
+  "rawHash": "4cec0d1442161d5c6b7bf4fba42ebf8fc00a1e7b8a120b1fcc93ad5dc802d2dd",
+  "relatedArtistIds": [
+    "artist-25",
+    "artist-14650",
+    "artist-58979",
+    "artist-157"
+  ],
+  "slug": "meiko--vocadb-176",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/176",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/meiko--vocadb-176/",
+  "vocadbId": 176,
+  "voicebanks": [
+    "artist-14650"
+  ]
+}

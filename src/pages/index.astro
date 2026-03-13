@@ -1,6 +1,8 @@
 ---
+import EntityCard from "../components/EntityCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { loadAlbums, loadArtists, loadGraphSummary, loadLastRun, loadNewEntries, loadSongs } from "../lib/site-data";
+import { formatDateTime, withBase } from "../lib/site-utils";
 
 const [artists, songs, albums, summary, lastRun, newEntries] = await Promise.all([
   loadArtists(),
@@ -14,76 +16,112 @@ const [artists, songs, albums, summary, lastRun, newEntries] = await Promise.all
 const featuredArtists = artists.slice(0, 6);
 const featuredSongs = songs.slice(0, 6);
 const featuredAlbums = albums.slice(0, 6);
+const highlightedUpdates = [...artists, ...songs, ...albums]
+  .sort((left, right) => right.syncedAt.localeCompare(left.syncedAt))
+  .slice(0, 4);
 ---
 
 <BaseLayout title="MyMikuGuide">
-  <section class="panel">
-    <h1>MyMikuGuide</h1>
-    <p>
-      Репозиторий теперь работает как канонический снапшот данных и собирает статический сайт
-      поверх автоматической синхронизации с VocaDB.
-    </p>
-    <p class="muted">
-      Последняя сводка: {summary.artistCount} артистов, {summary.songCount} песен, {summary.albumCount} альбомов.
-      {summary.syncedAt ? ` Обновлено: ${new Date(summary.syncedAt).toLocaleString("ru-RU")}.` : ""}
-    </p>
-    <p class="muted">
-      Последний sync: {lastRun.mode}, запросов: {lastRun.requestCount}, `probe-hit`: {lastRun.probeHits}, новых сущностей в очереди: {lastRun.newEntities}.
-    </p>
-    <p><a href="/updates/">Открыть служебные страницы обновлений</a></p>
+  <section class="hero">
+    <article class="panel hero__content">
+      <div class="hero__eyebrow">VocaDB Snapshot</div>
+      <h1 class="hero__headline">MyMikuGuide</h1>
+      <p>
+        Репозиторий теперь работает как канонический снапшот данных и публикует статический сайт
+        по графу Hatsune Miku без live-запросов к API во время просмотра.
+      </p>
+      <p class="muted">
+        Последняя сводка: {summary.artistCount} артистов, {summary.songCount} песен, {summary.albumCount} альбомов.
+        Сайт обновлён {formatDateTime(summary.syncedAt)}.
+      </p>
+      <div class="hero__actions">
+        <a class="button-link" href={withBase("/updates/")}>Открыть раздел обновлений</a>
+        <a class="button-link button-link--ghost" href={withBase("/artists/")}>Перейти к артистам</a>
+      </div>
+    </article>
+
+    <aside class="stats-grid">
+      <article class="stat-card">
+        <p class="muted">Последний sync</p>
+        <p class="stat-card__value">{lastRun.mode}</p>
+        <p class="muted">Завершён: {formatDateTime(lastRun.finishedAt)}</p>
+      </article>
+      <article class="stat-card">
+        <p class="muted">Сетевой профиль</p>
+        <p class="stat-card__value">{lastRun.requestCount}</p>
+        <p class="muted">запросов, {lastRun.probeHits} `probe-hit`, {lastRun.fullFetches} full fetch</p>
+      </article>
+      <article class="stat-card">
+        <p class="muted">Нагрузка графа</p>
+        <p class="stat-card__value">{lastRun.newEntities}</p>
+        <p class="muted">новых сущностей в очереди, {lastRun.limitedEntities} ограничено лимитами</p>
+      </article>
+    </aside>
   </section>
 
-  <section style="margin-top: 1rem;" class="grid">
-    <article class="panel">
-      <h2>Артисты</h2>
-      <ul class="clean">
-        {featuredArtists.length === 0 ? <li class="muted">Пока нет локально синхронизированных артистов.</li> : null}
-        {featuredArtists.map((artist) => (
-          <li>
-            <a href={artist.url}>{artist.displayName}</a>
-            <div class="muted">{artist.artistType}</div>
-          </li>
-        ))}
-      </ul>
-    </article>
-
-    <article class="panel">
-      <h2>Песни</h2>
-      <ul class="clean">
-        {featuredSongs.length === 0 ? <li class="muted">Пока нет локально синхронизированных песен.</li> : null}
-        {featuredSongs.map((song) => (
-          <li>
-            <a href={song.url}>{song.displayName}</a>
-            <div class="muted">{song.year ?? "Без даты"}</div>
-          </li>
-        ))}
-      </ul>
-    </article>
-
-    <article class="panel">
-      <h2>Альбомы</h2>
-      <ul class="clean">
-        {featuredAlbums.length === 0 ? <li class="muted">Пока нет локально синхронизированных альбомов.</li> : null}
-        {featuredAlbums.map((album) => (
-          <li>
-            <a href={album.url}>{album.displayName}</a>
-            <div class="muted">{album.year ?? "Без даты"}</div>
-          </li>
-        ))}
-      </ul>
-    </article>
-  </section>
-
-  <section style="margin-top: 1rem;" class="panel">
-    <h2>Новые записи последнего прогона</h2>
-    <ul class="clean">
-      {newEntries.length === 0 ? <li class="muted">В последнем прогоне новых локальных карточек не появилось.</li> : null}
-      {newEntries.slice(0, 8).map((entry) => (
-        <li>
-          <a href={entry.url}>{entry.displayName}</a>
-          <span class="muted"> · {entry.entityType} · {new Date(entry.syncedAt).toLocaleString("ru-RU")}</span>
-        </li>
+  <section style="margin-top: 1.25rem;">
+    <div class="section-header">
+      <div>
+        <h2>Недавно синхронизированные сущности</h2>
+        <p class="muted">Быстрый обзор того, что трогалось последними прогонами.</p>
+      </div>
+      <a class="button-link button-link--ghost" href={withBase("/updates/recent/")}>Все обновления</a>
+    </div>
+    <div class="grid">
+      {highlightedUpdates.map((entity) => (
+        <EntityCard entity={entity} compact />
       ))}
-    </ul>
+    </div>
+  </section>
+
+  <section style="margin-top: 1.25rem;" class="stack">
+    <div class="section-header">
+      <div>
+        <h2>Избранные артисты</h2>
+        <p class="muted">Карточный обзор графа вместо длинного текстового списка.</p>
+      </div>
+      <a class="button-link button-link--ghost" href={withBase("/artists/")}>Все артисты</a>
+    </div>
+    <div class="grid">{featuredArtists.map((artist) => <EntityCard entity={artist} />)}</div>
+  </section>
+
+  <section style="margin-top: 1.25rem;" class="stack">
+    <div class="section-header">
+      <div>
+        <h2>Избранные песни</h2>
+        <p class="muted">Карточки с типом, годом и датой синхронизации.</p>
+      </div>
+      <a class="button-link button-link--ghost" href={withBase("/songs/")}>Все песни</a>
+    </div>
+    <div class="grid">{featuredSongs.map((song) => <EntityCard entity={song} />)}</div>
+  </section>
+
+  <section style="margin-top: 1.25rem;" class="stack">
+    <div class="section-header">
+      <div>
+        <h2>Избранные альбомы</h2>
+        <p class="muted">Обложки, тип альбома и число треков в одном месте.</p>
+      </div>
+      <a class="button-link button-link--ghost" href={withBase("/albums/")}>Все альбомы</a>
+    </div>
+    <div class="grid">{featuredAlbums.map((album) => <EntityCard entity={album} />)}</div>
+  </section>
+
+  <section style="margin-top: 1.25rem;" class="panel">
+    <div class="section-header">
+      <div>
+        <h2>Новые записи последнего прогона</h2>
+        <p class="muted">Появившиеся впервые сущности последнего sync-прохода.</p>
+      </div>
+      <a class="button-link button-link--ghost" href={withBase("/updates/new/")}>Открыть индекс</a>
+    </div>
+    <div class="chip-list">
+      {newEntries.length === 0 ? <span class="chip">В последнем прогоне новых локальных карточек не появилось.</span> : null}
+      {newEntries.slice(0, 12).map((entry) => (
+        <a class="chip" href={withBase(entry.url)}>
+          {entry.displayName} · {entry.entityType}
+        </a>
+      ))}
+    </div>
   </section>
 </BaseLayout>

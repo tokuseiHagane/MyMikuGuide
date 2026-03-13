@@ -1,0 +1,82 @@
+{
+  "additionalNames": [
+    "STAR"
+  ],
+  "albumIds": [
+    "album-32376",
+    "album-48876"
+  ],
+  "artistIds": [
+    "artist-1620",
+    "artist-14679",
+    "artist-5658",
+    "artist-6073",
+    "artist-50235"
+  ],
+  "defaultName": "ST/A#R",
+  "displayName": "ST/A#R",
+  "durationSeconds": 308,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "MV - ST/A#R feat.Hatsune Miku【#コンパス】",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/shBML8HGkRg"
+    },
+    {
+      "kind": "original",
+      "label": "MV - ST/A#R / *Luna feat.Hatsune Miku",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm38035722"
+    },
+    {
+      "kind": "original",
+      "label": "MV - ST/A#R / *Luna feat.初音ミク【#コンパス】",
+      "official": true,
+      "service": "bilibili",
+      "url": "https://www.bilibili.com/video/av762799386"
+    },
+    {
+      "kind": "original",
+      "label": "ST/A#R",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/3dMDGkN29wc"
+    }
+  ],
+  "id": "song-308847",
+  "primaryImage": "https://i1.ytimg.com/vi/shBML8HGkRg/hqdefault.jpg",
+  "publishDate": "2020-12-28T00:00:00Z",
+  "rawHash": "ec0356ec0c87048b452af90f55a3a5d7319464ebfc12f5cad903a27108a90484",
+  "slug": "st-a-r--vocadb-308847",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/308847",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "video game official soundtrack release",
+    "violin",
+    "rock",
+    "uplifting",
+    "stars",
+    "2D animated PV",
+    "good tuning",
+    "growling",
+    "symphonic rock",
+    "#compass",
+    "karaoke available (DAM&JOY)",
+    "Kidou Utahime Vocalion"
+  ],
+  "title": "ST/A#R",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/st-a-r--vocadb-308847/",
+  "vocadbId": 308847,
+  "vocalistIds": [
+    "artist-50235"
+  ],
+  "year": 2020
+}

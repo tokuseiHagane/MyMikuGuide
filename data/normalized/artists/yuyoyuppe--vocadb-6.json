@@ -1,0 +1,234 @@
+{
+  "additionalNames": [
+    "ゆよゆっぺ",
+    "DJ'TEKINA//SOMETHING",
+    "ふにゅ",
+    "Funyu",
+    "yupeyupe",
+    "間宮丈裕",
+    "Mamiya Takehiro",
+    "ゆよゆーっぺ"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "ゆよゆっぺ",
+  "descriptionShort": "Well known VOCALOUD and VOCAROCK producer.\nDJ'TEKINA is his DJ name, and the music that he releases under the name of DJ'TEKINA is quite different.",
+  "displayName": "Yuyoyuppe",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Blog",
+      "official": true,
+      "service": "blog.goo.ne.jp",
+      "url": "http://blog.goo.ne.jp/spmn2ek/"
+    },
+    {
+      "kind": "official",
+      "label": "Circle Website (Draw the Emotional)",
+      "official": true,
+      "service": "dte.dotera.net",
+      "url": "http://dte.dotera.net/"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/3011.html"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/6330215"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/spmn2ek"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/yupeyupe"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.wikia.com",
+      "url": "http://vocaloid.wikia.com/wiki/Yuyoyuppe"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList (DJ'TEKINA)",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/32011910"
+    },
+    {
+      "kind": "official",
+      "label": "SoundCloud",
+      "official": true,
+      "service": "soundcloud.com",
+      "url": "https://soundcloud.com/tekisome"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/4283869"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/1269"
+    },
+    {
+      "kind": "official",
+      "label": "Facebook",
+      "official": true,
+      "service": "facebook.com",
+      "url": "https://www.facebook.com/profile.php?id=100003384733860&fref=pb&hc_location=friends_tab"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/a/%E3%82%86%E3%82%88%E3%82%86%E3%81%A3%E3%81%BA"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel - as ゆよゆっぺ",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UC8lTmCqzt-UQ1NkxtWMWKnA"
+    },
+    {
+      "kind": "reference",
+      "label": "AniDB",
+      "official": true,
+      "service": "anidb.net",
+      "url": "http://anidb.net/perl-bin/animedb.pl?show=creator&creatorid=43384"
+    },
+    {
+      "kind": "reference",
+      "label": "Utaite Wiki",
+      "official": true,
+      "service": "utaite.miraheze.org",
+      "url": "https://utaite.miraheze.org/wiki/Yuyoyuppe"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "play.spotify.com",
+      "url": "https://play.spotify.com/artist/43SpPuptZj45KCN2EHWHDW"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel - as DJ'TEKINA//SOMETHING",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCZAXQplfQ0vuOKDZTHB6ZUA"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter - as DJ'TEKINA//SOMETHING",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/TEKINASOMETHING"
+    },
+    {
+      "kind": "reference",
+      "label": "TouhouDB",
+      "official": true,
+      "service": "touhoudb.com",
+      "url": "https://touhoudb.com/Ar/1320"
+    },
+    {
+      "kind": "commercial",
+      "label": "Bandcamp - as DJ'TEKINA//SOMETHING",
+      "official": true,
+      "service": "djtekinasomething.bandcamp.com",
+      "url": "https://djtekinasomething.bandcamp.com/"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList (as ふにゅ)",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/15486060"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account (as ふにゅ)",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "https://www.nicovideo.jp/user/11912980"
+    },
+    {
+      "kind": "reference",
+      "label": "Wikipedia (JP)",
+      "official": true,
+      "service": "ja.wikipedia.org",
+      "url": "https://ja.wikipedia.org/wiki/ゆよゆっぺ"
+    },
+    {
+      "kind": "official",
+      "label": "osu! Featured Artist Listing",
+      "official": true,
+      "service": "osu.ppy.sh",
+      "url": "https://osu.ppy.sh/beatmaps/artists/132"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": true,
+      "service": "yuyoyuppe.com",
+      "url": "http://yuyoyuppe.com/"
+    }
+  ],
+  "groups": [
+    "artist-21336",
+    "artist-745",
+    "artist-2393",
+    "artist-70521",
+    "artist-5031",
+    "artist-5586",
+    "artist-177526"
+  ],
+  "id": "artist-6",
+  "name": "Yuyoyuppe",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/6.jpg?v=48",
+  "rawHash": "73756eff34b0f53e290c12c5cac9f03f65e018b4c6c7411870f76ec450f3b21c",
+  "relatedArtistIds": [
+    "artist-21336",
+    "artist-745",
+    "artist-2393",
+    "artist-70521",
+    "artist-5031",
+    "artist-5586",
+    "artist-177526"
+  ],
+  "slug": "yuyoyuppe--vocadb-6",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/6",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/yuyoyuppe--vocadb-6/",
+  "vocadbId": 6,
+  "voicebanks": []
+}

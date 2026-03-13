@@ -1,0 +1,87 @@
+{
+  "additionalNames": [
+    "カイト"
+  ],
+  "albumIds": [],
+  "artistType": "Vocaloid",
+  "defaultName": "KAITO",
+  "descriptionShort": "KAITO was created as the male counterpart to [MEIKO](http://vocadb.net/Ar/176); both were designed to provide professional vocals for professional musicians.",
+  "displayName": "KAITO",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Crypton Future Media Product Page",
+      "official": true,
+      "service": "ec.crypton.co.jp",
+      "url": "https://ec.crypton.co.jp/product/detail/27720"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/236.html"
+    },
+    {
+      "kind": "reference",
+      "label": "Wikipedia (EN)",
+      "official": true,
+      "service": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/Kaito_(software)"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/a/kaito"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki (Character)",
+      "official": true,
+      "service": "vocaloid.fandom.com",
+      "url": "https://vocaloid.fandom.com/wiki/KAITO"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki (Voicebank)",
+      "official": true,
+      "service": "vocaloid.fandom.com",
+      "url": "https://vocaloid.fandom.com/wiki/KAITO_(VOCALOID1)"
+    },
+    {
+      "kind": "reference",
+      "label": "Wikipedia (JP)",
+      "official": true,
+      "service": "ja.wikipedia.org",
+      "url": "https://ja.wikipedia.org/wiki/KAITO"
+    }
+  ],
+  "groups": [
+    "artist-25",
+    "artist-157"
+  ],
+  "id": "artist-71",
+  "name": "KAITO",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/71.png?v=34",
+  "rawHash": "3c2ecdfd47272e76a008f86bcbe03f9fa8e129094d24654a2bc43856849acb98",
+  "relatedArtistIds": [
+    "artist-25",
+    "artist-7819",
+    "artist-157"
+  ],
+  "slug": "kaito--vocadb-71",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/71",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/kaito--vocadb-71/",
+  "vocadbId": 71,
+  "voicebanks": [
+    "artist-7819"
+  ]
+}

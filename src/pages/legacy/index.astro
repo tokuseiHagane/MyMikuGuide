@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { withBase } from "../../lib/site-utils";
 ---
 
 <BaseLayout title="Архив | MyMikuGuide">
@@ -9,6 +10,6 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
       Старый монолитный `README.md` больше не является основным источником данных проекта и
       сохранён как архивный слой.
     </p>
-    <p><a href="/legacy/readme-archive/">Открыть архивную Markdown-версию</a></p>
+    <p><a class="button-link" href={withBase("/legacy/readme-archive/")}>Открыть архивную Markdown-версию</a></p>
   </article>
 </BaseLayout>

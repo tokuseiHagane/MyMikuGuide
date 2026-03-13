@@ -1,0 +1,169 @@
+{
+  "additionalNames": [
+    "まふまふ"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "まふまふ",
+  "descriptionShort": "",
+  "displayName": "Mafumafu",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/22993832"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "http://twitter.com/uni_mafumafu"
+    },
+    {
+      "kind": "official",
+      "label": "Blog",
+      "official": true,
+      "service": "profile.ameba.jp",
+      "url": "http://profile.ameba.jp/uni-mafumafu"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/a/%E3%81%BE%E3%81%B5%E3%81%BE%E3%81%B5"
+    },
+    {
+      "kind": "official",
+      "label": "NND Community",
+      "official": false,
+      "service": "com.nicovideo.jp",
+      "url": "http://com.nicovideo.jp/community/co1089826"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/18874531"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.wikia.com",
+      "url": "http://vocaloid.wikia.com/wiki/Mafumafu"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/23667.html"
+    },
+    {
+      "kind": "official",
+      "label": "Mixi",
+      "official": false,
+      "service": "mixi.jp",
+      "url": "http://mixi.jp/show_profile.pl?id=28137927&"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList (mixing, mastering, etc.)",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/27495235"
+    },
+    {
+      "kind": "reference",
+      "label": "Utaite Wiki",
+      "official": true,
+      "service": "utaite.miraheze.org",
+      "url": "https://utaite.miraheze.org/wiki/Mafumafu"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList (Vocaloid)",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/35878827"
+    },
+    {
+      "kind": "official",
+      "label": "TmBox",
+      "official": false,
+      "service": "tmbox.net",
+      "url": "http://tmbox.net/user/uni_mafumafu"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/1097"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/uni_mafumafu"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCOTR1tcOAhjgi6YukrPpZxg"
+    },
+    {
+      "kind": "official",
+      "label": "Bilibili",
+      "official": true,
+      "service": "space.bilibili.com",
+      "url": "http://space.bilibili.com/387994725"
+    },
+    {
+      "kind": "official",
+      "label": "Weibo",
+      "official": true,
+      "service": "weibo.com",
+      "url": "https://weibo.com/6856340946"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "play.spotify.com",
+      "url": "https://play.spotify.com/artist/6t6aXZlmnAF1VuiG8BVjQZ?si=sMI0LqAdR42X_OSuPTw_qg"
+    },
+    {
+      "kind": "official",
+      "label": "Bluesky",
+      "official": true,
+      "service": "bsky.app",
+      "url": "https://bsky.app/profile/uni-mafumafu.bsky.social"
+    }
+  ],
+  "groups": [],
+  "id": "artist-1459",
+  "name": "Mafumafu",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/1459.jpg?v=22",
+  "rawHash": "1fa87fa378d8d81c57cfefe2b4970ff74c99b01c784542481f6cfd539939b227",
+  "relatedArtistIds": [],
+  "slug": "mafumafu--vocadb-1459",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/1459",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/mafumafu--vocadb-1459/",
+  "vocadbId": 1459,
+  "voicebanks": []
+}

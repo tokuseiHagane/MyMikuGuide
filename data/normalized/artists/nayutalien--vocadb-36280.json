@@ -1,0 +1,161 @@
+{
+  "additionalNames": [
+    "ナユタン星人",
+    "Nayutan Seijin",
+    "Nayutan Alien",
+    "奶油糖星人",
+    "ナユタ セイジ",
+    "Nayuta Seiji",
+    "나유탄 성인"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "ナユタン星人",
+  "descriptionShort": "",
+  "displayName": "NayutalieN",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/49716308"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/NayutalieN"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/nayutalien"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/50857506"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/13636"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.wikia.com",
+      "url": "http://vocaloid.wikia.com/wiki/NayutalieN"
+    },
+    {
+      "kind": "reference",
+      "label": "Pixiv Dictionary",
+      "official": true,
+      "service": "dic.pixiv.net",
+      "url": "http://dic.pixiv.net/a/%E3%83%8A%E3%83%A6%E3%82%BF%E3%83%B3%E6%98%9F%E4%BA%BA"
+    },
+    {
+      "kind": "official",
+      "label": "Pixiv",
+      "official": true,
+      "service": "pixiv.net",
+      "url": "https://www.pixiv.net/member.php?id=15836973"
+    },
+    {
+      "kind": "commercial",
+      "label": "BOOTH",
+      "official": true,
+      "service": "nayutan.booth.pm",
+      "url": "https://nayutan.booth.pm/"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "https://www5.atwiki.jp/hmiku/pages/32866.html"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/a/ナユタン星人"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": false,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCSmgj_Ai_ExQ2uiV2p45zZQ"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UChK8kgGU767nKTxp4f4GD6g"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": true,
+      "service": "nayutalien.com",
+      "url": "https://nayutalien.com"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "play.spotify.com",
+      "url": "https://play.spotify.com/artist/0U2Emr9cdZNcbqSoKoWb8c"
+    },
+    {
+      "kind": "commercial",
+      "label": "TuneCore Japan",
+      "official": true,
+      "service": "tunecore.co.jp",
+      "url": "https://www.tunecore.co.jp/artists/nayutalien"
+    },
+    {
+      "kind": "commercial",
+      "label": "KarenT",
+      "official": true,
+      "service": "karent.jp",
+      "url": "https://karent.jp/artist/pp001031"
+    },
+    {
+      "kind": "official",
+      "label": "Bilibili",
+      "official": true,
+      "service": "space.bilibili.com",
+      "url": "https://space.bilibili.com/3546868686522469"
+    }
+  ],
+  "groups": [],
+  "id": "artist-36280",
+  "name": "NayutalieN",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/36280.jpg?v=26",
+  "rawHash": "4a9d47f8a5172d7b360f8bfffe3711245d163d78b30484811174235d7439fd3c",
+  "relatedArtistIds": [],
+  "slug": "nayutalien--vocadb-36280",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/36280",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/nayutalien--vocadb-36280/",
+  "vocadbId": 36280,
+  "voicebanks": []
+}

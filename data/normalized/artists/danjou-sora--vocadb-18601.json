@@ -1,0 +1,100 @@
+{
+  "additionalNames": [
+    "檀上大空",
+    "skyw315"
+  ],
+  "albumIds": [],
+  "artistType": "Illustrator",
+  "defaultName": "檀上大空",
+  "descriptionShort": "This artist prohibits reprints.",
+  "displayName": "Danjou Sora",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "https://www.nicovideo.jp/mylist/37060601"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "https://www.nicovideo.jp/user/29976142"
+    },
+    {
+      "kind": "official",
+      "label": "Pixiv",
+      "official": true,
+      "service": "pixiv.net",
+      "url": "https://www.pixiv.net/users/3718069"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/skyw315"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "https://piapro.jp/skyw315"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "https://utaitedb.net/Ar/20866"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": true,
+      "service": "skyw315d8.wixsite.com",
+      "url": "https://skyw315d8.wixsite.com/skyw315"
+    },
+    {
+      "kind": "official",
+      "label": "Instagram",
+      "official": true,
+      "service": "instagram.com",
+      "url": "https://www.instagram.com/skyw315d/"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCg6aFeZdDcH0gIxXjg0sfMg"
+    },
+    {
+      "kind": "commercial",
+      "label": "Skeb",
+      "official": true,
+      "service": "skeb.jp",
+      "url": "https://skeb.jp/@skyw315"
+    }
+  ],
+  "groups": [],
+  "id": "artist-18601",
+  "name": "Danjou Sora",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/18601.jpg?v=15",
+  "rawHash": "48c60e78ffed6a84a9072a4d817fdafdf5101b199adb7a4716a534f93da2b82e",
+  "relatedArtistIds": [],
+  "slug": "danjou-sora--vocadb-18601",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/18601",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/danjou-sora--vocadb-18601/",
+  "vocadbId": 18601,
+  "voicebanks": []
+}

@@ -1,0 +1,61 @@
+{
+  "additionalNames": [
+    "初音ミク Append (Dark)"
+  ],
+  "albumIds": [],
+  "artistType": "Vocaloid",
+  "defaultName": "初音ミク Append (Dark)",
+  "descriptionShort": "1 of 6 VOCALOID2 Miku Appends.",
+  "displayName": "Hatsune Miku Append (Dark)",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.wikia.com",
+      "url": "http://vocaloid.wikia.com/wiki/Hatsune_Miku_Append"
+    },
+    {
+      "kind": "official",
+      "label": "Crypton Future Media Product Page",
+      "official": true,
+      "service": "crypton.co.jp",
+      "url": "http://www.crypton.co.jp/mp/do/prod?id=33030"
+    },
+    {
+      "kind": "official",
+      "label": "Crypton Product Page",
+      "official": true,
+      "service": "crypton.co.jp",
+      "url": "http://www.crypton.co.jp/mp/pages/prod/vocaloid/cv01a.jsp"
+    },
+    {
+      "kind": "commercial",
+      "label": "VOCALOID Official Store Product Page",
+      "official": true,
+      "service": "shop.vocaloidstore.com",
+      "url": "http://shop.vocaloidstore.com/index.php?gOo=goods_details.dwt&goodsid=5397&productname="
+    }
+  ],
+  "groups": [
+    "artist-25"
+  ],
+  "id": "artist-75",
+  "name": "Hatsune Miku Append (Dark)",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/75.png?v=23",
+  "rawHash": "8ee0108073d3f5574ccb29ee65f2f834195394c22b8fd8ac831a9f57cfcce5ad",
+  "relatedArtistIds": [
+    "artist-25"
+  ],
+  "slug": "hatsune-miku-append-dark--vocadb-75",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/75",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/hatsune-miku-append-dark--vocadb-75/",
+  "vocadbId": 75,
+  "voicebanks": []
+}

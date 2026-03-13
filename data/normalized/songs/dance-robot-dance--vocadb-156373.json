@@ -1,0 +1,42 @@
+{
+  "additionalNames": [
+    "ダンスロボットダンス"
+  ],
+  "albumIds": [
+    "album-22831"
+  ],
+  "artistIds": [
+    "artist-36280",
+    "artist-68527"
+  ],
+  "defaultName": "ダンスロボットダンス",
+  "displayName": "Dance Robot Dance",
+  "durationSeconds": 191,
+  "entityType": "song",
+  "externalLinks": [],
+  "id": "song-156373",
+  "primaryImage": null,
+  "publishDate": "2017-04-29T00:00:00Z",
+  "rawHash": "f0ba2df4e08130afff617cdc66cba6818c798ebde242e1eb0339fc22dbb6671d",
+  "slug": "dance-robot-dance--vocadb-156373",
+  "songType": "Cover",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/156373",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "bonus track",
+    "human singers",
+    "self-cover",
+    "#compass",
+    "robotic vocals"
+  ],
+  "title": "Dance Robot Dance",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/dance-robot-dance--vocadb-156373/",
+  "vocadbId": 156373,
+  "vocalistIds": [
+    "artist-68527"
+  ],
+  "year": 2017
+}

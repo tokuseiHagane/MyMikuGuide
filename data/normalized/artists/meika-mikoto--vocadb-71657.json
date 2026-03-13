@@ -1,0 +1,86 @@
+{
+  "additionalNames": [
+    "鳴花ミコト"
+  ],
+  "albumIds": [],
+  "artistType": "Vocaloid",
+  "defaultName": "鳴花ミコト",
+  "descriptionShort": "A VOCALOID bundled with [Meika Hime](https://vocadb.net/Ar/71655).\nThey also have a talk software called [Gynoid Talk](https://vocadb.net/Ar/71658).",
+  "displayName": "Meika Mikoto",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "commercial",
+      "label": "Amazon (JP)",
+      "official": true,
+      "service": "amazon.co.jp",
+      "url": "https://www.amazon.co.jp/gynoid-GVMJ10001-2-VOCALOID-鳴花ヒメ・ミコト/dp/B07P9C5SGJ/ref=lp_3749250051_1_8?srs=3749250051&ie=UTF8&qid=1551993407&sr=8-8"
+    },
+    {
+      "kind": "reference",
+      "label": "VNN",
+      "official": true,
+      "service": "vocaloidnews.net",
+      "url": "https://www.vocaloidnews.net/leaked-two-new-vocaloid5-meika-hime-and-mikoto/"
+    },
+    {
+      "kind": "commercial",
+      "label": "Digimart",
+      "official": true,
+      "service": "digimart.net",
+      "url": "https://www.digimart.net/cat16/shop1484/DS05197325/#"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": true,
+      "service": "gynoid.co.jp",
+      "url": "https://gynoid.co.jp/items/view/18"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.fandom.com",
+      "url": "https://vocaloid.fandom.com/wiki/Meika_Hime_%26_Mikoto"
+    },
+    {
+      "kind": "reference",
+      "label": "MusicBrainz",
+      "official": true,
+      "service": "musicbrainz.org",
+      "url": "https://musicbrainz.org/artist/a3673450-a3ec-4312-a9e2-10d025204a36"
+    },
+    {
+      "kind": "official",
+      "label": "X (Twitter)",
+      "official": true,
+      "service": "x.com",
+      "url": "https://x.com/himemiko_aiv"
+    }
+  ],
+  "groups": [
+    "artist-25143"
+  ],
+  "id": "artist-71657",
+  "name": "Meika Mikoto",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/71657.png?v=13",
+  "rawHash": "b69a15c4cf92217591d518c94e0ea0fdebf0fd71b42dc7373b622ac14aaeb8c8",
+  "relatedArtistIds": [
+    "artist-25143",
+    "artist-1940",
+    "artist-71659"
+  ],
+  "slug": "meika-mikoto--vocadb-71657",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/71657",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/meika-mikoto--vocadb-71657/",
+  "vocadbId": 71657,
+  "voicebanks": [
+    "artist-71659"
+  ]
+}

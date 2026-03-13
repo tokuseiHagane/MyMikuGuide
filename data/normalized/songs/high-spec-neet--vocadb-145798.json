@@ -1,0 +1,82 @@
+{
+  "additionalNames": [
+    "ハイスペックニート"
+  ],
+  "albumIds": [
+    "album-22831",
+    "album-26121",
+    "album-45508"
+  ],
+  "artistIds": [
+    "artist-1",
+    "artist-8",
+    "artist-1724",
+    "artist-3569",
+    "artist-2284"
+  ],
+  "defaultName": "ハイスペックニート",
+  "displayName": "High Spec NEET",
+  "durationSeconds": 200,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "【初音ミク】 ハイスペックニート 【オリジナルMV】",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm30376008"
+    },
+    {
+      "kind": "original",
+      "label": "【初音ミク】 ハイスペックニート 【オリジナルMV】_High Spec Neet",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/4DbM_WD0kl8"
+    },
+    {
+      "kind": "original",
+      "label": "ハイスペックニート",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/V8X6_vGJ4Tc"
+    },
+    {
+      "kind": "original",
+      "label": "ハイスペックニート",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/tiQt2Jrr6VQ"
+    }
+  ],
+  "id": "song-145798",
+  "primaryImage": "https://i1.ytimg.com/vi/4DbM_WD0kl8/hqdefault.jpg",
+  "publishDate": "2017-01-06T00:00:00Z",
+  "rawHash": "b40766bf98cb31225da79cdc065ac7f831ffa1248ac1455f02f8e1334debcea6",
+  "slug": "high-spec-neet--vocadb-145798",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/145798",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "chiptune",
+    "sad",
+    "video game official soundtrack release",
+    "rock",
+    "good tuning",
+    "#compass",
+    "Taiko no Tatsujin",
+    "loneliness",
+    "NEET",
+    "karaoke available (DAM&JOY)",
+    "#COMPASS LIVE ARENA"
+  ],
+  "title": "High Spec NEET",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/high-spec-neet--vocadb-145798/",
+  "vocadbId": 145798,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2017
+}

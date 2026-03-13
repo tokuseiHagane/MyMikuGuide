@@ -1,0 +1,125 @@
+{
+  "additionalNames": [
+    "Matsumura Hiroki",
+    "松村弘基"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "[TEST]",
+  "descriptionShort": "",
+  "displayName": "[TEST]",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/hiroki_test"
+    },
+    {
+      "kind": "official",
+      "label": "Blog",
+      "official": true,
+      "service": "ameblo.jp",
+      "url": "http://ameblo.jp/test2525/"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/2563.html"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/1643359"
+    },
+    {
+      "kind": "official",
+      "label": "NND Community",
+      "official": false,
+      "service": "com.nicovideo.jp",
+      "url": "http://com.nicovideo.jp/community/co61017"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/1182"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "https://dic.nicovideo.jp/a/[test]"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/user/TEST2525"
+    },
+    {
+      "kind": "official",
+      "label": "Facebook",
+      "official": true,
+      "service": "facebook.com",
+      "url": "https://www.facebook.com/profile.php?id=100003928596740"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/2779693"
+    },
+    {
+      "kind": "reference",
+      "label": "Discogs",
+      "official": true,
+      "service": "discogs.com",
+      "url": "https://www.discogs.com/artist/4357386"
+    },
+    {
+      "kind": "reference",
+      "label": "MusicBrainz",
+      "official": true,
+      "service": "musicbrainz.org",
+      "url": "https://musicbrainz.org/artist/c5dcb5d2-77e3-4ac8-9674-d0fe027127b9"
+    },
+    {
+      "kind": "reference",
+      "label": "TouhouDB",
+      "official": true,
+      "service": "touhoudb.com",
+      "url": "https://touhoudb.com/Ar/19971"
+    }
+  ],
+  "groups": [
+    "artist-2286"
+  ],
+  "id": "artist-2284",
+  "name": "[TEST]",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/2284.png?v=14",
+  "rawHash": "5c35094c78a5caecae55ced452d9272f181e5c9d0a9448f2cc06c8622a8732fd",
+  "relatedArtistIds": [
+    "artist-2286"
+  ],
+  "slug": "test--vocadb-2284",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/2284",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/test--vocadb-2284/",
+  "vocadbId": 2284,
+  "voicebanks": []
+}
