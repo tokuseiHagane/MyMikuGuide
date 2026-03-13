@@ -1,0 +1,94 @@
+{
+  "additionalNames": [
+    "！？のセカイ"
+  ],
+  "albumType": "Album",
+  "artistIds": [
+    "artist-46466",
+    "artist-43375",
+    "artist-85",
+    "artist-61122",
+    "artist-60443",
+    "artist-1"
+  ],
+  "catalogNumber": null,
+  "defaultName": "！？のセカイ",
+  "displayName": "!? no Sekai",
+  "entityType": "album",
+  "externalLinks": [
+    {
+      "kind": "commercial",
+      "label": "Booth",
+      "official": false,
+      "service": "takenoko-shounen.booth.pm",
+      "url": "https://takenoko-shounen.booth.pm/items/4811552"
+    }
+  ],
+  "id": "album-36773",
+  "primaryImage": "https://static.vocadb.net/img/Album/mainOrig/36773.jpg?v=10",
+  "rawHash": "7c3f944a110eb0ba2a530d565a87a9de45d32369d417c3d5d53eff6e9f49ad0b",
+  "releaseDate": "2023-06-03T00:00:00.000Z",
+  "slug": "no-sekai--vocadb-36773",
+  "songIds": [
+    "song-303759",
+    "song-328737",
+    "song-338525",
+    "song-360183",
+    "song-483809",
+    "song-502348",
+    "song-502349"
+  ],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Al/36773",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "title": "!? no Sekai",
+  "tracks": [
+    {
+      "discNumber": 1,
+      "name": "What Was That?!",
+      "songId": "song-303759",
+      "trackNumber": 1
+    },
+    {
+      "discNumber": 1,
+      "name": "That’s Right!!",
+      "songId": "song-328737",
+      "trackNumber": 2
+    },
+    {
+      "discNumber": 1,
+      "name": "Hmm?",
+      "songId": "song-338525",
+      "trackNumber": 3
+    },
+    {
+      "discNumber": 1,
+      "name": "I honestly don't know",
+      "songId": "song-360183",
+      "trackNumber": 4
+    },
+    {
+      "discNumber": 1,
+      "name": "Mou Nan mo Shiran",
+      "songId": "song-483809",
+      "trackNumber": 5
+    },
+    {
+      "discNumber": 1,
+      "name": "What Was That?! irucaice Remix",
+      "songId": "song-502348",
+      "trackNumber": 6
+    },
+    {
+      "discNumber": 1,
+      "name": "That’s Right!!",
+      "songId": "song-502349",
+      "trackNumber": 7
+    }
+  ],
+  "upstreamUpdatedAt": null,
+  "url": "/albums/no-sekai--vocadb-36773/",
+  "vocadbId": 36773,
+  "year": 2023
+}

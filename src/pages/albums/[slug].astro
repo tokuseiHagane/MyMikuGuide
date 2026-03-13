@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadAlbums } from "../../lib/site-data";
+
+export async function getStaticPaths() {
+  const albums = await loadAlbums();
+  return albums.map((album) => ({
+    params: { slug: album.slug },
+    props: { album },
+  }));
+}
+
+const { album } = Astro.props;
+---
+
+<BaseLayout title={`${album.displayName} | MyMikuGuide`}>
+  <article class="panel">
+    <h1>{album.displayName}</h1>
+    <p class="muted">{album.albumType} · {album.year ?? "Без даты"}</p>
+    <p>Связанных артистов: {album.artistIds.length}. Треков: {album.songIds.length}.</p>
+    {album.catalogNumber ? <p>Каталожный номер: {album.catalogNumber}</p> : null}
+    <p><a href={album.sourceUrl}>Страница в VocaDB</a></p>
+    <p class="muted">
+      Локально синхронизирован: {new Date(album.syncedAt).toLocaleString("ru-RU")}
+      {typeof album.upstreamVersion === "number" ? ` · upstream v${album.upstreamVersion}` : ""}
+    </p>
+  </article>
+</BaseLayout>

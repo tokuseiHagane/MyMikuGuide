@@ -1,0 +1,53 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-36389",
+    "album-49531"
+  ],
+  "artistIds": [
+    "artist-4744",
+    "artist-83928"
+  ],
+  "defaultName": "カレーうどんが売ってない",
+  "displayName": "カレーうどんが売ってない",
+  "durationSeconds": 95,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "カレーうどんが売ってない / 可不 - シカクドット",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm41051453"
+    },
+    {
+      "kind": "original",
+      "label": "カレーうどんが売ってない / 可不 - シカクドット",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/jDyZ3jy3Cs4"
+    }
+  ],
+  "id": "song-439148",
+  "primaryImage": "https://i1.ytimg.com/vi/jDyZ3jy3Cs4/hqdefault.jpg",
+  "publishDate": "2022-09-09T00:00:00Z",
+  "rawHash": "082da21816ad0eda6488379f58708d1b3ea69fc6d6ee0b08c04336a2ce5f5756",
+  "slug": "vocadb-439148",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/439148",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "tags": [
+    "funny",
+    "food"
+  ],
+  "title": "カレーうどんが売ってない",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/vocadb-439148/",
+  "vocadbId": 439148,
+  "vocalistIds": [
+    "artist-83928"
+  ],
+  "year": 2022
+}

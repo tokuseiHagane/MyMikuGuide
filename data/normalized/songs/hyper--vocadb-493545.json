@@ -1,0 +1,36 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-36389"
+  ],
+  "artistIds": [
+    "artist-1",
+    "artist-4744",
+    "artist-85853"
+  ],
+  "defaultName": "Hyperに",
+  "displayName": "Hyperに",
+  "durationSeconds": 0,
+  "entityType": "song",
+  "externalLinks": [],
+  "id": "song-493545",
+  "primaryImage": null,
+  "publishDate": "2023-04-29T00:00:00Z",
+  "rawHash": "ec53f9450c3fe09ec41749833486d22cdb791d8a9f1e4ed420357a97674d5e05",
+  "slug": "hyper--vocadb-493545",
+  "songType": "Unspecified",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/493545",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [],
+  "title": "Hyperに",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/hyper--vocadb-493545/",
+  "vocadbId": 493545,
+  "vocalistIds": [
+    "artist-1",
+    "artist-85853"
+  ],
+  "year": 2023
+}

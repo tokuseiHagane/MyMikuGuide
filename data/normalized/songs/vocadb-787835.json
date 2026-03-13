@@ -1,0 +1,52 @@
+{
+  "additionalNames": [],
+  "albumIds": [],
+  "artistIds": [
+    "artist-1665",
+    "artist-1"
+  ],
+  "defaultName": "🎉",
+  "displayName": "🎉",
+  "durationSeconds": 3,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "X (Twitter)",
+      "official": true,
+      "service": "x.com",
+      "url": "https://x.com/i/status/1716846814199181652"
+    },
+    {
+      "kind": "reprint",
+      "label": "🎉 (song from maretus twitter)",
+      "official": false,
+      "service": "youtube",
+      "url": "https://youtu.be/rQ0_NQWQCoI"
+    }
+  ],
+  "id": "song-787835",
+  "primaryImage": "https://i1.ytimg.com/vi/rQ0_NQWQCoI/hqdefault.jpg",
+  "publishDate": "2023-10-24T00:00:00Z",
+  "rawHash": "6eb453dd82efc7463b503114b25a425f4053f1fcd3737498ea6eedeae40abbd5",
+  "slug": "vocadb-787835",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/787835",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "a cappella",
+    "unsupported embed",
+    "unusual title",
+    "Twitter original"
+  ],
+  "title": "🎉",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/vocadb-787835/",
+  "vocadbId": 787835,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2023
+}

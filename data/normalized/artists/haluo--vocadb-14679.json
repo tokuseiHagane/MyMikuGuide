@@ -1,0 +1,72 @@
+{
+  "additionalNames": [
+    "はるお",
+    "ロリの腹部大好きP "
+  ],
+  "albumIds": [],
+  "artistType": "OtherIndividual",
+  "defaultName": "はるお",
+  "descriptionShort": "",
+  "displayName": "Haluo",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/35442246"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/22413835"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/haluo_haluo"
+    },
+    {
+      "kind": "official",
+      "label": "TmBOX",
+      "official": true,
+      "service": "tmbox.net",
+      "url": "http://tmbox.net/user/haluo_haluo"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/10402"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList (2)",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/34541690"
+    }
+  ],
+  "groups": [],
+  "id": "artist-14679",
+  "name": "Haluo",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/14679.jpg?v=5",
+  "rawHash": "5324a2f0fe235e738e8cf9ec4bddd3cf8b383517df90839f2b5169ac5f6b8147",
+  "relatedArtistIds": [],
+  "slug": "haluo--vocadb-14679",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/14679",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/haluo--vocadb-14679/",
+  "vocadbId": 14679,
+  "voicebanks": []
+}

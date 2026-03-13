@@ -1,0 +1,239 @@
+{
+  "additionalNames": [
+    "鬱P",
+    "郁P",
+    "우츠P"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "鬱P",
+  "descriptionShort": "Utsu (鬱) = \"Depression\" in Japanese",
+  "displayName": "Utsu-P",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": true,
+      "service": "msis.jimdo.com",
+      "url": "https://msis.jimdo.com/"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "https://www5.atwiki.jp/hmiku/pages/2847.html"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": false,
+      "service": "twitter.com",
+      "url": "https://twitter.com/asshole_wii"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "https://www.nicovideo.jp/user/176618"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "https://piapro.jp/ushi1201"
+    },
+    {
+      "kind": "official",
+      "label": "SoundCloud",
+      "official": true,
+      "service": "soundcloud.com",
+      "url": "https://soundcloud.com/asshole_wii"
+    },
+    {
+      "kind": "reference",
+      "label": "UTAU Wiki (JP)",
+      "official": true,
+      "service": "www24.atwiki.jp",
+      "url": "https://www24.atwiki.jp/utauuuta/pages/911.html"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "https://www.nicovideo.jp/mylist/6385075"
+    },
+    {
+      "kind": "official",
+      "label": "TMBox",
+      "official": false,
+      "service": "tmbox.net",
+      "url": "http://tmbox.net/user/asshole_wii"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.fandom.com",
+      "url": "https://vocaloid.fandom.com/wiki/Utsu-P"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "https://dic.nicovideo.jp/a/%E9%AC%B1p"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "https://utaitedb.net/Ar/1704"
+    },
+    {
+      "kind": "commercial",
+      "label": "BOOTH",
+      "official": true,
+      "service": "utsu-p.booth.pm",
+      "url": "https://utsu-p.booth.pm/"
+    },
+    {
+      "kind": "official",
+      "label": "Bilibili",
+      "official": true,
+      "service": "space.bilibili.com",
+      "url": "https://space.bilibili.com/274708180/"
+    },
+    {
+      "kind": "official",
+      "label": "Weibo",
+      "official": true,
+      "service": "weibo.com",
+      "url": "https://www.weibo.com/p/1005056445722962"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "open.spotify.com",
+      "url": "https://open.spotify.com/artist/3Zo5u5IljPxQEfbNY2OgsX"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/user/utsupofficial"
+    },
+    {
+      "kind": "commercial",
+      "label": "Bandcamp",
+      "official": true,
+      "service": "utsup.bandcamp.com",
+      "url": "https://utsup.bandcamp.com/"
+    },
+    {
+      "kind": "official",
+      "label": "Instagram",
+      "official": false,
+      "service": "instagram.com",
+      "url": "https://www.instagram.com/asshole_wii/"
+    },
+    {
+      "kind": "commercial",
+      "label": "KARENT",
+      "official": true,
+      "service": "karent.jp",
+      "url": "https://karent.jp/artist/pp000333"
+    },
+    {
+      "kind": "official",
+      "label": "Threads",
+      "official": true,
+      "service": "threads.net",
+      "url": "https://www.threads.net/@asshole_wii"
+    },
+    {
+      "kind": "official",
+      "label": "Instagram",
+      "official": true,
+      "service": "instagram.com",
+      "url": "https://www.instagram.com/utsupiii/"
+    },
+    {
+      "kind": "official",
+      "label": "Linktree",
+      "official": true,
+      "service": "linktr.ee",
+      "url": "https://linktr.ee/utsupii"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/utsupii"
+    },
+    {
+      "kind": "official",
+      "label": "Bluesky",
+      "official": true,
+      "service": "bsky.app",
+      "url": "https://bsky.app/profile/utsupii.bsky.social"
+    },
+    {
+      "kind": "reference",
+      "label": "MusicBrainz",
+      "official": true,
+      "service": "musicbrainz.org",
+      "url": "https://musicbrainz.org/artist/3fdaac99-0261-49a7-92b3-5a909cba187d"
+    },
+    {
+      "kind": "commercial",
+      "label": "A!SMART",
+      "official": true,
+      "service": "asmart.jp",
+      "url": "https://www.asmart.jp/en/shop/utsup/"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCkMsHxeWjiHQvhHAs33OCmw"
+    }
+  ],
+  "groups": [
+    "artist-694",
+    "artist-41422",
+    "artist-276",
+    "artist-140839",
+    "artist-147047"
+  ],
+  "id": "artist-90",
+  "name": "Utsu-P",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/90.png?v=47",
+  "rawHash": "3e4a1e8de963e4c6071c642c9883b39d31280d5743557c78ddabdfca7ba0fd30",
+  "relatedArtistIds": [
+    "artist-694",
+    "artist-41422",
+    "artist-276",
+    "artist-140839",
+    "artist-147047"
+  ],
+  "slug": "utsu-p--vocadb-90",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/90",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/utsu-p--vocadb-90/",
+  "vocadbId": 90,
+  "voicebanks": []
+}

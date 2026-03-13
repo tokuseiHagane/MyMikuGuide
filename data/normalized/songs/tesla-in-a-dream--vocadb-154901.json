@@ -1,0 +1,93 @@
+{
+  "additionalNames": [
+    "テスラは夢の中",
+    "tesla wa yumenonaka"
+  ],
+  "albumIds": [
+    "album-23077",
+    "album-26139"
+  ],
+  "artistIds": [
+    "artist-1",
+    "artist-305",
+    "artist-2745",
+    "artist-2131",
+    "artist-5234"
+  ],
+  "defaultName": "テスラは夢の中",
+  "displayName": "Tesla in a Dream",
+  "durationSeconds": 188,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/36208.html"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/S/36547"
+    },
+    {
+      "kind": "original",
+      "label": "【初音ミク・MV】 テスラは夢の中 / TOKOTOKO（西沢さんP）",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm31098605"
+    },
+    {
+      "kind": "original",
+      "label": "テスラは夢の中 / tesla wa yumenonaka 【TOKOTOKO（西沢さんP） feat.初音ミク】",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/7EJV3mIqHK8"
+    },
+    {
+      "kind": "original",
+      "label": "テスラは夢の中",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/o_FRtzrxYeI"
+    },
+    {
+      "kind": "original",
+      "label": "テスラは夢の中",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/Hsvhv1WtTeY"
+    }
+  ],
+  "id": "song-154901",
+  "primaryImage": "https://i1.ytimg.com/vi/7EJV3mIqHK8/hqdefault.jpg",
+  "publishDate": "2017-04-26T00:00:00Z",
+  "rawHash": "225110325e09711650b377099bddbd16cce342bd4e45ea00b74c23765f6adeb2",
+  "slug": "tesla-in-a-dream--vocadb-154901",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/154901",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "cute",
+    "cross-dressing as female",
+    "video game official soundtrack release",
+    "rock",
+    "steampunk",
+    "#compass",
+    "karaoke available (DAM&JOY)",
+    "#COMPASS LIVE ARENA"
+  ],
+  "title": "Tesla in a Dream",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/tesla-in-a-dream--vocadb-154901/",
+  "vocadbId": 154901,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2017
+}

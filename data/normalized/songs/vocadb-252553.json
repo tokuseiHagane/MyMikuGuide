@@ -1,0 +1,38 @@
+{
+  "additionalNames": [
+    "untitled"
+  ],
+  "albumIds": [
+    "album-27216"
+  ],
+  "artistIds": [
+    "artist-75362",
+    "artist-1"
+  ],
+  "defaultName": "⠀  ",
+  "displayName": "⠀  ",
+  "durationSeconds": 0,
+  "entityType": "song",
+  "externalLinks": [],
+  "id": "song-252553",
+  "primaryImage": null,
+  "publishDate": "2019-08-12T00:00:00Z",
+  "rawHash": "4cd5691a4b1b57af1eb1045270f09ed92caf5f6733e383f5b0cd70dc1a46c51d",
+  "slug": "vocadb-252553",
+  "songType": "Unspecified",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/252553",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:16:23.869Z",
+  "tags": [
+    "untitled"
+  ],
+  "title": "⠀  ",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/vocadb-252553/",
+  "vocadbId": 252553,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2019
+}

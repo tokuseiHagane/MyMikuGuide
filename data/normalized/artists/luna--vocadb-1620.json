@@ -1,0 +1,194 @@
+{
+  "additionalNames": [],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "*Luna",
+  "descriptionShort": "",
+  "displayName": "*Luna",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": false,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/30108248"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/Luna_miko00"
+    },
+    {
+      "kind": "official",
+      "label": "Blog",
+      "official": true,
+      "service": "ameblo.jp",
+      "url": "http://ameblo.jp/luna-niconico/"
+    },
+    {
+      "kind": "official",
+      "label": "NND Community",
+      "official": false,
+      "service": "com.nicovideo.jp",
+      "url": "http://com.nicovideo.jp/community/co1569781"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/Luna_"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/25646141"
+    },
+    {
+      "kind": "official",
+      "label": "SoundCloud",
+      "official": false,
+      "service": "soundcloud.com",
+      "url": "https://soundcloud.com/luna-catbird"
+    },
+    {
+      "kind": "official",
+      "label": "Tumblr",
+      "official": false,
+      "service": "luna-catbird.tumblr.com",
+      "url": "http://luna-catbird.tumblr.com/"
+    },
+    {
+      "kind": "official",
+      "label": "Blogspot",
+      "official": true,
+      "service": "luna-catbird.blogspot.jp",
+      "url": "http://luna-catbird.blogspot.jp/"
+    },
+    {
+      "kind": "official",
+      "label": "LINE",
+      "official": true,
+      "service": "line.me",
+      "url": "https://line.me/R/ti/p/%40rep7613k"
+    },
+    {
+      "kind": "commercial",
+      "label": "BOOTH",
+      "official": true,
+      "service": "luna-catbird.booth.pm",
+      "url": "https://luna-catbird.booth.pm/"
+    },
+    {
+      "kind": "official",
+      "label": "Pixiv",
+      "official": true,
+      "service": "pixiv.net",
+      "url": "https://www.pixiv.net/member.php?id=16315505"
+    },
+    {
+      "kind": "official",
+      "label": "Bilibili",
+      "official": true,
+      "service": "space.bilibili.com",
+      "url": "https://space.bilibili.com/252199770#/"
+    },
+    {
+      "kind": "commercial",
+      "label": "Bandcamp",
+      "official": false,
+      "service": "luna-miko00.bandcamp.com",
+      "url": "https://luna-miko00.bandcamp.com/"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "https://www5.atwiki.jp/hmiku/pages/23616.html"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.wikia.com",
+      "url": "https://vocaloid.wikia.com/wiki/*Luna"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "https://dic.nicovideo.jp/a/%2Aluna"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "https://utaitedb.net/Ar/22118"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": true,
+      "service": "ast-luna.com",
+      "url": "https://www.ast-luna.com/"
+    },
+    {
+      "kind": "commercial",
+      "label": "KARENT",
+      "official": true,
+      "service": "karent.jp",
+      "url": "https://karent.jp/artist/pp000797"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCGGY3oTOQ9g9FCu9hLFJsqw"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel (Custom - user)",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/user/catbird00"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel (Custom - @)",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/@ast-Luna"
+    }
+  ],
+  "groups": [
+    "artist-90832",
+    "artist-276"
+  ],
+  "id": "artist-1620",
+  "name": "*Luna",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/1620.png?v=29",
+  "rawHash": "a44df57e3e14435c8bc5f36bfee7b487d9dbc513b498c308fa2ddd88a86954bb",
+  "relatedArtistIds": [
+    "artist-90832",
+    "artist-276"
+  ],
+  "slug": "luna--vocadb-1620",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/1620",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/luna--vocadb-1620/",
+  "vocadbId": 1620,
+  "voicebanks": []
+}

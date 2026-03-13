@@ -1,0 +1,51 @@
+{
+  "additionalNames": [
+    "勇馬",
+    "Yuuma"
+  ],
+  "albumIds": [],
+  "artistType": "Vocaloid",
+  "defaultName": "VY2",
+  "descriptionShort": "The second voicebank, after [VY1](http://vocadb.net/Ar/117), to be produced by Yamaha itself. VY2 is intended for professional musicians and, according to Yamaha, is intended to be a high quality voicebank. As a note of the previous Vocaloid VY1, VY2 can be viewed as whatever the",
+  "displayName": "VY2",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.wikia.com",
+      "url": "http://vocaloid.wikia.com/wiki/VY2"
+    },
+    {
+      "kind": "reference",
+      "label": "Hatsune Miku wiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/15131.html"
+    }
+  ],
+  "groups": [
+    "artist-157",
+    "artist-48393"
+  ],
+  "id": "artist-118",
+  "name": "VY2",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/118.png?v=27",
+  "rawHash": "fc048f0638047beb5bd3c2bead9bdeefb34153a561ab152f09458c8a5d876e30",
+  "relatedArtistIds": [
+    "artist-157",
+    "artist-1637",
+    "artist-48393"
+  ],
+  "slug": "vy2--vocadb-118",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/118",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/vy2--vocadb-118/",
+  "vocadbId": 118,
+  "voicebanks": []
+}

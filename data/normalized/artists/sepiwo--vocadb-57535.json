@@ -1,0 +1,136 @@
+{
+  "additionalNames": [
+    "セピヲ",
+    "末吉",
+    "Suekichi"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "Sepiwo",
+  "descriptionShort": "",
+  "displayName": "Sepiwo",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND Account (Sepiwo/末吉)",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "https://www.nicovideo.jp/user/37032039"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList (Sepiwo)",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "https://www.nicovideo.jp/mylist/46939795"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel (Sepiwo)",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCEDH61QTmLrLOzHv3pLJB7g"
+    },
+    {
+      "kind": "official",
+      "label": "Blog (Password-protected)",
+      "official": true,
+      "service": "sepiwoio.blog.fc2.com",
+      "url": "https://sepiwoio.blog.fc2.com/"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": false,
+      "service": "twitter.com",
+      "url": "https://twitter.com/illminationtown"
+    },
+    {
+      "kind": "official",
+      "label": "SoundCloud (Sepiwo)",
+      "official": true,
+      "service": "soundcloud.com",
+      "url": "https://soundcloud.com/sepiwo"
+    },
+    {
+      "kind": "commercial",
+      "label": "TuneCore Japan (Sepiwo)",
+      "official": true,
+      "service": "tunecore.co.jp",
+      "url": "https://www.tunecore.co.jp/artists/Sepiwo"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList (末吉)",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "https://www.nicovideo.jp/mylist/76870907"
+    },
+    {
+      "kind": "official",
+      "label": "X (Twitter) (Sepiwo)",
+      "official": true,
+      "service": "x.com",
+      "url": "https://x.com/sepiwo"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel (Custom - @) (Sepiwo)",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/@sepiwo7990"
+    },
+    {
+      "kind": "official",
+      "label": "X (Twitter) (末吉)",
+      "official": true,
+      "service": "x.com",
+      "url": "https://x.com/suekich_voice"
+    },
+    {
+      "kind": "official",
+      "label": "Lit.Link (末吉)",
+      "official": true,
+      "service": "lit.link",
+      "url": "https://lit.link/en/suekichispiritual"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel (末吉)",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UC_8kpp7GWR2T3VK3j44ODyw"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel (Custom - @) (末吉)",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/@Suekichi-tq5qi"
+    },
+    {
+      "kind": "official",
+      "label": "TikTok (末吉)",
+      "official": true,
+      "service": "tiktok.com",
+      "url": "https://www.tiktok.com/@suekichi65"
+    }
+  ],
+  "groups": [],
+  "id": "artist-57535",
+  "name": "Sepiwo",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/57535.jpg?v=7",
+  "rawHash": "386204539bea10cfbcd721c7ea016dabd20f4e9687b6d66bdf92b126019d46f1",
+  "relatedArtistIds": [],
+  "slug": "sepiwo--vocadb-57535",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/57535",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:06:28.923Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/sepiwo--vocadb-57535/",
+  "vocadbId": 57535,
+  "voicebanks": []
+}

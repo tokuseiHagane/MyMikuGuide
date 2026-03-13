@@ -1,0 +1,61 @@
+{
+  "additionalNames": [
+    "裕木レオン"
+  ],
+  "albumIds": [],
+  "artistType": "Instrumentalist",
+  "defaultName": "裕木レオン",
+  "descriptionShort": "",
+  "displayName": "Yuki Leon",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/leon_drum"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "https://utaitedb.net/Ar/20998"
+    },
+    {
+      "kind": "reference",
+      "label": "TouhouDB",
+      "official": true,
+      "service": "touhoudb.com",
+      "url": "https://touhoudb.com/Ar/5348"
+    },
+    {
+      "kind": "official",
+      "label": "Instagram",
+      "official": true,
+      "service": "instagram.com",
+      "url": "https://www.instagram.com/leonnuyuki/"
+    }
+  ],
+  "groups": [
+    "artist-855"
+  ],
+  "id": "artist-55059",
+  "name": "Yuki Leon",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/55059.jpg?v=6",
+  "rawHash": "2c0bbae238a142e2a5e7d4f60958b58767e7aaaf037e1d5c94d3da6dc25e5371",
+  "relatedArtistIds": [
+    "artist-855"
+  ],
+  "slug": "yuki-leon--vocadb-55059",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/55059",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/yuki-leon--vocadb-55059/",
+  "vocadbId": 55059,
+  "voicebanks": []
+}

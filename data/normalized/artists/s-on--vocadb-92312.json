@@ -1,0 +1,64 @@
+{
+  "additionalNames": [
+    "sion"
+  ],
+  "albumIds": [],
+  "artistType": "Illustrator",
+  "defaultName": "s!on",
+  "descriptionShort": "",
+  "displayName": "s!on",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/sion001250"
+    },
+    {
+      "kind": "official",
+      "label": "Instagram",
+      "official": true,
+      "service": "instagram.com",
+      "url": "https://www.instagram.com/sion2.001"
+    },
+    {
+      "kind": "official",
+      "label": "TikTok",
+      "official": true,
+      "service": "tiktok.com",
+      "url": "https://www.tiktok.com/@sion001250"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UC9l7qrbk-Jv8jAZXYfQ7R8g?sub_confirmation=1"
+    },
+    {
+      "kind": "official",
+      "label": "Pixiv",
+      "official": true,
+      "service": "pixiv.net",
+      "url": "https://www.pixiv.net/users/70463191"
+    }
+  ],
+  "groups": [],
+  "id": "artist-92312",
+  "name": "s!on",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/92312.jpg?v=4",
+  "rawHash": "795f074389b6baf3a80f481bbf792c40cdc9208cd8d269b4e855c391e1743bba",
+  "relatedArtistIds": [],
+  "slug": "s-on--vocadb-92312",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/92312",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:06:28.923Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/s-on--vocadb-92312/",
+  "vocadbId": 92312,
+  "voicebanks": []
+}

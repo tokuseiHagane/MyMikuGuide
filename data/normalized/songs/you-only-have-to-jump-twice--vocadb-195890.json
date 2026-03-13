@@ -1,0 +1,80 @@
+{
+  "additionalNames": [
+    "君はただ二回飛べばいい",
+    "Kimi wa Tada Nikai Tobeba Ii",
+    "You Only Have To Double Jump"
+  ],
+  "albumIds": [
+    "album-26139",
+    "album-26988"
+  ],
+  "artistIds": [
+    "artist-15",
+    "artist-189",
+    "artist-66853"
+  ],
+  "defaultName": "君はただ二回飛べばいい",
+  "displayName": "You Only Have to Jump Twice",
+  "durationSeconds": 276,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "【鏡音レン】君はただ二回飛べばいい【オリジナル】",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm33322316"
+    },
+    {
+      "kind": "original",
+      "label": "【鏡音レン】君はただ二回飛べばいい【オリジナル】",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/dGEFz6Y30Bw"
+    },
+    {
+      "kind": "other",
+      "label": "【MOTHY ft Kagamine Len】You Only Have To Double Jump «English subtitles»",
+      "official": false,
+      "service": "youtube",
+      "url": "https://youtu.be/enf8Yx5oZT8"
+    },
+    {
+      "kind": "original",
+      "label": "君はただ二回飛べばいい",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/2vYjOuLChyg"
+    }
+  ],
+  "id": "song-195890",
+  "primaryImage": "https://i1.ytimg.com/vi/dGEFz6Y30Bw/hqdefault.jpg",
+  "publishDate": "2018-06-06T00:00:00Z",
+  "rawHash": "b9f5f78b4fce454a8cfab034b265170602d4a6fddae531924e4255057e8a2728",
+  "slug": "you-only-have-to-jump-twice--vocadb-195890",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/195890",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "8-bit",
+    "chiptune",
+    "fantasy",
+    "orchestral",
+    "pixel art",
+    "symphonic",
+    "video game official soundtrack release",
+    "trumpet",
+    "#compass",
+    "video game"
+  ],
+  "title": "You Only Have to Jump Twice",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/you-only-have-to-jump-twice--vocadb-195890/",
+  "vocadbId": 195890,
+  "vocalistIds": [
+    "artist-15"
+  ],
+  "year": 2018
+}

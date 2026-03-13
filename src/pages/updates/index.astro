@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadGraphSummary, loadLastRun, loadNewEntries, loadRecentlyUpdated } from "../../lib/site-data";
+
+const [summary, lastRun, recent, fresh] = await Promise.all([
+  loadGraphSummary(),
+  loadLastRun(),
+  loadRecentlyUpdated(),
+  loadNewEntries(),
+]);
+---
+
+<BaseLayout title="Обновления | MyMikuGuide">
+  <section class="panel">
+    <h1>Обновления</h1>
+    <p>
+      Служебный раздел по локальному снапшоту: что обновлялось недавно, что попало в последний прогон
+      и как прошла последняя синхронизация.
+    </p>
+    <p class="muted">
+      Последняя сводка графа: {summary.artistCount} артистов, {summary.songCount} песен, {summary.albumCount} альбомов.
+      {summary.syncedAt ? ` Сводка собрана ${new Date(summary.syncedAt).toLocaleString("ru-RU")}.` : ""}
+    </p>
+    <p class="muted">
+      Последний sync: {lastRun.mode}, запросов {lastRun.requestCount}, full fetch {lastRun.fullFetches}, probe hit {lastRun.probeHits}, ошибок {lastRun.errors.length}.
+    </p>
+  </section>
+
+  <section style="margin-top: 1rem;" class="grid">
+    <article class="panel">
+      <h2><a href="/updates/recent/">Недавно обновлялось</a></h2>
+      <p class="muted">Последние сущности по `syncedAt`.</p>
+      <p>Сейчас в индексе: {recent.length}</p>
+    </article>
+
+    <article class="panel">
+      <h2><a href="/updates/today/">Обновлено сегодня</a></h2>
+      <p class="muted">Сущности, чья локальная синхронизация пришлась на текущую дату последнего снапшота.</p>
+    </article>
+
+    <article class="panel">
+      <h2><a href="/updates/new/">Новые записи</a></h2>
+      <p class="muted">Карточки, впервые появившиеся в последнем sync-проходе.</p>
+      <p>Сейчас в индексе: {fresh.length}</p>
+    </article>
+  </section>
+</BaseLayout>

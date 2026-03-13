@@ -1,0 +1,68 @@
+{
+  "additionalNames": [
+    "キミノカゼニナル",
+    "Kimi no Kaze ni Naru"
+  ],
+  "albumIds": [
+    "album-26139",
+    "album-33303"
+  ],
+  "artistIds": [
+    "artist-299",
+    "artist-14",
+    "artist-67913"
+  ],
+  "defaultName": "キミノカゼニナル",
+  "displayName": "Become Your Wind",
+  "durationSeconds": 195,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "キミノカゼニナル / のぼる↑ feat.鏡音リン",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/0Ms8CfPOT2k"
+    },
+    {
+      "kind": "original",
+      "label": "キミノカゼニナル / 鏡音リン",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm33891098"
+    },
+    {
+      "kind": "original",
+      "label": "キミノカゼニナル",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/c0KmnKGFmrk"
+    }
+  ],
+  "id": "song-204853",
+  "primaryImage": "https://i1.ytimg.com/vi/0Ms8CfPOT2k/hqdefault.jpg",
+  "publishDate": "2018-09-24T00:00:00Z",
+  "rawHash": "771a21db3aa6d1e6fd408a9480adbe649a5e0151fabd9d83a621931b152a0d86",
+  "slug": "become-your-wind--vocadb-204853",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/204853",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "hard rock",
+    "video game official soundtrack release",
+    "rock",
+    "#compass",
+    "karaoke available (JOYSOUND)",
+    "#COMPASS LIVE ARENA"
+  ],
+  "title": "Become Your Wind",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/become-your-wind--vocadb-204853/",
+  "vocadbId": 204853,
+  "vocalistIds": [
+    "artist-14"
+  ],
+  "year": 2018
+}

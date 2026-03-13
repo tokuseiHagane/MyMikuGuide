@@ -1,0 +1,62 @@
+{
+  "additionalNames": [
+    "車輪",
+    "Sharin"
+  ],
+  "albumIds": [
+    "album-45720"
+  ],
+  "artistIds": [
+    "artist-57535",
+    "artist-1",
+    "artist-74554"
+  ],
+  "defaultName": "車輪",
+  "displayName": "WHEEL",
+  "durationSeconds": 326,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "初音ミク/ 車輪 /オリジナル曲MV",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm34711356"
+    },
+    {
+      "kind": "original",
+      "label": "初音ミク / 車輪  /オリジナル曲MV　Hathune Miku Original Song \"WHEEL\"",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/L7v7cwCaj4E"
+    },
+    {
+      "kind": "original",
+      "label": "車輪",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/mcC6_6relhY"
+    }
+  ],
+  "id": "song-248206",
+  "primaryImage": "https://i1.ytimg.com/vi/L7v7cwCaj4E/hqdefault.jpg",
+  "publishDate": "2019-03-01T00:00:00Z",
+  "rawHash": "ff330febd0a2b1eef51438e6b4016a3859656007f2650b7b18b41c2d794eaa27",
+  "slug": "wheel--vocadb-248206",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/248206",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:06:28.923Z",
+  "tags": [
+    "rock"
+  ],
+  "title": "WHEEL",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/wheel--vocadb-248206/",
+  "vocadbId": 248206,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2019
+}

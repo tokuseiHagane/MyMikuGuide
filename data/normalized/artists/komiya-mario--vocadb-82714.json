@@ -1,0 +1,43 @@
+{
+  "additionalNames": [
+    "コミヤマリオ",
+    "こみやまりお"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "コミヤマリオ",
+  "descriptionShort": "",
+  "displayName": "Komiya Mario",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/komiyamario"
+    }
+  ],
+  "groups": [
+    "artist-96284",
+    "artist-118006"
+  ],
+  "id": "artist-82714",
+  "name": "Komiya Mario",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/82714.jpg?v=6",
+  "rawHash": "91b1af0ae4b143ee1550ef891f0be63b42d403e53c4a6222539b859cdc56757e",
+  "relatedArtistIds": [
+    "artist-96284",
+    "artist-118006"
+  ],
+  "slug": "komiya-mario--vocadb-82714",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/82714",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/komiya-mario--vocadb-82714/",
+  "vocadbId": 82714,
+  "voicebanks": []
+}

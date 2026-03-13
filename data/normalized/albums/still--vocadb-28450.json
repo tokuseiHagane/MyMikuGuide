@@ -1,0 +1,173 @@
+{
+  "additionalNames": [],
+  "albumType": "EP",
+  "artistIds": [
+    "artist-57535",
+    "artist-3",
+    "artist-1"
+  ],
+  "catalogNumber": null,
+  "defaultName": "STILL",
+  "displayName": "STILL",
+  "entityType": "album",
+  "externalLinks": [
+    {
+      "kind": "commercial",
+      "label": "Google Play",
+      "official": false,
+      "service": "play.google.com",
+      "url": "https://play.google.com/store/music/album?id=Bqjo3ocqeijmwtzmaqnenv3hysi"
+    },
+    {
+      "kind": "commercial",
+      "label": "iTunes",
+      "official": true,
+      "service": "music.apple.com",
+      "url": "https://music.apple.com/jp/album/1515998034?app=itunes"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "open.spotify.com",
+      "url": "https://open.spotify.com/album/04mUIWgSJtNwEyyxaarQCf"
+    },
+    {
+      "kind": "commercial",
+      "label": "Youtube Music",
+      "official": true,
+      "service": "music.youtube.com",
+      "url": "https://music.youtube.com/playlist?list=OLAK5uy_n_XYRFoSInV1_tyzljMO4mJ0dWSthhzhI"
+    },
+    {
+      "kind": "commercial",
+      "label": "Line Music",
+      "official": true,
+      "service": "music.line.me",
+      "url": "https://music.line.me/webapp/album/mb0000000001c87e30"
+    },
+    {
+      "kind": "commercial",
+      "label": "AWA",
+      "official": true,
+      "service": "s.awa.fm",
+      "url": "https://s.awa.fm/album/1d0b004ec8a9f00b5b07"
+    },
+    {
+      "kind": "commercial",
+      "label": "Recochoku",
+      "official": true,
+      "service": "recochoku.jp",
+      "url": "https://recochoku.jp/album/A2001750137"
+    },
+    {
+      "kind": "commercial",
+      "label": "mora",
+      "official": true,
+      "service": "mora.jp",
+      "url": "https://mora.jp/package/43000074/TCJPR0000645921/"
+    },
+    {
+      "kind": "commercial",
+      "label": "Deezer",
+      "official": true,
+      "service": "deezer.com",
+      "url": "https://www.deezer.com/us/album/151519272"
+    },
+    {
+      "kind": "commercial",
+      "label": "KKBox",
+      "official": true,
+      "service": "kkbox.com",
+      "url": "https://www.kkbox.com/tw/tc/album/HWi1OhHYqFhKy0F4a54x009H-index.html"
+    },
+    {
+      "kind": "commercial",
+      "label": "RecMusic",
+      "official": true,
+      "service": "recmusic.jp",
+      "url": "https://recmusic.jp/album/?id=1013748878"
+    },
+    {
+      "kind": "commercial",
+      "label": "music.jp",
+      "official": true,
+      "service": "music-book.jp",
+      "url": "https://music-book.jp/music/Artist/1458869/Album/aaacz4l3"
+    },
+    {
+      "kind": "commercial",
+      "label": "MySound",
+      "official": true,
+      "service": "mysound.jp",
+      "url": "https://mysound.jp/album/385596/"
+    },
+    {
+      "kind": "commercial",
+      "label": "Oricon",
+      "official": true,
+      "service": "music.oricon.co.jp",
+      "url": "https://music.oricon.co.jp/php/cd/CdTop.php?cd=SPC02825483"
+    },
+    {
+      "kind": "commercial",
+      "label": "TuneCore JP",
+      "official": true,
+      "service": "linkco.re",
+      "url": "https://linkco.re/7nyA2SFZ?lang=ja"
+    }
+  ],
+  "id": "album-28450",
+  "primaryImage": "https://static.vocadb.net/img/Album/mainOrig/28450.png?v=5",
+  "rawHash": "21dee5dd15c5b91a0230b6c65bd8b60019d1d823f15401d169b32d3819d84c3d",
+  "releaseDate": "2020-06-13T00:00:00.000Z",
+  "slug": "still--vocadb-28450",
+  "songIds": [
+    "song-152467",
+    "song-248205",
+    "song-760867",
+    "song-152464",
+    "song-283927"
+  ],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Al/28450",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:11:14.582Z",
+  "title": "STILL",
+  "tracks": [
+    {
+      "discNumber": 1,
+      "name": "sinon",
+      "songId": "song-152467",
+      "trackNumber": 1
+    },
+    {
+      "discNumber": 1,
+      "name": "The Dead Sunflower",
+      "songId": "song-248205",
+      "trackNumber": 2
+    },
+    {
+      "discNumber": 1,
+      "name": "Tomurai",
+      "songId": "song-760867",
+      "trackNumber": 3
+    },
+    {
+      "discNumber": 1,
+      "name": "Farewell Chime",
+      "songId": "song-152464",
+      "trackNumber": 4
+    },
+    {
+      "discNumber": 1,
+      "name": "あがれ！アジフライくん",
+      "songId": "song-283927",
+      "trackNumber": 5
+    }
+  ],
+  "upstreamUpdatedAt": null,
+  "url": "/albums/still--vocadb-28450/",
+  "vocadbId": 28450,
+  "year": 2020
+}

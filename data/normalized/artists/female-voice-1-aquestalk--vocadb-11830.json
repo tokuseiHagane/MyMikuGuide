@@ -1,0 +1,64 @@
+{
+  "additionalNames": [
+    "女声1 (AquesTalk)",
+    "Josei 1 (AquesTalk)",
+    "Female 1 (AquesTalk)",
+    "F1 (AquesTalk)"
+  ],
+  "albumIds": [],
+  "artistType": "OtherVoiceSynthesizer",
+  "defaultName": "女声1 (AquesTalk)",
+  "descriptionShort": "* Female 1 is the voice behind [Yukkuri Reimu](https://vocadb.net/T/9432). As such, it's decently popular to pair her with \"[女声2](https://vocadb.net/Ar/104088)\", who plays the role of [Yukkuri Marisa](https://vocadb.net/T/9433).\n* Due to [Taberungo no Uta](https://vocadb.net/S/27",
+  "displayName": "Female Voice 1 (AquesTalk)",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/4970"
+    },
+    {
+      "kind": "reference",
+      "label": "TouhouDB",
+      "official": true,
+      "service": "touhoudb.com",
+      "url": "https://touhoudb.com/Ar/224"
+    },
+    {
+      "kind": "reference",
+      "label": "Yukkuri Wiki",
+      "official": true,
+      "service": "yukkuri.fandom.com",
+      "url": "https://yukkuri.fandom.com/wiki/Yukkuri_Reimu"
+    },
+    {
+      "kind": "official",
+      "label": "AquesTalk Website",
+      "official": true,
+      "service": "a-quest.com",
+      "url": "https://www.a-quest.com/products/aquestalk.html"
+    }
+  ],
+  "groups": [
+    "artist-56968"
+  ],
+  "id": "artist-11830",
+  "name": "Female Voice 1 (AquesTalk)",
+  "primaryImage": null,
+  "rawHash": "bca8c916c5e98f8b6e6e8c9d6c6d2adaa3de061e7dcd1155029d9f41e67504bc",
+  "relatedArtistIds": [
+    "artist-56968"
+  ],
+  "slug": "female-voice-1-aquestalk--vocadb-11830",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/11830",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/female-voice-1-aquestalk--vocadb-11830/",
+  "vocadbId": 11830,
+  "voicebanks": []
+}

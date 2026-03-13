@@ -1,0 +1,46 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-45721",
+    "album-28450"
+  ],
+  "artistIds": [
+    "artist-57535",
+    "artist-3"
+  ],
+  "defaultName": "Tomurai",
+  "displayName": "Tomurai",
+  "durationSeconds": 145,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "Tomurai",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/jYBZ-hUKw0o"
+    }
+  ],
+  "id": "song-760867",
+  "primaryImage": "https://i1.ytimg.com/vi/jYBZ-hUKw0o/hqdefault.jpg",
+  "publishDate": "2024-02-18T00:00:00Z",
+  "rawHash": "0a0317a56c50e9f2509e081f0dd187731497e30723800aecf4187b73884d4c5b",
+  "slug": "tomurai--vocadb-760867",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/760867",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:11:14.582Z",
+  "tags": [
+    "instrumental",
+    "unconfirmed vocalists"
+  ],
+  "title": "Tomurai",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/tomurai--vocadb-760867/",
+  "vocadbId": 760867,
+  "vocalistIds": [
+    "artist-3"
+  ],
+  "year": 2024
+}

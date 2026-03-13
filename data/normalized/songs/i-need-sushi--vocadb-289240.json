@@ -1,0 +1,79 @@
+{
+  "additionalNames": [
+    "お寿司食べたいんじゃあ",
+    "Osushi Tabetain Jaa"
+  ],
+  "albumIds": [
+    "album-31240",
+    "album-31500"
+  ],
+  "artistIds": [
+    "artist-928",
+    "artist-2",
+    "artist-1",
+    "artist-33880",
+    "artist-33882"
+  ],
+  "defaultName": "お寿司食べたいんじゃあ",
+  "displayName": "I need Sushi!",
+  "durationSeconds": 208,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "【初音ミク,巡音ルカ】　お寿司食べたいんじゃあ　【CielP,ナツキ,LinoLe】",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm37236586"
+    },
+    {
+      "kind": "original",
+      "label": "【初音ミク,巡音ルカ】　お寿司食べたいんじゃあ　【CielP,ナツキ,LinoLe】",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/dwYABH-G8YI"
+    },
+    {
+      "kind": "original",
+      "label": "お寿司食べたいんじゃあ (feat. Hatsune Miku & Megurine Luka)",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/OyqIkydhdmU"
+    },
+    {
+      "kind": "original",
+      "label": "お寿司食べたいんじゃあ",
+      "official": true,
+      "service": "piapro",
+      "url": "http://piapro.jp/content/4d0w1aabuomeb0pv"
+    }
+  ],
+  "id": "song-289240",
+  "primaryImage": "https://i1.ytimg.com/vi/dwYABH-G8YI/hqdefault.jpg",
+  "publishDate": "2020-07-24T00:00:00Z",
+  "rawHash": "bc9394cdd39ef54394b28a19a9112e21f8eae896afd9e196e66986af1677719c",
+  "slug": "i-need-sushi--vocadb-289240",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/289240",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:11:14.582Z",
+  "tags": [
+    "free",
+    "pop",
+    "rock",
+    "karaoke available",
+    "duet",
+    "sushi",
+    "food"
+  ],
+  "title": "I need Sushi!",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/i-need-sushi--vocadb-289240/",
+  "vocadbId": 289240,
+  "vocalistIds": [
+    "artist-2",
+    "artist-1"
+  ],
+  "year": 2020
+}

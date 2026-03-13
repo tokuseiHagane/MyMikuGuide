@@ -1,0 +1,23 @@
+---
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("legacy");
+  return entries.map((entry: CollectionEntry<"legacy">) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props as { entry: CollectionEntry<"legacy"> };
+const { Content } = await render(entry);
+---
+
+<BaseLayout title={`${entry.data.title} | Архив`}>
+  <article class="panel">
+    <h1>{entry.data.title}</h1>
+    {entry.data.description ? <p class="muted">{entry.data.description}</p> : null}
+    <Content />
+  </article>
+</BaseLayout>

@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadRecentlyUpdated } from "../../lib/site-data";
+
+const recent = await loadRecentlyUpdated();
+---
+
+<BaseLayout title="Недавно обновлялось | MyMikuGuide">
+  <section class="panel">
+    <h1>Недавно обновлялось</h1>
+    <p class="muted">Сущности из локального снапшота, отсортированные по времени последней синхронизации.</p>
+  </section>
+
+  <section style="margin-top: 1rem;" class="panel">
+    <ul class="clean">
+      {recent.length === 0 ? <li class="muted">Индекс недавно обновлённых сущностей пока пуст.</li> : null}
+      {recent.map((entry) => (
+        <li>
+          <a href={entry.url}>{entry.displayName}</a>
+          <span class="muted">
+            {" "}· {entry.entityType} · {new Date(entry.syncedAt).toLocaleString("ru-RU")}
+            {typeof entry.upstreamVersion === "number" ? ` · upstream v${entry.upstreamVersion}` : ""}
+          </span>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

@@ -1,0 +1,42 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-45721"
+  ],
+  "artistIds": [
+    "artist-1",
+    "artist-57535"
+  ],
+  "defaultName": "sinon",
+  "displayName": "sinon",
+  "durationSeconds": 274,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "sinon",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/gFGN6o8xJ4k"
+    }
+  ],
+  "id": "song-795037",
+  "primaryImage": "https://i1.ytimg.com/vi/gFGN6o8xJ4k/hqdefault.jpg",
+  "publishDate": "2024-02-18T00:00:00Z",
+  "rawHash": "ff4a1156dfd8ae4cd29bbe38dfc597c2f1b97280cdcc9e50b71b3955498ad144",
+  "slug": "sinon--vocadb-795037",
+  "songType": "Remaster",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/795037",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:06:28.923Z",
+  "tags": [],
+  "title": "sinon",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/sinon--vocadb-795037/",
+  "vocadbId": 795037,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2024
+}

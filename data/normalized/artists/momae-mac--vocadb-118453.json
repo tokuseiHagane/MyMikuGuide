@@ -1,0 +1,48 @@
+{
+  "additionalNames": [
+    "藻前まっく ",
+    "hamhsui"
+  ],
+  "albumIds": [],
+  "artistType": "Illustrator",
+  "defaultName": "藻前まっく ",
+  "descriptionShort": "",
+  "displayName": "momae mac",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/hamhsui"
+    },
+    {
+      "kind": "official",
+      "label": "Pixiv",
+      "official": true,
+      "service": "pixiv.net",
+      "url": "https://www.pixiv.net/en/users/38143522"
+    }
+  ],
+  "groups": [
+    "artist-126699"
+  ],
+  "id": "artist-118453",
+  "name": "momae mac",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/118453.jpg?v=4",
+  "rawHash": "7e5c87ba6afc78f41c4fa668b71c0f7cff91f86ce5a52d0e5361850fb515f766",
+  "relatedArtistIds": [
+    "artist-126699"
+  ],
+  "slug": "momae-mac--vocadb-118453",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/118453",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/momae-mac--vocadb-118453/",
+  "vocadbId": 118453,
+  "voicebanks": []
+}

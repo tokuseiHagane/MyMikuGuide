@@ -1,0 +1,125 @@
+{
+  "additionalNames": [
+    "Nukogenome",
+    "ぬこかぜ",
+    "（「・ω・）「",
+    "lumommmbon",
+    "lu mo"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "lumo",
+  "descriptionShort": "",
+  "displayName": "lumo",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND Mylist",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/18782179"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/lumommmbon"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/nuko_genome"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/1526859"
+    },
+    {
+      "kind": "official",
+      "label": "SoundCloud",
+      "official": true,
+      "service": "soundcloud.com",
+      "url": "https://soundcloud.com/lumommmbon"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/21640.html"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/a/lumo"
+    },
+    {
+      "kind": "official",
+      "label": "blog",
+      "official": true,
+      "service": "lumommmbon.flavors.me",
+      "url": "http://lumommmbon.flavors.me/"
+    },
+    {
+      "kind": "official",
+      "label": "Tumblr",
+      "official": false,
+      "service": "lumommmbon.tumblr.com",
+      "url": "http://lumommmbon.tumblr.com/"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UC3lf_txBkZ5Jk7P_Wwm225Q"
+    },
+    {
+      "kind": "commercial",
+      "label": "KarenT",
+      "official": true,
+      "service": "karent.jp",
+      "url": "https://karent.jp/artist/pp000635"
+    },
+    {
+      "kind": "commercial",
+      "label": "Bandcamp",
+      "official": true,
+      "service": "youni1.bandcamp.com",
+      "url": "https://youni1.bandcamp.com/"
+    }
+  ],
+  "groups": [
+    "artist-34649",
+    "artist-276",
+    "artist-476"
+  ],
+  "id": "artist-1456",
+  "name": "lumo",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/1456.jpg?v=15",
+  "rawHash": "22934d019046208298115612a09c1d22a299719670c26a635d962b2b4bbac1c8",
+  "relatedArtistIds": [
+    "artist-34649",
+    "artist-276",
+    "artist-476"
+  ],
+  "slug": "lumo--vocadb-1456",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/1456",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/lumo--vocadb-1456/",
+  "vocadbId": 1456,
+  "voicebanks": []
+}

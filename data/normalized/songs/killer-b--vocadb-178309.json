@@ -1,0 +1,133 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-26139"
+  ],
+  "artistIds": [
+    "artist-1164",
+    "artist-1",
+    "artist-14",
+    "artist-3",
+    "artist-2",
+    "artist-504",
+    "artist-2370"
+  ],
+  "defaultName": "KILLER B",
+  "displayName": "KILLER B",
+  "durationSeconds": 205,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Piapro (Karaoke)",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "https://piapro.jp/t/9xVo"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.fandom.com",
+      "url": "https://vocaloid.fandom.com/wiki/KILLER_B"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter (Illustration)",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/_akiakane/status/943825275137146880"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "w.atwiki.jp",
+      "url": "https://w.atwiki.jp/hmiku/pages/37052.html"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/v/sm32445382"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Lyrics Wiki",
+      "official": true,
+      "service": "vocaloidlyrics.miraheze.org",
+      "url": "https://vocaloidlyrics.miraheze.org/wiki/KILLER_B"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "https://utaitedb.net/S/44401"
+    },
+    {
+      "kind": "original",
+      "label": "【ルカミクグミIAリン】KILLER B【オリジナルMV/梅とら】",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm32445382"
+    },
+    {
+      "kind": "original",
+      "label": "【ルカミクグミIAリン】KILLER B【オリジナルMV/梅とら/秋赤音】",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/T2ekD1vzw8I"
+    },
+    {
+      "kind": "original",
+      "label": "KILLER B",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/Mb_IXVjBCOA"
+    }
+  ],
+  "id": "song-178309",
+  "primaryImage": "https://i1.ytimg.com/vi/T2ekD1vzw8I/hqdefault.jpg",
+  "publishDate": "2017-12-21T00:00:00Z",
+  "rawHash": "0031b36b82a5b1fd737c868c5259c279eaeaa3779183608fd81785e0ed866fd4",
+  "slug": "killer-b--vocadb-178309",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/178309",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "dance-pop",
+    "electropop",
+    "video game official soundtrack release",
+    "J-pop",
+    "bilingual",
+    "stylish",
+    "DIVINE DIVA",
+    "karaoke available",
+    "suggestive",
+    "catchy",
+    "good tuning",
+    "#compass",
+    "cool",
+    "quintet",
+    "CHUNITHM",
+    "maimai",
+    "karaoke available (DAM&JOY)",
+    "#COMPASS LIVE ARENA"
+  ],
+  "title": "KILLER B",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/killer-b--vocadb-178309/",
+  "vocadbId": 178309,
+  "vocalistIds": [
+    "artist-1",
+    "artist-14",
+    "artist-3",
+    "artist-2",
+    "artist-504"
+  ],
+  "year": 2017
+}

@@ -1,0 +1,36 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-36389"
+  ],
+  "artistIds": [
+    "artist-1",
+    "artist-4744",
+    "artist-49701"
+  ],
+  "defaultName": "はっくしゅん！",
+  "displayName": "はっくしゅん！",
+  "durationSeconds": 0,
+  "entityType": "song",
+  "externalLinks": [],
+  "id": "song-493541",
+  "primaryImage": null,
+  "publishDate": "2023-04-29T00:00:00Z",
+  "rawHash": "451485f5f11fc180dc367e5a5d7e15ab638f7e582297a0c239108fcd202774a6",
+  "slug": "vocadb-493541",
+  "songType": "Unspecified",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/493541",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [],
+  "title": "はっくしゅん！",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/vocadb-493541/",
+  "vocadbId": 493541,
+  "vocalistIds": [
+    "artist-1",
+    "artist-49701"
+  ],
+  "year": 2023
+}

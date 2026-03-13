@@ -1,0 +1,311 @@
+{
+  "albums": [
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.02, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.02",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2018-12-25T11:20:54.287",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 26139,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.02",
+      "ratingAverage": 4.92,
+      "ratingCount": 13,
+      "releaseDate": {
+        "day": 20,
+        "isEmpty": false,
+        "month": 2,
+        "year": 2019
+      },
+      "status": "Finished",
+      "version": 26
+    },
+    {
+      "additionalNames": "",
+      "artistString": "mothy, the heavenly yard feat. various",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2019-07-25T22:20:28.17",
+      "deleted": false,
+      "discType": "Album",
+      "id": 26988,
+      "name": "EVILS EXTRA",
+      "ratingAverage": 4.66,
+      "ratingCount": 9,
+      "releaseDate": {
+        "day": 12,
+        "isEmpty": false,
+        "month": 8,
+        "year": 2019
+      },
+      "releaseEvent": {
+        "category": "Unspecified",
+        "date": "2019-08-09T00:00:00Z",
+        "endDate": "2019-08-12T00:00:00Z",
+        "id": 2011,
+        "name": "Comiket 96",
+        "seriesId": 3,
+        "seriesNumber": 96,
+        "seriesSuffix": "",
+        "status": "Draft",
+        "urlSlug": "comiket-96",
+        "venueName": "",
+        "version": 7
+      },
+      "status": "Finished",
+      "version": 15
+    }
+  ],
+  "artistString": "mothy feat. Kagamine Len",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "鏡音レン, 鏡音連, 카가미네 렌, 镜音连",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 15,
+        "name": "Kagamine Len",
+        "pictureMime": "image/png",
+        "releaseDate": "2007-12-27T00:00:00Z",
+        "status": "Locked",
+        "version": 32
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 499515,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Kagamine Len",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "悪ノP, AkunoP, master of the heavenly yard",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 189,
+        "name": "mothy",
+        "pictureMime": "image/png",
+        "status": "Approved",
+        "version": 23
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Default",
+      "id": 499516,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "mothy",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "ひでかず",
+        "artistType": "Illustrator",
+        "deleted": false,
+        "id": 66853,
+        "name": "Hidekazu",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 2
+      },
+      "categories": "Illustrator",
+      "effectiveRoles": "Illustrator",
+      "id": 499517,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Hidekazu",
+      "roles": "Default"
+    }
+  ],
+  "createDate": "2018-06-06T08:42:50.323",
+  "defaultName": "君はただ二回飛べばいい",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 5,
+  "id": 195890,
+  "lengthSeconds": 276,
+  "mainPicture": {
+    "urlOriginal": "https://i1.ytimg.com/vi/dGEFz6Y30Bw/hqdefault.jpg",
+    "urlThumb": "https://nicovideo.cdn.nimg.jp/thumbnails/33322316/33322316"
+  },
+  "name": "You Only Have to Jump Twice",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "君はただ二回飛べばいい"
+    },
+    {
+      "language": "Romaji",
+      "value": "Kimi wa Tada Nikai Tobeba Ii"
+    },
+    {
+      "language": "English",
+      "value": "You Only Have to Jump Twice"
+    },
+    {
+      "language": "Unspecified",
+      "value": "You Only Have To Double Jump"
+    }
+  ],
+  "publishDate": "2018-06-06T00:00:00Z",
+  "pvServices": "NicoNicoDouga, Youtube",
+  "pvs": [
+    {
+      "author": "mothy",
+      "disabled": false,
+      "id": 282899,
+      "length": 276,
+      "name": "【鏡音レン】君はただ二回飛べばいい【オリジナル】",
+      "publishDate": "2018-06-06T00:00:00",
+      "pvId": "sm33322316",
+      "pvType": "Original",
+      "service": "NicoNicoDouga",
+      "thumbUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/33322316/33322316",
+      "url": "http://www.nicovideo.jp/watch/sm33322316"
+    },
+    {
+      "author": "mothy akuno",
+      "disabled": false,
+      "id": 282935,
+      "length": 277,
+      "name": "【鏡音レン】君はただ二回飛べばいい【オリジナル】",
+      "publishDate": "2018-06-06T00:00:00",
+      "pvId": "dGEFz6Y30Bw",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/dGEFz6Y30Bw/default.jpg",
+      "url": "https://youtu.be/dGEFz6Y30Bw"
+    },
+    {
+      "author": "soggybread",
+      "disabled": false,
+      "id": 612228,
+      "length": 277,
+      "name": "【MOTHY ft Kagamine Len】You Only Have To Double Jump «English subtitles»",
+      "publishDate": "2018-06-11T00:00:00",
+      "pvId": "enf8Yx5oZT8",
+      "pvType": "Other",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/enf8Yx5oZT8/default.jpg",
+      "url": "https://youtu.be/enf8Yx5oZT8"
+    },
+    {
+      "author": "Release - Topic",
+      "disabled": false,
+      "id": 981437,
+      "length": 277,
+      "name": "君はただ二回飛べばいい",
+      "publishDate": "2022-12-20T00:00:00",
+      "pvId": "2vYjOuLChyg",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/2vYjOuLChyg/default.jpg",
+      "url": "https://youtu.be/2vYjOuLChyg"
+    }
+  ],
+  "ratingScore": 41,
+  "songType": "Original",
+  "status": "Finished",
+  "tags": [
+    {
+      "count": 4,
+      "tag": {
+        "additionalNames": "8ビット, 8bit",
+        "categoryName": "Genres",
+        "id": 5,
+        "name": "8-bit",
+        "urlSlug": "8-bit"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "チップチューン, ピコピコサウンド, 芯片音乐, 像素音乐",
+        "categoryName": "Genres",
+        "id": 62,
+        "name": "chiptune",
+        "urlSlug": "chiptune"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "幻想的, 幻想曲, ファンタジー",
+        "categoryName": "Themes",
+        "id": 146,
+        "name": "fantasy",
+        "urlSlug": "fantasy"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "オーケストラ, orchestra, 管弦乐",
+        "categoryName": "Genres",
+        "id": 325,
+        "name": "orchestral",
+        "urlSlug": "orchestral"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "ドット絵",
+        "categoryName": "Animation",
+        "id": 338,
+        "name": "pixel art",
+        "urlSlug": "pixel-art"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "交響曲, symphony, シンフォニー, シンフォニック, 交响乐",
+        "categoryName": "Genres",
+        "id": 419,
+        "name": "symphonic",
+        "urlSlug": "symphonic"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "visual novel official soundtrack release, video game soundtrack, visual novel soundtrack",
+        "categoryName": "Sources",
+        "id": 456,
+        "name": "video game official soundtrack release",
+        "urlSlug": "video-game-official-soundtrack"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "トランペット, cornet",
+        "categoryName": "Instruments",
+        "id": 2812,
+        "name": "trumpet",
+        "urlSlug": "trumpet"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "#コンパス, 戦闘摂理解析システム, NND Compass",
+        "categoryName": "Copyrights",
+        "id": 6107,
+        "name": "#compass",
+        "urlSlug": "compass"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "ビデオゲーム",
+        "categoryName": "Themes",
+        "id": 6195,
+        "name": "video game",
+        "urlSlug": "video-game"
+      }
+    }
+  ],
+  "version": 9,
+  "webLinks": []
+}

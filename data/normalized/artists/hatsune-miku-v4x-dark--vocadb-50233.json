@@ -1,0 +1,68 @@
+{
+  "additionalNames": [
+    "初音ミク V4X (Dark)"
+  ],
+  "albumIds": [],
+  "artistType": "Vocaloid",
+  "defaultName": "初音ミク V4X (Dark)",
+  "descriptionShort": "Whisper voicebank of Hatsune Miku V4X. Includes breath release but no voice colours.",
+  "displayName": "Hatsune Miku V4X (Dark)",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Crypton Future Media ",
+      "official": true,
+      "service": "crypton.co.jp",
+      "url": "http://www.crypton.co.jp/mp/pages/prod/vocaloid/mikuv4x.jsp"
+    },
+    {
+      "kind": "official",
+      "label": "Sonicwire",
+      "official": true,
+      "service": "sonicwire.com",
+      "url": "http://sonicwire.com/product/vocaloid/special/mikuv4x"
+    },
+    {
+      "kind": "reference",
+      "label": "Wikipedia (EN)",
+      "official": true,
+      "service": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/Vocaloid_4#Hatsune_Miku_V4X"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.fandom.com",
+      "url": "https://vocaloid.fandom.com/wiki/Hatsune_Miku_V4X"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "https://dic.nicovideo.jp/a/%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AFv4x"
+    }
+  ],
+  "groups": [
+    "artist-25"
+  ],
+  "id": "artist-50233",
+  "name": "Hatsune Miku V4X (Dark)",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/50233.png?v=10",
+  "rawHash": "86381ba3002d8cde9d0b5e5da0d3509b9ba66d6390d94f3850dea06cc4c1edc9",
+  "relatedArtistIds": [
+    "artist-25"
+  ],
+  "slug": "hatsune-miku-v4x-dark--vocadb-50233",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/50233",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/hatsune-miku-v4x-dark--vocadb-50233/",
+  "vocadbId": 50233,
+  "voicebanks": []
+}

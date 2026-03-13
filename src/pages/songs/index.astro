@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadSongs } from "../../lib/site-data";
+
+const songs = await loadSongs();
+---
+
+<BaseLayout title="Песни | MyMikuGuide">
+  <section class="panel">
+    <h1>Песни</h1>
+    <p class="muted">Все синхронизированные песни из локального снапшота.</p>
+  </section>
+
+  <section style="margin-top: 1rem;" class="grid">
+    {songs.length === 0 ? <div class="panel muted">Данные ещё не синхронизированы.</div> : null}
+    {songs.map((song) => (
+      <article class="panel">
+        <h2><a href={song.url}>{song.displayName}</a></h2>
+        <p class="muted">{song.songType} · {song.year ?? "Без даты"}</p>
+        <p class="muted">
+          Локально синхронизирована: {new Date(song.syncedAt).toLocaleString("ru-RU")}
+          {typeof song.upstreamVersion === "number" ? ` · upstream v${song.upstreamVersion}` : ""}
+        </p>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

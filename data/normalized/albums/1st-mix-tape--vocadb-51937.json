@@ -1,0 +1,69 @@
+{
+  "additionalNames": [],
+  "albumType": "EP",
+  "artistIds": [
+    "artist-86760",
+    "artist-1",
+    "artist-21165",
+    "artist-3"
+  ],
+  "catalogNumber": null,
+  "defaultName": "- 1st MIX TAPE -",
+  "displayName": "- 1st MIX TAPE -",
+  "entityType": "album",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "X (Twitter)",
+      "official": true,
+      "service": "x.com",
+      "url": "https://x.com/GambleLoom/status/1589573388166537217?s=20"
+    }
+  ],
+  "id": "album-51937",
+  "primaryImage": "https://static.vocadb.net/img/Album/mainOrig/51937.jpg?v=2",
+  "rawHash": "b00abcb56529493410a1d8c57f9e0383fee2f168c00305b7695f1b52ec6d0a39",
+  "releaseDate": "2022-11-12T00:00:00.000Z",
+  "slug": "1st-mix-tape--vocadb-51937",
+  "songIds": [
+    "song-443446",
+    "song-900796",
+    "song-900797",
+    "song-900798"
+  ],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Al/51937",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:16:23.869Z",
+  "title": "- 1st MIX TAPE -",
+  "tracks": [
+    {
+      "discNumber": 1,
+      "name": "Amaryllis",
+      "songId": "song-443446",
+      "trackNumber": 1
+    },
+    {
+      "discNumber": 1,
+      "name": "未発表曲1",
+      "songId": "song-900796",
+      "trackNumber": 2
+    },
+    {
+      "discNumber": 1,
+      "name": "未発表曲2",
+      "songId": "song-900797",
+      "trackNumber": 3
+    },
+    {
+      "discNumber": 1,
+      "name": "TOKYO CITY",
+      "songId": "song-900798",
+      "trackNumber": 4
+    }
+  ],
+  "upstreamUpdatedAt": null,
+  "url": "/albums/1st-mix-tape--vocadb-51937/",
+  "vocadbId": 51937,
+  "year": 2022
+}

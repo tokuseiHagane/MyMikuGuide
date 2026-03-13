@@ -1,0 +1,88 @@
+{
+  "additionalNames": [
+    "なんだっけ！？",
+    "Nandakke!?"
+  ],
+  "albumIds": [
+    "album-30537",
+    "album-31123",
+    "album-36773"
+  ],
+  "artistIds": [
+    "artist-46466",
+    "artist-1",
+    "artist-61122",
+    "artist-57722"
+  ],
+  "defaultName": "なんだっけ！？",
+  "displayName": "What Was That?!",
+  "durationSeconds": 177,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "Vocaloid Lyrics Wiki",
+      "official": true,
+      "service": "vocaloidlyrics.miraheze.org",
+      "url": "https://vocaloidlyrics.miraheze.org/wiki/%E3%81%AA%E3%82%93%E3%81%A0%E3%81%A3%E3%81%91%EF%BC%81%EF%BC%9F_(Nandakke!%3F)"
+    },
+    {
+      "kind": "original",
+      "label": "なんだっけ！？ / 初音ミク",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm37860821"
+    },
+    {
+      "kind": "original",
+      "label": "なんだっけ！？ -Nandakke!?- / 初音ミク",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/wov03YlhlQE"
+    },
+    {
+      "kind": "original",
+      "label": "なんだっけ！？ (feat. Hatsune Miku)",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/KsoKD8y392I"
+    },
+    {
+      "kind": "original",
+      "label": "なんだっけ！？ (feat. 初音ミク)",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/wp0d-Ka7o_k"
+    }
+  ],
+  "id": "song-303759",
+  "primaryImage": "https://i1.ytimg.com/vi/wov03YlhlQE/hqdefault.jpg",
+  "publishDate": "2020-11-23T00:00:00Z",
+  "rawHash": "42af6aab20b18603c9b2ae9f2d061456f44c2dc22598002d6385d853adaa8e09",
+  "slug": "what-was-that--vocadb-303759",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/303759",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "tags": [
+    "cute",
+    "denpa",
+    "pop rock",
+    "rock",
+    "J-pop",
+    "medicine",
+    "funny",
+    "pink",
+    "glitchy voice",
+    "energetic"
+  ],
+  "title": "What Was That?!",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/what-was-that--vocadb-303759/",
+  "vocadbId": 303759,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2020
+}

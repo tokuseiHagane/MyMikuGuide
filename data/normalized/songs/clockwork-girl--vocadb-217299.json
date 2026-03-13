@@ -1,0 +1,95 @@
+{
+  "additionalNames": [
+    "撥条少女時計",
+    "Zenmai Shoujo Tokei"
+  ],
+  "albumIds": [
+    "album-26139",
+    "album-27641"
+  ],
+  "artistIds": [
+    "artist-1",
+    "artist-2094",
+    "artist-1222",
+    "artist-2477"
+  ],
+  "defaultName": "撥条少女時計",
+  "displayName": "Clockwork Girl",
+  "durationSeconds": 246,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "NND Compass Wiki",
+      "official": true,
+      "service": "nnd-compass.fandom.com",
+      "url": "https://nnd-compass.fandom.com/wiki/Clockwork_Girl"
+    },
+    {
+      "kind": "original",
+      "label": "【公式】撥条少女時計 feat.初音ミク【オリジナル曲】",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/sB1e_0jkvE8"
+    },
+    {
+      "kind": "original",
+      "label": "撥条少女時計  feat.初音ミク",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm34294264"
+    },
+    {
+      "kind": "original",
+      "label": "【初音ミク】発条少女時計【原创作品・オリジナル曲】",
+      "official": true,
+      "service": "bilibili",
+      "url": "https://www.bilibili.com/video/av37788594"
+    },
+    {
+      "kind": "original",
+      "label": "撥条少女時計",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/sWZPys7Ayn4"
+    }
+  ],
+  "id": "song-217299",
+  "primaryImage": "https://i1.ytimg.com/vi/sB1e_0jkvE8/hqdefault.jpg",
+  "publishDate": "2018-12-09T00:00:00Z",
+  "rawHash": "644ee517427c5a12c024a4a2584619d958062b696ab2d037e0c9dab129262826",
+  "slug": "clockwork-girl--vocadb-217299",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/217299",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "creepy",
+    "drum and bass",
+    "electronic",
+    "video game official soundtrack release",
+    "electro",
+    "murder",
+    "gothic",
+    "good tuning",
+    "#compass",
+    "lolita fashion",
+    "dark fantasy",
+    "Taiko no Tatsujin",
+    "O.N.G.E.K.I.",
+    "English subtitles",
+    "red",
+    "purple",
+    "#COMPASS LIVE ARENA",
+    "key modulation"
+  ],
+  "title": "Clockwork Girl",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/clockwork-girl--vocadb-217299/",
+  "vocadbId": 217299,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2018
+}

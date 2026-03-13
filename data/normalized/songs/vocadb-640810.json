@@ -1,0 +1,43 @@
+{
+  "additionalNames": [],
+  "albumIds": [],
+  "artistIds": [
+    "artist-140443",
+    "artist-1"
+  ],
+  "defaultName": "⛄️",
+  "displayName": "⛄️",
+  "durationSeconds": 28,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "TikTok",
+      "official": true,
+      "service": "tiktok.com",
+      "url": "https://www.tiktok.com/@hukaimori/video/7172182063968226561"
+    }
+  ],
+  "id": "song-640810",
+  "primaryImage": null,
+  "publishDate": "2022-12-01T00:00:00Z",
+  "rawHash": "9b1cd22fc08ec1637ef9ce4126dd3da1c87a1badd4db65ed3541c6b3ffd9382f",
+  "slug": "vocadb-640810",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/640810",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:16:23.869Z",
+  "tags": [
+    "unsupported embed",
+    "unusual title"
+  ],
+  "title": "⛄️",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/vocadb-640810/",
+  "vocadbId": 640810,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2022
+}

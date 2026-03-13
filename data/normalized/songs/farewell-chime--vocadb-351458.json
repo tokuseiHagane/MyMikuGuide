@@ -1,0 +1,58 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-45721"
+  ],
+  "artistIds": [
+    "artist-57535",
+    "artist-1"
+  ],
+  "defaultName": "Farewell Chime",
+  "displayName": "Farewell Chime",
+  "durationSeconds": 251,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "初音ミク - Farewell Chime",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm39269393"
+    },
+    {
+      "kind": "original",
+      "label": "初音ミク - Farewell Chime",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/DFy9lagAu-o"
+    },
+    {
+      "kind": "original",
+      "label": "Farewell Chime",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/i5B5ZNfXYoE"
+    }
+  ],
+  "id": "song-351458",
+  "primaryImage": "https://i1.ytimg.com/vi/DFy9lagAu-o/hqdefault.jpg",
+  "publishDate": "2021-08-31T00:00:00Z",
+  "rawHash": "3f7dfc6533aec6653e632f62e1393849f84678cbb1fd3b9735f60a71a6eb4eea",
+  "slug": "farewell-chime--vocadb-351458",
+  "songType": "Remaster",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/351458",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:06:28.923Z",
+  "tags": [
+    "refreshing"
+  ],
+  "title": "Farewell Chime",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/farewell-chime--vocadb-351458/",
+  "vocadbId": 351458,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2021
+}

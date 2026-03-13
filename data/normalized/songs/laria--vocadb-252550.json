@@ -1,0 +1,52 @@
+{
+  "additionalNames": [
+    "ラリア"
+  ],
+  "albumIds": [
+    "album-27216"
+  ],
+  "artistIds": [
+    "artist-75362",
+    "artist-3",
+    "artist-80008"
+  ],
+  "defaultName": "ラリア",
+  "displayName": "Laria",
+  "durationSeconds": 240,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "【オリジナル】ラリア/GUMI【Mapropolis】",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm35504569"
+    },
+    {
+      "kind": "original",
+      "label": "【オリジナル】ラリア/GUMI【Mapropolis】",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/4RDinCjMbTY"
+    }
+  ],
+  "id": "song-252550",
+  "primaryImage": "https://i1.ytimg.com/vi/4RDinCjMbTY/hqdefault.jpg",
+  "publishDate": "2019-08-07T00:00:00Z",
+  "rawHash": "1e8f67d0c2fc0f5055ff73ad963089182bed84f2e0123d14da58d409c0872e82",
+  "slug": "laria--vocadb-252550",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/252550",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:06:28.923Z",
+  "tags": [],
+  "title": "Laria",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/laria--vocadb-252550/",
+  "vocadbId": 252550,
+  "vocalistIds": [
+    "artist-3"
+  ],
+  "year": 2019
+}

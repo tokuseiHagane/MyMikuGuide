@@ -1,0 +1,89 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { loadAlbums, loadArtists, loadGraphSummary, loadLastRun, loadNewEntries, loadSongs } from "../lib/site-data";
+
+const [artists, songs, albums, summary, lastRun, newEntries] = await Promise.all([
+  loadArtists(),
+  loadSongs(),
+  loadAlbums(),
+  loadGraphSummary(),
+  loadLastRun(),
+  loadNewEntries(),
+]);
+
+const featuredArtists = artists.slice(0, 6);
+const featuredSongs = songs.slice(0, 6);
+const featuredAlbums = albums.slice(0, 6);
+---
+
+<BaseLayout title="MyMikuGuide">
+  <section class="panel">
+    <h1>MyMikuGuide</h1>
+    <p>
+      Репозиторий теперь работает как канонический снапшот данных и собирает статический сайт
+      поверх автоматической синхронизации с VocaDB.
+    </p>
+    <p class="muted">
+      Последняя сводка: {summary.artistCount} артистов, {summary.songCount} песен, {summary.albumCount} альбомов.
+      {summary.syncedAt ? ` Обновлено: ${new Date(summary.syncedAt).toLocaleString("ru-RU")}.` : ""}
+    </p>
+    <p class="muted">
+      Последний sync: {lastRun.mode}, запросов: {lastRun.requestCount}, `probe-hit`: {lastRun.probeHits}, новых сущностей в очереди: {lastRun.newEntities}.
+    </p>
+    <p><a href="/updates/">Открыть служебные страницы обновлений</a></p>
+  </section>
+
+  <section style="margin-top: 1rem;" class="grid">
+    <article class="panel">
+      <h2>Артисты</h2>
+      <ul class="clean">
+        {featuredArtists.length === 0 ? <li class="muted">Пока нет локально синхронизированных артистов.</li> : null}
+        {featuredArtists.map((artist) => (
+          <li>
+            <a href={artist.url}>{artist.displayName}</a>
+            <div class="muted">{artist.artistType}</div>
+          </li>
+        ))}
+      </ul>
+    </article>
+
+    <article class="panel">
+      <h2>Песни</h2>
+      <ul class="clean">
+        {featuredSongs.length === 0 ? <li class="muted">Пока нет локально синхронизированных песен.</li> : null}
+        {featuredSongs.map((song) => (
+          <li>
+            <a href={song.url}>{song.displayName}</a>
+            <div class="muted">{song.year ?? "Без даты"}</div>
+          </li>
+        ))}
+      </ul>
+    </article>
+
+    <article class="panel">
+      <h2>Альбомы</h2>
+      <ul class="clean">
+        {featuredAlbums.length === 0 ? <li class="muted">Пока нет локально синхронизированных альбомов.</li> : null}
+        {featuredAlbums.map((album) => (
+          <li>
+            <a href={album.url}>{album.displayName}</a>
+            <div class="muted">{album.year ?? "Без даты"}</div>
+          </li>
+        ))}
+      </ul>
+    </article>
+  </section>
+
+  <section style="margin-top: 1rem;" class="panel">
+    <h2>Новые записи последнего прогона</h2>
+    <ul class="clean">
+      {newEntries.length === 0 ? <li class="muted">В последнем прогоне новых локальных карточек не появилось.</li> : null}
+      {newEntries.slice(0, 8).map((entry) => (
+        <li>
+          <a href={entry.url}>{entry.displayName}</a>
+          <span class="muted"> · {entry.entityType} · {new Date(entry.syncedAt).toLocaleString("ru-RU")}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

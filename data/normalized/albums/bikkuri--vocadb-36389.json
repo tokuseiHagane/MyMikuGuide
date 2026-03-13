@@ -1,0 +1,238 @@
+{
+  "additionalNames": [],
+  "albumType": "Album",
+  "artistIds": [
+    "artist-4744",
+    "artist-49701",
+    "artist-1",
+    "artist-79466",
+    "artist-98107",
+    "artist-83928",
+    "artist-85853",
+    "artist-14",
+    "artist-15",
+    "artist-2",
+    "artist-3",
+    "artist-623",
+    "artist-118453"
+  ],
+  "catalogNumber": null,
+  "defaultName": "！(Bikkuri)",
+  "displayName": "！(Bikkuri)",
+  "entityType": "album",
+  "externalLinks": [],
+  "id": "album-36389",
+  "primaryImage": "https://static.vocadb.net/img/Album/mainOrig/36389.png?v=2",
+  "rawHash": "39b0c9b45fa64cb2548505fc9e6aacf95a82b545f0877d1818cc518bea7e330e",
+  "releaseDate": "2023-04-29T00:00:00.000Z",
+  "slug": "bikkuri--vocadb-36389",
+  "songIds": [
+    "song-384022",
+    "song-299572",
+    "song-493541",
+    "song-260688",
+    "song-289074",
+    "song-297357",
+    "song-429476",
+    "song-360756",
+    "song-257957",
+    "song-493542",
+    "song-459164",
+    "song-493543",
+    "song-402375",
+    "song-405839",
+    "song-439148",
+    "song-493544",
+    "song-264091",
+    "song-328572",
+    "song-493545",
+    "song-303733",
+    "song-260930",
+    "song-374025",
+    "song-425417",
+    "song-493546",
+    "song-493547",
+    "song-315200",
+    "song-460512",
+    "song-443837"
+  ],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Al/36389",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "title": "！(Bikkuri)",
+  "tracks": [
+    {
+      "discNumber": 1,
+      "name": "Potato ga S shika Uttenai L(ong).ver",
+      "songId": "song-384022",
+      "trackNumber": 1
+    },
+    {
+      "discNumber": 1,
+      "name": "Kawaii Overdose",
+      "songId": "song-299572",
+      "trackNumber": 2
+    },
+    {
+      "discNumber": 1,
+      "name": "はっくしゅん！",
+      "songId": "song-493541",
+      "trackNumber": 3
+    },
+    {
+      "discNumber": 1,
+      "name": "Garakuta Heiki",
+      "songId": "song-260688",
+      "trackNumber": 4
+    },
+    {
+      "discNumber": 1,
+      "name": "Hungry Dance",
+      "songId": "song-289074",
+      "trackNumber": 5
+    },
+    {
+      "discNumber": 1,
+      "name": "Puzzle",
+      "songId": "song-297357",
+      "trackNumber": 6
+    },
+    {
+      "discNumber": 1,
+      "name": "ずんだもんアイドル化計画",
+      "songId": "song-429476",
+      "trackNumber": 7
+    },
+    {
+      "discNumber": 1,
+      "name": "Sora to Hana",
+      "songId": "song-360756",
+      "trackNumber": 8
+    },
+    {
+      "discNumber": 1,
+      "name": "●Bitter & Sweet○",
+      "songId": "song-257957",
+      "trackNumber": 9
+    },
+    {
+      "discNumber": 1,
+      "name": "カノン",
+      "songId": "song-493542",
+      "trackNumber": 10
+    },
+    {
+      "discNumber": 1,
+      "name": "ストロボ",
+      "songId": "song-459164",
+      "trackNumber": 11
+    },
+    {
+      "discNumber": 1,
+      "name": "Cocktail party",
+      "songId": "song-493543",
+      "trackNumber": 12
+    },
+    {
+      "discNumber": 1,
+      "name": "シンガロング",
+      "songId": "song-402375",
+      "trackNumber": 13
+    },
+    {
+      "discNumber": 1,
+      "name": "?(Question)",
+      "songId": "song-405839",
+      "trackNumber": 14
+    },
+    {
+      "discNumber": 2,
+      "name": "カレーうどんが売ってない",
+      "songId": "song-439148",
+      "trackNumber": 1
+    },
+    {
+      "discNumber": 2,
+      "name": "オールインワン・トイボックス",
+      "songId": "song-493544",
+      "trackNumber": 2
+    },
+    {
+      "discNumber": 2,
+      "name": "check! check! check!",
+      "songId": "song-264091",
+      "trackNumber": 3
+    },
+    {
+      "discNumber": 2,
+      "name": "Crude Production",
+      "songId": "song-328572",
+      "trackNumber": 4
+    },
+    {
+      "discNumber": 2,
+      "name": "Hyperに",
+      "songId": "song-493545",
+      "trackNumber": 5
+    },
+    {
+      "discNumber": 2,
+      "name": "Kiri Kiri☆Gamer All Night",
+      "songId": "song-303733",
+      "trackNumber": 6
+    },
+    {
+      "discNumber": 2,
+      "name": "TOKYO NIGHT(80s-10s)",
+      "songId": "song-260930",
+      "trackNumber": 7
+    },
+    {
+      "discNumber": 2,
+      "name": "ブレス",
+      "songId": "song-374025",
+      "trackNumber": 8
+    },
+    {
+      "discNumber": 2,
+      "name": "Biangniang Noodles",
+      "songId": "song-425417",
+      "trackNumber": 9
+    },
+    {
+      "discNumber": 2,
+      "name": "ふかふかのかふになる",
+      "songId": "song-493546",
+      "trackNumber": 10
+    },
+    {
+      "discNumber": 2,
+      "name": "オーロラ・コンダクター(Album.ver)",
+      "songId": "song-493547",
+      "trackNumber": 11
+    },
+    {
+      "discNumber": 2,
+      "name": "Kakedashi Quartet ~Itsu ka Densetsu e~",
+      "songId": "song-315200",
+      "trackNumber": 12
+    },
+    {
+      "discNumber": 2,
+      "name": "Captain Penguin 2",
+      "songId": "song-460512",
+      "trackNumber": 13
+    },
+    {
+      "discNumber": 2,
+      "name": "!(Surprise)",
+      "songId": "song-443837",
+      "trackNumber": 14
+    }
+  ],
+  "upstreamUpdatedAt": null,
+  "url": "/albums/bikkuri--vocadb-36389/",
+  "vocadbId": 36389,
+  "year": 2023
+}

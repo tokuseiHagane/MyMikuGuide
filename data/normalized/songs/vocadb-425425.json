@@ -1,0 +1,64 @@
+{
+  "additionalNames": [
+    "umbrella",
+    "綺麗な　㐃"
+  ],
+  "albumIds": [],
+  "artistIds": [
+    "artist-1",
+    "artist-103892"
+  ],
+  "defaultName": "㐃",
+  "displayName": "㐃",
+  "durationSeconds": 127,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "㐃/初音ミク",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/so40825144"
+    },
+    {
+      "kind": "original",
+      "label": "㐃",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/Fm83CcHEV-I"
+    },
+    {
+      "kind": "original",
+      "label": "綺麗な　㐃/初音ミク",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm40859271"
+    }
+  ],
+  "id": "song-425425",
+  "primaryImage": "https://i1.ytimg.com/vi/Fm83CcHEV-I/hqdefault.jpg",
+  "publishDate": "2022-07-28T00:00:00Z",
+  "rawHash": "8f598dc06fd8e924290deb7256596edca571dee0791765ff183670a93511ec91",
+  "slug": "vocadb-425425",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/425425",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:16:23.869Z",
+  "tags": [
+    "3D animated PV",
+    "weird",
+    "funny",
+    "good tuning",
+    "Subeana-style",
+    "unusual title"
+  ],
+  "title": "㐃",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/vocadb-425425/",
+  "vocadbId": 425425,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2022
+}

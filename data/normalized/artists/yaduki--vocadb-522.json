@@ -1,0 +1,123 @@
+{
+  "additionalNames": [
+    "ヤヅキ",
+    "激おこP",
+    "ヤヅキ激おこＰ",
+    "Yaduki GekiokoP",
+    "Yaduki Maru",
+    "YADSUKI GEKIOKOP",
+    "YADSUKI GEKIOKO P"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "ヤヅキ",
+  "descriptionShort": "",
+  "displayName": "Yaduki",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND Mylist",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/13801110"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "http://twitter.com/yadukishinya"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/13437277"
+    },
+    {
+      "kind": "official",
+      "label": "Youtube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/user/yadukishinya"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/yadukishinnya"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/16860"
+    },
+    {
+      "kind": "commercial",
+      "label": "Webshop",
+      "official": true,
+      "service": "yadukimaru.thebase.in",
+      "url": "http://yadukimaru.thebase.in/"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/a/%E3%83%A4%E3%83%85%E3%82%AD"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/12152.html"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": true,
+      "service": "yadukimaru.wixsite.com",
+      "url": "http://yadukimaru.wixsite.com/gekiokop"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Lyrics Wiki",
+      "official": true,
+      "service": "vocaloidlyrics.miraheze.org",
+      "url": "https://vocaloidlyrics.miraheze.org/wiki/Category:Yaduki_songs_list"
+    },
+    {
+      "kind": "official",
+      "label": "Bilibili",
+      "official": true,
+      "service": "space.bilibili.com",
+      "url": "https://space.bilibili.com/258449225"
+    }
+  ],
+  "groups": [
+    "artist-15888"
+  ],
+  "id": "artist-522",
+  "name": "Yaduki",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/522.jpg?v=22",
+  "rawHash": "663c0a356e9ccebdf189952bbaa57cb2fe6996111f2381ad41834e886fab50d9",
+  "relatedArtistIds": [
+    "artist-15888"
+  ],
+  "slug": "yaduki--vocadb-522",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/522",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/yaduki--vocadb-522/",
+  "vocadbId": 522,
+  "voicebanks": []
+}

@@ -1,0 +1,73 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-27470",
+    "album-36389"
+  ],
+  "artistIds": [
+    "artist-4744",
+    "artist-49701",
+    "artist-NaN"
+  ],
+  "defaultName": "●Bitter & Sweet○",
+  "displayName": "●Bitter & Sweet○",
+  "durationSeconds": 201,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "[ウナオリジナル曲]  ●Bitter & Sweet○  [シカクドット]",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm36652495"
+    },
+    {
+      "kind": "original",
+      "label": "[ウナオリジナル曲] ●Bitter & Sweet○ [シカクドット]",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/UzFUyLHENpY"
+    },
+    {
+      "kind": "original",
+      "label": "Bitter & Sweet",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/bC7HnTCXoZo"
+    },
+    {
+      "kind": "original",
+      "label": "シカクドット - シカクドット - ●Bitter & Sweet○",
+      "official": true,
+      "service": "bandcamp",
+      "url": "https://onprismrecords.bandcamp.com/track/bitter-sweet"
+    }
+  ],
+  "id": "song-257957",
+  "primaryImage": "https://i1.ytimg.com/vi/UzFUyLHENpY/hqdefault.jpg",
+  "publishDate": "2019-10-27T00:00:00Z",
+  "rawHash": "6ec8b0a5332649d87f95d09eea4b954a8ae130d267ef914b0baf82c8942560a5",
+  "slug": "bitter-sweet--vocadb-257957",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/257957",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "cute",
+    "electropop",
+    "pop",
+    "future bass",
+    "exVoice",
+    "cooking",
+    "unusual title"
+  ],
+  "title": "●Bitter & Sweet○",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/bitter-sweet--vocadb-257957/",
+  "vocadbId": 257957,
+  "vocalistIds": [
+    "artist-49701"
+  ],
+  "year": 2019
+}

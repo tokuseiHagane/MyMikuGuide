@@ -1,0 +1,63 @@
+{
+  "additionalNames": [
+    "空と花"
+  ],
+  "albumIds": [
+    "album-36389",
+    "album-42820"
+  ],
+  "artistIds": [
+    "artist-4744",
+    "artist-85847",
+    "artist-9033",
+    "artist-95617",
+    "artist-49486"
+  ],
+  "defaultName": "空と花",
+  "displayName": "Sora to Hana",
+  "durationSeconds": 261,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "空と花 / 小春六花 - シカクドット",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm39473784"
+    },
+    {
+      "kind": "original",
+      "label": "空と花 / 小春六花 - シカクドット",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/xk6DDRNHNOQ"
+    }
+  ],
+  "id": "song-360756",
+  "primaryImage": "https://i1.ytimg.com/vi/xk6DDRNHNOQ/hqdefault.jpg",
+  "publishDate": "2021-10-15T00:00:00Z",
+  "rawHash": "7373334ed4745197526bb2bbf5ec8c6438a03910a31fac9baa9ebeb356c074ac",
+  "slug": "sora-to-hana--vocadb-360756",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/360756",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "spring",
+    "rock",
+    "J-pop",
+    "karaoke available",
+    "flower",
+    "sky"
+  ],
+  "title": "Sora to Hana",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/sora-to-hana--vocadb-360756/",
+  "vocadbId": 360756,
+  "vocalistIds": [
+    "artist-85847",
+    "artist-49486"
+  ],
+  "year": 2021
+}

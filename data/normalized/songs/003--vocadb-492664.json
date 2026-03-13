@@ -1,0 +1,38 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-36347"
+  ],
+  "artistIds": [
+    "artist-101593",
+    "artist-1",
+    "artist-83928",
+    "artist-99953"
+  ],
+  "defaultName": "削除されたファイル 003",
+  "displayName": "削除されたファイル 003",
+  "durationSeconds": 0,
+  "entityType": "song",
+  "externalLinks": [],
+  "id": "song-492664",
+  "primaryImage": null,
+  "publishDate": null,
+  "rawHash": "8352698e60dcae9533852071660fb9a6c13ceb9e472040e5ca1caf56d323869c",
+  "slug": "003--vocadb-492664",
+  "songType": "Unspecified",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/492664",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [],
+  "title": "削除されたファイル 003",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/003--vocadb-492664/",
+  "vocadbId": 492664,
+  "vocalistIds": [
+    "artist-1",
+    "artist-83928",
+    "artist-99953"
+  ],
+  "year": null
+}

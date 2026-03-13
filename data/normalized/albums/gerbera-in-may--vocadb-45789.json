@@ -1,0 +1,169 @@
+{
+  "additionalNames": [
+    "五月のガーベラ",
+    "Gogatsu no Gerbera"
+  ],
+  "albumType": "Single",
+  "artistIds": [
+    "artist-57535",
+    "artist-14",
+    "artist-85393"
+  ],
+  "catalogNumber": null,
+  "defaultName": "五月のガーベラ",
+  "displayName": "Gerbera in May",
+  "entityType": "album",
+  "externalLinks": [
+    {
+      "kind": "commercial",
+      "label": "Apple Music",
+      "official": true,
+      "service": "music.apple.com",
+      "url": "https://music.apple.com/fi/album/五月のガーベラ-single/1607652727"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "open.spotify.com",
+      "url": "https://open.spotify.com/album/4fuQEQISSrh2pebIS2TToN"
+    },
+    {
+      "kind": "commercial",
+      "label": "LINE MUSIC",
+      "official": true,
+      "service": "music.line.me",
+      "url": "https://music.line.me/webapp/album/mb00000000025797ec"
+    },
+    {
+      "kind": "commercial",
+      "label": "AWA",
+      "official": true,
+      "service": "s.awa.fm",
+      "url": "https://s.awa.fm/track/462662fabce54c94a580"
+    },
+    {
+      "kind": "commercial",
+      "label": "Amazon (DE)",
+      "official": true,
+      "service": "amazon.de",
+      "url": "https://www.amazon.de/music/player/albums/B09RHPYBS7?&_encoding=UTF8&tag=tcjaz-22&linkCode=ur2&camp=247&creative=1211"
+    },
+    {
+      "kind": "commercial",
+      "label": "mora",
+      "official": true,
+      "service": "mora.jp",
+      "url": "https://mora.jp/package/43000074/TCJPR0000872729/"
+    },
+    {
+      "kind": "commercial",
+      "label": "TuneCore Japan",
+      "official": true,
+      "service": "linkco.re",
+      "url": "https://linkco.re/MZuBadAF"
+    },
+    {
+      "kind": "commercial",
+      "label": "Deezer",
+      "official": true,
+      "service": "deezer.com",
+      "url": "https://www.deezer.com/us/album/291536782"
+    },
+    {
+      "kind": "commercial",
+      "label": "KKBOX",
+      "official": true,
+      "service": "kkbox.com",
+      "url": "https://www.kkbox.com/tw/tc/album/0pma-9gq88Op5SpAcl"
+    },
+    {
+      "kind": "commercial",
+      "label": "mora (high-resolution audio)",
+      "official": true,
+      "service": "mora.jp",
+      "url": "https://mora.jp/package/43000074/TCJPR0000872729_hires/"
+    },
+    {
+      "kind": "commercial",
+      "label": "OTOTOY",
+      "official": true,
+      "service": "ototoy.jp",
+      "url": "https://ototoy.jp/_/default/p/1147087"
+    },
+    {
+      "kind": "commercial",
+      "label": "OTOTOY (high-resolution audio)",
+      "official": true,
+      "service": "ototoy.jp",
+      "url": "https://ototoy.jp/_/default/p/1147085"
+    },
+    {
+      "kind": "commercial",
+      "label": "DE-LUXE",
+      "official": true,
+      "service": "sd.deluxe-sound.jp",
+      "url": "https://sd.deluxe-sound.jp/album/1147087"
+    },
+    {
+      "kind": "commercial",
+      "label": "Amazon (US)",
+      "official": true,
+      "service": "amazon.com",
+      "url": "https://www.amazon.com/music/player/albums/B09RH2V2ML"
+    },
+    {
+      "kind": "commercial",
+      "label": "Club ZION",
+      "official": true,
+      "service": "sd.club-zion.jp",
+      "url": "https://sd.club-zion.jp/album/1147087"
+    },
+    {
+      "kind": "commercial",
+      "label": "dhits.docomo",
+      "official": true,
+      "service": "dhits.docomo.ne.jp",
+      "url": "https://dhits.docomo.ne.jp/music/1020298838"
+    },
+    {
+      "kind": "commercial",
+      "label": "Reggae ZION",
+      "official": true,
+      "service": "sd.reggaezion.jp",
+      "url": "https://sd.reggaezion.jp/album/1147087"
+    },
+    {
+      "kind": "commercial",
+      "label": "YouTube Music",
+      "official": true,
+      "service": "music.youtube.com",
+      "url": "https://music.youtube.com/playlist?list=OLAK5uy_m8OOV293BmKMh3izNtUoSljeHI3b0EoCo"
+    }
+  ],
+  "id": "album-45789",
+  "primaryImage": "https://static.vocadb.net/img/Album/mainOrig/45789.jpg?v=5",
+  "rawHash": "d706cf4416851f30b502d2ea7b2461d65d498fa1616849684df6b0bcd6094b6c",
+  "releaseDate": "2022-02-12T00:00:00.000Z",
+  "slug": "gerbera-in-may--vocadb-45789",
+  "songIds": [
+    "song-385263"
+  ],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Al/45789",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:06:28.923Z",
+  "title": "Gerbera in May",
+  "tracks": [
+    {
+      "discNumber": 1,
+      "name": "Gerbera in May",
+      "songId": "song-385263",
+      "trackNumber": 1
+    }
+  ],
+  "upstreamUpdatedAt": null,
+  "url": "/albums/gerbera-in-may--vocadb-45789/",
+  "vocadbId": 45789,
+  "year": 2022
+}

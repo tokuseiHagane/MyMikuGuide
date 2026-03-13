@@ -1,0 +1,72 @@
+{
+  "additionalNames": [
+    "正直なんもわからん",
+    "Shoujikin nanmo Wakaran"
+  ],
+  "albumIds": [
+    "album-31123",
+    "album-36773"
+  ],
+  "artistIds": [
+    "artist-46466",
+    "artist-1",
+    "artist-61122",
+    "artist-60443"
+  ],
+  "defaultName": "正直なんもわからん",
+  "displayName": "I honestly don't know",
+  "durationSeconds": 185,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "正直なんもわからん / タケノコ少年 feat. 初音ミク",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm39473412"
+    },
+    {
+      "kind": "original",
+      "label": "正直なんもわからん -I honestly don't know- / タケノコ少年 feat. 初音ミク",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/Ab1ZUiugGxo"
+    },
+    {
+      "kind": "original",
+      "label": "正直なんもわからん (feat. 初音ミク)",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/1KK9nFMUqGE"
+    }
+  ],
+  "id": "song-360183",
+  "primaryImage": "https://i1.ytimg.com/vi/Ab1ZUiugGxo/hqdefault.jpg",
+  "publishDate": "2021-10-15T00:00:00Z",
+  "rawHash": "760752b2f201b27e078d55f267ac33c164d6a898337ba37142b6318b11373a43",
+  "slug": "i-honestly-don-t-know--vocadb-360183",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/360183",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "tags": [
+    "cute",
+    "guitar solo",
+    "pop rock",
+    "rock",
+    "fast tempo",
+    "chibi",
+    "green",
+    "pien-kei",
+    "anger"
+  ],
+  "title": "I honestly don't know",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/i-honestly-don-t-know--vocadb-360183/",
+  "vocadbId": 360183,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2021
+}

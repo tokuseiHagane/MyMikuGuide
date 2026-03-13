@@ -1,0 +1,66 @@
+{
+  "additionalNames": [
+    "ガラクタヘイキ"
+  ],
+  "albumIds": [
+    "album-27626",
+    "album-36389"
+  ],
+  "artistIds": [
+    "artist-4744",
+    "artist-49701",
+    "artist-5551",
+    "artist-72082"
+  ],
+  "defaultName": "ガラクタヘイキ",
+  "displayName": "Garakuta Heiki",
+  "durationSeconds": 226,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "YouTube - 【18】60秒でkemuっぽい曲を作るバーチャル助手 #shorts",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=S-P6UkTjLDg"
+    },
+    {
+      "kind": "original",
+      "label": "[ウナオリジナル曲]  ガラクタヘイキ  [シカクドット]",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm36242577"
+    },
+    {
+      "kind": "original",
+      "label": "[ウナオリジナル曲] ガラクタヘイキ [シカクドット]",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/Irq7AAS0Q8Q"
+    }
+  ],
+  "id": "song-260688",
+  "primaryImage": "https://i1.ytimg.com/vi/Irq7AAS0Q8Q/hqdefault.jpg",
+  "publishDate": "2019-11-17T00:00:00Z",
+  "rawHash": "ab125b65f20f355235e56c841b94cbba11bab9cccb5b503f8b263b544cf8de3d",
+  "slug": "garakuta-heiki--vocadb-260688",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/260688",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "rock",
+    "tribute",
+    "catchy",
+    "Kidou Utahime Vocalion"
+  ],
+  "title": "Garakuta Heiki",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/garakuta-heiki--vocadb-260688/",
+  "vocadbId": 260688,
+  "vocalistIds": [
+    "artist-49701"
+  ],
+  "year": 2019
+}

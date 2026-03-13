@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadArtists } from "../../lib/site-data";
+
+const artists = await loadArtists();
+---
+
+<BaseLayout title="Артисты | MyMikuGuide">
+  <section class="panel">
+    <h1>Артисты</h1>
+    <p class="muted">Все синхронизированные артисты из локального снапшота.</p>
+  </section>
+
+  <section style="margin-top: 1rem;" class="grid">
+    {artists.length === 0 ? <div class="panel muted">Данные ещё не синхронизированы.</div> : null}
+    {artists.map((artist) => (
+      <article class="panel">
+        <h2><a href={artist.url}>{artist.displayName}</a></h2>
+        <p class="muted">{artist.artistType}</p>
+        {artist.descriptionShort ? <p>{artist.descriptionShort}</p> : null}
+        <p class="muted">
+          Локально синхронизирован: {new Date(artist.syncedAt).toLocaleString("ru-RU")}
+          {typeof artist.upstreamVersion === "number" ? ` · upstream v${artist.upstreamVersion}` : ""}
+        </p>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

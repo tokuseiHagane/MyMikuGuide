@@ -1,0 +1,226 @@
+{
+  "additionalNames": [
+    "Sepiwo学"
+  ],
+  "albumType": "Compilation",
+  "artistIds": [
+    "artist-57535",
+    "artist-1",
+    "artist-3",
+    "artist-14",
+    "artist-72357"
+  ],
+  "catalogNumber": null,
+  "defaultName": "Sepiwo学",
+  "displayName": "Sepiwo Studies",
+  "entityType": "album",
+  "externalLinks": [
+    {
+      "kind": "commercial",
+      "label": "TuneCore Japan",
+      "official": true,
+      "service": "linkco.re",
+      "url": "https://linkco.re/4A5evBxT"
+    },
+    {
+      "kind": "commercial",
+      "label": "Apple Music",
+      "official": true,
+      "service": "music.apple.com",
+      "url": "https://music.apple.com/fi/album/sepiwo-studies/1731584274"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "open.spotify.com",
+      "url": "https://open.spotify.com/album/7tGavJ9krbhKOmYocGKcty"
+    },
+    {
+      "kind": "commercial",
+      "label": "YouTube Music",
+      "official": true,
+      "service": "music.youtube.com",
+      "url": "https://music.youtube.com/playlist?list=OLAK5uy_msjL9RlsERWz8xImAnsmPy05uJ8XCrpxY"
+    },
+    {
+      "kind": "commercial",
+      "label": "LINE MUSIC",
+      "official": true,
+      "service": "music.line.me",
+      "url": "https://music.line.me/webapp/album/mb000000000365ca17"
+    },
+    {
+      "kind": "commercial",
+      "label": "Amazon (DE)",
+      "official": true,
+      "service": "amazon.de",
+      "url": "https://www.amazon.de/music/player/albums/B0CVV7CCF7?&_encoding=UTF8&tag=tcjaz-22&linkCode=ur2&camp=247&creative=1211"
+    },
+    {
+      "kind": "commercial",
+      "label": "mora",
+      "official": true,
+      "service": "mora.jp",
+      "url": "https://mora.jp/package/43000074/TCJPR0001139230/"
+    },
+    {
+      "kind": "commercial",
+      "label": "Deezer",
+      "official": true,
+      "service": "deezer.com",
+      "url": "https://www.deezer.com/us/album/549342322"
+    },
+    {
+      "kind": "commercial",
+      "label": "KKBOX",
+      "official": true,
+      "service": "kkbox.com",
+      "url": "https://www.kkbox.com/tw/tc/album/HYNNhAlQU1EtVFdpaF"
+    },
+    {
+      "kind": "commercial",
+      "label": "OTOTOY",
+      "official": true,
+      "service": "ototoy.jp",
+      "url": "https://ototoy.jp/_/default/p/2009889"
+    },
+    {
+      "kind": "commercial",
+      "label": "AWA",
+      "official": true,
+      "service": "s.awa.fm",
+      "url": "https://s.awa.fm/album/8f783b13a3fff06ce572"
+    },
+    {
+      "kind": "commercial",
+      "label": "recochoku",
+      "official": true,
+      "service": "recochoku.jp",
+      "url": "https://recochoku.jp/album/A2004244263"
+    },
+    {
+      "kind": "commercial",
+      "label": "ORICON MUSIC",
+      "official": true,
+      "service": "music.oricon.co.jp",
+      "url": "https://music.oricon.co.jp/php/cd/CdTop.php?cd=SPC05310460"
+    },
+    {
+      "kind": "commercial",
+      "label": "dmusic.docomo",
+      "official": true,
+      "service": "dmusic.docomo.ne.jp",
+      "url": "https://dmusic.docomo.ne.jp/album/A2004244263"
+    },
+    {
+      "kind": "commercial",
+      "label": "MySound",
+      "official": true,
+      "service": "mysound.jp",
+      "url": "https://mysound.jp/album/795142/"
+    },
+    {
+      "kind": "commercial",
+      "label": "Music Store",
+      "official": true,
+      "service": "musicstore.auone.jp",
+      "url": "https://musicstore.auone.jp/s/album/2004244263/ALBUM"
+    },
+    {
+      "kind": "commercial",
+      "label": "Amazon (US)",
+      "official": true,
+      "service": "amazon.com",
+      "url": "https://www.amazon.com/music/player/albums/B0CVV76MVB"
+    }
+  ],
+  "id": "album-45721",
+  "primaryImage": "https://static.vocadb.net/img/Album/mainOrig/45721.jpg?v=6",
+  "rawHash": "e885efc7b189885ae3dd63073386a2118094f92301356181aa50a01b1f27002a",
+  "releaseDate": "2024-02-18T00:00:00.000Z",
+  "slug": "sepiwo-studies--vocadb-45721",
+  "songIds": [
+    "song-591129",
+    "song-795037",
+    "song-795040",
+    "song-760867",
+    "song-351458",
+    "song-760868",
+    "song-191976",
+    "song-248200",
+    "song-248201",
+    "song-385263"
+  ],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Al/45721",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:06:28.923Z",
+  "title": "Sepiwo Studies",
+  "tracks": [
+    {
+      "discNumber": 1,
+      "name": "Hayate",
+      "songId": "song-591129",
+      "trackNumber": 1
+    },
+    {
+      "discNumber": 1,
+      "name": "sinon",
+      "songId": "song-795037",
+      "trackNumber": 2
+    },
+    {
+      "discNumber": 1,
+      "name": "The Dead Sunflower",
+      "songId": "song-795040",
+      "trackNumber": 3
+    },
+    {
+      "discNumber": 1,
+      "name": "Tomurai",
+      "songId": "song-760867",
+      "trackNumber": 4
+    },
+    {
+      "discNumber": 1,
+      "name": "Farewell Chime",
+      "songId": "song-351458",
+      "trackNumber": 5
+    },
+    {
+      "discNumber": 1,
+      "name": "Avant",
+      "songId": "song-760868",
+      "trackNumber": 6
+    },
+    {
+      "discNumber": 1,
+      "name": "Daily Funny Song",
+      "songId": "song-191976",
+      "trackNumber": 7
+    },
+    {
+      "discNumber": 1,
+      "name": "Beginner's class magic",
+      "songId": "song-248200",
+      "trackNumber": 8
+    },
+    {
+      "discNumber": 1,
+      "name": "Clover",
+      "songId": "song-248201",
+      "trackNumber": 9
+    },
+    {
+      "discNumber": 1,
+      "name": "Gerbera in May",
+      "songId": "song-385263",
+      "trackNumber": 10
+    }
+  ],
+  "upstreamUpdatedAt": null,
+  "url": "/albums/sepiwo-studies--vocadb-45721/",
+  "vocadbId": 45721,
+  "year": 2024
+}

@@ -1,0 +1,27 @@
+{
+  "name": "my-miku-guide",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "sync": "tsx scripts/sync/index.ts incremental",
+    "sync:bootstrap": "tsx scripts/sync/index.ts bootstrap",
+    "sync:full": "tsx scripts/sync/index.ts full",
+    "sync:dry-run": "tsx scripts/sync/index.ts incremental --dry-run"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.7",
+    "@types/node": "^25.5.0",
+    "astro": "^6.0.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "zod": "^4.3.6"
+  }
+}

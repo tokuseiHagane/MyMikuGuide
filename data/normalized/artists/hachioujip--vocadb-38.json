@@ -1,0 +1,189 @@
+{
+  "additionalNames": [
+    "8#Prince",
+    "HachiojiP",
+    "802P",
+    "八王子P",
+    "dj8ouji",
+    "하치오지P"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "八王子P",
+  "descriptionShort": "Is the same person as [P*Light](https://vocadb.net/Ar/252).",
+  "displayName": "HachioujiP",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Website (old)",
+      "official": false,
+      "service": "hachiojip.jp",
+      "url": "http://www.hachiojip.jp/"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "http://twitter.com/8_Prince"
+    },
+    {
+      "kind": "official",
+      "label": "Ustream",
+      "official": false,
+      "service": "ustream.tv",
+      "url": "http://www.ustream.tv/user/dj8prince"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/16586786"
+    },
+    {
+      "kind": "official",
+      "label": "NND Community",
+      "official": false,
+      "service": "com.nicovideo.jp",
+      "url": "http://com.nicovideo.jp/community/co276689"
+    },
+    {
+      "kind": "official",
+      "label": "Facebook",
+      "official": true,
+      "service": "facebook.com",
+      "url": "http://www.facebook.com/hachiojip"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/8758.html"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/15104449"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/a/%E5%85%AB%E7%8E%8B%E5%AD%90p"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/1427"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.wikia.com",
+      "url": "http://vocaloid.wikia.com/wiki/Hachioji-P"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": true,
+      "service": "hachiojip.net",
+      "url": "http://www.hachiojip.net/"
+    },
+    {
+      "kind": "official",
+      "label": "Vimeo",
+      "official": true,
+      "service": "vimeo.com",
+      "url": "https://vimeo.com/user26352294"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/prince888"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "play.spotify.com",
+      "url": "https://play.spotify.com/artist/4TtpMS8RsX8vW64WOivJrb"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "http://www.youtube.com/channel/UCD7pKXtQ-ZFixYZp8NYAY1Q"
+    },
+    {
+      "kind": "reference",
+      "label": "Discogs",
+      "official": true,
+      "service": "discogs.com",
+      "url": "https://www.discogs.com/artist/2712823"
+    },
+    {
+      "kind": "official",
+      "label": "Instagram",
+      "official": true,
+      "service": "instagram.com",
+      "url": "https://www.instagram.com/hachiojip/"
+    },
+    {
+      "kind": "commercial",
+      "label": "iTunes (JP)",
+      "official": true,
+      "service": "music.apple.com",
+      "url": "https://music.apple.com/jp/artist/%E5%85%AB%E7%8E%8B%E5%AD%90p/548199750"
+    },
+    {
+      "kind": "official",
+      "label": "Bilibili",
+      "official": true,
+      "service": "space.bilibili.com",
+      "url": "https://space.bilibili.com/472119281"
+    },
+    {
+      "kind": "commercial",
+      "label": "KarenT",
+      "official": true,
+      "service": "karent.jp",
+      "url": "https://karent.jp/artist/pp001028"
+    }
+  ],
+  "groups": [
+    "artist-344",
+    "artist-686",
+    "artist-70521"
+  ],
+  "id": "artist-38",
+  "name": "HachioujiP",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/38.jpg?v=49",
+  "rawHash": "b24eb10b5a40ed820e05ec6d6c72824248b7ce8b41606467c51ceb8e96b18323",
+  "relatedArtistIds": [
+    "artist-344",
+    "artist-686",
+    "artist-70521"
+  ],
+  "slug": "hachioujip--vocadb-38",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/38",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/hachioujip--vocadb-38/",
+  "vocadbId": 38,
+  "voicebanks": []
+}

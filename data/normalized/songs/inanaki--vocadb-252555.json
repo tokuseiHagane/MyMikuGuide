@@ -1,0 +1,53 @@
+{
+  "additionalNames": [
+    "嘶き"
+  ],
+  "albumIds": [
+    "album-27216"
+  ],
+  "artistIds": [
+    "artist-75362",
+    "artist-1",
+    "artist-80008",
+    "artist-80012"
+  ],
+  "defaultName": "嘶き",
+  "displayName": "Inanaki",
+  "durationSeconds": 272,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "【オリジナル】嘶き/初音ミク【Mapropolis】",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/frwo1OHMzBQ"
+    },
+    {
+      "kind": "original",
+      "label": "【オリジナル】嘶き/初音ミク【Mapropolis】",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm33763294"
+    }
+  ],
+  "id": "song-252555",
+  "primaryImage": "https://i1.ytimg.com/vi/frwo1OHMzBQ/hqdefault.jpg",
+  "publishDate": "2018-08-28T00:00:00Z",
+  "rawHash": "6f9fcf4b997011281234b1057389727855146b4c1a1c8286462d1d621cb94123",
+  "slug": "inanaki--vocadb-252555",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/252555",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:06:28.923Z",
+  "tags": [],
+  "title": "Inanaki",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/inanaki--vocadb-252555/",
+  "vocadbId": 252555,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2018
+}

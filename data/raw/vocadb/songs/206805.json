@@ -1,0 +1,334 @@
+{
+  "albums": [
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.02, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.02",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2018-12-25T11:20:54.287",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 26139,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.02",
+      "ratingAverage": 4.92,
+      "ratingCount": 13,
+      "releaseDate": {
+        "day": 20,
+        "isEmpty": false,
+        "month": 2,
+        "year": 2019
+      },
+      "status": "Finished",
+      "version": 26
+    },
+    {
+      "additionalNames": "ベリーイージー2",
+      "artistString": "EasyPop feat. Hatsune Miku, Megurine Luka, GUMI",
+      "coverPictureMime": "image/png",
+      "createDate": "2020-02-18T17:38:32.503",
+      "deleted": false,
+      "discType": "Album",
+      "id": 28108,
+      "name": "Very easy 2",
+      "ratingAverage": 4.83,
+      "ratingCount": 6,
+      "releaseDate": {
+        "day": 18,
+        "isEmpty": false,
+        "month": 3,
+        "year": 2020
+      },
+      "status": "Finished",
+      "version": 10
+    }
+  ],
+  "artistString": "EasyPop feat. Megurine Luka",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "巡音ルカ, 巡音流歌, 메구리네 루카",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 2,
+        "name": "Megurine Luka",
+        "pictureMime": "image/png",
+        "releaseDate": "2009-01-30T00:00:00Z",
+        "status": "Locked",
+        "version": 24
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 531694,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Megurine Luka",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "Easy Pop, BETTI, 岩清水P, IwashimizuP",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 48,
+        "name": "EasyPop",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 23
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Default",
+      "id": 531695,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "EasyPop",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "",
+        "artistType": "Illustrator",
+        "deleted": false,
+        "id": 46198,
+        "name": "apapico",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 8
+      },
+      "categories": "Illustrator",
+      "effectiveRoles": "Illustrator",
+      "id": 531696,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "apapico",
+      "roles": "Illustrator"
+    },
+    {
+      "categories": "Animator",
+      "effectiveRoles": "Animator",
+      "id": 531697,
+      "isCustomName": true,
+      "isSupport": false,
+      "name": "LON",
+      "roles": "Animator"
+    }
+  ],
+  "createDate": "2018-10-06T15:56:13.767",
+  "defaultName": "だから言ったでしょ？",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 5,
+  "id": 206805,
+  "lengthSeconds": 268,
+  "mainPicture": {
+    "urlOriginal": "https://i1.ytimg.com/vi/fBrQ32MpcFU/hqdefault.jpg",
+    "urlThumb": "https://nicovideo.cdn.nimg.jp/thumbnails/33972704/33972704"
+  },
+  "name": "I've Told You, Right?",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "だから言ったでしょ？"
+    },
+    {
+      "language": "Romaji",
+      "value": "Dakara Itta Desho?"
+    },
+    {
+      "language": "English",
+      "value": "I've Told You, Right?"
+    },
+    {
+      "language": "Unspecified",
+      "value": "所以说了对吧"
+    },
+    {
+      "language": "Unspecified",
+      "value": "Didn’t I Tell You?"
+    }
+  ],
+  "publishDate": "2018-10-06T00:00:00Z",
+  "pvServices": "NicoNicoDouga, Youtube, Bilibili",
+  "pvs": [
+    {
+      "author": "EasyPop/BETTI",
+      "disabled": false,
+      "id": 297925,
+      "length": 268,
+      "name": "【巡音ルカ】だから言ったでしょ？【オリジナル曲】",
+      "publishDate": "2018-10-06T00:00:00",
+      "pvId": "sm33972704",
+      "pvType": "Original",
+      "service": "NicoNicoDouga",
+      "thumbUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/33972704/33972704",
+      "url": "http://www.nicovideo.jp/watch/sm33972704"
+    },
+    {
+      "author": "EasyPop / BETTI",
+      "disabled": false,
+      "id": 298220,
+      "length": 269,
+      "name": "【巡音ルカ】だから言ったでしょ？【オリジナル曲】",
+      "publishDate": "2018-10-07T00:00:00",
+      "pvId": "fBrQ32MpcFU",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/fBrQ32MpcFU/default.jpg",
+      "url": "https://youtu.be/fBrQ32MpcFU"
+    },
+    {
+      "author": "Ikhwan-san EQ-01",
+      "disabled": false,
+      "id": 325222,
+      "length": 269,
+      "name": "[Easy Pop ft. Megurine Luka] I've Told You, Right? (English/Romaji/Malay Subbed)",
+      "publishDate": "2019-01-30T00:00:00",
+      "pvId": "ZSGvB96A4v4",
+      "pvType": "Other",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/ZSGvB96A4v4/default.jpg",
+      "url": "https://youtu.be/ZSGvB96A4v4"
+    },
+    {
+      "author": "EasyPop_BETTI",
+      "disabled": false,
+      "extendedMetadata": {
+        "json": "{\"Aid\":33341393,\"Bvid\":\"BV11W411y78Y\",\"Cid\":58359482}"
+      },
+      "id": 704075,
+      "length": 269,
+      "name": "だから言ったでしょ？【所以说了对吧】/EasyPop&巡音ルカ【オリジナル曲】【原版】",
+      "publishDate": "2018-10-07T00:00:00",
+      "pvId": "33341393",
+      "pvType": "Original",
+      "service": "Bilibili",
+      "thumbUrl": "http://i1.hdslb.com/bfs/archive/0fba867057c89836df872491c701d6d803227d14.jpg",
+      "url": "https://www.bilibili.com/video/av33341393"
+    },
+    {
+      "author": "EasyPop - Topic",
+      "disabled": false,
+      "id": 981438,
+      "length": 266,
+      "name": "だから言ったでしょ?",
+      "publishDate": "2022-12-20T00:00:00",
+      "pvId": "WwsLMtadY6w",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/WwsLMtadY6w/default.jpg",
+      "url": "https://youtu.be/WwsLMtadY6w"
+    }
+  ],
+  "ratingScore": 41,
+  "songType": "Original",
+  "status": "Finished",
+  "tags": [
+    {
+      "count": 5,
+      "tag": {
+        "additionalNames": "エレクトロポップ, ボカロエレクトロ, electronic pop, electro-pop",
+        "categoryName": "Genres",
+        "id": 124,
+        "name": "electropop",
+        "urlSlug": "electropop"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "visual novel official soundtrack release, video game soundtrack, visual novel soundtrack",
+        "categoryName": "Sources",
+        "id": 456,
+        "name": "video game official soundtrack release",
+        "urlSlug": "video-game-official-soundtrack"
+      }
+    },
+    {
+      "count": 4,
+      "tag": {
+        "additionalNames": "フューチャーベース, FutureBass, kawaii future bass, kawaii bass, future trap",
+        "categoryName": "Genres",
+        "id": 3089,
+        "name": "future bass",
+        "urlSlug": "future-bass"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "カラオケ配布, off vocal available, instrumental available, インストルメンタル配布, off-vocal available, インスト配布, inst配布, オフボ配布, オフボーカル配布",
+        "categoryName": "Distribution",
+        "id": 3113,
+        "name": "karaoke available",
+        "urlSlug": "karaoke-available"
+      }
+    },
+    {
+      "count": 5,
+      "tag": {
+        "additionalNames": "#コンパス, 戦闘摂理解析システム, NND Compass",
+        "categoryName": "Copyrights",
+        "id": 6107,
+        "name": "#compass",
+        "urlSlug": "compass"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "忍者, shinobi, 忍び, kunoichi, くノ一",
+        "categoryName": "Themes",
+        "id": 6327,
+        "name": "ninja",
+        "urlSlug": "ninja"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "Full HD PV",
+        "categoryName": "Animation",
+        "id": 6724,
+        "name": "FHD PV",
+        "urlSlug": "fhd-pv"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "virtual YouTuber, バーチャルYouTuber, PNGTuber, ブイチューバー",
+        "categoryName": "Vocalists",
+        "id": 6879,
+        "name": "VTuber",
+        "urlSlug": "vtuber"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "#コンパス ライブアリーナ",
+        "categoryName": "Games",
+        "id": 9078,
+        "name": "#COMPASS LIVE ARENA",
+        "urlSlug": "compass-live-arena"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "stemデータ配布 (ボカコレ), stem data distributor (VocaColle), stem data available (VocaColle)",
+        "categoryName": "Distribution",
+        "id": 9534,
+        "name": "stem data distribution (VocaColle)",
+        "urlSlug": "stem-data-distribution-vocacol"
+      }
+    }
+  ],
+  "version": 13,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "Piapro (karaoke)",
+      "disabled": false,
+      "id": 76151,
+      "url": "https://piapro.jp/t/q1NH"
+    }
+  ]
+}

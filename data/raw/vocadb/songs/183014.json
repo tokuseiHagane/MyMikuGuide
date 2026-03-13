@@ -1,0 +1,657 @@
+{
+  "albums": [
+    {
+      "additionalNames": "GREATEST S***S",
+      "artistString": "Utsu-P, MY SONG IS SHIT feat. various",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2018-06-08T19:40:27.13",
+      "deleted": false,
+      "discType": "Album",
+      "id": 24878,
+      "name": "GREATEST SHITS",
+      "ratingAverage": 4.82,
+      "ratingCount": 103,
+      "releaseDate": {
+        "day": 10,
+        "isEmpty": false,
+        "month": 8,
+        "year": 2018
+      },
+      "releaseEvent": {
+        "category": "Unspecified",
+        "date": "2018-08-10T00:00:00Z",
+        "endDate": "2018-08-12T00:00:00Z",
+        "id": 1687,
+        "name": "Comiket 94",
+        "seriesId": 3,
+        "seriesNumber": 94,
+        "seriesSuffix": "",
+        "status": "Draft",
+        "urlSlug": "comiket-94",
+        "venueName": "",
+        "version": 7
+      },
+      "status": "Finished",
+      "version": 46
+    },
+    {
+      "additionalNames": "「#コンパス 戦闘摂理解析システム」オリジナルサウンドトラック Vol.02, \"#Compass Sentou Setsuri Kaiseki System\" Original Soundtrack Vol.02",
+      "artistString": "Various artists",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2018-12-25T11:20:54.287",
+      "deleted": false,
+      "discType": "Compilation",
+      "id": 26139,
+      "name": "\"#Compass Combat Providence Analysis System\" Original Soundtrack Vol.02",
+      "ratingAverage": 4.92,
+      "ratingCount": 13,
+      "releaseDate": {
+        "day": 20,
+        "isEmpty": false,
+        "month": 2,
+        "year": 2019
+      },
+      "status": "Finished",
+      "version": 26
+    },
+    {
+      "additionalNames": "",
+      "artistString": "Utsu-P feat. various",
+      "coverPictureMime": "image/jpeg",
+      "createDate": "2019-07-26T11:30:59.24",
+      "deleted": false,
+      "discType": "Album",
+      "id": 27002,
+      "name": "RENAISSANCE",
+      "ratingAverage": 4.81,
+      "ratingCount": 61,
+      "releaseDate": {
+        "day": 10,
+        "isEmpty": false,
+        "month": 8,
+        "year": 2019
+      },
+      "releaseEvent": {
+        "category": "Unspecified",
+        "date": "2019-08-10T00:00:00Z",
+        "endDate": "2019-08-11T00:00:00Z",
+        "id": 2750,
+        "name": "Magical Mirai Creators Market 2019 OSAKA",
+        "seriesId": 104,
+        "seriesNumber": 2019,
+        "seriesSuffix": "",
+        "status": "Finished",
+        "urlSlug": "magical-mirai-creators-market-",
+        "venueName": "インテックス大阪",
+        "version": 11
+      },
+      "status": "Finished",
+      "version": 33
+    }
+  ],
+  "artistString": "Utsu-P feat. Hatsune Miku V4X (Dark)",
+  "artists": [
+    {
+      "artist": {
+        "additionalNames": "鬱P, 郁P, 우츠P",
+        "artistType": "Producer",
+        "deleted": false,
+        "id": 90,
+        "name": "Utsu-P",
+        "pictureMime": "image/png",
+        "status": "Approved",
+        "version": 47
+      },
+      "categories": "Producer",
+      "effectiveRoles": "Default",
+      "id": 461189,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Utsu-P",
+      "roles": "Default"
+    },
+    {
+      "artist": {
+        "additionalNames": "金子開発",
+        "artistType": "Illustrator",
+        "deleted": false,
+        "id": 3063,
+        "name": "Kaneko Kaihatu",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 12
+      },
+      "categories": "Animator",
+      "effectiveRoles": "Animator",
+      "id": 461191,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Kaneko Kaihatu",
+      "roles": "Animator"
+    },
+    {
+      "artist": {
+        "additionalNames": "初音ミク V4X (Dark)",
+        "artistType": "Vocaloid",
+        "deleted": false,
+        "id": 50233,
+        "name": "Hatsune Miku V4X (Dark)",
+        "pictureMime": "image/png",
+        "releaseDate": "2016-08-31T00:00:00Z",
+        "status": "Finished",
+        "version": 10
+      },
+      "categories": "Vocalist",
+      "effectiveRoles": "Default",
+      "id": 1482741,
+      "isCustomName": false,
+      "isSupport": false,
+      "name": "Hatsune Miku V4X (Dark)",
+      "roles": "Default"
+    }
+  ],
+  "createDate": "2018-02-01T12:20:10",
+  "defaultName": "天使だと思っていたのに",
+  "defaultNameLanguage": "Japanese",
+  "favoritedTimes": 96,
+  "id": 183014,
+  "lengthSeconds": 313,
+  "mainPicture": {
+    "urlOriginal": "https://i1.ytimg.com/vi/UvUJbhxUKT8/hqdefault.jpg",
+    "urlThumb": "https://i.ytimg.com/vi/UvUJbhxUKT8/default.jpg"
+  },
+  "name": "I thought I was an angel",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "天使だと思っていたのに"
+    },
+    {
+      "language": "English",
+      "value": "I thought I was an angel"
+    },
+    {
+      "language": "Romaji",
+      "value": "Tenshi da to omotteita no ni"
+    },
+    {
+      "language": "Unspecified",
+      "value": "我以为这是一个天使"
+    },
+    {
+      "language": "Unspecified",
+      "value": "천사라고 생각했는데"
+    }
+  ],
+  "publishDate": "2018-02-01T00:00:00Z",
+  "pvServices": "NicoNicoDouga, Youtube, Bilibili, Bandcamp",
+  "pvs": [
+    {
+      "author": "鬱P / Utsu-P OFFICIAL CHANNEL",
+      "disabled": false,
+      "id": 264235,
+      "length": 313,
+      "name": "Utsu-P - 天使だと思っていたのに / I thought I was an angel",
+      "publishDate": "2018-02-01T00:00:00",
+      "pvId": "UvUJbhxUKT8",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/UvUJbhxUKT8/default.jpg",
+      "url": "https://youtu.be/UvUJbhxUKT8"
+    },
+    {
+      "author": "鬱P",
+      "disabled": false,
+      "id": 264236,
+      "length": 312,
+      "name": "【初音ミク】 天使だと思っていたのに 【オリジナルMV】",
+      "publishDate": "2018-02-01T00:00:00",
+      "pvId": "sm32672006",
+      "pvType": "Original",
+      "service": "NicoNicoDouga",
+      "thumbUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/32672006/32672006",
+      "url": "http://www.nicovideo.jp/watch/sm32672006"
+    },
+    {
+      "author": "Utsu-P",
+      "disabled": false,
+      "extendedMetadata": {
+        "json": "{\"Cid\":31107180}"
+      },
+      "id": 331657,
+      "length": 0,
+      "name": "【初音未来】天使だと思っていたのに / 我以为这是一个天使【鬱P】",
+      "publishDate": "2018-02-03T00:00:00",
+      "pvId": "19069131",
+      "pvType": "Original",
+      "service": "Bilibili",
+      "thumbUrl": "https://i0.hdslb.com/bfs/archive/f53fe9d71884ed44ae922f7ca1a164c54910aea1.jpg",
+      "url": "https://www.bilibili.com/video/av19069131"
+    },
+    {
+      "author": "鬱P",
+      "disabled": false,
+      "extendedMetadata": {
+        "json": "{\"Url\":\"https://utsup.bandcamp.com/track/renaissance-ver\"}"
+      },
+      "id": 550521,
+      "length": 309,
+      "name": "鬱P - 天使だと思っていたのに [RENAISSANCE ver.]",
+      "publishDate": "2021-12-01T00:00:00",
+      "pvId": "3873844022",
+      "pvType": "Original",
+      "service": "Bandcamp",
+      "thumbUrl": "https://f4.bcbits.com/img/a0490852628_5.jpg",
+      "url": "https://utsup.bandcamp.com/track/renaissance-ver"
+    },
+    {
+      "author": "Magenetra",
+      "disabled": false,
+      "id": 631839,
+      "length": 313,
+      "name": "【Utsu-P Feat. Hatsune Miku】I thought I was an angel (English Subs)",
+      "publishDate": "2020-10-24T00:00:00",
+      "pvId": "_PPECywxq-Y",
+      "pvType": "Other",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/_PPECywxq-Y/default.jpg",
+      "url": "https://youtu.be/_PPECywxq-Y"
+    },
+    {
+      "author": "Utsu-P - Topic",
+      "disabled": false,
+      "id": 733983,
+      "length": 311,
+      "name": "天使だと思っていたのに (feat. Hatsune Miku)",
+      "publishDate": "2020-05-12T00:00:00",
+      "pvId": "-vDrAwDImC0",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/-vDrAwDImC0/default.jpg",
+      "url": "https://youtu.be/-vDrAwDImC0"
+    },
+    {
+      "author": "Utsu-P - Topic",
+      "disabled": false,
+      "id": 981434,
+      "length": 313,
+      "name": "天使だと思っていたのに",
+      "publishDate": "2022-12-20T00:00:00",
+      "pvId": "TUKLuvtFxHU",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/TUKLuvtFxHU/default.jpg",
+      "url": "https://youtu.be/TUKLuvtFxHU"
+    },
+    {
+      "author": "Utsu-P - Topic",
+      "disabled": false,
+      "id": 1041604,
+      "length": 310,
+      "name": "天使だと思っていたのに (feat. Hatsune Miku)",
+      "publishDate": "2020-05-12T00:00:00",
+      "pvId": "mbZgyr9l2vw",
+      "pvType": "Original",
+      "service": "Youtube",
+      "thumbUrl": "https://i.ytimg.com/vi/mbZgyr9l2vw/default.jpg",
+      "url": "https://youtu.be/mbZgyr9l2vw"
+    }
+  ],
+  "ratingScore": 518,
+  "songType": "Original",
+  "status": "Finished",
+  "tags": [
+    {
+      "count": 7,
+      "tag": {
+        "additionalNames": "メタル, VOCAMETAL, 金属",
+        "categoryName": "Genres",
+        "id": 262,
+        "name": "metal",
+        "urlSlug": "metal"
+      }
+    },
+    {
+      "count": 5,
+      "tag": {
+        "additionalNames": "切ない, sadness, 悲しみ",
+        "categoryName": "Subjective",
+        "id": 384,
+        "name": "sad",
+        "urlSlug": "sad"
+      }
+    },
+    {
+      "count": 4,
+      "tag": {
+        "additionalNames": "visual novel official soundtrack release, video game soundtrack, visual novel soundtrack",
+        "categoryName": "Sources",
+        "id": 456,
+        "name": "video game official soundtrack release",
+        "urlSlug": "video-game-official-soundtrack"
+      }
+    },
+    {
+      "count": 8,
+      "tag": {
+        "additionalNames": "metal vocals, metal screaming, metal growling, screamo vocals, 极端嗓, death voice, デスボイス",
+        "categoryName": "Vocalists",
+        "id": 468,
+        "name": "harsh vocals",
+        "urlSlug": "harsh-vocals"
+      }
+    },
+    {
+      "count": 7,
+      "tag": {
+        "additionalNames": "loud, ラウド",
+        "categoryName": "Genres",
+        "id": 478,
+        "name": "VOCALOUD",
+        "urlSlug": "vocaloud"
+      }
+    },
+    {
+      "count": 8,
+      "tag": {
+        "additionalNames": "天使",
+        "categoryName": "Themes",
+        "id": 1722,
+        "name": "angel",
+        "urlSlug": "angel"
+      }
+    },
+    {
+      "count": 6,
+      "tag": {
+        "additionalNames": "エモ, emotional hardcore, エモーショナルハードコア, emocore, エモコア",
+        "categoryName": "Genres",
+        "id": 1737,
+        "name": "emo",
+        "urlSlug": "emo"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "叫び, scream, 悲鳴, shouting, yelling",
+        "categoryName": "Vocalists",
+        "id": 3043,
+        "name": "screaming",
+        "urlSlug": "screaming"
+      }
+    },
+    {
+      "count": 4,
+      "tag": {
+        "additionalNames": "カラオケ配布, off vocal available, instrumental available, インストルメンタル配布, off-vocal available, インスト配布, inst配布, オフボ配布, オフボーカル配布",
+        "categoryName": "Distribution",
+        "id": 3113,
+        "name": "karaoke available",
+        "urlSlug": "karaoke-available"
+      }
+    },
+    {
+      "count": 4,
+      "tag": {
+        "additionalNames": "2DアニメーションPV, 2DPV, 2DMV, 2D PV",
+        "categoryName": "Animation",
+        "id": 3287,
+        "name": "2D animated PV",
+        "urlSlug": "2d-animated-pv"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "新金属",
+        "categoryName": "Genres",
+        "id": 3323,
+        "name": "nu metal",
+        "urlSlug": "nu-metal"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "宗教, religious, 宗教音楽, christianity, islam, hinduism, judaism, taoism, jesus christ, jesus of nazareth",
+        "categoryName": "Themes",
+        "id": 3409,
+        "name": "religion",
+        "urlSlug": "religion"
+      }
+    },
+    {
+      "count": 5,
+      "tag": {
+        "additionalNames": "鬱曲, 消极, 消沉",
+        "categoryName": "Themes",
+        "id": 4573,
+        "name": "depression",
+        "urlSlug": "depression"
+      }
+    },
+    {
+      "count": 6,
+      "tag": {
+        "additionalNames": "オルタナティヴメタル",
+        "categoryName": "Genres",
+        "id": 4657,
+        "name": "alternative metal",
+        "urlSlug": "alternative-metal"
+      }
+    },
+    {
+      "count": 6,
+      "tag": {
+        "additionalNames": "#コンパス, 戦闘摂理解析システム, NND Compass",
+        "categoryName": "Copyrights",
+        "id": 6107,
+        "name": "#compass",
+        "urlSlug": "compass"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "uncertain vocalists, vocalists assumed",
+        "categoryName": "Editor notes",
+        "id": 6416,
+        "name": "unconfirmed vocalists",
+        "urlSlug": "unconfirmed-vocalists"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "学校, education, gakkou, classroom, college, university, studying, exam",
+        "categoryName": "Themes",
+        "id": 6514,
+        "name": "school",
+        "urlSlug": "school"
+      }
+    },
+    {
+      "count": 5,
+      "tag": {
+        "additionalNames": "internal conflict",
+        "categoryName": "Themes",
+        "id": 6653,
+        "name": "inner conflict",
+        "urlSlug": "inner-conflict"
+      }
+    },
+    {
+      "count": 4,
+      "tag": {
+        "additionalNames": "Full HD PV",
+        "categoryName": "Animation",
+        "id": 6724,
+        "name": "FHD PV",
+        "urlSlug": "fhd-pv"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "反​抗, defiance",
+        "categoryName": "Themes",
+        "id": 6963,
+        "name": "rebellion",
+        "urlSlug": "rebellion"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "グルーヴコースター",
+        "categoryName": "Games",
+        "id": 7188,
+        "name": "GROOVE COASTER",
+        "urlSlug": "groove-coaster"
+      }
+    },
+    {
+      "count": 3,
+      "tag": {
+        "additionalNames": "成長",
+        "categoryName": "Themes",
+        "id": 7317,
+        "name": "growing up",
+        "urlSlug": "growing-up"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "自己嫌悪, self-loathing",
+        "categoryName": "Themes",
+        "id": 7351,
+        "name": "self-hatred",
+        "urlSlug": "self-hatred"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "英語字幕, English subs, English translation",
+        "categoryName": "Sources",
+        "id": 7406,
+        "name": "English subtitles",
+        "urlSlug": "english-subtitles"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "",
+        "categoryName": "Subjective",
+        "id": 7675,
+        "name": "angst",
+        "urlSlug": "angst"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "mental illness, mental condition, mental disorder, disabled, medical condition, disorder, 障害, neurodivergence",
+        "categoryName": "Themes",
+        "id": 7703,
+        "name": "disability",
+        "urlSlug": "disability"
+      }
+    },
+    {
+      "count": 2,
+      "tag": {
+        "additionalNames": "#コンパス ライブアリーナ",
+        "categoryName": "Games",
+        "id": 9078,
+        "name": "#COMPASS LIVE ARENA",
+        "urlSlug": "compass-live-arena"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "嫉妬, envy, 羨望",
+        "categoryName": "Themes",
+        "id": 9499,
+        "name": "jealousy",
+        "urlSlug": "jealousy"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "燃え尽き症候群 , overworking, exhaustion disorder, neurasthenia, バーンアウト",
+        "categoryName": "Themes",
+        "id": 10645,
+        "name": "burnout",
+        "urlSlug": "burnout"
+      }
+    },
+    {
+      "count": 1,
+      "tag": {
+        "additionalNames": "",
+        "categoryName": "Themes",
+        "id": 12347,
+        "name": "longing",
+        "urlSlug": "longing"
+      }
+    }
+  ],
+  "version": 22,
+  "webLinks": [
+    {
+      "category": "Reference",
+      "description": "Vocaloid Lyrics Wiki",
+      "disabled": false,
+      "id": 76231,
+      "url": "https://vocaloidlyrics.miraheze.org/wiki/%E5%A4%A9%E4%BD%BF%E3%81%A0%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%81%AE%E3%81%AB_(Tenshi_da_to_Omotte_Ita_noni)"
+    },
+    {
+      "category": "Reference",
+      "description": "MikuWiki",
+      "disabled": false,
+      "id": 76232,
+      "url": "https://www5.atwiki.jp/hmiku/pages/37227.html"
+    },
+    {
+      "category": "Official",
+      "description": "Piapro (Instrumental)",
+      "disabled": false,
+      "id": 76233,
+      "url": "https://piapro.jp/t/SXwi"
+    },
+    {
+      "category": "Reference",
+      "description": "Vocaloid Wiki",
+      "disabled": false,
+      "id": 82813,
+      "url": "https://vocaloid.fandom.com/wiki/%E5%A4%A9%E4%BD%BF%E3%81%A0%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%81%AE%E3%81%AB_(Tenshi_da_to_Omotteita_no_ni)"
+    },
+    {
+      "category": "Reference",
+      "description": "NicoNicoPedia",
+      "disabled": false,
+      "id": 103120,
+      "url": "http://dic.nicovideo.jp/v/sm32672006"
+    },
+    {
+      "category": "Reference",
+      "description": "#Compass Wiki",
+      "disabled": false,
+      "id": 103122,
+      "url": "https://nnd-compass.fandom.com/wiki/I_Thought_I_Was_An_Angel"
+    },
+    {
+      "category": "Reference",
+      "description": "Pixpedia",
+      "disabled": false,
+      "id": 103123,
+      "url": "http://dic.pixiv.net/a/%E5%A4%A9%E4%BD%BF%E3%81%A0%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%81%AE%E3%81%AB"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "additionalNames": [
+    "のぼる↑",
+    "江藤昇",
+    "Noboru Etou",
+    "노보루↑"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "のぼる↑",
+  "descriptionShort": "",
+  "displayName": "Noboru",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": true,
+      "service": "reonald.com",
+      "url": "http://www.reonald.com/"
+    },
+    {
+      "kind": "official",
+      "label": "Blog",
+      "official": true,
+      "service": "blog.livedoor.jp",
+      "url": "http://blog.livedoor.jp/dibox/"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/noboru_e"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/1136553"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/snake555"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/6082765"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/3082.html"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.wikia.com",
+      "url": "http://vocaloid.wikia.com/wiki/Noboru%E2%86%91-P"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/a/%E3%81%AE%E3%81%BC%E3%82%8B%E2%86%91"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel (Alt. URL)",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/user/noborustudio"
+    },
+    {
+      "kind": "official",
+      "label": "NND Community",
+      "official": false,
+      "service": "com.nicovideo.jp",
+      "url": "http://com.nicovideo.jp/community/co311238"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/3278"
+    },
+    {
+      "kind": "commercial",
+      "label": "BOOTH",
+      "official": true,
+      "service": "noborun.booth.pm",
+      "url": "https://noborun.booth.pm/"
+    },
+    {
+      "kind": "official",
+      "label": "Pixiv",
+      "official": true,
+      "service": "pixiv.net",
+      "url": "https://www.pixiv.net/member.php?id=16980"
+    },
+    {
+      "kind": "official",
+      "label": "Bilibili",
+      "official": true,
+      "service": "space.bilibili.com",
+      "url": "https://space.bilibili.com/435476436"
+    },
+    {
+      "kind": "commercial",
+      "label": "KARENT",
+      "official": true,
+      "service": "karent.jp",
+      "url": "https://karent.jp/artist/pp000129"
+    },
+    {
+      "kind": "reference",
+      "label": "Bangumi",
+      "official": true,
+      "service": "bgm.tv",
+      "url": "https://bgm.tv/person/11313"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCl2BybuWtxg09OjzdCHMjUQ"
+    }
+  ],
+  "groups": [
+    "artist-771",
+    "artist-276"
+  ],
+  "id": "artist-299",
+  "name": "Noboru",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/299.jpg?v=23",
+  "rawHash": "8b9caab68fbc0dc8c0f947ceb0fe744f72663f9a2ac64e09176d4bcc92f72916",
+  "relatedArtistIds": [
+    "artist-771",
+    "artist-276"
+  ],
+  "slug": "noboru--vocadb-299",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/299",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/noboru--vocadb-299/",
+  "vocadbId": 299,
+  "voicebanks": []
+}

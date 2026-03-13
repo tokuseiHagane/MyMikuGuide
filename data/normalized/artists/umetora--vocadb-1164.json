@@ -1,0 +1,163 @@
+{
+  "additionalNames": [
+    "梅とら",
+    "UMED Y",
+    "umedy",
+    "dysk",
+    "우메토라"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "梅とら",
+  "descriptionShort": "",
+  "displayName": "Umetora",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND Mylist",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/28524172"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "http://twitter.com/umetorara"
+    },
+    {
+      "kind": "official",
+      "label": "Blog",
+      "official": true,
+      "service": "umemaru2umemaru.blog86.fc2.com",
+      "url": "http://umemaru2umemaru.blog86.fc2.com/"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/12440440"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/17801.html"
+    },
+    {
+      "kind": "commercial",
+      "label": "KarenT",
+      "official": true,
+      "service": "karent.jp",
+      "url": "http://karent.jp/artist/pp000580"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/umedy_music"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/37"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "https://dic.nicovideo.jp/a/梅とら"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.fandom.com",
+      "url": "http://vocaloid.fandom.com/wiki/Umetora"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCMR0yUQrsu5xpYQgAH4bicQ"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "open.spotify.com",
+      "url": "https://open.spotify.com/artist/5ZjOsH8VbUcUs5LoDjeYOE"
+    },
+    {
+      "kind": "commercial",
+      "label": "iTunes 1 (JP)",
+      "official": true,
+      "service": "music.apple.com",
+      "url": "https://music.apple.com/jp/artist/512448222"
+    },
+    {
+      "kind": "commercial",
+      "label": "iTunes 1",
+      "official": true,
+      "service": "music.apple.com",
+      "url": "https://music.apple.com/artist/512448222"
+    },
+    {
+      "kind": "reference",
+      "label": "MusicBrainz",
+      "official": true,
+      "service": "musicbrainz.org",
+      "url": "https://musicbrainz.org/artist/3b4c42b2-ee06-4e16-a512-93c834ee11c0"
+    },
+    {
+      "kind": "official",
+      "label": "HP",
+      "official": true,
+      "service": "umetora.com",
+      "url": "https://www.umetora.com/"
+    },
+    {
+      "kind": "commercial",
+      "label": "iTunes 2 (JP)",
+      "official": true,
+      "service": "music.apple.com",
+      "url": "https://music.apple.com/jp/artist/梅とら/660141875"
+    },
+    {
+      "kind": "commercial",
+      "label": "iTunes 2",
+      "official": true,
+      "service": "music.apple.com",
+      "url": "https://music.apple.com/artist/660141875"
+    }
+  ],
+  "groups": [
+    "artist-276"
+  ],
+  "id": "artist-1164",
+  "name": "Umetora",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/1164.png?v=19",
+  "rawHash": "d331165ac8b96e27491a5f2356a9f7d51438e7c5595635aa595b7c0a4d3eda51",
+  "relatedArtistIds": [
+    "artist-276"
+  ],
+  "slug": "umetora--vocadb-1164",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/1164",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/umetora--vocadb-1164/",
+  "vocadbId": 1164,
+  "voicebanks": []
+}

@@ -1,0 +1,132 @@
+{
+  "additionalNames": [
+    "ポリスピカデリー",
+    "폴리스 피카딜리"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "ポリスピカデリー",
+  "descriptionShort": "",
+  "displayName": "Police Piccadilly",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/49132820"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/_policep"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCDOTPjUW-NhQMDmYbgMvQKA"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/policep"
+    },
+    {
+      "kind": "official",
+      "label": "TmBOX",
+      "official": false,
+      "service": "tmbox.net",
+      "url": "http://tmbox.net/user/_policep"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/53849103"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/17151"
+    },
+    {
+      "kind": "official",
+      "label": "SoundCloud",
+      "official": false,
+      "service": "soundcloud.com",
+      "url": "https://soundcloud.com/police-piccadilly"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "https://www5.atwiki.jp/hmiku/pages/36561.html"
+    },
+    {
+      "kind": "reference",
+      "label": "MusicBrainz",
+      "official": true,
+      "service": "musicbrainz.org",
+      "url": "https://musicbrainz.org/artist/137a8260-0813-42cb-9248-363a74539b00"
+    },
+    {
+      "kind": "commercial",
+      "label": "KarenT",
+      "official": true,
+      "service": "karent.jp",
+      "url": "https://karent.jp/artist/pp000824"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "open.spotify.com",
+      "url": "https://open.spotify.com/artist/4yUIW4t2Jp0Ywa8O2UAeeb?si=zVbBLM6lQ2GP9rYrxzBwgg"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Lyrics Wiki",
+      "official": true,
+      "service": "vocaloidlyrics.miraheze.org",
+      "url": "https://vocaloidlyrics.miraheze.org/wiki/Police_Piccadilly"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.fandom.com",
+      "url": "https://vocaloid.fandom.com/wiki/Police_Piccadilly"
+    }
+  ],
+  "groups": [
+    "artist-276"
+  ],
+  "id": "artist-41371",
+  "name": "Police Piccadilly",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/41371.jpg?v=21",
+  "rawHash": "828d41f85a81117d97ac95e18ec9952f2768e4469015bbfde5218184c46b3f7d",
+  "relatedArtistIds": [
+    "artist-276"
+  ],
+  "slug": "police-piccadilly--vocadb-41371",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/41371",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/police-piccadilly--vocadb-41371/",
+  "vocadbId": 41371,
+  "voicebanks": []
+}

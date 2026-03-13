@@ -1,0 +1,44 @@
+{
+  "additionalNames": [
+    "さきいか",
+    "saika"
+  ],
+  "albumIds": [],
+  "artistType": "Illustrator",
+  "defaultName": "さきいか",
+  "descriptionShort": "",
+  "displayName": "Sakiika",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/sakiika0513"
+    },
+    {
+      "kind": "official",
+      "label": "Pixiv",
+      "official": true,
+      "service": "pixiv.net",
+      "url": "https://www.pixiv.net/users/50549015"
+    }
+  ],
+  "groups": [],
+  "id": "artist-88775",
+  "name": "Sakiika",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/88775.jpg?v=3",
+  "rawHash": "1760a03fc00bab63108890b182719dc50885f3730e55a9803cf3e23b32496633",
+  "relatedArtistIds": [],
+  "slug": "sakiika--vocadb-88775",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/88775",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:11:14.582Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/sakiika--vocadb-88775/",
+  "vocadbId": 88775,
+  "voicebanks": []
+}

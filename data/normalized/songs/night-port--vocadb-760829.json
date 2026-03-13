@@ -1,0 +1,44 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-45720"
+  ],
+  "artistIds": [
+    "artist-57535",
+    "artist-84429"
+  ],
+  "defaultName": "Night Port",
+  "displayName": "Night Port",
+  "durationSeconds": 58,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "Night Port",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/rJIrMQdj0sI"
+    }
+  ],
+  "id": "song-760829",
+  "primaryImage": "https://i1.ytimg.com/vi/rJIrMQdj0sI/hqdefault.jpg",
+  "publishDate": "2021-06-26T00:00:00Z",
+  "rawHash": "d1511c164cd801be7cfc82be7784c32cca6cfb202ad97b57225a966cc140aa00",
+  "slug": "night-port--vocadb-760829",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/760829",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:11:14.582Z",
+  "tags": [
+    "album-exclusive song"
+  ],
+  "title": "Night Port",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/night-port--vocadb-760829/",
+  "vocadbId": 760829,
+  "vocalistIds": [
+    "artist-84429"
+  ],
+  "year": 2021
+}

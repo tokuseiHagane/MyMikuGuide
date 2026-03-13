@@ -1,0 +1,113 @@
+{
+  "additionalNames": [
+    "罪草"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "罪草",
+  "descriptionShort": "",
+  "displayName": "Tsumikusa",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/tsumikusa0202"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "https://www.nicovideo.jp/user/123552613"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCG5QECSOm9DDuiXuQz2aZgg"
+    },
+    {
+      "kind": "official",
+      "label": "Profcard",
+      "official": true,
+      "service": "profcard.info",
+      "url": "https://profcard.info/u/xnYlGq1WBCgI3JxKsAW5xcAqNjA2"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel (Custom - @)",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/@tsumikusa.tsumikusa"
+    },
+    {
+      "kind": "commercial",
+      "label": "TuneCore Japan",
+      "official": true,
+      "service": "tunecore.co.jp",
+      "url": "https://www.tunecore.co.jp/artists/tsumikusa"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "open.spotify.com",
+      "url": "https://open.spotify.com/artist/4Lwm5wekujYlFETM76wJYS"
+    },
+    {
+      "kind": "commercial",
+      "label": "Apple Music",
+      "official": true,
+      "service": "music.apple.com",
+      "url": "https://music.apple.com/jp/artist/罪草/1687939601"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "https://www.nicovideo.jp/user/123552613/mylist/72950385"
+    },
+    {
+      "kind": "reference",
+      "label": "MusicBrainz",
+      "official": true,
+      "service": "musicbrainz.org",
+      "url": "https://musicbrainz.org/artist/ddd3e7d7-a445-4748-bfc2-ac186adf7136"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "w.atwiki.jp",
+      "url": "https://w.atwiki.jp/hmiku/pages/58631.html"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Lyrics Wiki",
+      "official": true,
+      "service": "vocaloidlyrics.fandom.com",
+      "url": "https://vocaloidlyrics.fandom.com/wiki/Tsumikusa"
+    }
+  ],
+  "groups": [],
+  "id": "artist-101256",
+  "name": "Tsumikusa",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/101256.jpg?v=5",
+  "rawHash": "26508e6d71a3e0ca0dafdefdb2cf9bd9021355dcaa87f53fc9974d2b017bc741",
+  "relatedArtistIds": [],
+  "slug": "tsumikusa--vocadb-101256",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/101256",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:11:14.582Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/tsumikusa--vocadb-101256/",
+  "vocadbId": 101256,
+  "voicebanks": []
+}

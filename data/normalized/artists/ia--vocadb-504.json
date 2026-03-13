@@ -1,0 +1,124 @@
+{
+  "additionalNames": [
+    "IA -ARIA ON THE PLANETES-",
+    "イア"
+  ],
+  "albumIds": [],
+  "artistType": "Vocaloid",
+  "defaultName": "IA",
+  "descriptionShort": "The first voicebank developed by 1st PLACE. Her voice provider, Lia, is best known for singing [\"Tori no Uta\"](https://vocadb.net/S/165696), the opening theme of the visual novel, *Air*. IA's name is pronounced \"EE-ah\" (rhyming with \"Lia\").",
+  "displayName": "IA",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.fandom.com",
+      "url": "http://vocaloid.fandom.com/wiki/IA"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": false,
+      "service": "1stplace.co.jp",
+      "url": "http://1stplace.co.jp/ia/"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": false,
+      "service": "twitter.com",
+      "url": "https://twitter.com/IA_ONE_Official"
+    },
+    {
+      "kind": "reference",
+      "label": "MusicBrainz",
+      "official": true,
+      "service": "musicbrainz.org",
+      "url": "https://musicbrainz.org/artist/e60d22ee-7e77-44ab-93a0-54f986e112af"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": true,
+      "service": "ia-aria.com",
+      "url": "https://ia-aria.com/"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "https://piapro.jp/characters/ia"
+    },
+    {
+      "kind": "official",
+      "label": "Website (Product Page)",
+      "official": true,
+      "service": "ia-aria.com",
+      "url": "https://ia-aria.com/software/ia-aria-on-the-planetes-5/"
+    },
+    {
+      "kind": "commercial",
+      "label": "Amazon",
+      "official": true,
+      "service": "amazon.co.jp",
+      "url": "https://www.amazon.co.jp/dp/B00XKRLF0Y"
+    },
+    {
+      "kind": "official",
+      "label": "Facebook",
+      "official": true,
+      "service": "facebook.com",
+      "url": "https://www.facebook.com/IA.WORLD.PAGE"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCHQVqmldaUM8HvOfKZFywGA"
+    },
+    {
+      "kind": "commercial",
+      "label": "TuneCore Japan",
+      "official": true,
+      "service": "tunecore.co.jp",
+      "url": "https://www.tunecore.co.jp/vocaloid/IA"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/IA_Official_"
+    }
+  ],
+  "groups": [
+    "artist-2347",
+    "artist-3256"
+  ],
+  "id": "artist-504",
+  "name": "IA",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/504.png?v=38",
+  "rawHash": "2db5ad2c370c748ae96cba701362e9fe2d7b39ef8be54e944118b302438afcaf",
+  "relatedArtistIds": [
+    "artist-2347",
+    "artist-5502",
+    "artist-655",
+    "artist-3256"
+  ],
+  "slug": "ia--vocadb-504",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/504",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/ia--vocadb-504/",
+  "vocadbId": 504,
+  "voicebanks": [
+    "artist-655"
+  ]
+}

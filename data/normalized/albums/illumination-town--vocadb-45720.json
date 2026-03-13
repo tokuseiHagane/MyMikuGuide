@@ -1,0 +1,256 @@
+{
+  "additionalNames": [
+    "電飾街",
+    "Denshoku Machi"
+  ],
+  "albumType": "Album",
+  "artistIds": [
+    "artist-57535",
+    "artist-14",
+    "artist-84429",
+    "artist-3",
+    "artist-146",
+    "artist-1"
+  ],
+  "catalogNumber": null,
+  "defaultName": "電飾街",
+  "displayName": "Illumination Town",
+  "entityType": "album",
+  "externalLinks": [
+    {
+      "kind": "commercial",
+      "label": "TuneCore Japan",
+      "official": true,
+      "service": "linkco.re",
+      "url": "https://linkco.re/Z8HRHxyC"
+    },
+    {
+      "kind": "commercial",
+      "label": "Apple Music",
+      "official": true,
+      "service": "music.apple.com",
+      "url": "https://music.apple.com/us/album/電飾街/1572516592"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "open.spotify.com",
+      "url": "https://open.spotify.com/album/5n9spO9NuhfCGkkK1woFaF"
+    },
+    {
+      "kind": "commercial",
+      "label": "YouTube Music",
+      "official": true,
+      "service": "music.youtube.com",
+      "url": "https://music.youtube.com/playlist?list=OLAK5uy_medVuxjlON-Fh9Lf4FYHLXmTRmbPBykTI"
+    },
+    {
+      "kind": "commercial",
+      "label": "LINE MUSIC",
+      "official": true,
+      "service": "music.line.me",
+      "url": "https://music.line.me/webapp/album/mb000000000226d036"
+    },
+    {
+      "kind": "commercial",
+      "label": "Amazon (DE)",
+      "official": true,
+      "service": "amazon.de",
+      "url": "https://www.amazon.de/music/player/albums/B0979TMZ15?&_encoding=UTF8&tag=tcjaz-22&linkCode=ur2&camp=247&creative=1211"
+    },
+    {
+      "kind": "commercial",
+      "label": "AWA",
+      "official": true,
+      "service": "s.awa.fm",
+      "url": "https://s.awa.fm/album/1c19de7fa5cd70383377"
+    },
+    {
+      "kind": "commercial",
+      "label": "mora",
+      "official": true,
+      "service": "mora.jp",
+      "url": "https://mora.jp/package/43000074/TCJPR0000797168/"
+    },
+    {
+      "kind": "commercial",
+      "label": "Deezer",
+      "official": true,
+      "service": "deezer.com",
+      "url": "https://www.deezer.com/us/album/237573642"
+    },
+    {
+      "kind": "commercial",
+      "label": "KKBOX",
+      "official": true,
+      "service": "kkbox.com",
+      "url": "https://www.kkbox.com/tw/tc/album/4l-KauQB6lesf5bbhQ"
+    },
+    {
+      "kind": "commercial",
+      "label": "mora (high-resolution audio)",
+      "official": true,
+      "service": "mora.jp",
+      "url": "https://mora.jp/package/43000074/TCJPR0000797168_hires/"
+    },
+    {
+      "kind": "commercial",
+      "label": "OTOTOY",
+      "official": true,
+      "service": "ototoy.jp",
+      "url": "https://ototoy.jp/_/default/p/812346"
+    },
+    {
+      "kind": "commercial",
+      "label": "OTOTOY (high-resolution audio)",
+      "official": true,
+      "service": "ototoy.jp",
+      "url": "https://ototoy.jp/_/default/p/812362"
+    },
+    {
+      "kind": "commercial",
+      "label": "Music Store",
+      "official": true,
+      "service": "musicstore.auone.jp",
+      "url": "https://musicstore.auone.jp/s/album/2002255969/ALBUM"
+    },
+    {
+      "kind": "commercial",
+      "label": "Amazon (US)",
+      "official": true,
+      "service": "amazon.com",
+      "url": "https://www.amazon.com/music/player/albums/B0979LFWS2"
+    },
+    {
+      "kind": "commercial",
+      "label": "dmusic.docomo",
+      "official": true,
+      "service": "dmusic.docomo.ne.jp",
+      "url": "https://dmusic.docomo.ne.jp/album/A2002255969"
+    },
+    {
+      "kind": "commercial",
+      "label": "recochoku",
+      "official": true,
+      "service": "recochoku.jp",
+      "url": "https://recochoku.jp/album/A2002255969"
+    },
+    {
+      "kind": "commercial",
+      "label": "dhits.docomo",
+      "official": true,
+      "service": "dhits.docomo.ne.jp",
+      "url": "https://dhits.docomo.ne.jp/music/1017694375"
+    },
+    {
+      "kind": "commercial",
+      "label": "MySound",
+      "official": true,
+      "service": "mysound.jp",
+      "url": "https://mysound.jp/album/492848/"
+    },
+    {
+      "kind": "commercial",
+      "label": "ORICON MUSIC",
+      "official": true,
+      "service": "music.oricon.co.jp",
+      "url": "https://music.oricon.co.jp/php/cd/CdTop.php?cd=SPC03325564"
+    }
+  ],
+  "id": "album-45720",
+  "primaryImage": "https://static.vocadb.net/img/Album/mainOrig/45720.jpg?v=5",
+  "rawHash": "7d78ad2ec404f43c900a1209456cbf71ec1f4ea3ac1596bf7dcd516d7f8fe21c",
+  "releaseDate": "2021-06-26T00:00:00.000Z",
+  "slug": "illumination-town--vocadb-45720",
+  "songIds": [
+    "song-760829",
+    "song-760830",
+    "song-306183",
+    "song-273156",
+    "song-248199",
+    "song-760831",
+    "song-760832",
+    "song-184910",
+    "song-248206",
+    "song-349940",
+    "song-345187"
+  ],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Al/45720",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:06:28.923Z",
+  "title": "Illumination Town",
+  "tracks": [
+    {
+      "discNumber": 1,
+      "name": "Night Port",
+      "songId": "song-760829",
+      "trackNumber": 1
+    },
+    {
+      "discNumber": 1,
+      "name": "melting ice",
+      "songId": "song-760830",
+      "trackNumber": 2
+    },
+    {
+      "discNumber": 1,
+      "name": "Cold Breath",
+      "songId": "song-306183",
+      "trackNumber": 3
+    },
+    {
+      "discNumber": 1,
+      "name": "Chain",
+      "songId": "song-273156",
+      "trackNumber": 4
+    },
+    {
+      "discNumber": 1,
+      "name": "cupcake",
+      "songId": "song-248199",
+      "trackNumber": 5
+    },
+    {
+      "discNumber": 1,
+      "name": "Snow White",
+      "songId": "song-760831",
+      "trackNumber": 6
+    },
+    {
+      "discNumber": 1,
+      "name": "The snow melts",
+      "songId": "song-760832",
+      "trackNumber": 7
+    },
+    {
+      "discNumber": 1,
+      "name": "Illuminations",
+      "songId": "song-184910",
+      "trackNumber": 8
+    },
+    {
+      "discNumber": 1,
+      "name": "WHEEL",
+      "songId": "song-248206",
+      "trackNumber": 9
+    },
+    {
+      "discNumber": 1,
+      "name": "MOMENT",
+      "songId": "song-349940",
+      "trackNumber": 10
+    },
+    {
+      "discNumber": 1,
+      "name": "A slight sleep",
+      "songId": "song-345187",
+      "trackNumber": 11
+    }
+  ],
+  "upstreamUpdatedAt": null,
+  "url": "/albums/illumination-town--vocadb-45720/",
+  "vocadbId": 45720,
+  "year": 2021
+}

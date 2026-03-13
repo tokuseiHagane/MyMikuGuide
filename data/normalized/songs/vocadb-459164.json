@@ -1,0 +1,56 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-36389",
+    "album-42820"
+  ],
+  "artistIds": [
+    "artist-4744",
+    "artist-85853",
+    "artist-NaN"
+  ],
+  "defaultName": "ストロボ",
+  "displayName": "ストロボ",
+  "durationSeconds": 225,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "ストロボ / 小春六花 - シカクドット, エイトそにっく",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm41475977"
+    },
+    {
+      "kind": "original",
+      "label": "ストロボ / 小春六花 - シカクドット, エイトそにっく",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/Lk7_jHy6aw0"
+    }
+  ],
+  "id": "song-459164",
+  "primaryImage": "https://i1.ytimg.com/vi/Lk7_jHy6aw0/hqdefault.jpg",
+  "publishDate": "2022-12-10T00:00:00Z",
+  "rawHash": "45183bb6456809bad720b54235d68a0a5ba8e4ff53b1efda677c0ebf142ec80c",
+  "slug": "vocadb-459164",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/459164",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "cherry blossom",
+    "uplifting",
+    "pink",
+    "superhero"
+  ],
+  "title": "ストロボ",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/vocadb-459164/",
+  "vocadbId": 459164,
+  "vocalistIds": [
+    "artist-85853"
+  ],
+  "year": 2022
+}

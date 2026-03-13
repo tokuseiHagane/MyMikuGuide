@@ -1,0 +1,73 @@
+{
+  "additionalNames": [
+    "瀬戸わらび",
+    "よぴ",
+    "Yopi"
+  ],
+  "albumIds": [],
+  "artistType": "Illustrator",
+  "defaultName": "瀬戸わらび",
+  "descriptionShort": "",
+  "displayName": "Seto Warabi",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/yk__rm"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/15939385"
+    },
+    {
+      "kind": "official",
+      "label": "Pixiv",
+      "official": true,
+      "service": "pixiv.net",
+      "url": "https://www.pixiv.net/en/users/5098930"
+    },
+    {
+      "kind": "commercial",
+      "label": "Booth",
+      "official": true,
+      "service": "setowarabi.booth.pm",
+      "url": "https://setowarabi.booth.pm/"
+    },
+    {
+      "kind": "commercial",
+      "label": "Suzuri",
+      "official": true,
+      "service": "suzuri.jp",
+      "url": "https://suzuri.jp/yk__rm"
+    },
+    {
+      "kind": "official",
+      "label": "NND Mylist",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "https://www.nicovideo.jp/user/15939385/mylist/59875724?ref=pc_userpage_mylist"
+    }
+  ],
+  "groups": [],
+  "id": "artist-60443",
+  "name": "Seto Warabi",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/60443.png?v=11",
+  "rawHash": "458ac48ed2190b2693deb03883314376e3fb7b064e84882128c2a040de04059d",
+  "relatedArtistIds": [],
+  "slug": "seto-warabi--vocadb-60443",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/60443",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/seto-warabi--vocadb-60443/",
+  "vocadbId": 60443,
+  "voicebanks": []
+}

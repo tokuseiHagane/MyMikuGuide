@@ -1,0 +1,56 @@
+{
+  "additionalNames": [
+    "ハングリー・ダンス"
+  ],
+  "albumIds": [
+    "album-36389"
+  ],
+  "artistIds": [
+    "artist-4744",
+    "artist-1",
+    "artist-77828",
+    "artist-63567",
+    "artist-46323"
+  ],
+  "defaultName": "ハングリー・ダンス",
+  "displayName": "Hungry Dance",
+  "durationSeconds": 196,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "ハングリー・ダンス / 初音ミク - シカクドット",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm37233256"
+    },
+    {
+      "kind": "original",
+      "label": "ハングリー・ダンス / 初音ミク - シカクドット",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/9wyCb-q5Zgs"
+    }
+  ],
+  "id": "song-289074",
+  "primaryImage": "https://i1.ytimg.com/vi/9wyCb-q5Zgs/hqdefault.jpg",
+  "publishDate": "2020-07-23T00:00:00Z",
+  "rawHash": "9dc31dac2e038da3f7a97906343863be788a6348ca9c9a1da84ae49451f4956f",
+  "slug": "hungry-dance--vocadb-289074",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/289074",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "tags": [
+    "rock"
+  ],
+  "title": "Hungry Dance",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/hungry-dance--vocadb-289074/",
+  "vocadbId": 289074,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2020
+}

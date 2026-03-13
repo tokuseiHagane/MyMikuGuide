@@ -1,0 +1,70 @@
+{
+  "artistLinks": [
+    {
+      "artist": {
+        "additionalNames": "マルモチ, MARUMOCHI LABEL, MARUMOCHI BOYS",
+        "artistType": "OtherGroup",
+        "deleted": false,
+        "id": 96284,
+        "name": "MARUMOCHI",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 16
+      },
+      "linkType": "Group"
+    },
+    {
+      "artist": {
+        "additionalNames": "カラーレスキャンバス",
+        "artistType": "Circle",
+        "deleted": false,
+        "id": 118006,
+        "name": "Colorless Canvas",
+        "pictureMime": "image/jpeg",
+        "status": "Finished",
+        "version": 7
+      },
+      "linkType": "Group"
+    }
+  ],
+  "artistType": "Producer",
+  "createDate": "2020-08-02T11:18:43.253",
+  "defaultName": "コミヤマリオ",
+  "defaultNameLanguage": "Japanese",
+  "description": "",
+  "id": 82714,
+  "mainPicture": {
+    "mime": "image/jpeg",
+    "urlOriginal": "https://static.vocadb.net/img/Artist/mainOrig/82714.jpg?v=6",
+    "urlSmallThumb": "https://static.vocadb.net/img/Artist/mainSmall/82714.jpg?v=6",
+    "urlThumb": "https://static.vocadb.net/img/Artist/mainThumb/82714.jpg?v=6",
+    "urlTinyThumb": "https://static.vocadb.net/img/Artist/mainTiny/82714.jpg?v=6"
+  },
+  "name": "Komiya Mario",
+  "names": [
+    {
+      "language": "Japanese",
+      "value": "コミヤマリオ"
+    },
+    {
+      "language": "Romaji",
+      "value": "Komiya Mario"
+    },
+    {
+      "language": "Unspecified",
+      "value": "こみやまりお"
+    }
+  ],
+  "pictureMime": "image/jpeg",
+  "status": "Finished",
+  "version": 6,
+  "webLinks": [
+    {
+      "category": "Official",
+      "description": "Twitter",
+      "disabled": false,
+      "id": 201773,
+      "url": "https://twitter.com/komiyamario"
+    }
+  ]
+}

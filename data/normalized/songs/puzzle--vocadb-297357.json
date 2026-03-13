@@ -1,0 +1,54 @@
+{
+  "additionalNames": [
+    "パズル"
+  ],
+  "albumIds": [
+    "album-36389"
+  ],
+  "artistIds": [
+    "artist-4744",
+    "artist-79466",
+    "artist-67750"
+  ],
+  "defaultName": "パズル",
+  "displayName": "Puzzle",
+  "durationSeconds": 320,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "パズル / AIきりたん",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm37628178"
+    },
+    {
+      "kind": "original",
+      "label": "パズル / AIきりたん",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/Gy2aS7HMLts"
+    }
+  ],
+  "id": "song-297357",
+  "primaryImage": "https://i1.ytimg.com/vi/Gy2aS7HMLts/hqdefault.jpg",
+  "publishDate": "2020-10-07T00:00:00Z",
+  "rawHash": "4d635dd1e645d20841f74673d090a5750279639ddbcaaed60cec4140c6f813ee",
+  "slug": "puzzle--vocadb-297357",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/297357",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "jigsaw puzzle"
+  ],
+  "title": "Puzzle",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/puzzle--vocadb-297357/",
+  "vocadbId": 297357,
+  "vocalistIds": [
+    "artist-79466"
+  ],
+  "year": 2020
+}

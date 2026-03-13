@@ -1,0 +1,57 @@
+{
+  "additionalNames": [
+    "粗製濫造"
+  ],
+  "albumIds": [
+    "album-30061",
+    "album-36389"
+  ],
+  "artistIds": [
+    "artist-4744",
+    "artist-60987",
+    "artist-49487",
+    "artist-142110"
+  ],
+  "defaultName": "粗製濫造",
+  "displayName": "Crude Production",
+  "durationSeconds": 226,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "粗製濫造 / 音街ウナ - シカクドット",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm39473942"
+    },
+    {
+      "kind": "original",
+      "label": "粗製濫造 / 音街ウナ - シカクドット",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/aJFum28IhTg"
+    }
+  ],
+  "id": "song-328572",
+  "primaryImage": "https://i1.ytimg.com/vi/aJFum28IhTg/hqdefault.jpg",
+  "publishDate": "2021-04-25T00:00:00Z",
+  "rawHash": "7b1ae6f069e600da003679190c5b32013d0bd0a00e66e124d69ee02fc0e1ed6f",
+  "slug": "crude-production--vocadb-328572",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/328572",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "rock",
+    "Leaping Destiny"
+  ],
+  "title": "Crude Production",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/crude-production--vocadb-328572/",
+  "vocadbId": 328572,
+  "vocalistIds": [
+    "artist-49487"
+  ],
+  "year": 2021
+}

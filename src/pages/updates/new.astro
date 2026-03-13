@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadNewEntries, loadLastRun } from "../../lib/site-data";
+
+const [entries, lastRun] = await Promise.all([loadNewEntries(), loadLastRun()]);
+---
+
+<BaseLayout title="Новые Записи | MyMikuGuide">
+  <section class="panel">
+    <h1>Новые записи</h1>
+    <p class="muted">
+      Карточки, которые впервые появились в локальном снапшоте во время последнего sync-прогона.
+    </p>
+    <p class="muted">
+      Последний sync: {lastRun.mode}, закончился {lastRun.finishedAt ? new Date(lastRun.finishedAt).toLocaleString("ru-RU") : "ещё не зафиксирован"}.
+    </p>
+  </section>
+
+  <section style="margin-top: 1rem;" class="panel">
+    <ul class="clean">
+      {entries.length === 0 ? <li class="muted">В последнем sync-прогоне новые карточки не появились.</li> : null}
+      {entries.map((entry) => (
+        <li>
+          <a href={entry.url}>{entry.displayName}</a>
+          <span class="muted">
+            {" "}· {entry.entityType} · {new Date(entry.syncedAt).toLocaleString("ru-RU")}
+            {typeof entry.upstreamVersion === "number" ? ` · upstream v${entry.upstreamVersion}` : ""}
+          </span>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

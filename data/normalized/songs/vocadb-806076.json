@@ -1,0 +1,43 @@
+{
+  "additionalNames": [],
+  "albumIds": [],
+  "artistIds": [
+    "artist-163083",
+    "artist-1",
+    "artist-77117"
+  ],
+  "defaultName": " ",
+  "displayName": " ",
+  "durationSeconds": 18,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "/初音ミク(short ver.)",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/BXpmAllA0oU"
+    }
+  ],
+  "id": "song-806076",
+  "primaryImage": "https://i1.ytimg.com/vi/BXpmAllA0oU/hqdefault.jpg",
+  "publishDate": "2024-09-13T00:00:00Z",
+  "rawHash": "abe2af9e89c429f85dd66d4353903058798ab9a21c9e4b250cbcbf2b9b7649f7",
+  "slug": "vocadb-806076",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/806076",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "untitled"
+  ],
+  "title": " ",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/vocadb-806076/",
+  "vocadbId": 806076,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2024
+}

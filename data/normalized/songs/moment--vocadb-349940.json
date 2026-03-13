@@ -1,0 +1,60 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-45720"
+  ],
+  "artistIds": [
+    "artist-57535",
+    "artist-14",
+    "artist-NaN"
+  ],
+  "defaultName": "MOMENT",
+  "displayName": "MOMENT",
+  "durationSeconds": 183,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "鏡音リン - MOMENT",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm39252462"
+    },
+    {
+      "kind": "original",
+      "label": "鏡音リン - MOMENT",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/t8MUfdG18C8"
+    },
+    {
+      "kind": "original",
+      "label": "MOMENT",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/1-SfwJbSSo0"
+    }
+  ],
+  "id": "song-349940",
+  "primaryImage": "https://i1.ytimg.com/vi/t8MUfdG18C8/hqdefault.jpg",
+  "publishDate": "2021-06-26T00:00:00Z",
+  "rawHash": "d0afaf22e476e395d3f0f1e43a1d664e5dfe121c908dbc98316a951f181f9aad",
+  "slug": "moment--vocadb-349940",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/349940",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:06:28.923Z",
+  "tags": [
+    "night",
+    "rock"
+  ],
+  "title": "MOMENT",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/moment--vocadb-349940/",
+  "vocadbId": 349940,
+  "vocalistIds": [
+    "artist-14"
+  ],
+  "year": 2021
+}

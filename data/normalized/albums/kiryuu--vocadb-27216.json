@@ -1,0 +1,95 @@
+{
+  "additionalNames": [
+    "気流"
+  ],
+  "albumType": "Album",
+  "artistIds": [
+    "artist-75362",
+    "artist-1",
+    "artist-3",
+    "artist-80008",
+    "artist-80009",
+    "artist-80011",
+    "artist-80010"
+  ],
+  "catalogNumber": null,
+  "defaultName": "気流",
+  "displayName": "Kiryuu",
+  "entityType": "album",
+  "externalLinks": [
+    {
+      "kind": "commercial",
+      "label": "Booth",
+      "official": true,
+      "service": "booth.pm",
+      "url": "https://booth.pm/en/items/1757983"
+    }
+  ],
+  "id": "album-27216",
+  "primaryImage": "https://static.vocadb.net/img/Album/mainOrig/27216.jpg?v=9",
+  "rawHash": "b36ffd12fe77223551fc7798dba4958b037586b2a2a462a78cd7cffe5ddf536e",
+  "releaseDate": "2019-08-12T00:00:00.000Z",
+  "slug": "kiryuu--vocadb-27216",
+  "songIds": [
+    "song-252549",
+    "song-252550",
+    "song-252551",
+    "song-252552",
+    "song-252553",
+    "song-252554",
+    "song-252555"
+  ],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Al/27216",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:16:23.869Z",
+  "title": "Kiryuu",
+  "tracks": [
+    {
+      "discNumber": 1,
+      "name": "UPDRAFT",
+      "songId": "song-252549",
+      "trackNumber": 1
+    },
+    {
+      "discNumber": 1,
+      "name": "Laria",
+      "songId": "song-252550",
+      "trackNumber": 2
+    },
+    {
+      "discNumber": 1,
+      "name": "Oto ga Kikoenai no",
+      "songId": "song-252551",
+      "trackNumber": 3
+    },
+    {
+      "discNumber": 1,
+      "name": "Kaikou Synthese",
+      "songId": "song-252552",
+      "trackNumber": 4
+    },
+    {
+      "discNumber": 1,
+      "name": "⠀  ",
+      "songId": "song-252553",
+      "trackNumber": 5
+    },
+    {
+      "discNumber": 1,
+      "name": "apoptosis",
+      "songId": "song-252554",
+      "trackNumber": 6
+    },
+    {
+      "discNumber": 1,
+      "name": "Inanaki",
+      "songId": "song-252555",
+      "trackNumber": 7
+    }
+  ],
+  "upstreamUpdatedAt": null,
+  "url": "/albums/kiryuu--vocadb-27216/",
+  "vocadbId": 27216,
+  "year": 2019
+}

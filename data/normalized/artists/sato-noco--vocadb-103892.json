@@ -1,0 +1,59 @@
+{
+  "additionalNames": [
+    "佐藤乃子",
+    "Satou Noko",
+    "n_nc310"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "佐藤乃子",
+  "descriptionShort": "",
+  "displayName": "Sato Noco",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCuGEddhCHvwUUdzUwkOFZiQ"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "https://www.nicovideo.jp/user/124600985"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/n_nc310"
+    },
+    {
+      "kind": "official",
+      "label": "SoundCloud",
+      "official": true,
+      "service": "soundcloud.com",
+      "url": "https://soundcloud.com/3-233612396"
+    }
+  ],
+  "groups": [],
+  "id": "artist-103892",
+  "name": "Sato Noco",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/103892.jpg?v=11",
+  "rawHash": "ce388521ae161be4f232bb8e7cbc5a479f34a7326c63486b04858bbff094ac26",
+  "relatedArtistIds": [],
+  "slug": "sato-noco--vocadb-103892",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/103892",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/sato-noco--vocadb-103892/",
+  "vocadbId": 103892,
+  "voicebanks": []
+}

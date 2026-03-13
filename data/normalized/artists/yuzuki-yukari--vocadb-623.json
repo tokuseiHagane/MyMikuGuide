@@ -1,0 +1,85 @@
+{
+  "additionalNames": [
+    "結月ゆかり"
+  ],
+  "albumIds": [],
+  "artistType": "Vocaloid",
+  "defaultName": "結月ゆかり",
+  "descriptionShort": "Yuzuki Yukari is the first voicebank developed for VOCALOID3 by AH-Software and VOCALOMAKETS. She is the first Vocaloid to also have a Voiceroid component, able to synthesize speech as well as singing; her voicebank is aimed at producers rather than at the general Vocaloid fandom",
+  "displayName": "Yuzuki Yukari",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.wikia.com",
+      "url": "http://vocaloid.wikia.com/wiki/Yuzuki_Yukari"
+    },
+    {
+      "kind": "official",
+      "label": "VOCALOMAKETS Official Website",
+      "official": true,
+      "service": "vocalomakets.com",
+      "url": "http://www.vocalomakets.com/"
+    },
+    {
+      "kind": "official",
+      "label": "AHS Official Product Page",
+      "official": true,
+      "service": "ah-soft.com",
+      "url": "http://www.ah-soft.com/vocaloid/yukari_v3/index.html"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/19325.html"
+    },
+    {
+      "kind": "official",
+      "label": "Trial Link (AHS)",
+      "official": true,
+      "service": "ah-soft.com",
+      "url": "http://www.ah-soft.com/trial/vocaloid_yukari.html"
+    },
+    {
+      "kind": "official",
+      "label": "AHS Official Product Page (Voiceroid)",
+      "official": true,
+      "service": "ah-soft.com",
+      "url": "http://www.ah-soft.com/voiceroid/yukari/index.html"
+    }
+  ],
+  "groups": [
+    "artist-192",
+    "artist-1639",
+    "artist-157",
+    "artist-96652"
+  ],
+  "id": "artist-623",
+  "name": "Yuzuki Yukari",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/623.png?v=40",
+  "rawHash": "0096feff1746004c10a52a223f7cae5f50998228e0febbe162ac3d8363fe2c05",
+  "relatedArtistIds": [
+    "artist-192",
+    "artist-17204",
+    "artist-53358",
+    "artist-1639",
+    "artist-157",
+    "artist-96652"
+  ],
+  "slug": "yuzuki-yukari--vocadb-623",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/623",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/yuzuki-yukari--vocadb-623/",
+  "vocadbId": 623,
+  "voicebanks": [
+    "artist-53358"
+  ]
+}

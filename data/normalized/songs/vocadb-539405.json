@@ -1,0 +1,45 @@
+{
+  "additionalNames": [],
+  "albumIds": [],
+  "artistIds": [
+    "artist-102079",
+    "artist-1"
+  ],
+  "defaultName": "‍",
+  "displayName": "‍",
+  "durationSeconds": 178,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "‍",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/SAR0ZnLiPWI"
+    }
+  ],
+  "id": "song-539405",
+  "primaryImage": "https://i1.ytimg.com/vi/SAR0ZnLiPWI/hqdefault.jpg",
+  "publishDate": "2023-10-23T00:00:00Z",
+  "rawHash": "66f976a242e504bcc92cea9b587e859cc838bb7914a5fa6d8b6c2ca3f6776ac2",
+  "slug": "vocadb-539405",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/539405",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:16:23.869Z",
+  "tags": [
+    "pixel art",
+    "witch",
+    "untitled",
+    "unconfirmed vocalists"
+  ],
+  "title": "‍",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/vocadb-539405/",
+  "vocadbId": 539405,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2023
+}

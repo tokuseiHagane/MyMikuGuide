@@ -1,0 +1,57 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-36389"
+  ],
+  "artistIds": [
+    "artist-4744",
+    "artist-78070",
+    "artist-78080",
+    "artist-49487",
+    "artist-49486"
+  ],
+  "defaultName": "check! check! check!",
+  "displayName": "check! check! check!",
+  "durationSeconds": 247,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "[ウナオリジナル曲]  check! check! check!  [シカクドット]",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm36046560"
+    },
+    {
+      "kind": "original",
+      "label": "[ウナオリジナル曲] check! check! check! [シカクドット]",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/OW7ogkkhCJk"
+    }
+  ],
+  "id": "song-264091",
+  "primaryImage": "https://i1.ytimg.com/vi/OW7ogkkhCJk/hqdefault.jpg",
+  "publishDate": "2019-12-12T00:00:00Z",
+  "rawHash": "ca5ee7872a19457406921e412d29fa583deb6af7ced96a19d92cda4c2ba9e0e3",
+  "slug": "check-check-check--vocadb-264091",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/264091",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "cute",
+    "jazz",
+    "unconfirmed vocalists"
+  ],
+  "title": "check! check! check!",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/check-check-check--vocadb-264091/",
+  "vocadbId": 264091,
+  "vocalistIds": [
+    "artist-49487",
+    "artist-49486"
+  ],
+  "year": 2019
+}

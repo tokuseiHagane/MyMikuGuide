@@ -1,0 +1,56 @@
+{
+  "additionalNames": [
+    "Kawaii☆オーバードーズ"
+  ],
+  "albumIds": [
+    "album-29034",
+    "album-36389"
+  ],
+  "artistIds": [
+    "artist-4744",
+    "artist-49701"
+  ],
+  "defaultName": "Kawaii☆オーバードーズ",
+  "displayName": "Kawaii Overdose",
+  "durationSeconds": 214,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "Kawaii☆オーバードーズ feat.音街ウナ",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/j829m13yFns"
+    },
+    {
+      "kind": "original",
+      "label": "Kawaii☆オーバードーズ / 音街ウナ - シカクドット",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm37942584"
+    }
+  ],
+  "id": "song-299572",
+  "primaryImage": "https://i1.ytimg.com/vi/j829m13yFns/hqdefault.jpg",
+  "publishDate": "2020-10-21T00:00:00Z",
+  "rawHash": "508bd75e9bd1d446bd75fe69d8fa776100c8a5f8beaa5261f76acfbe58764694",
+  "slug": "kawaii-overdose--vocadb-299572",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/299572",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "cute",
+    "good tuning",
+    "YouTube Premium"
+  ],
+  "title": "Kawaii Overdose",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/kawaii-overdose--vocadb-299572/",
+  "vocadbId": 299572,
+  "vocalistIds": [
+    "artist-49701"
+  ],
+  "year": 2020
+}

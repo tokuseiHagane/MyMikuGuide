@@ -1,0 +1,234 @@
+{
+  "additionalNames": [
+    "ピノキオピー",
+    "ピノキオP",
+    "工藤大発見",
+    "DAIHAKKEN",
+    "Kudou Daihakken",
+    "匹诺曹P",
+    "피노키오피"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "ピノキオピー",
+  "descriptionShort": "A Vocaloid producer known for the fast paced and unique lyrics in his songs and his unique characters such as [Aimaina-chan](https://vocadb.net/T/8644/aimaina-chan) and [Doushite-chan](https://vocadb.net/T/8643/doushite-chan).\nHis producer name comes from his first song [Hummed S",
+  "displayName": "PinocchioP",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "http://www5.atwiki.jp/hmiku/pages/4671.html"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/11284855"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList (collabs)",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/14716117"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/pinokiop"
+    },
+    {
+      "kind": "commercial",
+      "label": "KARENT",
+      "official": true,
+      "service": "karent.jp",
+      "url": "http://karent.jp/artist/pp000236"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/pinocchiop"
+    },
+    {
+      "kind": "official",
+      "label": "Pixiv",
+      "official": true,
+      "service": "pixiv.net",
+      "url": "http://www.pixiv.net/member.php?id=1746464"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/865591"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/1525"
+    },
+    {
+      "kind": "official",
+      "label": "Facebook",
+      "official": true,
+      "service": "facebook.com",
+      "url": "https://www.facebook.com/pinocchiop.official"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/a/%E3%83%94%E3%83%8E%E3%82%AD%E3%82%AAP"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.wikia.com",
+      "url": "http://vocaloid.wikia.com/wiki/Pinocchio-P"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": true,
+      "service": "pinocchiop.com",
+      "url": "http://pinocchiop.com/"
+    },
+    {
+      "kind": "commercial",
+      "label": "BOOTH",
+      "official": true,
+      "service": "pinocchiop.booth.pm",
+      "url": "https://pinocchiop.booth.pm/"
+    },
+    {
+      "kind": "official",
+      "label": "Bilibili",
+      "official": true,
+      "service": "space.bilibili.com",
+      "url": "https://space.bilibili.com/203655966/#!/"
+    },
+    {
+      "kind": "official",
+      "label": "Weibo",
+      "official": true,
+      "service": "weibo.com",
+      "url": "http://weibo.com/u/6356534323"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "play.spotify.com",
+      "url": "https://play.spotify.com/artist/3b7jPCedJ2VH4l4rcOTvNC"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel (Alt URL)",
+      "official": true,
+      "service": "youtube.com",
+      "url": "http://www.youtube.com/user/pinocchiopchannel"
+    },
+    {
+      "kind": "official",
+      "label": "Instagram",
+      "official": true,
+      "service": "instagram.com",
+      "url": "https://www.instagram.com/pinocchiop_official/"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel [DAIHAKKEN]",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCA-uf3L3crYzMsSbqRRLMwg"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter [DAIHAKKEN]",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/KudoDaihakken"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCMMBGMjrrWcRZmG_lW4jC-Q"
+    },
+    {
+      "kind": "commercial",
+      "label": "Bandcamp",
+      "official": true,
+      "service": "pinocchiop.bandcamp.com",
+      "url": "https://pinocchiop.bandcamp.com/"
+    },
+    {
+      "kind": "commercial",
+      "label": "TuneCore Japan",
+      "official": true,
+      "service": "tunecore.co.jp",
+      "url": "https://www.tunecore.co.jp/artists/pinocchiop"
+    },
+    {
+      "kind": "reference",
+      "label": "Wikipedia (CH)",
+      "official": true,
+      "service": "zh.m.wikipedia.org",
+      "url": "https://zh.m.wikipedia.org/zh-hans/%E5%8C%B9%E8%AF%BA%E6%9B%B9P"
+    },
+    {
+      "kind": "official",
+      "label": "Bluesky",
+      "official": true,
+      "service": "bsky.app",
+      "url": "https://bsky.app/profile/pinocchiop.bsky.social"
+    },
+    {
+      "kind": "official",
+      "label": "SoundCloud",
+      "official": true,
+      "service": "soundcloud.com",
+      "url": "https://soundcloud.com/pinocchiop-music"
+    }
+  ],
+  "groups": [
+    "artist-15888",
+    "artist-276",
+    "artist-9456",
+    "artist-393"
+  ],
+  "id": "artist-28",
+  "name": "PinocchioP",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/28.jpg?v=38",
+  "rawHash": "3d9efcdcbf566d8a57649781c3e2a67a26d873821d3f1ae85f2f3913d87ddde7",
+  "relatedArtistIds": [
+    "artist-15888",
+    "artist-276",
+    "artist-9456",
+    "artist-393"
+  ],
+  "slug": "pinocchiop--vocadb-28",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/28",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/pinocchiop--vocadb-28/",
+  "vocadbId": 28,
+  "voicebanks": []
+}

@@ -1,0 +1,58 @@
+{
+  "additionalNames": [],
+  "albumIds": [],
+  "artistIds": [
+    "artist-90082",
+    "artist-1"
+  ],
+  "defaultName": "ꟙ",
+  "displayName": "ꟙ",
+  "durationSeconds": 62,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "ꟙ - 初音ミク / NEMUMI.jp?",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm41707057"
+    },
+    {
+      "kind": "original",
+      "label": "ꟙ   / 初音ミク 【 ボカロ オリジナル曲 】  Music Video",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/E1GBQBL2hd4"
+    },
+    {
+      "kind": "original",
+      "label": "ꟙ - 初音ミク / NEMUMI.jp?",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm41734111"
+    }
+  ],
+  "id": "song-472021",
+  "primaryImage": "https://i1.ytimg.com/vi/E1GBQBL2hd4/hqdefault.jpg",
+  "publishDate": "2023-01-27T00:00:00Z",
+  "rawHash": "19a57bdb23f2580663db51da2ab4f2cc968e2f6437b4eb04d5e7f5ec635f94b6",
+  "slug": "vocadb-472021",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/472021",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:16:23.869Z",
+  "tags": [
+    "AI generated art",
+    "unusual title",
+    "NovelAI (AI art)"
+  ],
+  "title": "ꟙ",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/vocadb-472021/",
+  "vocadbId": 472021,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2023
+}

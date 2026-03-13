@@ -1,0 +1,173 @@
+{
+  "additionalNames": [
+    "極悪P",
+    "GokuakuP",
+    "EvilP",
+    "まれつ",
+    "maruetsu"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "MARETU",
+  "descriptionShort": "",
+  "displayName": "MARETU",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/15918028"
+    },
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/17912525"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/maretu"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCmj0YkPwo47bPoBt9ma-bxg"
+    },
+    {
+      "kind": "official",
+      "label": "SoundCloud",
+      "official": true,
+      "service": "soundcloud.com",
+      "url": "https://soundcloud.com/maretu"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/maretu01"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "http://utaitedb.net/Ar/1737"
+    },
+    {
+      "kind": "reference",
+      "label": "Vocaloid Wiki",
+      "official": true,
+      "service": "vocaloid.wikia.com",
+      "url": "http://vocaloid.wikia.com/wiki/MARETU"
+    },
+    {
+      "kind": "commercial",
+      "label": "Spotify",
+      "official": true,
+      "service": "play.spotify.com",
+      "url": "https://play.spotify.com/artist/7p1fL0cAuCPDMG6oBswFhM"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "https://www5.atwiki.jp/hmiku/pages/15962.html"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": false,
+      "service": "maretu.com",
+      "url": "http://maretu.com"
+    },
+    {
+      "kind": "reference",
+      "label": "NicoNicoPedia",
+      "official": true,
+      "service": "dic.nicovideo.jp",
+      "url": "http://dic.nicovideo.jp/a/maretu"
+    },
+    {
+      "kind": "commercial",
+      "label": "iTunes (JP)",
+      "official": true,
+      "service": "music.apple.com",
+      "url": "https://music.apple.com/jp/artist/maretu/728269668"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": true,
+      "service": "maretu01.wixsite.com",
+      "url": "https://maretu01.wixsite.com/mrtclb"
+    },
+    {
+      "kind": "commercial",
+      "label": "TuneCore Japan",
+      "official": true,
+      "service": "tunecore.co.jp",
+      "url": "https://www.tunecore.co.jp/artists/maretu01"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel (2nd Channel)",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCEC9b1kQjWDiTqaaDPG3bpg"
+    },
+    {
+      "kind": "official",
+      "label": "Instagram",
+      "official": true,
+      "service": "instagram.com",
+      "url": "https://www.instagram.com/maretu01/"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter (alt)",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/maretu00"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel (Topic)",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCLSqAlcWmR3FcxqBlM8f4sQ"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": false,
+      "service": "music.geocities.jp",
+      "url": "http://music.geocities.jp/maretu0120/"
+    }
+  ],
+  "groups": [],
+  "id": "artist-1665",
+  "name": "MARETU",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/1665.png?v=34",
+  "rawHash": "ba0d2d7d6e949e77debac03338e46551d933f2a423819f75cf3b8a919ce6396c",
+  "relatedArtistIds": [],
+  "slug": "maretu--vocadb-1665",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/1665",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/maretu--vocadb-1665/",
+  "vocadbId": 1665,
+  "voicebanks": []
+}

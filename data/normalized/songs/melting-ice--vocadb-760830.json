@@ -1,0 +1,64 @@
+{
+  "additionalNames": [
+    "薄氷"
+  ],
+  "albumIds": [
+    "album-45720"
+  ],
+  "artistIds": [
+    "artist-57535",
+    "artist-1",
+    "artist-66168"
+  ],
+  "defaultName": "薄氷",
+  "displayName": "melting ice",
+  "durationSeconds": 258,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "初音ミク オリジナル曲『薄氷』/”melting ice\" feat.Hatsune Miku",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/RDoRMn-CiaU"
+    },
+    {
+      "kind": "original",
+      "label": "初音ミク オリジナル曲『薄氷』",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm37785518"
+    },
+    {
+      "kind": "original",
+      "label": "薄氷",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/rY5xlP8CbtE"
+    }
+  ],
+  "id": "song-760830",
+  "primaryImage": "https://i1.ytimg.com/vi/RDoRMn-CiaU/hqdefault.jpg",
+  "publishDate": "2020-11-07T00:00:00Z",
+  "rawHash": "03339e0b634caa4c07f144c7a7d648e0ac66fd9bd3b77ef550db7ab4b5a90093",
+  "slug": "melting-ice--vocadb-760830",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/760830",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:06:28.923Z",
+  "tags": [
+    "cute",
+    "refreshing",
+    "rock",
+    "winter"
+  ],
+  "title": "melting ice",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/melting-ice--vocadb-760830/",
+  "vocadbId": 760830,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2020
+}

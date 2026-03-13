@@ -1,0 +1,41 @@
+{
+  "rootArtistIds": [1],
+  "maxDepth": 2,
+  "maxNewEntitiesPerRun": 30,
+  "allowedEntityTypes": ["artist", "song", "album"],
+  "expandRelatedDiscographies": true,
+  "concurrency": 3,
+  "probeTimeoutMs": 12000,
+  "fetchTimeoutMs": 30000,
+  "idLookupTimeoutMs": 15000,
+  "rootArtistDiscographyLimit": 8,
+  "relatedArtistDiscographyLimit": 4,
+  "retryFailedOnIncremental": true,
+  "storeRaw": false,
+  "modes": {
+    "bootstrap": {
+      "maxNewEntitiesPerRun": 30,
+      "concurrency": 2,
+      "rootArtistDiscographyLimit": 8,
+      "relatedArtistDiscographyLimit": 4
+    },
+    "incremental": {
+      "maxNewEntitiesPerRun": 12,
+      "concurrency": 3,
+      "probeTimeoutMs": 10000,
+      "fetchTimeoutMs": 20000,
+      "idLookupTimeoutMs": 12000,
+      "rootArtistDiscographyLimit": 4,
+      "relatedArtistDiscographyLimit": 2
+    },
+    "full": {
+      "maxNewEntitiesPerRun": 80,
+      "concurrency": 4,
+      "probeTimeoutMs": 15000,
+      "fetchTimeoutMs": 35000,
+      "idLookupTimeoutMs": 20000,
+      "rootArtistDiscographyLimit": 16,
+      "relatedArtistDiscographyLimit": 8
+    }
+  }
+}

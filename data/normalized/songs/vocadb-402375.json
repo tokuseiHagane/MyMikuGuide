@@ -1,0 +1,58 @@
+{
+  "additionalNames": [],
+  "albumIds": [
+    "album-33290",
+    "album-36389"
+  ],
+  "artistIds": [
+    "artist-4744",
+    "artist-112",
+    "artist-100524",
+    "artist-65451",
+    "artist-49486",
+    "artist-49487"
+  ],
+  "defaultName": "シンガロング",
+  "displayName": "シンガロング",
+  "durationSeconds": 258,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "シンガロング / 音街ウナ",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm40367863"
+    },
+    {
+      "kind": "original",
+      "label": "シンガロング / 音街ウナ",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/QjZkeT6PSPI"
+    }
+  ],
+  "id": "song-402375",
+  "primaryImage": "https://i1.ytimg.com/vi/QjZkeT6PSPI/hqdefault.jpg",
+  "publishDate": "2022-04-24T00:00:00Z",
+  "rawHash": "80cb16b56ec520e1aaf796960009cd653ea1531796a770d0019a023535a68700",
+  "slug": "vocadb-402375",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/402375",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:03:27.965Z",
+  "tags": [
+    "rock",
+    "duet"
+  ],
+  "title": "シンガロング",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/vocadb-402375/",
+  "vocadbId": 402375,
+  "vocalistIds": [
+    "artist-49486",
+    "artist-49487"
+  ],
+  "year": 2022
+}

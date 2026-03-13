@@ -1,0 +1,59 @@
+{
+  "additionalNames": [
+    "はやて"
+  ],
+  "albumIds": [
+    "album-45721"
+  ],
+  "artistIds": [
+    "artist-57535",
+    "artist-1",
+    "artist-72357"
+  ],
+  "defaultName": "はやて",
+  "displayName": "Hayate",
+  "durationSeconds": 156,
+  "entityType": "song",
+  "externalLinks": [
+    {
+      "kind": "original",
+      "label": "【Lyric Video】初音ミク - はやて",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/MLCpSbqEA58"
+    },
+    {
+      "kind": "original",
+      "label": "【Lyric Video】初音ミク - はやて",
+      "official": true,
+      "service": "niconicodouga",
+      "url": "http://www.nicovideo.jp/watch/sm43437056"
+    },
+    {
+      "kind": "original",
+      "label": "はやて",
+      "official": true,
+      "service": "youtube",
+      "url": "https://youtu.be/8YWV857DAIc"
+    }
+  ],
+  "id": "song-591129",
+  "primaryImage": "https://i1.ytimg.com/vi/MLCpSbqEA58/hqdefault.jpg",
+  "publishDate": "2024-02-18T00:00:00Z",
+  "rawHash": "06234a1442ce0b8c3ac7af61e8f50ca5fc04906b6187df8d016ef41e07c11321",
+  "slug": "hayate--vocadb-591129",
+  "songType": "Original",
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/S/591129",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:06:28.923Z",
+  "tags": [],
+  "title": "Hayate",
+  "upstreamUpdatedAt": null,
+  "url": "/songs/hayate--vocadb-591129/",
+  "vocadbId": 591129,
+  "vocalistIds": [
+    "artist-1"
+  ],
+  "year": 2024
+}

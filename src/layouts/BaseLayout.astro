@@ -1,0 +1,118 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Автообновляемый статический гид по Hatsune Miku и связанным сущностям из VocaDB." } = Astro.props;
+---
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0f172a;
+        --panel: #111827;
+        --panel-border: #1f2937;
+        --text: #e5e7eb;
+        --muted: #94a3b8;
+        --accent: #2dd4bf;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+        background: linear-gradient(180deg, #020617, var(--bg));
+        color: var(--text);
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      header, main, footer {
+        width: min(1100px, calc(100% - 2rem));
+        margin: 0 auto;
+      }
+
+      header {
+        padding: 2rem 0 1rem;
+      }
+
+      nav {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+      }
+
+      main {
+        padding: 1rem 0 3rem;
+      }
+
+      footer {
+        color: var(--muted);
+        padding: 0 0 3rem;
+      }
+
+      .panel {
+        background: rgba(17, 24, 39, 0.9);
+        border: 1px solid var(--panel-border);
+        border-radius: 16px;
+        padding: 1rem 1.25rem;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1rem;
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      h1, h2, h3 {
+        line-height: 1.15;
+      }
+
+      ul.clean {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      ul.clean li + li {
+        margin-top: 0.75rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/"><strong>MyMikuGuide</strong></a>
+      <nav>
+        <a href="/artists/">Артисты</a>
+        <a href="/songs/">Песни</a>
+        <a href="/albums/">Альбомы</a>
+        <a href="/updates/">Обновления</a>
+        <a href="/legacy/">Архив</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <p>Данные синхронизируются из VocaDB и публикуются как статический сайт без выделенного сервера.</p>
+    </footer>
+  </body>
+</html>

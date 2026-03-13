@@ -1,0 +1,150 @@
+{
+  "additionalNames": [
+    "タケノコ少年",
+    "Takenoko Shounen",
+    "Bamboo Shoot Boy",
+    "Takenoko Shonen"
+  ],
+  "albumIds": [],
+  "artistType": "Producer",
+  "defaultName": "タケノコ少年",
+  "descriptionShort": "",
+  "displayName": "Takenoko Boy",
+  "entityType": "artist",
+  "externalLinks": [
+    {
+      "kind": "official",
+      "label": "NND MyList",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/mylist/49343318"
+    },
+    {
+      "kind": "official",
+      "label": "NND Account",
+      "official": true,
+      "service": "nicovideo.jp",
+      "url": "http://www.nicovideo.jp/user/18698284"
+    },
+    {
+      "kind": "official",
+      "label": "Twitter",
+      "official": true,
+      "service": "twitter.com",
+      "url": "https://twitter.com/TA_MOR_I"
+    },
+    {
+      "kind": "official",
+      "label": "Piapro",
+      "official": true,
+      "service": "piapro.jp",
+      "url": "http://piapro.jp/syounen_takenoko"
+    },
+    {
+      "kind": "commercial",
+      "label": "BOOTH",
+      "official": true,
+      "service": "takenoko-shounen.booth.pm",
+      "url": "https://takenoko-shounen.booth.pm/"
+    },
+    {
+      "kind": "official",
+      "label": "Blomaga",
+      "official": false,
+      "service": "ch.nicovideo.jp",
+      "url": "http://ch.nicovideo.jp/takenokobayashi"
+    },
+    {
+      "kind": "official",
+      "label": "Website",
+      "official": false,
+      "service": "takenokoboycontact.wixsite.com",
+      "url": "https://takenokoboycontact.wixsite.com/takenoko"
+    },
+    {
+      "kind": "reference",
+      "label": "MikuWiki",
+      "official": true,
+      "service": "www5.atwiki.jp",
+      "url": "https://www5.atwiki.jp/hmiku/pages/36754.html"
+    },
+    {
+      "kind": "official",
+      "label": "Bilibili",
+      "official": true,
+      "service": "space.bilibili.com",
+      "url": "https://space.bilibili.com/435690228"
+    },
+    {
+      "kind": "commercial",
+      "label": "VOCALOTRACKS",
+      "official": true,
+      "service": "vocalotracks.ssw.co.jp",
+      "url": "https://vocalotracks.ssw.co.jp/artist_item.asp?tno=1519"
+    },
+    {
+      "kind": "commercial",
+      "label": "KARENT",
+      "official": true,
+      "service": "karent.jp",
+      "url": "https://karent.jp/artist/pp000910"
+    },
+    {
+      "kind": "official",
+      "label": "pixiv fanbox",
+      "official": true,
+      "service": "takenokoboy.fanbox.cc",
+      "url": "https://takenokoboy.fanbox.cc/"
+    },
+    {
+      "kind": "official",
+      "label": "SoundCloud",
+      "official": true,
+      "service": "soundcloud.com",
+      "url": "https://soundcloud.com/shounen_takenoko"
+    },
+    {
+      "kind": "reference",
+      "label": "UtaiteDB",
+      "official": true,
+      "service": "utaitedb.net",
+      "url": "https://utaitedb.net/Ar/28110"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/channel/UCmJ4De_H9aSnDDxGKcrpwCw"
+    },
+    {
+      "kind": "official",
+      "label": "YouTube Channel (Custom - user)",
+      "official": true,
+      "service": "youtube.com",
+      "url": "https://www.youtube.com/user/take3251997"
+    }
+  ],
+  "groups": [
+    "artist-18463",
+    "artist-276"
+  ],
+  "id": "artist-46466",
+  "name": "Takenoko Boy",
+  "primaryImage": "https://static.vocadb.net/img/Artist/mainOrig/46466.jpg?v=22",
+  "rawHash": "98f9ab49a0630146abbfa9df1f430786267c06648cd742ad0d7d0e7314e97d7d",
+  "relatedArtistIds": [
+    "artist-18463",
+    "artist-276"
+  ],
+  "slug": "takenoko-boy--vocadb-46466",
+  "songIds": [],
+  "source": "vocadb",
+  "sourceUrl": "https://vocadb.net/Ar/46466",
+  "status": "active",
+  "syncedAt": "2026-03-13T22:00:29.437Z",
+  "upstreamUpdatedAt": null,
+  "url": "/artists/takenoko-boy--vocadb-46466/",
+  "vocadbId": 46466,
+  "voicebanks": []
+}
