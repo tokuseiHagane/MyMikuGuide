@@ -3,7 +3,7 @@ import cliProgress from "cli-progress";
 import { randomUUID } from "node:crypto";
 import { performance } from "node:perf_hooks";
 import { brotliCompressSync, brotliDecompressSync, constants as zlibConstants } from "node:zlib";
-import { readFile, rm, writeFile } from "node:fs/promises";
+import { readdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { hashJson, stableStringify } from "../../src/lib/json";
 import { detailShellPath } from "../../src/lib/entity-paths";
@@ -2557,8 +2557,29 @@ async function main() {
       }
     }
 
+    const derivedSummaryEmpty =
+      fullSyncCompleted &&
+      (await readdir(path.join(derivedRoot, "summary", "artists")).catch(() => [])).length === 0 &&
+      (await syncStore.hasAnyEntities());
+    if (derivedSummaryEmpty && changedEntities.length === 0) {
+      console.log(`${timestampPrefix()} derived summary missing but DB has data — forcing full derive`);
+      for (const entityType of CATALOG_ENTITY_ORDER) {
+        const rows = await syncStore.listChangedEntitiesSince(entityType, "1970-01-01T00:00:00Z");
+        for (const row of rows) {
+          changedEntities.push({
+            entityType,
+            entityId: row.entity_id,
+            displayName: row.display_name,
+            previousDisplayName: null,
+            slug: row.slug,
+            previousSlug: null,
+            isNew: false,
+          });
+        }
+      }
+    }
     const shouldBuildDerived =
-      fullSyncCompleted && (mode === "derive" ? changedEntities.length > 0 : stats.normalizedUpdated > 0);
+      fullSyncCompleted && (mode === "derive" ? changedEntities.length > 0 : (stats.normalizedUpdated > 0 || derivedSummaryEmpty));
     const derivedSnapshot = shouldBuildDerived ? await buildDerived(changedEntities) : null;
     const sortedNewEntries =
       derivedSnapshot === null
