@@ -1044,20 +1044,32 @@ async function fetchProbeMeta(item: QueueItem) {
 
 async function getRawForItem(item: QueueItem) {
   const stored = runtimeConfig.storeRaw ? await readStoredRaw(item.entityType, item.vocadbId) : null;
-  const knownVersion = stored?.version ?? item.knownVersion ?? null;
+  const knownVersion = stored?.version ?? item.knownVersion ?? syncStore.getKnownVersion(item.entityType, item.vocadbId);
 
-  if (knownVersion !== null && stored?.payload) {
-    const probe = await fetchProbeMeta(item);
-    if (typeof probe.version === "number" && probe.version === knownVersion) {
-      stats.probeHits += 1;
-      if (!stored.isCompressed && runtimeConfig.storeRaw) {
-        await writeCompressedRawIfChanged(item.entityType, item.vocadbId, stored.payload, new Date().toISOString());
+  if (knownVersion !== null) {
+    if (stored?.payload) {
+      const probe = await fetchProbeMeta(item);
+      if (typeof probe.version === "number" && probe.version === knownVersion) {
+        stats.probeHits += 1;
+        if (!stored.isCompressed && runtimeConfig.storeRaw) {
+          await writeCompressedRawIfChanged(item.entityType, item.vocadbId, stored.payload, new Date().toISOString());
+        }
+        return {
+          raw: stored.payload,
+          changed: false,
+          upstreamVersion: probe.version,
+        };
       }
-      return {
-        raw: stored.payload,
-        changed: false,
-        upstreamVersion: probe.version,
-      };
+    } else if (!item.forcePersist) {
+      const probe = await fetchProbeMeta(item);
+      if (typeof probe.version === "number" && probe.version === knownVersion) {
+        stats.probeHits += 1;
+        return {
+          raw: null as unknown as Record<string, unknown>,
+          changed: false,
+          upstreamVersion: probe.version,
+        };
+      }
     }
   }
 

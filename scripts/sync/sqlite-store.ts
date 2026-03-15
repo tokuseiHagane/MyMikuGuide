@@ -827,6 +827,16 @@ export class SqliteSyncStore implements NormalizedStore, MetaStore {
     }));
   }
 
+  getKnownVersion(entityType: EntityType, vocadbId: number): number | null {
+    const table = entityTable(entityType);
+    const row = this.db
+      .prepare<[number], KnownRow | undefined>(
+        `SELECT vocadb_id, upstream_version FROM ${table} WHERE vocadb_id = ? LIMIT 1`,
+      )
+      .get(vocadbId);
+    return row?.upstream_version ?? null;
+  }
+
   async getKnownVersions(entityType: EntityType, vocadbIds: number[]): Promise<Map<number, number | null>> {
     if (vocadbIds.length === 0) {
       return new Map();
