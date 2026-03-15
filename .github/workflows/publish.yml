@@ -60,8 +60,35 @@ jobs:
           run-id: ${{ steps.snapshot.outputs.run_id }}
           github-token: ${{ github.token }}
 
+      - name: Bootstrap data from release (frontend-only rebuild)
+        if: steps.snapshot.outputs.run_id == ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SQLITE_RELEASE_TAG: sqlite-snapshot-latest
+        shell: bash
+        run: |
+          mkdir -p data/db
+          echo "Downloading SQLite + derived from release..."
+          gh release download "$SQLITE_RELEASE_TAG" \
+            --pattern "vocadb.sqlite.zst" \
+            --pattern "derived-data.tar.zst" \
+            --dir /tmp \
+            --clobber || { echo "::error::Release download failed"; exit 1; }
+
+          if [ -f /tmp/vocadb.sqlite.zst ]; then
+            zstd -d /tmp/vocadb.sqlite.zst -o data/db/vocadb.sqlite
+            rm -f /tmp/vocadb.sqlite.zst
+            echo "SQLite bootstrapped: $(du -sh data/db/vocadb.sqlite | cut -f1)"
+          fi
+
+          if [ -f /tmp/derived-data.tar.zst ]; then
+            zstd -d /tmp/derived-data.tar.zst -o /tmp/derived-data.tar
+            tar xf /tmp/derived-data.tar
+            rm -f /tmp/derived-data.tar.zst /tmp/derived-data.tar
+            echo "Derived bootstrapped: $(ls data/derived/summary/artists/ | wc -l) artist pages"
+          fi
+
       - name: Verify snapshot contents
-        if: steps.snapshot.outputs.run_id != ''
         id: verify
         shell: bash
         run: |
