@@ -29,7 +29,8 @@
     "astro": "^6.0.4",
     "pagefind": "^1.4.0",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "wanakana": "^5.3.1"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",

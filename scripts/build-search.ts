@@ -1,6 +1,7 @@
 import { readdir, readFile, rm } from "node:fs/promises";
 import path from "node:path";
 import * as pagefind from "pagefind";
+import { toRomaji } from "wanakana";
 import { detailShellPath } from "../src/lib/entity-paths";
 import type { EntitySummary } from "../src/lib/models";
 
@@ -35,8 +36,27 @@ function stripBrokenSurrogates(str: string): string {
   return str.replace(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/g, "");
 }
 
+const KANA_RE = /[\u3040-\u309f\u30a0-\u30ff]/;
+
+function romajiVariants(names: string[]): string[] {
+  const variants: string[] = [];
+  for (const name of names) {
+    if (!KANA_RE.test(name)) continue;
+    try {
+      const romaji = toRomaji(name);
+      if (romaji && romaji !== name && /[a-z]{2,}/i.test(romaji)) {
+        variants.push(romaji);
+      }
+    } catch {
+      // skip malformed input
+    }
+  }
+  return variants;
+}
+
 function buildContent(item: EntitySummary) {
-  const chunks = [item.displayName, ...item.additionalNames];
+  const names = [item.displayName, ...item.additionalNames];
+  const chunks = [...names, ...romajiVariants(names)];
 
   if (item.entityType === "artist") {
     chunks.push(item.artistType, item.descriptionShort, `${item.songCount} songs`, `${item.albumCount} albums`);
