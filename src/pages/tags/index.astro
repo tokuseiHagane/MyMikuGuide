@@ -27,7 +27,7 @@ function tagSize(count: number): string {
     <div class="flex flex-wrap gap-2 items-baseline">
       {tagsData.tags.slice(0, 200).map((t) => (
         <a
-          href={withBase(`/tags/${encodeURIComponent(t.tag)}/`)}
+          href={withBase(`/tags/${t.tag.split("/").map(encodeURIComponent).join("/")}/`)}
           class:list={[
             "inline-flex items-center gap-1 px-2.5 py-1 rounded-full transition-all",
             "bg-accent/8 text-accent hover:bg-accent/18 hover:text-accent-hover border border-accent/12 hover:border-accent/25",
@@ -48,7 +48,7 @@ function tagSize(count: number): string {
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1">
         {tagsData.tags.map((t) => (
           <a
-            href={withBase(`/tags/${encodeURIComponent(t.tag)}/`)}
+            href={withBase(`/tags/${t.tag.split("/").map(encodeURIComponent).join("/")}/`)}
             class="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-accent/8 transition-colors text-sm"
           >
             <span class="text-text truncate">{t.tag}</span>
