@@ -3,7 +3,6 @@ import { createReadStream } from "node:fs";
 import { mkdir, open, rename, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import Database from "better-sqlite3";
-import { toRomaji } from "wanakana";
 
 const repoRoot = process.cwd();
 const defaultSourcePath = path.join(repoRoot, "data", "db", "vocadb.sqlite");
@@ -80,107 +79,6 @@ async function writeManifest(manifestPath: string, manifest: DbSnapshotManifest)
   await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, "utf8");
 }
 
-const KANA_RE = /[\u3040-\u309f\u30a0-\u30ff]/;
-const WORD_RE = /[\p{L}\p{N}]+/gu;
-
-function tokenize(text: string): string[] {
-  const words = text.toLowerCase().match(WORD_RE) ?? [];
-  return [...new Set(words)].filter((w) => w.length >= 2);
-}
-
-function romajiTokens(text: string): string[] {
-  if (!KANA_RE.test(text)) return [];
-  try {
-    const rom = toRomaji(text).toLowerCase();
-    return tokenize(rom);
-  } catch {
-    return [];
-  }
-}
-
-function allTermsForEntity(displayName: string, additionalNames: string[]): string[] {
-  const terms = new Set<string>();
-  for (const name of [displayName, ...additionalNames]) {
-    for (const t of tokenize(name)) terms.add(t);
-    for (const t of romajiTokens(name)) terms.add(t);
-  }
-  return [...terms];
-}
-
-function buildSearchIndex(db: InstanceType<typeof Database>) {
-  const started = Date.now();
-
-  db.exec(`DROP TABLE IF EXISTS search_index`);
-  db.exec(`
-    CREATE TABLE search_index (
-      term TEXT NOT NULL,
-      entity_type TEXT NOT NULL,
-      slug TEXT NOT NULL,
-      display_name TEXT NOT NULL
-    )
-  `);
-
-  const insert = db.prepare(
-    `INSERT INTO search_index (term, entity_type, slug, display_name) VALUES (?, ?, ?, ?)`,
-  );
-
-  const tables: Array<{ table: string; entityType: string }> = [
-    { table: "artists", entityType: "artist" },
-    { table: "songs", entityType: "song" },
-    { table: "albums", entityType: "album" },
-  ];
-
-  let totalRows = 0;
-
-  const insertBatch = db.transaction(
-    (rows: Array<[string, string, string, string]>) => {
-      for (const row of rows) insert.run(...row);
-    },
-  );
-
-  for (const { table, entityType } of tables) {
-    const entities = db
-      .prepare<
-        unknown[],
-        { slug: string; display_name: string; payload_json: string }
-      >(`SELECT slug, display_name, payload_json FROM ${table}`)
-      .all();
-
-    let batch: Array<[string, string, string, string]> = [];
-
-    for (const entity of entities) {
-      let additionalNames: string[] = [];
-      try {
-        const payload = JSON.parse(entity.payload_json);
-        additionalNames = Array.isArray(payload.additionalNames)
-          ? payload.additionalNames.filter((n: unknown) => typeof n === "string")
-          : [];
-      } catch {
-        // ignore parse errors
-      }
-
-      const terms = allTermsForEntity(entity.display_name, additionalNames);
-      for (const term of terms) {
-        batch.push([term, entityType, entity.slug, entity.display_name]);
-        totalRows++;
-      }
-
-      if (batch.length >= 5000) {
-        insertBatch(batch);
-        batch = [];
-      }
-    }
-
-    if (batch.length > 0) insertBatch(batch);
-    console.log(`  search_index: ${entityType} → ${entities.length} entities processed`);
-  }
-
-  db.exec(`CREATE INDEX idx_search_index_term ON search_index(term)`);
-  console.log(
-    `Built search_index: ${totalRows} term rows in ${((Date.now() - started) / 1000).toFixed(1)}s`,
-  );
-}
-
 async function main() {
   const sourcePath = envValue("PAGES_DB_SOURCE_PATH", defaultSourcePath);
   const outputRoot = envValue("PAGES_DB_OUTPUT_ROOT", defaultOutputRoot);
@@ -247,8 +145,6 @@ async function main() {
     console.log(
       `Stripped ${serverOnlyTables.length} server-only tables and ${serverOnlyIndexes.length} server-only indexes from browser snapshot.`,
     );
-
-    buildSearchIndex(db);
 
     db.pragma("journal_mode = DELETE");
     db.pragma(`page_size = ${pageSize}`);

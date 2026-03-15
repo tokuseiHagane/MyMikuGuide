@@ -10,29 +10,39 @@ import { withBase } from "../lib/site-utils";
   </div>
 
   <div class="rounded-2xl bg-panel border border-panel-border p-6">
-    <input
-      id="search-input"
-      type="text"
-      placeholder="Введите запрос (минимум 2 символа)..."
-      autocomplete="off"
-      class="w-full rounded-xl bg-[rgba(15,23,42,0.6)] border border-[rgba(148,163,184,0.18)]
-             text-text px-4 py-3 text-base outline-none
-             focus:border-accent/40 focus:shadow-[0_0_0_3px_rgba(57,197,187,0.12)]
-             transition-all placeholder:text-muted/50"
-    />
+    <div class="relative">
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Введите запрос (минимум 2 символа)..."
+        autocomplete="off"
+        class="w-full rounded-xl bg-[rgba(15,23,42,0.6)] border border-[rgba(148,163,184,0.18)]
+               text-text px-4 py-3 pr-10 text-base outline-none
+               focus:border-accent/40 focus:shadow-[0_0_0_3px_rgba(57,197,187,0.12)]
+               transition-all placeholder:text-muted/50"
+      />
+      <div id="search-spinner" class="hidden absolute right-3 top-1/2 -translate-y-1/2">
+        <svg class="animate-spin h-5 w-5 text-accent" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+        </svg>
+      </div>
+    </div>
+
+    <div id="search-progress" class="mt-2 hidden">
+      <div class="h-1 rounded-full bg-[rgba(148,163,184,0.1)] overflow-hidden">
+        <div id="search-progress-bar" class="h-full bg-accent/60 rounded-full transition-all duration-300" style="width: 0%"></div>
+      </div>
+      <p id="search-progress-text" class="text-muted text-xs mt-1"></p>
+    </div>
 
     <div id="search-status" class="mt-3 text-muted text-sm hidden"></div>
 
-    <div id="search-results" class="mt-4 flex flex-col gap-2"></div>
-
-    <div id="search-fallback" class="hidden text-center py-8">
-      <p class="text-muted text-sm">Поисковая база недоступна.</p>
-      <p class="text-muted text-xs mt-1">Убедитесь, что browser SQLite snapshot доступен.</p>
-    </div>
+    <div id="search-results" class="mt-4 flex flex-col gap-1"></div>
   </div>
 
   <script>
-    import { searchEntities, isSearchAvailable } from "../lib/client-search";
+    import { searchEntities } from "../lib/client-search";
     import { withBase } from "../lib/site-utils";
 
     const TYPE_LABELS: Record<string, string> = {
@@ -64,53 +74,75 @@ import { withBase } from "../lib/site-utils";
     const input = document.getElementById("search-input") as HTMLInputElement;
     const resultsEl = document.getElementById("search-results")!;
     const statusEl = document.getElementById("search-status")!;
-    const fallbackEl = document.getElementById("search-fallback")!;
+    const spinnerEl = document.getElementById("search-spinner")!;
+    const progressEl = document.getElementById("search-progress")!;
+    const progressBar = document.getElementById("search-progress-bar")!;
+    const progressText = document.getElementById("search-progress-text")!;
 
     let debounceTimer: ReturnType<typeof setTimeout> | null = null;
     let currentQuery = "";
+    let searchCounter = 0;
 
-    isSearchAvailable().then((ok) => {
-      if (!ok) {
-        fallbackEl.classList.remove("hidden");
-        input.disabled = true;
-        input.placeholder = "Поиск недоступен";
-      }
-    });
+    function showProgress(stage: string, pct: number) {
+      progressEl.classList.remove("hidden");
+      progressBar.style.width = `${pct}%`;
+      progressText.textContent = stage;
+    }
+
+    function hideProgress() {
+      progressEl.classList.add("hidden");
+      progressBar.style.width = "0%";
+    }
 
     input.addEventListener("input", () => {
       const q = input.value.trim();
       if (debounceTimer) clearTimeout(debounceTimer);
-      debounceTimer = setTimeout(() => runSearch(q), 200);
+      debounceTimer = setTimeout(() => runSearch(q), 150);
     });
 
     async function runSearch(query: string) {
       currentQuery = query;
+      const thisSearch = ++searchCounter;
+
       if (query.length < 2) {
         resultsEl.innerHTML = "";
         statusEl.classList.add("hidden");
+        spinnerEl.classList.add("hidden");
+        hideProgress();
         return;
       }
 
-      statusEl.textContent = "Ищу…";
-      statusEl.classList.remove("hidden");
+      spinnerEl.classList.remove("hidden");
+      showProgress("Загрузка…", 30);
 
       try {
-        const results = await searchEntities(query);
-        if (currentQuery !== query) return;
+        const results = await searchEntities(query, 50, (stage) => {
+          if (thisSearch !== searchCounter) return;
+          if (stage.includes("индекс")) showProgress(stage, 50);
+          else showProgress(stage, 80);
+        });
+
+        if (thisSearch !== searchCounter) return;
+
+        spinnerEl.classList.add("hidden");
+        showProgress("Готово", 100);
+        setTimeout(hideProgress, 400);
 
         if (results.length === 0) {
           statusEl.textContent = `По запросу «${query}» ничего не найдено.`;
+          statusEl.classList.remove("hidden");
           resultsEl.innerHTML = "";
           return;
         }
 
-        statusEl.textContent = `Найдено: ${results.length}${results.length >= 40 ? "+" : ""} результатов`;
+        statusEl.textContent = `Найдено: ${results.length}${results.length >= 50 ? "+" : ""} результатов`;
+        statusEl.classList.remove("hidden");
 
         resultsEl.innerHTML = results
           .map(
             (r) => `
               <a href="${entityHref(r.entityType, r.slug)}"
-                 class="flex items-center gap-3 px-4 py-3 rounded-xl
+                 class="flex items-center gap-3 px-4 py-2.5 rounded-xl
                         hover:bg-accent/8 transition-colors group">
                 <span class="shrink-0 text-[0.65rem] font-bold uppercase tracking-wide
                              px-2 py-0.5 rounded-md border ${TYPE_COLORS[r.entityType] ?? ""}">
@@ -123,8 +155,11 @@ import { withBase } from "../lib/site-utils";
           )
           .join("");
       } catch (err) {
-        if (currentQuery !== query) return;
+        if (thisSearch !== searchCounter) return;
+        spinnerEl.classList.add("hidden");
+        hideProgress();
         statusEl.textContent = "Ошибка при поиске. Попробуйте ещё раз.";
+        statusEl.classList.remove("hidden");
         resultsEl.innerHTML = "";
         console.error("Search error:", err);
       }

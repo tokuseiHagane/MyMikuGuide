@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build:derive-meta": "tsx scripts/build-stats.ts && tsx scripts/build-tags-index.ts && tsx scripts/build-years-index.ts",
-    "build": "npm run build:derive-meta && astro build && tsx scripts/export-client-detail-data.ts",
+    "build": "npm run build:derive-meta && astro build && tsx scripts/export-client-detail-data.ts && tsx scripts/build-search-index.ts",
     "build:browser-sqlite-snapshot": "tsx scripts/build-browser-sqlite-snapshot.ts",
     "prepare:local-browser-sqlite": "PAGES_DB_OUTPUT_ROOT=public/sqlite PAGES_DB_MANIFEST_PATH=public/meta/db-snapshot.local.json PAGES_DB_VERSION=local-live npm run build:browser-sqlite-snapshot",
     "build:local-preview": "npm run prepare:local-browser-sqlite && npm run build",
