@@ -1,123 +1,135 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { withBase } from "../lib/site-utils";
-
-const pagefindUiCss = withBase("/pagefind/pagefind-ui.css");
-const pagefindUiJs = withBase("/pagefind/pagefind-ui.js");
 ---
 
 <BaseLayout title="Поиск | MyMikuGuide">
-  <Fragment slot="head">
-    <link rel="stylesheet" href={pagefindUiCss} />
-  </Fragment>
-
   <div class="mb-6">
     <h1 class="text-2xl font-bold m-0">Поиск</h1>
-    <p class="text-muted text-sm mt-1 m-0">Полнотекстовый поиск по артистам, песням и альбомам</p>
+    <p class="text-muted text-sm mt-1 m-0">Полнотекстовый поиск по всем артистам, песням и альбомам</p>
   </div>
 
   <div class="rounded-2xl bg-panel border border-panel-border p-6">
-    <div id="search"></div>
+    <input
+      id="search-input"
+      type="text"
+      placeholder="Введите запрос (минимум 2 символа)..."
+      autocomplete="off"
+      class="w-full rounded-xl bg-[rgba(15,23,42,0.6)] border border-[rgba(148,163,184,0.18)]
+             text-text px-4 py-3 text-base outline-none
+             focus:border-accent/40 focus:shadow-[0_0_0_3px_rgba(57,197,187,0.12)]
+             transition-all placeholder:text-muted/50"
+    />
+
+    <div id="search-status" class="mt-3 text-muted text-sm hidden"></div>
+
+    <div id="search-results" class="mt-4 flex flex-col gap-2"></div>
+
     <div id="search-fallback" class="hidden text-center py-8">
-      <p class="text-muted text-sm">Поисковый индекс недоступен.</p>
-      <p class="text-muted text-xs mt-1">Индекс создаётся при сборке сайта (<code class="bg-white/10 px-1.5 py-0.5 rounded">npm run build</code>).</p>
+      <p class="text-muted text-sm">Поисковая база недоступна.</p>
+      <p class="text-muted text-xs mt-1">Убедитесь, что browser SQLite snapshot доступен.</p>
     </div>
   </div>
 
-  <script define:vars={{ pagefindUiJs }} is:inline>
-    window.addEventListener("DOMContentLoaded", function () {
-      var script = document.createElement("script");
-      script.src = pagefindUiJs;
-      script.onload = function () {
-        if (typeof window.PagefindUI !== "function") {
-          document.getElementById("search-fallback").classList.remove("hidden");
+  <script>
+    import { searchEntities, isSearchAvailable } from "../lib/client-search";
+    import { withBase } from "../lib/site-utils";
+
+    const TYPE_LABELS: Record<string, string> = {
+      artist: "Артист",
+      song: "Песня",
+      album: "Альбом",
+    };
+
+    const TYPE_COLORS: Record<string, string> = {
+      artist: "bg-emerald-500/15 text-emerald-400 border-emerald-500/25",
+      song: "bg-sky-500/15 text-sky-400 border-sky-500/25",
+      album: "bg-amber-500/15 text-amber-400 border-amber-500/25",
+    };
+
+    const SEGMENT: Record<string, string> = {
+      artist: "artists",
+      song: "songs",
+      album: "albums",
+    };
+
+    function entityHref(entityType: string, slug: string) {
+      return withBase(`/${SEGMENT[entityType] ?? "artists"}/view/?slug=${encodeURIComponent(slug)}`);
+    }
+
+    function escapeHtml(s: string) {
+      return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+
+    const input = document.getElementById("search-input") as HTMLInputElement;
+    const resultsEl = document.getElementById("search-results")!;
+    const statusEl = document.getElementById("search-status")!;
+    const fallbackEl = document.getElementById("search-fallback")!;
+
+    let debounceTimer: ReturnType<typeof setTimeout> | null = null;
+    let currentQuery = "";
+
+    isSearchAvailable().then((ok) => {
+      if (!ok) {
+        fallbackEl.classList.remove("hidden");
+        input.disabled = true;
+        input.placeholder = "Поиск недоступен";
+      }
+    });
+
+    input.addEventListener("input", () => {
+      const q = input.value.trim();
+      if (debounceTimer) clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(() => runSearch(q), 200);
+    });
+
+    async function runSearch(query: string) {
+      currentQuery = query;
+      if (query.length < 2) {
+        resultsEl.innerHTML = "";
+        statusEl.classList.add("hidden");
+        return;
+      }
+
+      statusEl.textContent = "Ищу…";
+      statusEl.classList.remove("hidden");
+
+      try {
+        const results = await searchEntities(query);
+        if (currentQuery !== query) return;
+
+        if (results.length === 0) {
+          statusEl.textContent = `По запросу «${query}» ничего не найдено.`;
+          resultsEl.innerHTML = "";
           return;
         }
-        new window.PagefindUI({
-          element: "#search",
-          showSubResults: true,
-        });
-      };
-      script.onerror = function () {
-        document.getElementById("search-fallback").classList.remove("hidden");
-      };
-      document.body.appendChild(script);
-    });
+
+        statusEl.textContent = `Найдено: ${results.length}${results.length >= 40 ? "+" : ""} результатов`;
+
+        resultsEl.innerHTML = results
+          .map(
+            (r) => `
+              <a href="${entityHref(r.entityType, r.slug)}"
+                 class="flex items-center gap-3 px-4 py-3 rounded-xl
+                        hover:bg-accent/8 transition-colors group">
+                <span class="shrink-0 text-[0.65rem] font-bold uppercase tracking-wide
+                             px-2 py-0.5 rounded-md border ${TYPE_COLORS[r.entityType] ?? ""}">
+                  ${TYPE_LABELS[r.entityType] ?? r.entityType}
+                </span>
+                <span class="text-sm text-text group-hover:text-accent transition-colors truncate">
+                  ${escapeHtml(r.displayName)}
+                </span>
+              </a>`,
+          )
+          .join("");
+      } catch (err) {
+        if (currentQuery !== query) return;
+        statusEl.textContent = "Ошибка при поиске. Попробуйте ещё раз.";
+        resultsEl.innerHTML = "";
+        console.error("Search error:", err);
+      }
+    }
+
+    input.focus();
   </script>
 </BaseLayout>
-
-<style is:global>
-  .pagefind-ui {
-    --pagefind-ui-scale: 1;
-    --pagefind-ui-primary: var(--color-accent);
-    --pagefind-ui-text: var(--color-text);
-    --pagefind-ui-background: transparent;
-    --pagefind-ui-border: var(--color-panel-border);
-    --pagefind-ui-tag: rgba(57, 197, 187, 0.15);
-    --pagefind-ui-border-width: 1px;
-    --pagefind-ui-border-radius: 12px;
-    --pagefind-ui-image-border-radius: 8px;
-    --pagefind-ui-image-box-ratio: 3 / 2;
-    --pagefind-ui-font: var(--font-sans);
-  }
-
-  .pagefind-ui__search-input {
-    background: rgba(15, 23, 42, 0.6) !important;
-    border: 1px solid rgba(148, 163, 184, 0.18) !important;
-    color: var(--color-text) !important;
-    border-radius: 12px !important;
-    padding: 0.75rem 1rem !important;
-    font-size: 1rem !important;
-  }
-
-  .pagefind-ui__search-input:focus {
-    border-color: rgba(57, 197, 187, 0.4) !important;
-    outline: none !important;
-    box-shadow: 0 0 0 3px rgba(57, 197, 187, 0.12) !important;
-  }
-
-  .pagefind-ui__search-clear {
-    color: var(--color-muted) !important;
-  }
-
-  .pagefind-ui__result {
-    border-top-color: rgba(148, 163, 184, 0.1) !important;
-    padding: 1rem 0 !important;
-  }
-
-  .pagefind-ui__result-link {
-    color: var(--color-accent) !important;
-    font-weight: 600 !important;
-  }
-
-  .pagefind-ui__result-link:hover {
-    color: var(--color-accent-hover) !important;
-  }
-
-  .pagefind-ui__result-excerpt {
-    color: var(--color-muted) !important;
-  }
-
-  .pagefind-ui__result-excerpt mark {
-    background: rgba(57, 197, 187, 0.25) !important;
-    color: var(--color-text) !important;
-    border-radius: 2px;
-    padding: 0 2px;
-  }
-
-  .pagefind-ui__message {
-    color: var(--color-muted) !important;
-  }
-
-  .pagefind-ui__button {
-    background: rgba(57, 197, 187, 0.15) !important;
-    border: 1px solid rgba(57, 197, 187, 0.25) !important;
-    color: var(--color-text) !important;
-    border-radius: 8px !important;
-  }
-
-  .pagefind-ui__button:hover {
-    background: rgba(57, 197, 187, 0.25) !important;
-    border-color: rgba(57, 197, 187, 0.4) !important;
-  }
-</style>
