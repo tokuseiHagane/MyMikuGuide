@@ -56,9 +56,29 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: vocadb-snapshot
-          path: .
+          path: data
           run-id: ${{ steps.snapshot.outputs.run_id }}
           github-token: ${{ github.token }}
+
+      - name: Verify snapshot contents
+        if: steps.snapshot.outputs.run_id != ''
+        id: verify
+        shell: bash
+        run: |
+          if [ -f "data/db/vocadb.sqlite" ]; then
+            echo "has_sqlite=true" >> "$GITHUB_OUTPUT"
+            echo "SQLite present: $(du -sh data/db/vocadb.sqlite | cut -f1)"
+          else
+            echo "has_sqlite=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::vocadb.sqlite not found in artifact"
+          fi
+          if [ -d "data/derived/summary/artists" ] && [ -n "$(ls -A data/derived/summary/artists)" ]; then
+            echo "has_derived=true" >> "$GITHUB_OUTPUT"
+            echo "Derived present: $(ls data/derived/summary/artists | wc -l) artist pages"
+          else
+            echo "has_derived=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Derived summary data not found in artifact"
+          fi
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -73,7 +93,7 @@ jobs:
         run: npm ci
 
       - name: Publish SQLite snapshot release asset
-        if: hashFiles('data/db/vocadb.sqlite') != ''
+        if: steps.verify.outputs.has_sqlite == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           SQLITE_RELEASE_TAG: sqlite-snapshot-latest
@@ -97,7 +117,7 @@ jobs:
           gh release upload "$SQLITE_RELEASE_TAG" "$SQLITE_SHA256_NAME#vocadb.sqlite.sha256" --clobber
 
       - name: Publish derived data snapshot
-        if: hashFiles('data/derived/summary/artists/page-0001.json') != ''
+        if: steps.verify.outputs.has_derived == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           SQLITE_RELEASE_TAG: sqlite-snapshot-latest
@@ -125,14 +145,15 @@ jobs:
           fi
 
       - name: Build browser SQLite snapshot
-        if: hashFiles('data/db/vocadb.sqlite') != ''
+        if: steps.verify.outputs.has_sqlite == 'true'
         env:
           PAGES_DB_VERSION: run-${{ github.run_id }}-${{ github.run_attempt }}
           PAGES_DB_UPDATED_AT: ${{ github.run_id }}:${{ github.run_attempt }}
         run: npm run build:browser-sqlite-snapshot
 
       - name: Remove runtime detail JSON from Pages artifact
-        if: hashFiles('dist/derived/detail/**/*.json') != ''
+        if: always()
+        continue-on-error: true
         run: rm -rf dist/derived/detail
 
       - name: Check size and page budgets
