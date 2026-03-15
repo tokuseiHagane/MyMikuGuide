@@ -5,10 +5,12 @@ import { withBase } from "../../lib/site-utils";
 
 export async function getStaticPaths() {
   const tagsData = await loadTagsIndex();
-  return tagsData.tags.map((t) => ({
-    params: { tag: t.tag.split("/").map(encodeURIComponent).join("/") },
-    props: { tagInfo: t },
-  }));
+  return tagsData.tags
+    .filter((t) => !/%/.test(t.tag))
+    .map((t) => ({
+      params: { tag: t.tag },
+      props: { tagInfo: t },
+    }));
 }
 
 const { tagInfo } = Astro.props as { tagInfo: { tag: string; count: number; slugs: string[] } };
