@@ -66,6 +66,30 @@ jobs:
             )
           fi
 
+      - name: Bootstrap previous derived data
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SQLITE_RELEASE_TAG: sqlite-snapshot-latest
+        shell: bash
+        run: |
+          if [ -d "data/derived/summary/artists" ] && [ -n "$(ls -A data/derived/summary/artists 2>/dev/null)" ]; then
+            echo "Derived data already present; skipping bootstrap."
+            exit 0
+          fi
+
+          gh release download "$SQLITE_RELEASE_TAG" \
+            --pattern "derived-data.tar.zst" \
+            --dir /tmp \
+            --clobber || {
+              echo "No derived snapshot in release; will rebuild from scratch."
+              exit 0
+            }
+
+          zstd -d /tmp/derived-data.tar.zst -o /tmp/derived-data.tar
+          tar xf /tmp/derived-data.tar
+          rm -f /tmp/derived-data.tar.zst /tmp/derived-data.tar
+          echo "Derived data bootstrapped: $(ls data/derived/summary/artists/ | wc -l) artist pages"
+
       - name: Resolve sync mode
         id: resolve_mode
         shell: bash

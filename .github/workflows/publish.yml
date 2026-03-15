@@ -96,6 +96,17 @@ jobs:
           gh release upload "$SQLITE_RELEASE_TAG" "${SQLITE_PATH}.zst#vocadb.sqlite.zst" --clobber
           gh release upload "$SQLITE_RELEASE_TAG" "$SQLITE_SHA256_NAME#vocadb.sqlite.sha256" --clobber
 
+      - name: Publish derived data snapshot
+        if: hashFiles('data/derived/summary/artists/page-0001.json') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SQLITE_RELEASE_TAG: sqlite-snapshot-latest
+        shell: bash
+        run: |
+          tar cf - data/derived/ | zstd -T0 -3 -o /tmp/derived-data.tar.zst
+          gh release upload "$SQLITE_RELEASE_TAG" /tmp/derived-data.tar.zst#derived-data.tar.zst --clobber
+          echo "Derived snapshot uploaded: $(du -sh /tmp/derived-data.tar.zst | cut -f1)"
+
       - name: Build site
         id: build_site
         env:
