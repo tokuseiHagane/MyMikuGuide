@@ -130,7 +130,7 @@ jobs:
       - name: Build site
         id: build_site
         env:
-          CI_MAX_BUILD_SECONDS: "900"
+          CI_MAX_BUILD_SECONDS: "1800"
         shell: bash
         run: |
           STARTED_AT=$(date +%s)

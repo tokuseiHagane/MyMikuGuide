@@ -71,8 +71,17 @@ async function loadAllSummaries() {
   return pages.flatMap((page) => page.items ?? []);
 }
 
+const MAX_PAGEFIND_RECORDS = 50_000;
+
 async function main() {
-  const summaries = await loadAllSummaries();
+  const allSummaries = await loadAllSummaries();
+  const summaries =
+    allSummaries.length > MAX_PAGEFIND_RECORDS
+      ? allSummaries
+          .sort((a, b) => b.syncedAt.localeCompare(a.syncedAt))
+          .slice(0, MAX_PAGEFIND_RECORDS)
+      : allSummaries;
+  console.log(`Pagefind: indexing ${summaries.length} of ${allSummaries.length} records`);
   await rm(outputRoot, { recursive: true, force: true });
 
   const { index } = await pagefind.createIndex({
