@@ -1,6 +1,6 @@
 import { createHash } from "node:crypto";
 import { createReadStream } from "node:fs";
-import { mkdir, rename, rm, stat, writeFile } from "node:fs/promises";
+import { mkdir, open, rename, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import Database from "better-sqlite3";
 import { toRomaji } from "wanakana";
@@ -271,12 +271,34 @@ async function main() {
   const cacheBust = sha256.slice(0, 16);
   const snapshotRoot = `/sqlite/${version}`;
 
+  const SERVER_CHUNK_SIZE = 4 * 1024 * 1024;
+  const totalChunks = Math.ceil(targetStat.size / SERVER_CHUNK_SIZE);
+  const suffixLength = String(totalChunks - 1).length;
+
+  console.log(
+    `Splitting ${targetStat.size} bytes into ${totalChunks} chunks (${SERVER_CHUNK_SIZE} bytes each, suffix length ${suffixLength})…`,
+  );
+
+  const fd = await open(targetSqlitePath, "r");
+  for (let i = 0; i < totalChunks; i++) {
+    const offset = i * SERVER_CHUNK_SIZE;
+    const length = Math.min(SERVER_CHUNK_SIZE, targetStat.size - offset);
+    const buf = Buffer.alloc(length);
+    await fd.read(buf, 0, length, offset);
+    const chunkPath = path.join(versionDir, `${snapshotFileName}.${String(i).padStart(suffixLength, "0")}`);
+    await writeFile(chunkPath, buf);
+  }
+  await fd.close();
+  await rm(targetSqlitePath);
+
   const config = {
+    serverMode: "chunked" as const,
     requestChunkSize: effectivePageSize,
-    cacheBust,
-    serverMode: "full" as const,
-    url: snapshotFileName,
+    serverChunkSize: SERVER_CHUNK_SIZE,
+    urlPrefix: `${snapshotFileName}.`,
     databaseLengthBytes: targetStat.size,
+    suffixLength,
+    cacheBust,
   };
 
   await writeFile(targetConfigPath, `${JSON.stringify(config, null, 2)}\n`, "utf8");
@@ -296,7 +318,7 @@ async function main() {
   await writeManifest(manifestPath, manifest);
 
   console.log(
-    `Built browser SQLite snapshot ${version} (${targetStat.size} bytes, page_size=${effectivePageSize}, sha256=${sha256})`,
+    `Built browser SQLite snapshot ${version} (${targetStat.size} bytes, ${totalChunks} chunks, page_size=${effectivePageSize}, sha256=${sha256})`,
   );
 }
 
