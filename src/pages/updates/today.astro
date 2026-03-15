@@ -4,11 +4,15 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { loadGraphSummary, loadUpdatedToday } from "../../lib/site-data";
 import { withBase } from "../../lib/site-utils";
 
-const [todayEntries, summary] = await Promise.all([
+const MAX_DISPLAY = 500;
+
+const [allTodayEntries, summary] = await Promise.all([
   loadUpdatedToday(),
   loadGraphSummary(),
 ]);
 
+const todayEntries = allTodayEntries.slice(0, MAX_DISPLAY);
+const totalToday = allTodayEntries.length;
 const snapshotDay = summary.syncedAt ? new Date(summary.syncedAt).toISOString().slice(0, 10) : "";
 ---
 
@@ -33,4 +37,10 @@ const snapshotDay = summary.syncedAt ? new Date(summary.syncedAt).toISOString().
     ) : null}
     {todayEntries.map((entry) => <EntityCard entity={entry} compact />)}
   </div>
+  {totalToday > MAX_DISPLAY ? (
+    <p class="text-muted text-sm mt-4">
+      Показаны первые {MAX_DISPLAY} из {totalToday.toLocaleString("ru-RU")}.
+      Используйте <a href={withBase("/search/")} class="text-accent hover:text-accent-hover">поиск</a> для полного списка.
+    </p>
+  ) : null}
 </BaseLayout>

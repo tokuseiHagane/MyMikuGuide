@@ -3,10 +3,14 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { loadTagsIndex } from "../../lib/site-data";
 import { withBase } from "../../lib/site-utils";
 
+function encodeTagPath(tag: string): string {
+  return tag.split("/").map(encodeURIComponent).join("/");
+}
+
 export async function getStaticPaths() {
   const tagsData = await loadTagsIndex();
   return tagsData.tags.map((t) => ({
-    params: { tag: t.tag },
+    params: { tag: encodeTagPath(t.tag) },
     props: { tagInfo: t },
   }));
 }
