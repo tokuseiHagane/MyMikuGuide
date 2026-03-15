@@ -11,7 +11,6 @@ type SummaryPage = {
 const repoRoot = process.cwd();
 const summaryRoot = path.join(repoRoot, "data", "derived", "summary");
 const outputRoot = path.join(repoRoot, "dist", "pagefind");
-const siteBasePath = "/MyMikuGuide";
 
 async function readJson<T>(targetPath: string, fallback: T): Promise<T> {
   try {
@@ -71,15 +70,45 @@ async function loadAllSummaries() {
   return pages.flatMap((page) => page.items ?? []);
 }
 
-const MAX_PAGEFIND_RECORDS = 50_000;
+const MAX_PAGEFIND_RECORDS = 100_000;
+
+function selectBalancedSubset(all: EntitySummary[], budget: number): EntitySummary[] {
+  const byType = new Map<string, EntitySummary[]>();
+  for (const item of all) {
+    const list = byType.get(item.entityType) ?? [];
+    list.push(item);
+    byType.set(item.entityType, list);
+  }
+
+  for (const items of byType.values()) {
+    items.sort((a, b) => b.syncedAt.localeCompare(a.syncedAt));
+  }
+
+  const sorted = [...byType.entries()].sort((a, b) => a[1].length - b[1].length);
+  const allocations = new Map<string, number>();
+  let remaining = budget;
+
+  for (let i = 0; i < sorted.length; i++) {
+    const [type, items] = sorted[i];
+    const equalShare = Math.floor(remaining / (sorted.length - i));
+    const take = Math.min(items.length, equalShare);
+    allocations.set(type, take);
+    remaining -= take;
+    console.log(`  ${type}: ${take} of ${items.length}`);
+  }
+
+  const result: EntitySummary[] = [];
+  for (const [type, items] of byType) {
+    result.push(...items.slice(0, allocations.get(type)!));
+  }
+  return result;
+}
 
 async function main() {
   const allSummaries = await loadAllSummaries();
   const summaries =
     allSummaries.length > MAX_PAGEFIND_RECORDS
-      ? allSummaries
-          .sort((a, b) => b.syncedAt.localeCompare(a.syncedAt))
-          .slice(0, MAX_PAGEFIND_RECORDS)
+      ? selectBalancedSubset(allSummaries, MAX_PAGEFIND_RECORDS)
       : allSummaries;
   console.log(`Pagefind: indexing ${summaries.length} of ${allSummaries.length} records`);
   await rm(outputRoot, { recursive: true, force: true });
@@ -93,7 +122,7 @@ async function main() {
 
   for (const item of summaries) {
     const result = await index.addCustomRecord({
-      url: `${siteBasePath}${detailShellPath(item.entityType, item.slug)}`,
+      url: detailShellPath(item.entityType, item.slug),
       content: buildContent(item),
       language: "ru",
       meta: {
