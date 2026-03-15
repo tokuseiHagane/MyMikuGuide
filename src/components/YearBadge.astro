@@ -1,0 +1,19 @@
+---
+import { withBase } from "../lib/site-utils";
+
+interface Props {
+  year: number | string;
+  href?: string;
+}
+
+const { year, href } = Astro.props;
+const resolvedHref = href ?? withBase(`/years/${year}/`);
+---
+
+<a
+  href={resolvedHref}
+  class="inline-flex items-center px-3 py-1 rounded-lg bg-secondary/12 text-secondary text-xs font-bold
+         border border-secondary/20 hover:bg-secondary/20 hover:border-secondary/35 transition-all duration-150"
+>
+  {year}
+</a>

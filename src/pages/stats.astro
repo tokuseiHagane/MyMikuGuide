@@ -1,0 +1,140 @@
+---
+import StatCard from "../components/StatCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { loadStats } from "../lib/site-data";
+
+const stats = await loadStats();
+const maxSongs = Math.max(...stats.yearDistribution.map((y) => y.songs), 1);
+const maxAlbums = Math.max(...stats.yearDistribution.map((y) => y.albums), 1);
+---
+
+<BaseLayout title="Статистика | MyMikuGuide">
+  <div class="mb-6">
+    <h1 class="text-2xl font-bold m-0">Статистика</h1>
+    <p class="text-muted text-sm mt-1 m-0">Аналитика по данным каталога VocaDB</p>
+  </div>
+
+  <!-- Totals -->
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+    <StatCard label="Артисты" value={stats.totals.artists} />
+    <StatCard label="Песни" value={stats.totals.songs} />
+    <StatCard label="Альбомы" value={stats.totals.albums} />
+  </div>
+
+  <!-- Songs by year -->
+  <div class="rounded-2xl bg-panel border border-panel-border p-6 mb-6">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="text-lg font-bold m-0">Песни по годам публикации</h2>
+      <span class="text-xs text-muted font-mono">{stats.yearDistribution.reduce((s, y) => s + y.songs, 0).toLocaleString("ru-RU")} всего</span>
+    </div>
+    <div class="flex gap-0.5 overflow-x-auto">
+      {stats.yearDistribution.map((y) => {
+        const barH = Math.max(4, Math.round((y.songs / maxSongs) * 160));
+        return (
+          <div class="group flex flex-col items-center shrink-0" style="min-width: 36px; height: 220px;">
+            <span class="text-[10px] text-muted opacity-0 group-hover:opacity-100 transition-opacity font-mono">
+              {y.songs.toLocaleString("ru-RU")}
+            </span>
+            <div class="flex-1 flex items-end w-full justify-center">
+              <div
+                class="w-5 rounded-t bg-accent/50 group-hover:bg-accent/80 transition-colors"
+                style={`height: ${barH}px`}
+              ></div>
+            </div>
+            <span class="text-[10px] text-muted font-mono mt-1">{y.year}</span>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+
+  <!-- Albums by year -->
+  <div class="rounded-2xl bg-panel border border-panel-border p-6 mb-6">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="text-lg font-bold m-0">Альбомы по годам выхода</h2>
+      <span class="text-xs text-muted font-mono">{stats.yearDistribution.reduce((s, y) => s + y.albums, 0).toLocaleString("ru-RU")} всего</span>
+    </div>
+    <div class="flex gap-0.5 overflow-x-auto">
+      {stats.yearDistribution.map((y) => {
+        const barH = Math.max(4, Math.round((y.albums / maxAlbums) * 160));
+        return (
+          <div class="group flex flex-col items-center shrink-0" style="min-width: 36px; height: 220px;">
+            <span class="text-[10px] text-muted opacity-0 group-hover:opacity-100 transition-opacity font-mono">
+              {y.albums.toLocaleString("ru-RU")}
+            </span>
+            <div class="flex-1 flex items-end w-full justify-center">
+              <div
+                class="w-5 rounded-t bg-secondary/50 group-hover:bg-secondary/80 transition-colors"
+                style={`height: ${barH}px`}
+              ></div>
+            </div>
+            <span class="text-[10px] text-muted font-mono mt-1">{y.year}</span>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+
+  <!-- Top tags -->
+  <div class="rounded-2xl bg-panel border border-panel-border p-6 mb-6">
+    <h2 class="text-lg font-bold m-0 mb-4">Топ тегов</h2>
+    <div class="grid gap-1.5">
+      {stats.topTags.slice(0, 20).map((t, i) => {
+        const width = (t.count / stats.topTags[0].count) * 100;
+        return (
+          <div class="flex items-center gap-3">
+            <span class="w-6 text-right text-xs text-muted font-mono">{i + 1}</span>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center justify-between mb-0.5">
+                <span class="text-sm text-text truncate">{t.tag}</span>
+                <span class="text-xs text-muted font-mono shrink-0 ml-2">{t.count.toLocaleString("ru-RU")}</span>
+              </div>
+              <div class="h-1.5 rounded-full bg-white/5 overflow-hidden">
+                <div class="h-full rounded-full bg-accent/40" style={`width: ${width}%`}></div>
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+
+  <!-- Entity type distribution -->
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-6">
+    <div class="rounded-2xl bg-panel border border-panel-border p-6">
+      <h3 class="text-base font-bold m-0 mb-3">Типы артистов</h3>
+      <div class="space-y-2">
+        {stats.artistTypes.slice(0, 10).map((t) => (
+          <div class="flex items-center justify-between text-sm">
+            <span class="text-text">{t.type}</span>
+            <span class="text-muted font-mono text-xs">{t.count.toLocaleString("ru-RU")}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-panel border border-panel-border p-6">
+      <h3 class="text-base font-bold m-0 mb-3">Типы песен</h3>
+      <div class="space-y-2">
+        {stats.songTypes.slice(0, 10).map((t) => (
+          <div class="flex items-center justify-between text-sm">
+            <span class="text-text">{t.type}</span>
+            <span class="text-muted font-mono text-xs">{t.count.toLocaleString("ru-RU")}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-panel border border-panel-border p-6">
+      <h3 class="text-base font-bold m-0 mb-3">Типы альбомов</h3>
+      <div class="space-y-2">
+        {stats.albumTypes.slice(0, 10).map((t) => (
+          <div class="flex items-center justify-between text-sm">
+            <span class="text-text">{t.type}</span>
+            <span class="text-muted font-mono text-xs">{t.count.toLocaleString("ru-RU")}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

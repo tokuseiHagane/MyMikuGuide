@@ -1,0 +1,141 @@
+name: Publish Site
+
+on:
+  workflow_run:
+    workflows:
+      - Sync Snapshot
+    types:
+      - completed
+  workflow_dispatch:
+    inputs:
+      snapshot_run_id:
+        description: "ID workflow run со snapshot artifact; оставь пустым для локального snapshot из репозитория"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: "my-miku-guide-pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Resolve snapshot source
+        id: snapshot
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_run" ]; then
+            echo "run_id=${{ github.event.workflow_run.id }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "run_id=${{ inputs.snapshot_run_id }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Prepare snapshot directories
+        if: steps.snapshot.outputs.run_id != ''
+        run: rm -rf data/db data/derived data/raw/vocadb/meta
+
+      - name: Download snapshot artifact
+        if: steps.snapshot.outputs.run_id != ''
+        uses: actions/download-artifact@v4
+        with:
+          name: vocadb-snapshot
+          path: .
+          run-id: ${{ steps.snapshot.outputs.run_id }}
+          github-token: ${{ github.token }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Publish SQLite snapshot release asset
+        if: hashFiles('data/db/vocadb.sqlite') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SQLITE_RELEASE_TAG: sqlite-snapshot-latest
+          SQLITE_RELEASE_TITLE: SQLite Snapshot (latest)
+        shell: bash
+        run: |
+          SQLITE_PATH="data/db/vocadb.sqlite"
+          SQLITE_SHA256_NAME="vocadb.sqlite.sha256"
+          SQLITE_SHA256=$(sha256sum "$SQLITE_PATH" | awk '{print $1}')
+          printf '%s  %s\n' "$SQLITE_SHA256" "vocadb.sqlite" > "$SQLITE_SHA256_NAME"
+
+          zstd -T0 -19 "$SQLITE_PATH" -o "${SQLITE_PATH}.zst"
+
+          if ! gh release view "$SQLITE_RELEASE_TAG" >/dev/null 2>&1; then
+            gh release create "$SQLITE_RELEASE_TAG" \
+              --title "$SQLITE_RELEASE_TITLE" \
+              --notes "Rolling release with the latest VocaDB SQLite snapshot for GitHub Pages consumers."
+          fi
+
+          gh release upload "$SQLITE_RELEASE_TAG" "${SQLITE_PATH}.zst#vocadb.sqlite.zst" --clobber
+          gh release upload "$SQLITE_RELEASE_TAG" "$SQLITE_SHA256_NAME#vocadb.sqlite.sha256" --clobber
+
+      - name: Build site
+        id: build_site
+        env:
+          CI_MAX_BUILD_SECONDS: "900"
+        shell: bash
+        run: |
+          STARTED_AT=$(date +%s)
+          npm run build
+          FINISHED_AT=$(date +%s)
+          BUILD_DURATION=$((FINISHED_AT - STARTED_AT))
+          echo "duration=$BUILD_DURATION" >> "$GITHUB_OUTPUT"
+
+          if [ "$BUILD_DURATION" -gt "$CI_MAX_BUILD_SECONDS" ]; then
+            echo "Build duration $BUILD_DURATION exceeded budget $CI_MAX_BUILD_SECONDS"
+            exit 1
+          fi
+
+      - name: Build browser SQLite snapshot
+        if: hashFiles('data/db/vocadb.sqlite') != ''
+        env:
+          PAGES_DB_VERSION: run-${{ github.run_id }}-${{ github.run_attempt }}
+          PAGES_DB_UPDATED_AT: ${{ github.run_id }}:${{ github.run_attempt }}
+        run: npm run build:browser-sqlite-snapshot
+
+      - name: Remove runtime detail JSON from Pages artifact
+        if: hashFiles('dist/derived/detail/**/*.json') != ''
+        run: rm -rf dist/derived/detail
+
+      - name: Check size and page budgets
+        env:
+          CI_MAX_DERIVED_BYTES: "367001600"
+          CI_MAX_DIST_BYTES: "419430400"
+          CI_MAX_DETAIL_FILES: "50000"
+        run: npm run check:budgets
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

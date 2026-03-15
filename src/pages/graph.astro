@@ -1,0 +1,48 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Граф связей | MyMikuGuide">
+  <div class="mb-6">
+    <h1 class="text-2xl font-bold m-0">Граф связей артистов</h1>
+    <p class="text-muted text-sm mt-1 m-0">Интерактивная визуализация связей между артистами из VocaDB</p>
+  </div>
+
+  <div class="rounded-2xl bg-panel border border-panel-border overflow-hidden" style="height: 70vh; min-height: 500px;">
+    <div id="graph-container" class="w-full h-full relative">
+      <div id="graph-loading" class="absolute inset-0 flex items-center justify-center">
+        <div class="text-center">
+          <div class="w-8 h-8 border-2 border-accent/30 border-t-accent rounded-full animate-spin mx-auto mb-3"></div>
+          <p class="text-muted text-sm">Загрузка визуализации графа...</p>
+        </div>
+      </div>
+      <canvas id="graph-canvas" class="w-full h-full"></canvas>
+    </div>
+
+    <!-- Controls -->
+    <div class="absolute bottom-4 left-4 right-4 flex items-center gap-3 z-10 pointer-events-none" id="graph-controls" style="display: none;">
+      <div class="pointer-events-auto flex items-center gap-2 rounded-xl bg-bg/90 backdrop-blur-sm border border-panel-border px-3 py-2">
+        <button id="graph-zoom-in" class="w-7 h-7 flex items-center justify-center rounded-lg hover:bg-accent/15 text-muted hover:text-text transition-colors" title="Приблизить">
+          <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" /></svg>
+        </button>
+        <button id="graph-zoom-out" class="w-7 h-7 flex items-center justify-center rounded-lg hover:bg-accent/15 text-muted hover:text-text transition-colors" title="Отдалить">
+          <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H4.75A.75.75 0 014 10z" clip-rule="evenodd" /></svg>
+        </button>
+        <button id="graph-reset" class="w-7 h-7 flex items-center justify-center rounded-lg hover:bg-accent/15 text-muted hover:text-text transition-colors" title="Сброс">
+          <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M15.312 11.424a5.5 5.5 0 01-9.201 2.466l-.312-.311h2.433a.75.75 0 000-1.5H4.598a.75.75 0 00-.75.75v3.634a.75.75 0 001.5 0v-2.033l.312.312a7 7 0 0011.712-3.138.75.75 0 00-1.449-.39zm-10.073-3.86a.75.75 0 10-1.449-.39A7 7 0 0115.5 10.312l.312.311v-2.033a.75.75 0 011.5 0v3.634a.75.75 0 01-.75.75h-3.634a.75.75 0 010-1.5h2.433l-.311-.312a5.5 5.5 0 00-9.201-2.466.75.75 0 00-1.11 1.008z" clip-rule="evenodd" /></svg>
+        </button>
+      </div>
+      <div class="pointer-events-auto text-xs text-muted bg-bg/90 backdrop-blur-sm border border-panel-border rounded-xl px-3 py-2" id="graph-info">
+        Наведите на узел для подробностей
+      </div>
+    </div>
+  </div>
+
+  <div class="rounded-2xl bg-panel border border-panel-border p-6 mt-4">
+    <p class="text-muted text-sm m-0">
+      Граф загружает связи артистов из browser SQLite (таблица artist_relation).
+      Начальная точка — Hatsune Miku. Используйте зум и перетаскивание для навигации.
+      Для полноценной работы графа необходим browser-sqlite snapshot.
+    </p>
+  </div>
+</BaseLayout>

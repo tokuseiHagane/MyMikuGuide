@@ -1,39 +1,36 @@
 ---
+import EntityCard from "../../components/EntityCard.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { loadNewEntries, loadLastRun } from "../../lib/site-data";
-import { entityTypeLabel, formatDateTime, withBase } from "../../lib/site-utils";
+import { loadLastRun, loadNewEntries } from "../../lib/site-data";
+import { formatDateTime, withBase } from "../../lib/site-utils";
 
-const [entries, lastRun] = await Promise.all([loadNewEntries(), loadLastRun()]);
+const [newEntities, lastRun] = await Promise.all([
+  loadNewEntries(),
+  loadLastRun(),
+]);
 ---
 
 <BaseLayout title="Новые Записи | MyMikuGuide">
-  <section class="panel">
-    <div class="section-header">
-      <div>
-        <h1>Новые записи</h1>
-        <p class="muted">
-          Карточки, которые впервые появились в локальном снапшоте во время последнего sync-прогона.
-        </p>
-        <p class="muted">
-          Последний sync: {lastRun.mode}, закончился {formatDateTime(lastRun.finishedAt)}.
-        </p>
-      </div>
-      <a class="button-link button-link--ghost" href={withBase("/updates/")}>Назад к обзору</a>
+  <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+    <div>
+      <h1 class="text-2xl font-bold m-0">Новые записи</h1>
+      <p class="text-muted text-sm mt-1 m-0">
+        Впервые появившиеся в последнем sync ({lastRun.mode}, завершён {formatDateTime(lastRun.finishedAt)})
+      </p>
     </div>
-  </section>
+    <a
+      href={withBase("/updates/")}
+      class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-panel border border-panel-border text-muted text-sm
+             hover:bg-accent/12 hover:text-text hover:border-accent/25 transition-all"
+    >← Обзор</a>
+  </div>
 
-  <section style="margin-top: 1rem;" class="panel stack">
-    <ul class="clean">
-      {entries.length === 0 ? <li class="muted">В последнем sync-прогоне новые карточки не появились.</li> : null}
-      {entries.map((entry) => (
-        <li class="panel">
-          <a href={withBase(entry.url)}>{entry.displayName}</a>
-          <div class="muted">
-            {entityTypeLabel(entry.entityType)} · {formatDateTime(entry.syncedAt)}
-            {typeof entry.upstreamVersion === "number" ? ` · upstream v${entry.upstreamVersion}` : ""}
-          </div>
-        </li>
-      ))}
-    </ul>
-  </section>
+  <div class="card-grid card-grid--compact">
+    {newEntities.length === 0 ? (
+      <div class="rounded-2xl bg-panel border border-panel-border p-6 text-muted text-sm">В последнем sync-прогоне новые карточки не появились.</div>
+    ) : null}
+    {newEntities.map((entry) => (
+      <EntityCard entity={entry} compact />
+    ))}
+  </div>
 </BaseLayout>

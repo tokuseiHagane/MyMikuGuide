@@ -15,9 +15,11 @@ const { Content } = await render(entry);
 ---
 
 <BaseLayout title={`${entry.data.title} | Архив`}>
-  <article class="panel">
-    <h1>{entry.data.title}</h1>
-    {entry.data.description ? <p class="muted">{entry.data.description}</p> : null}
-    <Content />
+  <article class="prose-article">
+    <h1 class="text-2xl font-bold m-0 mb-2">{entry.data.title}</h1>
+    {entry.data.description ? <p class="text-muted text-sm mb-6">{entry.data.description}</p> : null}
+    <div class="rounded-2xl bg-panel border border-panel-border p-6 lg:p-8 prose-content">
+      <Content />
+    </div>
   </article>
 </BaseLayout>

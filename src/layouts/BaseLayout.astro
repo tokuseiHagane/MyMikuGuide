@@ -1,5 +1,6 @@
 ---
 import { withBase } from "../lib/site-utils";
+import "../styles/global.css";
 
 interface Props {
   title: string;
@@ -8,14 +9,55 @@ interface Props {
 
 const { title, description = "Автообновляемый статический гид по Hatsune Miku и связанным сущностям из VocaDB." } = Astro.props;
 const pathname = Astro.url.pathname;
-const navItems = [
+const contentSecurityPolicy = [
+  "default-src 'self'",
+  "base-uri 'self'",
+  "form-action 'self'",
+  "frame-ancestors 'none'",
+  "object-src 'none'",
+  "img-src 'self' https: data:",
+  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+  "script-src 'self' 'unsafe-inline'",
+  "connect-src 'self'",
+  "font-src 'self' https://fonts.gstatic.com https: data:",
+  "media-src 'self' https:",
+  "worker-src 'self' blob:",
+  "frame-src 'self' https://www.youtube.com https://embed.nicovideo.jp",
+  "upgrade-insecure-requests",
+].join("; ");
+
+interface NavItem {
+  href: string;
+  label: string;
+  children?: { href: string; label: string }[];
+}
+
+const navItems: NavItem[] = [
   { href: "/", label: "Главная" },
-  { href: "/artists/", label: "Артисты" },
-  { href: "/songs/", label: "Песни" },
-  { href: "/albums/", label: "Альбомы" },
+  {
+    href: "/artists/",
+    label: "Каталог",
+    children: [
+      { href: "/artists/", label: "Артисты" },
+      { href: "/songs/", label: "Песни" },
+      { href: "/albums/", label: "Альбомы" },
+    ],
+  },
+  { href: "/years/", label: "По годам" },
+  { href: "/tags/", label: "Теги" },
+  { href: "/stats/", label: "Статистика" },
+  { href: "/search/", label: "Поиск" },
   { href: "/updates/", label: "Обновления" },
   { href: "/legacy/", label: "Архив" },
 ];
+
+function isActive(item: NavItem): boolean {
+  if (item.href === "/") return pathname === withBase("/") || pathname === withBase("/") + "/";
+  const base = withBase(item.href);
+  if (pathname.startsWith(base)) return true;
+  if (item.children) return item.children.some((c) => pathname.startsWith(withBase(c.href)));
+  return false;
+}
 ---
 
 <!doctype html>
@@ -25,439 +67,202 @@ const navItems = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <style>
-      :root {
-        color-scheme: dark;
-        --bg: #07111f;
-        --bg-alt: #0f172a;
-        --panel: rgba(15, 23, 42, 0.88);
-        --panel-strong: rgba(17, 24, 39, 0.96);
-        --panel-border: rgba(148, 163, 184, 0.14);
-        --text: #e5eefb;
-        --muted: #91a3bf;
-        --accent: #5eead4;
-        --accent-strong: #22d3ee;
-        --shadow: 0 18px 50px rgba(2, 6, 23, 0.35);
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        margin: 0;
-        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-        background:
-          radial-gradient(circle at top, rgba(34, 211, 238, 0.15), transparent 32%),
-          linear-gradient(180deg, #020617, var(--bg));
-        color: var(--text);
-      }
-
-      a {
-        color: var(--accent);
-        text-decoration: none;
-      }
-
-      a:hover {
-        color: #a5f3fc;
-      }
-
-      header, main, footer {
-        width: min(1200px, calc(100% - 2rem));
-        margin: 0 auto;
-      }
-
-      header {
-        padding: 1.5rem 0 1rem;
-      }
-
-      .site-shell {
-        position: sticky;
-        top: 0;
-        z-index: 10;
-        backdrop-filter: blur(14px);
-        background: rgba(2, 6, 23, 0.7);
-        border: 1px solid rgba(148, 163, 184, 0.08);
-        border-radius: 20px;
-        padding: 1rem 1.25rem;
-        box-shadow: var(--shadow);
-      }
-
-      .site-brand {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 1rem;
-        flex-wrap: wrap;
-      }
-
-      .site-brand__title {
-        font-size: 1.05rem;
-        font-weight: 800;
-        letter-spacing: 0.02em;
-      }
-
-      .site-brand__subtitle {
-        color: var(--muted);
-        font-size: 0.92rem;
-      }
-
-      nav {
-        display: flex;
-        gap: 0.6rem;
-        flex-wrap: wrap;
-      }
-
-      .nav-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.35rem;
-        padding: 0.65rem 0.95rem;
-        border-radius: 999px;
-        background: rgba(15, 23, 42, 0.75);
-        border: 1px solid rgba(148, 163, 184, 0.1);
-        color: var(--muted);
-        transition: 140ms ease;
-      }
-
-      .nav-link:hover,
-      .nav-link--active {
-        background: rgba(34, 211, 238, 0.14);
-        color: var(--text);
-        border-color: rgba(94, 234, 212, 0.32);
-      }
-
-      main {
-        padding: 1.25rem 0 3rem;
-      }
-
-      footer {
-        color: var(--muted);
-        padding: 0 0 3rem;
-      }
-
-      .panel {
-        background: var(--panel);
-        border: 1px solid var(--panel-border);
-        border-radius: 24px;
-        padding: 1.25rem 1.4rem;
-        box-shadow: var(--shadow);
-      }
-
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: 1rem;
-      }
-
-      .grid--wide {
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      }
-
-      .hero {
-        display: grid;
-        gap: 1.25rem;
-        grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.9fr);
-      }
-
-      .hero__content {
-        background: linear-gradient(145deg, rgba(15, 23, 42, 0.95), rgba(8, 47, 73, 0.78));
-      }
-
-      .hero__eyebrow {
-        color: var(--accent);
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        font-size: 0.78rem;
-        font-weight: 700;
-      }
-
-      .hero__headline {
-        margin: 0.35rem 0 0.75rem;
-        font-size: clamp(2rem, 4vw, 3.2rem);
-      }
-
-      .hero__actions {
-        display: flex;
-        gap: 0.75rem;
-        flex-wrap: wrap;
-        margin-top: 1.1rem;
-      }
-
-      .button-link {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0.85rem 1.15rem;
-        border-radius: 999px;
-        background: linear-gradient(135deg, rgba(94, 234, 212, 0.22), rgba(34, 211, 238, 0.18));
-        border: 1px solid rgba(94, 234, 212, 0.28);
-        color: var(--text);
-        font-weight: 600;
-      }
-
-      .button-link--ghost {
-        background: rgba(15, 23, 42, 0.66);
-        color: var(--muted);
-      }
-
-      .stats-grid {
-        display: grid;
-        gap: 0.75rem;
-      }
-
-      .stat-card {
-        background: var(--panel-strong);
-        border: 1px solid var(--panel-border);
-        border-radius: 20px;
-        padding: 1rem;
-      }
-
-      .stat-card__value {
-        font-size: 1.7rem;
-        font-weight: 800;
-        margin: 0;
-      }
-
-      .section-header {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-        gap: 1rem;
-        margin-bottom: 1rem;
-      }
-
-      .section-header h2,
-      .section-header h1 {
-        margin: 0;
-      }
-
-      .section-header p {
-        margin: 0.3rem 0 0;
-      }
-
-      .muted {
-        color: var(--muted);
-      }
-
-      h1, h2, h3 {
-        line-height: 1.15;
-      }
-
-      ul.clean {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-
-      ul.clean li + li {
-        margin-top: 0.75rem;
-      }
-
-      .entity-card {
-        overflow: hidden;
-        display: grid;
-        grid-template-rows: auto 1fr;
-        background: rgba(15, 23, 42, 0.92);
-        border: 1px solid var(--panel-border);
-        border-radius: 22px;
-        box-shadow: var(--shadow);
-      }
-
-      .entity-card--compact .entity-card__image {
-        aspect-ratio: 16 / 8;
-      }
-
-      .entity-card__image {
-        display: block;
-        aspect-ratio: 16 / 10;
-        background: linear-gradient(145deg, rgba(34, 211, 238, 0.16), rgba(15, 23, 42, 0.9));
-      }
-
-      .entity-card__image img,
-      .entity-card__placeholder {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-      }
-
-      .entity-card__placeholder {
-        display: grid;
-        place-items: center;
-        font-size: 2.8rem;
-        font-weight: 800;
-        color: rgba(229, 238, 251, 0.72);
-      }
-
-      .entity-card__body {
-        padding: 1rem 1rem 1.1rem;
-      }
-
-      .entity-card__header {
-        display: flex;
-        gap: 0.5rem;
-        flex-wrap: wrap;
-        margin-bottom: 0.75rem;
-      }
-
-      .entity-card__title {
-        margin: 0;
-        font-size: 1.1rem;
-      }
-
-      .entity-card__description {
-        color: var(--muted);
-        margin: 0.65rem 0 0;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
-
-      .entity-card__meta {
-        list-style: none;
-        padding: 0;
-        margin: 0.9rem 0 0;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.45rem;
-      }
-
-      .entity-card__meta li,
-      .entity-pill {
-        padding: 0.38rem 0.65rem;
-        border-radius: 999px;
-        background: rgba(148, 163, 184, 0.1);
-        color: var(--muted);
-        font-size: 0.86rem;
-      }
-
-      .entity-pill--muted {
-        background: rgba(34, 211, 238, 0.12);
-      }
-
-      .entity-hero {
-        display: grid;
-        grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
-        gap: 1.25rem;
-        align-items: start;
-      }
-
-      .entity-hero__media {
-        border-radius: 24px;
-        overflow: hidden;
-        background: linear-gradient(145deg, rgba(34, 211, 238, 0.18), rgba(15, 23, 42, 0.96));
-        border: 1px solid var(--panel-border);
-        aspect-ratio: 4 / 5;
-      }
-
-      .entity-hero__media img,
-      .entity-hero__fallback {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-      }
-
-      .entity-hero__fallback {
-        display: grid;
-        place-items: center;
-        font-size: 4rem;
-        font-weight: 800;
-        color: rgba(229, 238, 251, 0.72);
-      }
-
-      .detail-grid {
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      }
-
-      .meta-list {
-        display: grid;
-        gap: 0.6rem;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-
-      .meta-list li {
-        color: var(--muted);
-      }
-
-      .chip-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.55rem;
-      }
-
-      .chip {
-        display: inline-flex;
-        align-items: center;
-        padding: 0.42rem 0.72rem;
-        border-radius: 999px;
-        background: rgba(148, 163, 184, 0.1);
-        color: var(--text);
-      }
-
-      .link-list {
-        display: grid;
-        gap: 0.7rem;
-      }
-
-      .link-list a {
-        display: inline-flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 0.75rem;
-        width: 100%;
-        padding: 0.9rem 1rem;
-        border-radius: 16px;
-        background: rgba(148, 163, 184, 0.08);
-        border: 1px solid rgba(148, 163, 184, 0.1);
-      }
-
-      .stack {
-        display: grid;
-        gap: 1rem;
-      }
-
-      @media (max-width: 900px) {
-        .hero,
-        .entity-hero {
-          grid-template-columns: 1fr;
-        }
-      }
-    </style>
+    <meta http-equiv="Content-Security-Policy" content={contentSecurityPolicy} />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <slot name="head" />
   </head>
-  <body>
-    <header>
-      <div class="site-shell">
-        <div class="site-brand">
-          <div>
-            <a class="site-brand__title" href={withBase("/")}>MyMikuGuide</a>
-            <div class="site-brand__subtitle">Статический гид по Hatsune Miku и связанному графу из VocaDB</div>
-          </div>
-          <nav>
-            {navItems.map((item) => {
-              const href = withBase(item.href);
-              const active = item.href === "/" ? pathname === href : pathname.startsWith(href);
-              return (
-                <a class:list={["nav-link", active && "nav-link--active"]} href={href}>
+  <body class="min-h-screen flex flex-col">
+    <!-- Mobile sidebar overlay -->
+    <div
+      id="sidebar-overlay"
+      class="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300 lg:hidden"
+      aria-hidden="true"
+    ></div>
+
+    <!-- Mobile sidebar -->
+    <aside
+      id="sidebar"
+      class="fixed top-0 left-0 z-50 h-full w-72 bg-bg-alt/95 backdrop-blur-xl border-r border-panel-border
+             -translate-x-full transition-transform duration-300 lg:hidden overflow-y-auto"
+    >
+      <div class="flex items-center justify-between p-5 border-b border-panel-border">
+        <a href={withBase("/")} class="text-lg font-extrabold tracking-tight text-text">MyMikuGuide</a>
+        <button
+          id="sidebar-close"
+          class="w-9 h-9 flex items-center justify-center rounded-full bg-panel hover:bg-accent/20
+                 text-muted hover:text-text transition-colors"
+          aria-label="Закрыть меню"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+            <path d="M18 6L6 18M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <nav class="p-4 flex flex-col gap-1">
+        {navItems.map((item) => (
+          <>
+            {item.children ? (
+              <div class="mt-2">
+                <span class="block px-3 py-2 text-xs font-bold uppercase tracking-widest text-accent">{item.label}</span>
+                {item.children.map((child) => {
+                  const href = withBase(child.href);
+                  const active = pathname.startsWith(href);
+                  return (
+                    <a
+                      href={href}
+                      class:list={[
+                        "block px-3 py-2.5 rounded-xl text-sm transition-colors",
+                        active ? "bg-accent/15 text-text font-semibold" : "text-muted hover:bg-panel hover:text-text",
+                      ]}
+                    >
+                      {child.label}
+                    </a>
+                  );
+                })}
+              </div>
+            ) : (
+              <a
+                href={withBase(item.href)}
+                class:list={[
+                  "block px-3 py-2.5 rounded-xl text-sm transition-colors",
+                  isActive(item) ? "bg-accent/15 text-text font-semibold" : "text-muted hover:bg-panel hover:text-text",
+                ]}
+              >
+                {item.label}
+              </a>
+            )}
+          </>
+        ))}
+      </nav>
+    </aside>
+
+    <!-- Header -->
+    <header
+      class="sticky top-0 z-30 w-full backdrop-blur-xl bg-bg/80 border-b border-panel-border/60"
+      data-pagefind-ignore="all"
+    >
+      <div class="w-[min(1200px,calc(100%-2rem))] mx-auto flex items-center justify-between h-16 gap-4">
+        <!-- Mobile hamburger -->
+        <button
+          id="sidebar-open"
+          class="lg:hidden w-10 h-10 flex items-center justify-center rounded-xl bg-panel/60 hover:bg-accent/20
+                 text-muted hover:text-text transition-colors border border-panel-border"
+          aria-label="Открыть меню"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M3 12h18M3 6h18M3 18h18" />
+          </svg>
+        </button>
+
+        <!-- Brand -->
+        <a href={withBase("/")} class="flex items-center gap-2.5 shrink-0">
+          <span class="text-lg font-extrabold tracking-tight bg-gradient-to-r from-accent to-accent-strong bg-clip-text text-transparent">
+            MyMikuGuide
+          </span>
+        </a>
+
+        <!-- Desktop nav -->
+        <nav class="hidden lg:flex items-center gap-1 flex-1 justify-center">
+          {navItems.map((item) => (
+            <>
+              {item.children ? (
+                <div class="relative group">
+                  <button
+                    class:list={[
+                      "nav-pill",
+                      isActive(item) && "nav-pill--active",
+                    ]}
+                  >
+                    {item.label}
+                    <svg class="w-3.5 h-3.5 ml-0.5 opacity-50 group-hover:opacity-100 transition-opacity" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                    </svg>
+                  </button>
+                  <div class="absolute top-full left-1/2 -translate-x-1/2 pt-2 opacity-0 invisible
+                              group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                    <div class="bg-panel-strong/98 backdrop-blur-xl border border-panel-border rounded-2xl p-2 min-w-[160px] shadow-panel">
+                      {item.children.map((child) => {
+                        const href = withBase(child.href);
+                        const active = pathname.startsWith(href);
+                        return (
+                          <a
+                            href={href}
+                            class:list={[
+                              "block px-3.5 py-2 rounded-xl text-sm whitespace-nowrap transition-colors",
+                              active ? "bg-accent/15 text-text font-semibold" : "text-muted hover:bg-accent/10 hover:text-text",
+                            ]}
+                          >
+                            {child.label}
+                          </a>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <a
+                  href={withBase(item.href)}
+                  class:list={[
+                    "nav-pill",
+                    isActive(item) && "nav-pill--active",
+                  ]}
+                >
                   {item.label}
                 </a>
-              );
-            })}
-          </nav>
-        </div>
+              )}
+            </>
+          ))}
+        </nav>
+
+        <div class="hidden lg:block w-10"></div>
       </div>
     </header>
-    <main>
+
+    <!-- Main content -->
+    <main class="w-[min(1200px,calc(100%-2rem))] mx-auto py-6 pb-12 flex-1">
       <slot />
     </main>
-    <footer>
-      <p>Данные синхронизируются из VocaDB и публикуются как статический сайт без выделенного сервера.</p>
+
+    <!-- Footer -->
+    <footer class="w-[min(1200px,calc(100%-2rem))] mx-auto pb-10 border-t border-panel-border/40 pt-8" data-pagefind-ignore="all">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div>
+          <span class="text-sm font-bold text-text/80">MyMikuGuide</span>
+          <p class="text-xs text-muted mt-1">Данные синхронизируются из VocaDB и публикуются как статический сайт.</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <a href="https://vocadb.net" class="text-xs text-muted hover:text-accent transition-colors" target="_blank" rel="noopener">VocaDB</a>
+          <span class="text-panel-border">·</span>
+          <a href="https://github.com/TokuseiHagane/MyMikuGuide" class="text-xs text-muted hover:text-accent transition-colors" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
     </footer>
+
+    <!-- Sidebar toggle script -->
+    <script>
+      const sidebar = document.getElementById("sidebar");
+      const overlay = document.getElementById("sidebar-overlay");
+      const openBtn = document.getElementById("sidebar-open");
+      const closeBtn = document.getElementById("sidebar-close");
+
+      function openSidebar() {
+        sidebar?.classList.remove("-translate-x-full");
+        overlay?.classList.remove("opacity-0", "pointer-events-none");
+        overlay?.classList.add("opacity-100", "pointer-events-auto");
+      }
+
+      function closeSidebar() {
+        sidebar?.classList.add("-translate-x-full");
+        overlay?.classList.add("opacity-0", "pointer-events-none");
+        overlay?.classList.remove("opacity-100", "pointer-events-auto");
+      }
+
+      openBtn?.addEventListener("click", openSidebar);
+      closeBtn?.addEventListener("click", closeSidebar);
+      overlay?.addEventListener("click", closeSidebar);
+    </script>
   </body>
 </html>

@@ -1,0 +1,185 @@
+name: Sync Snapshot
+
+on:
+  schedule:
+    - cron: "20 */6 * * *"
+    - cron: "50 3 * * *"
+  workflow_dispatch:
+    inputs:
+      sync_mode:
+        description: "Режим синхронизации"
+        required: true
+        default: "incremental"
+        type: choice
+        options:
+          - incremental
+          - incremental-hot
+          - reconcile-shard
+          - full
+          - bootstrap
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "my-miku-guide-sync"
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Bootstrap previous canonical SQLite snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SQLITE_RELEASE_TAG: sqlite-snapshot-latest
+        shell: bash
+        run: |
+          mkdir -p data/db
+
+          if ! gh release view "$SQLITE_RELEASE_TAG" >/dev/null 2>&1; then
+            echo "No rolling SQLite release yet; continuing with cold start."
+            exit 0
+          fi
+
+          gh release download "$SQLITE_RELEASE_TAG" \
+            --pattern "vocadb.sqlite.zst" \
+            --pattern "vocadb.sqlite.sha256" \
+            --dir data/db \
+            --clobber || {
+              echo "Failed to download rolling SQLite release; continuing with cold start."
+              exit 0
+            }
+
+          if [ -f "data/db/vocadb.sqlite.zst" ]; then
+            zstd -d data/db/vocadb.sqlite.zst -o data/db/vocadb.sqlite
+            rm -f data/db/vocadb.sqlite.zst
+          fi
+
+          if [ -f "data/db/vocadb.sqlite" ] && [ -f "data/db/vocadb.sqlite.sha256" ]; then
+            (
+              cd data/db
+              sha256sum -c vocadb.sqlite.sha256
+            )
+          fi
+
+      - name: Resolve sync mode
+        id: resolve_mode
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            case "${{ github.event.schedule }}" in
+              "20 */6 * * *")
+                echo "mode=incremental-hot" >> "$GITHUB_OUTPUT"
+                ;;
+              "50 3 * * *")
+                echo "mode=reconcile-shard" >> "$GITHUB_OUTPUT"
+                ;;
+              *)
+                echo "mode=incremental" >> "$GITHUB_OUTPUT"
+                ;;
+            esac
+          else
+            echo "mode=${{ github.event.inputs.sync_mode || 'incremental' }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run sync
+        env:
+          SYNC_STORE_RAW: "false"
+          SYNC_RETRY_FAILED_ON_INCREMENTAL: "true"
+          SYNC_LOG_PROGRESS: "true"
+          SYNC_LOG_PROGRESS_INTERVAL_MS: "15000"
+          SYNC_FORCE_IPV4: "true"
+        shell: bash
+        run: |
+          MODE="${{ steps.resolve_mode.outputs.mode }}"
+          case "$MODE" in
+            incremental)
+              export SYNC_CONCURRENCY=32
+              export SYNC_HOT_ENTITY_LIMIT=220
+              export SYNC_RECONCILE_SHARD_SIZE=180
+              export SYNC_RECONCILE_BUCKET_COUNT=32
+              export SYNC_MAX_NEW_ENTITIES_PER_RUN=80
+              export SYNC_ROOT_ARTIST_DISCOGRAPHY_LIMIT=10
+              export SYNC_RELATED_ARTIST_DISCOGRAPHY_LIMIT=4
+              export SYNC_PROBE_TIMEOUT_MS=10000
+              export SYNC_FETCH_TIMEOUT_MS=20000
+              export SYNC_ID_LOOKUP_TIMEOUT_MS=12000
+              npm run sync
+              ;;
+            incremental-hot)
+              export SYNC_CONCURRENCY=32
+              export SYNC_HOT_ENTITY_LIMIT=160
+              export SYNC_MAX_NEW_ENTITIES_PER_RUN=120
+              export SYNC_ROOT_ARTIST_DISCOGRAPHY_LIMIT=12
+              export SYNC_RELATED_ARTIST_DISCOGRAPHY_LIMIT=6
+              export SYNC_PROBE_TIMEOUT_MS=10000
+              export SYNC_FETCH_TIMEOUT_MS=20000
+              export SYNC_ID_LOOKUP_TIMEOUT_MS=12000
+              npm run sync:incremental-hot
+              ;;
+            reconcile-shard)
+              export SYNC_CONCURRENCY=32
+              export SYNC_HOT_ENTITY_LIMIT=none
+              export SYNC_RECONCILE_SHARD_SIZE=400
+              export SYNC_RECONCILE_BUCKET_COUNT=32
+              export SYNC_MAX_NEW_ENTITIES_PER_RUN=80
+              export SYNC_ROOT_ARTIST_DISCOGRAPHY_LIMIT=10
+              export SYNC_RELATED_ARTIST_DISCOGRAPHY_LIMIT=4
+              export SYNC_PROBE_TIMEOUT_MS=12000
+              export SYNC_FETCH_TIMEOUT_MS=24000
+              export SYNC_ID_LOOKUP_TIMEOUT_MS=14000
+              npm run sync:reconcile-shard
+              ;;
+            full)
+              export SYNC_CONCURRENCY=32
+              export SYNC_CATALOG_SCAN_CONCURRENCY=32
+              export SYNC_MAX_NEW_ENTITIES_PER_RUN=none
+              export SYNC_ROOT_ARTIST_DISCOGRAPHY_LIMIT=none
+              export SYNC_RELATED_ARTIST_DISCOGRAPHY_LIMIT=none
+              export SYNC_PROBE_TIMEOUT_MS=15000
+              export SYNC_FETCH_TIMEOUT_MS=35000
+              export SYNC_ID_LOOKUP_TIMEOUT_MS=20000
+              export SYNC_CATALOG_PAGE_SIZE=100
+              export SYNC_CATALOG_VALIDATION_PASSES=1
+              npm run sync:full
+              ;;
+            bootstrap)
+              export SYNC_CONCURRENCY=32
+              export SYNC_HOT_ENTITY_LIMIT=160
+              export SYNC_MAX_NEW_ENTITIES_PER_RUN=140
+              export SYNC_ROOT_ARTIST_DISCOGRAPHY_LIMIT=18
+              export SYNC_RELATED_ARTIST_DISCOGRAPHY_LIMIT=8
+              export SYNC_PROBE_TIMEOUT_MS=12000
+              export SYNC_FETCH_TIMEOUT_MS=28000
+              export SYNC_ID_LOOKUP_TIMEOUT_MS=16000
+              npm run sync:bootstrap
+              ;;
+            *)
+              echo "Unsupported sync mode: $MODE"
+              exit 1
+              ;;
+          esac
+
+      - name: Upload snapshot artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: vocadb-snapshot
+          retention-days: 14
+          if-no-files-found: error
+          path: |
+            data/db
+            data/derived
+            data/raw/vocadb/meta

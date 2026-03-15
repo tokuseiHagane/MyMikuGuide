@@ -1,34 +1,31 @@
 ---
+import EntityCard from "../../components/EntityCard.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { loadRecentlyUpdated } from "../../lib/site-data";
-import { entityTypeLabel, formatDateTime, withBase } from "../../lib/site-utils";
+import { withBase } from "../../lib/site-utils";
 
-const recent = await loadRecentlyUpdated();
+const recentEntities = await loadRecentlyUpdated();
 ---
 
 <BaseLayout title="Недавно обновлялось | MyMikuGuide">
-  <section class="panel">
-    <div class="section-header">
-      <div>
-        <h1>Недавно обновлялось</h1>
-        <p class="muted">Сущности из локального снапшота, отсортированные по времени последней синхронизации.</p>
-      </div>
-      <a class="button-link button-link--ghost" href={withBase("/updates/")}>Назад к обзору</a>
+  <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+    <div>
+      <h1 class="text-2xl font-bold m-0">Недавно обновлялось</h1>
+      <p class="text-muted text-sm mt-1 m-0">Сущности, отсортированные по времени последней синхронизации</p>
     </div>
-  </section>
+    <a
+      href={withBase("/updates/")}
+      class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-panel border border-panel-border text-muted text-sm
+             hover:bg-accent/12 hover:text-text hover:border-accent/25 transition-all"
+    >← Обзор</a>
+  </div>
 
-  <section style="margin-top: 1rem;" class="panel stack">
-    <ul class="clean">
-      {recent.length === 0 ? <li class="muted">Индекс недавно обновлённых сущностей пока пуст.</li> : null}
-      {recent.map((entry) => (
-        <li class="panel">
-          <a href={withBase(entry.url)}>{entry.displayName}</a>
-          <div class="muted">
-            {entityTypeLabel(entry.entityType)} · {formatDateTime(entry.syncedAt)}
-            {typeof entry.upstreamVersion === "number" ? ` · upstream v${entry.upstreamVersion}` : ""}
-          </div>
-        </li>
-      ))}
-    </ul>
-  </section>
+  <div class="card-grid card-grid--compact">
+    {recentEntities.length === 0 ? (
+      <div class="rounded-2xl bg-panel border border-panel-border p-6 text-muted text-sm">Индекс недавно обновлённых сущностей пока пуст.</div>
+    ) : null}
+    {recentEntities.map((entry) => (
+      <EntityCard entity={entry} compact />
+    ))}
+  </div>
 </BaseLayout>

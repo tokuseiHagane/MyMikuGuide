@@ -1,0 +1,30 @@
+---
+import { withBase } from "../lib/site-utils";
+
+interface Props {
+  tag: string;
+  count?: number;
+  href?: string;
+  size?: "sm" | "md";
+}
+
+const { tag, count, href, size = "sm" } = Astro.props;
+const resolvedHref = href ?? withBase(`/tags/${encodeURIComponent(tag)}/`);
+const sizeClass = size === "md"
+  ? "px-3.5 py-1.5 text-sm"
+  : "px-2.5 py-1 text-xs";
+---
+
+<a
+  href={resolvedHref}
+  class:list={[
+    "inline-flex items-center gap-1.5 rounded-full font-medium transition-all duration-150",
+    "bg-accent/10 text-accent hover:bg-accent/20 hover:text-accent-hover border border-accent/15 hover:border-accent/30",
+    sizeClass,
+  ]}
+>
+  <span>{tag}</span>
+  {count != null ? (
+    <span class="text-muted/70 font-normal">{count}</span>
+  ) : null}
+</a>

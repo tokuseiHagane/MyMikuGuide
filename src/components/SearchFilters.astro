@@ -1,0 +1,70 @@
+---
+interface FilterOption {
+  value: string;
+  label: string;
+}
+
+interface Props {
+  entityTypes?: FilterOption[];
+  years?: FilterOption[];
+  tags?: FilterOption[];
+}
+
+const {
+  entityTypes = [
+    { value: "artist", label: "Артисты" },
+    { value: "song", label: "Песни" },
+    { value: "album", label: "Альбомы" },
+  ],
+  years = [],
+  tags = [],
+} = Astro.props;
+---
+
+<aside class="rounded-2xl bg-panel border border-panel-border p-5 space-y-5" data-search-filters>
+  <div>
+    <h3 class="text-xs font-bold text-muted uppercase tracking-wide mb-3">Тип</h3>
+    <div class="flex flex-wrap gap-2">
+      {entityTypes.map((opt) => (
+        <label class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 text-sm text-muted
+                      cursor-pointer hover:bg-accent/12 hover:text-text transition-colors border border-transparent
+                      has-[:checked]:bg-accent/15 has-[:checked]:text-text has-[:checked]:border-accent/25">
+          <input type="checkbox" class="sr-only" name="entityType" value={opt.value} />
+          {opt.label}
+        </label>
+      ))}
+    </div>
+  </div>
+
+  {years.length > 0 ? (
+    <div>
+      <h3 class="text-xs font-bold text-muted uppercase tracking-wide mb-3">Год</h3>
+      <select
+        name="year"
+        class="w-full rounded-xl bg-bg-alt border border-panel-border px-3 py-2 text-sm text-text
+               focus:outline-none focus:border-accent/40 transition-colors"
+      >
+        <option value="">Все годы</option>
+        {years.map((y) => (
+          <option value={y.value}>{y.label}</option>
+        ))}
+      </select>
+    </div>
+  ) : null}
+
+  {tags.length > 0 ? (
+    <div>
+      <h3 class="text-xs font-bold text-muted uppercase tracking-wide mb-3">Теги</h3>
+      <div class="flex flex-wrap gap-1.5 max-h-40 overflow-y-auto">
+        {tags.map((t) => (
+          <label class="inline-flex items-center px-2.5 py-1 rounded-full bg-white/5 text-xs text-muted
+                        cursor-pointer hover:bg-accent/12 hover:text-text transition-colors border border-transparent
+                        has-[:checked]:bg-accent/15 has-[:checked]:text-text has-[:checked]:border-accent/25">
+            <input type="checkbox" class="sr-only" name="tag" value={t.value} />
+            {t.label}
+          </label>
+        ))}
+      </div>
+    </div>
+  ) : null}
+</aside>

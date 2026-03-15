@@ -1,38 +1,36 @@
 ---
 import EntityCard from "../../components/EntityCard.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { loadAlbums, loadArtists, loadGraphSummary, loadSongs } from "../../lib/site-data";
+import { loadGraphSummary, loadUpdatedToday } from "../../lib/site-data";
 import { withBase } from "../../lib/site-utils";
 
-const [artists, songs, albums, summary] = await Promise.all([
-  loadArtists(),
-  loadSongs(),
-  loadAlbums(),
+const [todayEntries, summary] = await Promise.all([
+  loadUpdatedToday(),
   loadGraphSummary(),
 ]);
 
 const snapshotDay = summary.syncedAt ? new Date(summary.syncedAt).toISOString().slice(0, 10) : "";
-const todayEntries = [...artists, ...songs, ...albums]
-  .filter((entry) => entry.syncedAt.slice(0, 10) === snapshotDay)
-  .sort((left, right) => right.syncedAt.localeCompare(left.syncedAt) || left.slug.localeCompare(right.slug));
 ---
 
 <BaseLayout title="Обновлено Сегодня | MyMikuGuide">
-  <section class="panel">
-    <div class="section-header">
-      <div>
-        <h1>Обновлено сегодня</h1>
-        <p class="muted">
-          Здесь показаны сущности, чья локальная синхронизация пришлась на дату последней сборки снапшота:
-          {snapshotDay ? ` ${snapshotDay}` : " дата пока неизвестна"}.
-        </p>
-      </div>
-      <a class="button-link button-link--ghost" href={withBase("/updates/")}>Назад к обзору</a>
+  <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+    <div>
+      <h1 class="text-2xl font-bold m-0">Обновлено сегодня</h1>
+      <p class="text-muted text-sm mt-1 m-0">
+        Сущности за дату снапшота{snapshotDay ? `: ${snapshotDay}` : ""}
+      </p>
     </div>
-  </section>
+    <a
+      href={withBase("/updates/")}
+      class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-panel border border-panel-border text-muted text-sm
+             hover:bg-accent/12 hover:text-text hover:border-accent/25 transition-all"
+    >← Обзор</a>
+  </div>
 
-  <section style="margin-top: 1rem;" class="grid">
-    {todayEntries.length === 0 ? <div class="panel muted">На дату последнего снапшота обновлений не найдено.</div> : null}
+  <div class="card-grid card-grid--compact">
+    {todayEntries.length === 0 ? (
+      <div class="rounded-2xl bg-panel border border-panel-border p-6 text-muted text-sm">На дату последнего снапшота обновлений не найдено.</div>
+    ) : null}
     {todayEntries.map((entry) => <EntityCard entity={entry} compact />)}
-  </section>
+  </div>
 </BaseLayout>

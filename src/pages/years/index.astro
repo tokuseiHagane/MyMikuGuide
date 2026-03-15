@@ -1,0 +1,58 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadYearsIndex } from "../../lib/site-data";
+import { withBase } from "../../lib/site-utils";
+
+const yearsData = await loadYearsIndex();
+const maxTotal = Math.max(...yearsData.years.map((y) => y.total), 1);
+---
+
+<BaseLayout title="Обзор по годам | MyMikuGuide">
+  <div class="mb-6">
+    <h1 class="text-2xl font-bold m-0">Обзор по годам</h1>
+    <p class="text-muted text-sm mt-1 m-0">{yearsData.totalYears} уникальных годов в каталоге</p>
+  </div>
+
+  <!-- Timeline visualization -->
+  <div class="rounded-2xl bg-panel border border-panel-border p-6 mb-6">
+    <h2 class="text-lg font-bold m-0 mb-4">Временная шкала</h2>
+    <div class="flex gap-0.5 overflow-x-auto">
+      {yearsData.years.map((y) => {
+        const barH = Math.max(6, Math.round((y.total / maxTotal) * 180));
+        return (
+          <a
+            href={withBase(`/years/${y.year}/`)}
+            class="group flex flex-col items-center shrink-0"
+            style="min-width: 36px; height: 240px;"
+            title={`${y.year}: ${y.total} записей`}
+          >
+            <span class="text-[10px] text-muted opacity-0 group-hover:opacity-100 transition-opacity font-mono">{y.total.toLocaleString("ru-RU")}</span>
+            <div class="flex-1 flex items-end w-full justify-center">
+              <div
+                class="w-5 rounded-t bg-accent/50 group-hover:bg-accent/80 transition-colors"
+                style={`height: ${barH}px`}
+              ></div>
+            </div>
+            <span class="text-[10px] text-muted font-mono mt-1">{y.year}</span>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+
+  <!-- Year cards grid -->
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+    {yearsData.years.map((y) => (
+      <a
+        href={withBase(`/years/${y.year}/`)}
+        class="group rounded-xl bg-panel border border-panel-border p-4 hover:border-accent/30 hover:bg-accent/5 transition-all text-center"
+      >
+        <span class="text-2xl font-extrabold text-text group-hover:text-accent transition-colors">{y.year}</span>
+        <div class="flex justify-center gap-3 mt-2 text-xs text-muted">
+          <span>{y.songs} песен</span>
+          <span>{y.albums} альб.</span>
+        </div>
+      </a>
+    ))}
+  </div>
+</BaseLayout>

@@ -1,0 +1,11 @@
+{
+  "available": false,
+  "provider": "pages-sqlite",
+  "version": null,
+  "configUrl": null,
+  "databaseUrl": null,
+  "sha256": null,
+  "bytes": null,
+  "pageSize": null,
+  "updatedAt": null
+}

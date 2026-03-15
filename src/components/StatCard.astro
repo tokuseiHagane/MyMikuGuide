@@ -1,0 +1,17 @@
+---
+interface Props {
+  label: string;
+  value: string | number;
+  sublabel?: string;
+}
+
+const { label, value, sublabel } = Astro.props;
+---
+
+<article class="rounded-2xl bg-panel-strong border border-panel-border p-5 flex flex-col gap-1.5">
+  <span class="text-xs font-medium text-muted uppercase tracking-wide">{label}</span>
+  <span class="text-3xl font-extrabold text-text leading-none">{typeof value === "number" ? value.toLocaleString("ru-RU") : value}</span>
+  {sublabel ? (
+    <span class="text-xs text-muted mt-0.5">{sublabel}</span>
+  ) : null}
+</article>

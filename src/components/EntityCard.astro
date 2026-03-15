@@ -1,9 +1,9 @@
 ---
-import { entityBadge, entityDescription, entityImage, entityMeta, formatDateTime, withBase } from "../lib/site-utils";
-import type { Album, Artist, Song } from "../lib/models";
+import { entityBadge, entityDescription, entityHref, entityImage, entityMeta, formatDateTime } from "../lib/site-utils";
+import type { EntitySummary } from "../lib/models";
 
 interface Props {
-  entity: Artist | Song | Album;
+  entity: EntitySummary;
   compact?: boolean;
 }
 
@@ -11,34 +11,57 @@ const { entity, compact = false } = Astro.props;
 const image = entityImage(entity);
 const description = entityDescription(entity);
 const meta = entityMeta(entity);
+const imageHeight = compact ? "h-[150px]" : "h-[clamp(170px,22vw,220px)]";
 ---
 
-<article class:list={["entity-card", compact && "entity-card--compact"]}>
-  <a class="entity-card__image" href={withBase(entity.url)} aria-label={entity.displayName}>
+<article
+  class:list={[
+    "group overflow-hidden rounded-[22px] border border-accent/14 bg-gradient-to-b from-bg-alt/98 to-bg/96",
+    "shadow-card hover:shadow-card-hover hover:-translate-y-0.5 hover:border-accent/36",
+    "hover:from-bg-alt hover:to-[rgba(8,47,73,0.92)]",
+    "transition-all duration-200 h-full flex flex-col",
+  ]}
+>
+  <a class:list={["block overflow-hidden bg-gradient-to-br from-accent/16 to-bg-alt/90 border-b border-panel-border", imageHeight]} href={entityHref(entity)} aria-label={entity.displayName}>
     {image ? (
-      <img src={image} alt={entity.displayName} loading="lazy" />
+      <img
+        src={image}
+        alt={entity.displayName}
+        loading="lazy"
+        width="280"
+        height="220"
+        class="w-full h-full object-cover transition-transform duration-200 group-hover:scale-[1.04]"
+      />
     ) : (
-      <div class="entity-card__placeholder" aria-hidden="true">{entity.displayName.slice(0, 1)}</div>
+      <div class="w-full h-full grid place-items-center text-4xl font-extrabold text-text/70" aria-hidden="true">
+        {entity.displayName.slice(0, 1)}
+      </div>
     )}
   </a>
 
-  <div class="entity-card__body">
-    <div class="entity-card__header">
-      <span class="entity-pill">{entityBadge(entity)}</span>
-      {typeof entity.upstreamVersion === "number" ? <span class="entity-pill entity-pill--muted">v{entity.upstreamVersion}</span> : null}
+  <div class="p-4 pb-4.5 flex flex-col gap-3 flex-1 min-w-0">
+    <div class="flex gap-2 flex-wrap">
+      <span class="px-2.5 py-1 rounded-full bg-white/8 text-muted text-xs font-medium">{entityBadge(entity)}</span>
+      {typeof entity.upstreamVersion === "number" ? (
+        <span class="px-2.5 py-1 rounded-full bg-accent/12 text-muted text-xs font-medium">v{entity.upstreamVersion}</span>
+      ) : null}
     </div>
 
-    <h3 class="entity-card__title">
-      <a href={withBase(entity.url)}>{entity.displayName}</a>
+    <h3 class="text-[1.05rem] font-semibold leading-snug m-0 break-words">
+      <a href={entityHref(entity)} class="text-text hover:text-white transition-colors">{entity.displayName}</a>
     </h3>
 
-    {description ? <p class="entity-card__description">{description}</p> : null}
+    {description ? (
+      <p class="text-muted text-sm m-0 line-clamp-3">{description}</p>
+    ) : null}
 
-    <ul class="entity-card__meta">
+    <ul class="list-none p-0 mt-auto flex flex-wrap gap-1.5">
       {meta.map((item) => (
-        <li>{item}</li>
+        <li class="px-2 py-1 rounded-full bg-white/6 text-muted text-xs">{item}</li>
       ))}
-      <li>Обновлено: {formatDateTime(entity.syncedAt)}</li>
+      <li class="px-2 py-1 rounded-full bg-white/6 text-muted text-xs">
+        Обновлено: {formatDateTime(entity.syncedAt)}
+      </li>
     </ul>
   </div>
 </article>

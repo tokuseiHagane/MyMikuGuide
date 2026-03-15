@@ -1,0 +1,115 @@
+import { readdir, readFile, rm } from "node:fs/promises";
+import path from "node:path";
+import * as pagefind from "pagefind";
+import { detailShellPath } from "../src/lib/entity-paths";
+import type { EntitySummary } from "../src/lib/models";
+
+type SummaryPage = {
+  items?: EntitySummary[];
+};
+
+const repoRoot = process.cwd();
+const summaryRoot = path.join(repoRoot, "data", "derived", "summary");
+const outputRoot = path.join(repoRoot, "dist", "pagefind");
+const siteBasePath = "/MyMikuGuide";
+
+async function readJson<T>(targetPath: string, fallback: T): Promise<T> {
+  try {
+    const raw = await readFile(targetPath, "utf8");
+    return JSON.parse(raw) as T;
+  } catch {
+    return fallback;
+  }
+}
+
+function entityTypeLabel(entityType: EntitySummary["entityType"]) {
+  if (entityType === "artist") {
+    return "artist";
+  }
+  if (entityType === "song") {
+    return "song";
+  }
+  return "album";
+}
+
+function buildContent(item: EntitySummary) {
+  const chunks = [item.displayName, ...item.additionalNames];
+
+  if (item.entityType === "artist") {
+    chunks.push(item.artistType, item.descriptionShort, `${item.songCount} songs`, `${item.albumCount} albums`);
+  } else if (item.entityType === "song") {
+    chunks.push(item.songType, item.year ? String(item.year) : "", ...item.tags);
+  } else {
+    chunks.push(item.albumType, item.year ? String(item.year) : "", item.catalogNumber ?? "", `${item.trackCount} tracks`);
+  }
+
+  return chunks.filter(Boolean).join("\n");
+}
+
+async function listSummaryFiles() {
+  const buckets = ["artists", "songs", "albums"];
+  const files: string[] = [];
+
+  for (const bucket of buckets) {
+    const bucketRoot = path.join(summaryRoot, bucket);
+    const names = await readdir(bucketRoot).catch(() => []);
+    for (const name of names.filter((entry) => entry.endsWith(".json")).sort()) {
+      files.push(path.join(bucketRoot, name));
+    }
+  }
+
+  return files;
+}
+
+async function loadAllSummaries() {
+  const files = await listSummaryFiles();
+  const pages = await Promise.all(files.map((file) => readJson<SummaryPage>(file, { items: [] })));
+  return pages.flatMap((page) => page.items ?? []);
+}
+
+async function main() {
+  const summaries = await loadAllSummaries();
+  await rm(outputRoot, { recursive: true, force: true });
+
+  const { index } = await pagefind.createIndex({
+    forceLanguage: "ru",
+  });
+  if (!index) {
+    throw new Error("Pagefind index was not created");
+  }
+
+  for (const item of summaries) {
+    const result = await index.addCustomRecord({
+      url: `${siteBasePath}${detailShellPath(item.entityType, item.slug)}`,
+      content: buildContent(item),
+      language: "ru",
+      meta: {
+        title: item.displayName,
+        type: entityTypeLabel(item.entityType),
+      },
+      filters: {
+        entityType: [item.entityType],
+        year:
+          "year" in item && typeof item.year === "number"
+            ? [String(item.year)]
+            : [],
+      },
+      sort: {
+        updated: item.syncedAt,
+      },
+    });
+
+    if (result.errors.length > 0) {
+      throw new Error(`Pagefind failed for ${item.entityType}:${item.slug}: ${result.errors.join("; ")}`);
+    }
+  }
+
+  await index.writeFiles({
+    outputPath: outputRoot,
+  });
+  await pagefind.close();
+
+  console.log(`Pagefind index written with ${summaries.length} records.`);
+}
+
+await main();

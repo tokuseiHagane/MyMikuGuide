@@ -1,0 +1,123 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { withBase } from "../lib/site-utils";
+
+const pagefindUiCss = withBase("/pagefind/pagefind-ui.css");
+const pagefindUiJs = withBase("/pagefind/pagefind-ui.js");
+---
+
+<BaseLayout title="Поиск | MyMikuGuide">
+  <Fragment slot="head">
+    <link rel="stylesheet" href={pagefindUiCss} />
+  </Fragment>
+
+  <div class="mb-6">
+    <h1 class="text-2xl font-bold m-0">Поиск</h1>
+    <p class="text-muted text-sm mt-1 m-0">Полнотекстовый поиск по артистам, песням и альбомам</p>
+  </div>
+
+  <div class="rounded-2xl bg-panel border border-panel-border p-6">
+    <div id="search"></div>
+    <div id="search-fallback" class="hidden text-center py-8">
+      <p class="text-muted text-sm">Поисковый индекс недоступен.</p>
+      <p class="text-muted text-xs mt-1">Индекс создаётся при сборке сайта (<code class="bg-white/10 px-1.5 py-0.5 rounded">npm run build</code>).</p>
+    </div>
+  </div>
+
+  <script define:vars={{ pagefindUiJs }} is:inline>
+    window.addEventListener("DOMContentLoaded", function () {
+      var script = document.createElement("script");
+      script.src = pagefindUiJs;
+      script.onload = function () {
+        if (typeof window.PagefindUI !== "function") {
+          document.getElementById("search-fallback").classList.remove("hidden");
+          return;
+        }
+        new window.PagefindUI({
+          element: "#search",
+          showSubResults: true,
+        });
+      };
+      script.onerror = function () {
+        document.getElementById("search-fallback").classList.remove("hidden");
+      };
+      document.body.appendChild(script);
+    });
+  </script>
+</BaseLayout>
+
+<style is:global>
+  .pagefind-ui {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: var(--color-accent);
+    --pagefind-ui-text: var(--color-text);
+    --pagefind-ui-background: transparent;
+    --pagefind-ui-border: var(--color-panel-border);
+    --pagefind-ui-tag: rgba(57, 197, 187, 0.15);
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 12px;
+    --pagefind-ui-image-border-radius: 8px;
+    --pagefind-ui-image-box-ratio: 3 / 2;
+    --pagefind-ui-font: var(--font-sans);
+  }
+
+  .pagefind-ui__search-input {
+    background: rgba(15, 23, 42, 0.6) !important;
+    border: 1px solid rgba(148, 163, 184, 0.18) !important;
+    color: var(--color-text) !important;
+    border-radius: 12px !important;
+    padding: 0.75rem 1rem !important;
+    font-size: 1rem !important;
+  }
+
+  .pagefind-ui__search-input:focus {
+    border-color: rgba(57, 197, 187, 0.4) !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(57, 197, 187, 0.12) !important;
+  }
+
+  .pagefind-ui__search-clear {
+    color: var(--color-muted) !important;
+  }
+
+  .pagefind-ui__result {
+    border-top-color: rgba(148, 163, 184, 0.1) !important;
+    padding: 1rem 0 !important;
+  }
+
+  .pagefind-ui__result-link {
+    color: var(--color-accent) !important;
+    font-weight: 600 !important;
+  }
+
+  .pagefind-ui__result-link:hover {
+    color: var(--color-accent-hover) !important;
+  }
+
+  .pagefind-ui__result-excerpt {
+    color: var(--color-muted) !important;
+  }
+
+  .pagefind-ui__result-excerpt mark {
+    background: rgba(57, 197, 187, 0.25) !important;
+    color: var(--color-text) !important;
+    border-radius: 2px;
+    padding: 0 2px;
+  }
+
+  .pagefind-ui__message {
+    color: var(--color-muted) !important;
+  }
+
+  .pagefind-ui__button {
+    background: rgba(57, 197, 187, 0.15) !important;
+    border: 1px solid rgba(57, 197, 187, 0.25) !important;
+    color: var(--color-text) !important;
+    border-radius: 8px !important;
+  }
+
+  .pagefind-ui__button:hover {
+    background: rgba(57, 197, 187, 0.25) !important;
+    border-color: rgba(57, 197, 187, 0.4) !important;
+  }
+</style>

@@ -4,12 +4,20 @@ import { withBase } from "../../lib/site-utils";
 ---
 
 <BaseLayout title="Архив | MyMikuGuide">
-  <article class="panel">
-    <h1>Архив</h1>
-    <p>
-      Старый монолитный `README.md` больше не является основным источником данных проекта и
+  <div class="max-w-2xl">
+    <h1 class="text-2xl font-bold m-0 mb-2">Архив</h1>
+    <p class="text-muted text-base leading-relaxed mb-6">
+      Старый монолитный README.md больше не является основным источником данных проекта и
       сохранён как архивный слой.
     </p>
-    <p><a class="button-link" href={withBase("/legacy/readme-archive/")}>Открыть архивную Markdown-версию</a></p>
-  </article>
+    <a
+      href={withBase("/legacy/readme-archive/")}
+      class="inline-flex items-center gap-2 px-5 py-3 rounded-full font-semibold text-sm
+             bg-gradient-to-r from-accent/20 to-accent-strong/15 border border-accent/25
+             text-text hover:border-accent/45 transition-all"
+    >
+      Открыть архивную версию
+      <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" /></svg>
+    </a>
+  </div>
 </BaseLayout>

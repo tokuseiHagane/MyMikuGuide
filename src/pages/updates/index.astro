@@ -12,45 +12,46 @@ const [summary, lastRun, recent, fresh] = await Promise.all([
 ---
 
 <BaseLayout title="Обновления | MyMikuGuide">
-  <section class="panel">
-    <div class="section-header">
-      <div>
-        <h1>Обновления</h1>
-        <p>
-          Служебный раздел по локальному снапшоту: что обновлялось недавно, что попало в последний прогон
-          и как прошла последняя синхронизация.
-        </p>
-      </div>
-      <a class="button-link button-link--ghost" href={withBase("/")}>На главную</a>
+  <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+    <div>
+      <h1 class="text-2xl font-bold m-0">Обновления</h1>
+      <p class="text-muted text-sm mt-1 m-0">Состояние снапшота и последние синхронизации</p>
     </div>
-    <div class="chip-list">
-      <span class="chip">{summary.artistCount} артистов</span>
-      <span class="chip">{summary.songCount} песен</span>
-      <span class="chip">{summary.albumCount} альбомов</span>
-      <span class="chip">Сводка: {formatDateTime(summary.syncedAt)}</span>
-      <span class="chip">Sync: {lastRun.mode}</span>
-      <span class="chip">{lastRun.requestCount} запросов</span>
-      <span class="chip">{lastRun.probeHits} probe hit</span>
-      <span class="chip">{lastRun.errors.length} ошибок</span>
-    </div>
-  </section>
+    <a
+      href={withBase("/")}
+      class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-panel border border-panel-border text-muted text-sm
+             hover:bg-accent/12 hover:text-text hover:border-accent/25 transition-all"
+    >На главную</a>
+  </div>
 
-  <section style="margin-top: 1rem;" class="grid">
-    <article class="panel">
-      <h2><a href={withBase("/updates/recent/")}>Недавно обновлялось</a></h2>
-      <p class="muted">Последние сущности по `syncedAt`.</p>
-      <p>Сейчас в индексе: {recent.length}</p>
-    </article>
+  <div class="flex flex-wrap gap-2 mb-6">
+    <span class="px-3 py-1.5 rounded-full bg-white/6 text-muted text-xs">{summary.artistCount.toLocaleString("ru-RU")} артистов</span>
+    <span class="px-3 py-1.5 rounded-full bg-white/6 text-muted text-xs">{summary.songCount.toLocaleString("ru-RU")} песен</span>
+    <span class="px-3 py-1.5 rounded-full bg-white/6 text-muted text-xs">{summary.albumCount.toLocaleString("ru-RU")} альбомов</span>
+    <span class="px-3 py-1.5 rounded-full bg-accent/10 text-accent text-xs font-medium">Sync: {lastRun.mode}</span>
+    <span class="px-3 py-1.5 rounded-full bg-white/6 text-muted text-xs">{lastRun.requestCount} запросов</span>
+    {lastRun.errors.length > 0 ? (
+      <span class="px-3 py-1.5 rounded-full bg-secondary/15 text-secondary text-xs font-medium">{lastRun.errors.length} ошибок</span>
+    ) : null}
+  </div>
 
-    <article class="panel">
-      <h2><a href={withBase("/updates/today/")}>Обновлено сегодня</a></h2>
-      <p class="muted">Сущности, чья локальная синхронизация пришлась на текущую дату последнего снапшота.</p>
-    </article>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    <a href={withBase("/updates/recent/")} class="group rounded-2xl bg-panel border border-panel-border p-6 hover:border-accent/25 transition-all">
+      <h2 class="text-lg font-bold m-0 text-text group-hover:text-accent transition-colors">Недавно обновлялось</h2>
+      <p class="text-muted text-sm mt-2 m-0">Последние сущности по syncedAt</p>
+      <p class="text-text text-2xl font-extrabold mt-3 m-0">{recent.length}</p>
+    </a>
 
-    <article class="panel">
-      <h2><a href={withBase("/updates/new/")}>Новые записи</a></h2>
-      <p class="muted">Карточки, впервые появившиеся в последнем sync-проходе.</p>
-      <p>Сейчас в индексе: {fresh.length}</p>
-    </article>
-  </section>
+    <a href={withBase("/updates/today/")} class="group rounded-2xl bg-panel border border-panel-border p-6 hover:border-accent/25 transition-all">
+      <h2 class="text-lg font-bold m-0 text-text group-hover:text-accent transition-colors">Обновлено сегодня</h2>
+      <p class="text-muted text-sm mt-2 m-0">Синхронизация за дату снапшота</p>
+      <p class="text-text text-xs mt-3 m-0 text-muted">Сводка: {formatDateTime(summary.syncedAt)}</p>
+    </a>
+
+    <a href={withBase("/updates/new/")} class="group rounded-2xl bg-panel border border-panel-border p-6 hover:border-accent/25 transition-all">
+      <h2 class="text-lg font-bold m-0 text-text group-hover:text-accent transition-colors">Новые записи</h2>
+      <p class="text-muted text-sm mt-2 m-0">Впервые появившиеся в последнем sync</p>
+      <p class="text-text text-2xl font-extrabold mt-3 m-0">{fresh.length}</p>
+    </a>
+  </div>
 </BaseLayout>

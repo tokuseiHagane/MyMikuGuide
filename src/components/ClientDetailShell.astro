@@ -1,0 +1,38 @@
+---
+import type { EntityType } from "../lib/models";
+import { withBase } from "../lib/site-utils";
+
+interface Props {
+  entityType: EntityType;
+}
+
+const { entityType } = Astro.props;
+---
+
+<section
+  class="panel stack"
+  data-detail-shell
+  data-entity-type={entityType}
+  data-detail-root={withBase(`/derived/detail/${entityType}/`)}
+>
+  <div class="flex items-end justify-between gap-4 flex-wrap mb-4">
+    <div>
+      <h1 class="text-2xl font-bold m-0">Загрузка карточки...</h1>
+      <p class="text-muted text-sm mt-1">Страница подгружает detail JSON по `slug` из строки запроса.</p>
+    </div>
+    <a
+      class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-panel border border-panel-border text-muted text-sm
+             hover:bg-accent/12 hover:text-text hover:border-accent/25 transition-all"
+      href={withBase("/search/")}
+    >
+      Поиск по каталогу
+    </a>
+  </div>
+  <div class="panel text-muted text-sm" data-detail-status>Подготавливаю карточку из локального snapshot.</div>
+</section>
+
+<script>
+  import { bootClientDetailShell } from "../lib/client-detail-shell";
+
+  bootClientDetailShell();
+</script>

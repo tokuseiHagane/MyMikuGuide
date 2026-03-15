@@ -6,22 +6,40 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build:derive-meta": "tsx scripts/build-stats.ts && tsx scripts/build-tags-index.ts && tsx scripts/build-years-index.ts",
+    "build": "npm run build:derive-meta && astro build && tsx scripts/export-client-detail-data.ts && tsx scripts/build-search.ts",
+    "build:browser-sqlite-snapshot": "tsx scripts/build-browser-sqlite-snapshot.ts",
+    "prepare:local-browser-sqlite": "PAGES_DB_OUTPUT_ROOT=public/sqlite PAGES_DB_MANIFEST_PATH=public/meta/db-snapshot.local.json PAGES_DB_VERSION=local-live npm run build:browser-sqlite-snapshot",
+    "build:local-preview": "npm run prepare:local-browser-sqlite && npm run build",
     "preview": "astro preview",
     "check": "astro check",
+    "check:budgets": "tsx scripts/check-budgets.ts",
     "sync": "tsx scripts/sync/index.ts incremental",
+    "sync:incremental-hot": "tsx scripts/sync/index.ts incremental-hot",
+    "sync:reconcile-shard": "tsx scripts/sync/index.ts reconcile-shard",
     "sync:bootstrap": "tsx scripts/sync/index.ts bootstrap",
     "sync:full": "tsx scripts/sync/index.ts full",
+    "sync:derive": "tsx scripts/sync/index.ts derive",
     "sync:dry-run": "tsx scripts/sync/index.ts incremental --dry-run"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.7",
+    "@types/cli-progress": "^3.11.6",
     "@types/node": "^25.5.0",
     "astro": "^6.0.4",
+    "pagefind": "^1.4.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/better-sqlite3": "^7.6.13",
+    "better-sqlite3": "^12.6.2",
+    "cli-progress": "^3.12.0",
+    "dotenv": "^17.3.1",
+    "sql.js-httpvfs": "^0.8.12",
+    "tailwindcss": "^4.2.1",
+    "undici": "^7.24.2",
     "zod": "^4.3.6"
   }
 }

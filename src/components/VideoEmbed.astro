@@ -1,0 +1,46 @@
+---
+interface Props {
+  url: string;
+  title?: string;
+}
+
+const { url, title = "Видео" } = Astro.props;
+
+function resolveEmbedUrl(raw: string): string | null {
+  try {
+    const u = new URL(raw);
+
+    if (u.hostname === "www.youtube.com" || u.hostname === "youtube.com") {
+      const v = u.searchParams.get("v");
+      if (v) return `https://www.youtube.com/embed/${v}`;
+    }
+    if (u.hostname === "youtu.be") {
+      return `https://www.youtube.com/embed${u.pathname}`;
+    }
+    if (u.hostname === "www.nicovideo.jp" || u.hostname === "nicovideo.jp") {
+      const match = u.pathname.match(/\/watch\/(sm\d+)/);
+      if (match) return `https://embed.nicovideo.jp/watch/${match[1]}`;
+    }
+  } catch {
+    return null;
+  }
+  return null;
+}
+
+const embedUrl = resolveEmbedUrl(url);
+---
+
+{embedUrl ? (
+  <div class="relative w-full rounded-2xl overflow-hidden border border-panel-border bg-bg-alt aspect-video">
+    <iframe
+      src={embedUrl}
+      title={title}
+      class="absolute inset-0 w-full h-full"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+) : (
+  <a href={url} class="text-accent hover:text-accent-hover text-sm" target="_blank" rel="noopener">{url}</a>
+)}

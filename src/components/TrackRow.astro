@@ -1,0 +1,30 @@
+---
+interface Props {
+  number: number;
+  title: string;
+  duration?: number | null;
+  href?: string;
+}
+
+const { number, title, duration, href } = Astro.props;
+
+function formatDuration(seconds: number): string {
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  return `${m}:${String(s).padStart(2, "0")}`;
+}
+---
+
+<div class="group flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-accent/8 transition-colors">
+  <span class="w-8 text-right text-sm font-mono text-muted/60 shrink-0">{String(number).padStart(2, "0")}</span>
+  <div class="flex-1 min-w-0 truncate">
+    {href ? (
+      <a href={href} class="text-sm text-text hover:text-accent transition-colors truncate">{title}</a>
+    ) : (
+      <span class="text-sm text-text truncate">{title}</span>
+    )}
+  </div>
+  {duration ? (
+    <span class="text-xs text-muted font-mono shrink-0">{formatDuration(duration)}</span>
+  ) : null}
+</div>

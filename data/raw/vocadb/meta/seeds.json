@@ -1,41 +1,75 @@
 {
   "rootArtistIds": [1],
   "maxDepth": 2,
-  "maxNewEntitiesPerRun": 30,
+  "maxNewEntitiesPerRun": null,
   "allowedEntityTypes": ["artist", "song", "album"],
   "expandRelatedDiscographies": true,
-  "concurrency": 3,
+  "concurrency": 32,
+  "catalogScanConcurrency": 32,
   "probeTimeoutMs": 12000,
   "fetchTimeoutMs": 30000,
   "idLookupTimeoutMs": 15000,
-  "rootArtistDiscographyLimit": 8,
-  "relatedArtistDiscographyLimit": 4,
+  "rootArtistDiscographyLimit": null,
+  "relatedArtistDiscographyLimit": null,
+  "hotEntityLimit": 250,
+  "reconcileShardSize": 250,
+  "reconcileBucketCount": 32,
+  "catalogPageSize": 100,
+  "catalogValidationPasses": 1,
   "retryFailedOnIncremental": true,
   "storeRaw": false,
   "modes": {
     "bootstrap": {
-      "maxNewEntitiesPerRun": 30,
-      "concurrency": 2,
-      "rootArtistDiscographyLimit": 8,
-      "relatedArtistDiscographyLimit": 4
+      "maxNewEntitiesPerRun": null,
+      "concurrency": 32,
+      "rootArtistDiscographyLimit": null,
+      "relatedArtistDiscographyLimit": null
     },
     "incremental": {
-      "maxNewEntitiesPerRun": 12,
-      "concurrency": 3,
+      "maxNewEntitiesPerRun": null,
+      "concurrency": 32,
       "probeTimeoutMs": 10000,
       "fetchTimeoutMs": 20000,
       "idLookupTimeoutMs": 12000,
-      "rootArtistDiscographyLimit": 4,
-      "relatedArtistDiscographyLimit": 2
+      "hotEntityLimit": 250,
+      "reconcileShardSize": 200,
+      "reconcileBucketCount": 32,
+      "rootArtistDiscographyLimit": null,
+      "relatedArtistDiscographyLimit": null
+    },
+    "incremental-hot": {
+      "maxNewEntitiesPerRun": 120,
+      "concurrency": 32,
+      "probeTimeoutMs": 10000,
+      "fetchTimeoutMs": 20000,
+      "idLookupTimeoutMs": 12000,
+      "hotEntityLimit": 160,
+      "rootArtistDiscographyLimit": 12,
+      "relatedArtistDiscographyLimit": 6
+    },
+    "reconcile-shard": {
+      "maxNewEntitiesPerRun": 80,
+      "concurrency": 32,
+      "probeTimeoutMs": 12000,
+      "fetchTimeoutMs": 24000,
+      "idLookupTimeoutMs": 14000,
+      "hotEntityLimit": null,
+      "reconcileShardSize": 400,
+      "reconcileBucketCount": 32,
+      "rootArtistDiscographyLimit": 10,
+      "relatedArtistDiscographyLimit": 4
     },
     "full": {
-      "maxNewEntitiesPerRun": 80,
-      "concurrency": 4,
+      "maxNewEntitiesPerRun": null,
+      "concurrency": 32,
+      "catalogScanConcurrency": 32,
       "probeTimeoutMs": 15000,
       "fetchTimeoutMs": 35000,
       "idLookupTimeoutMs": 20000,
-      "rootArtistDiscographyLimit": 16,
-      "relatedArtistDiscographyLimit": 8
+      "rootArtistDiscographyLimit": null,
+      "relatedArtistDiscographyLimit": null,
+      "catalogPageSize": 100,
+      "catalogValidationPasses": 1
     }
   }
 }

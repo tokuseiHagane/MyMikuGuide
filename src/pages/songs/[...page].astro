@@ -1,0 +1,64 @@
+---
+import EntityCard from "../../components/EntityCard.astro";
+import PaginationNav from "../../components/PaginationNav.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadRouteManifest, loadSummaryPage } from "../../lib/site-data";
+import { withBase } from "../../lib/site-utils";
+
+type CatalogPage = {
+  currentPage: number;
+  lastPage: number;
+  url: {
+    first?: string;
+    prev?: string;
+    next?: string;
+    last?: string;
+  };
+};
+
+export async function getStaticPaths({ paginate }: { paginate: (data: unknown[], options: { pageSize: number }) => unknown }) {
+  const manifest = await loadRouteManifest("song");
+  const entries = manifest.items.length > 0 ? manifest.items : [{ id: "__empty__", slug: "__empty__", displayName: "", pageNumber: 1 }];
+  return paginate(entries, {
+    pageSize: manifest.pageSize,
+  });
+}
+
+const { page } = Astro.props as { page: CatalogPage };
+const summaryPage = await loadSummaryPage("song", page.currentPage);
+const songs = summaryPage.items;
+---
+
+<BaseLayout title={`Песни · Страница ${page.currentPage} | MyMikuGuide`}>
+  <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+    <div>
+      <h1 class="text-2xl font-bold m-0">Песни</h1>
+      <p class="text-muted text-sm mt-1 m-0">Каталог песен из VocaDB</p>
+    </div>
+    <div class="flex items-center gap-3">
+      <div class="flex gap-1.5">
+        <span class="px-2.5 py-1 rounded-full bg-white/6 text-muted text-xs">{summaryPage.totalItems.toLocaleString("ru-RU")} всего</span>
+        <span class="px-2.5 py-1 rounded-full bg-white/6 text-muted text-xs">Стр. {page.currentPage}/{page.lastPage}</span>
+      </div>
+      <a
+        href={withBase("/search/")}
+        class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-panel border border-panel-border text-muted text-sm
+               hover:bg-accent/12 hover:text-text hover:border-accent/25 transition-all"
+      >
+        <svg class="w-3.5 h-3.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" /></svg>
+        Поиск
+      </a>
+    </div>
+  </div>
+
+  <div class="card-grid mb-6">
+    {songs.length === 0 ? (
+      <div class="rounded-2xl bg-panel border border-panel-border p-6 text-muted text-sm">Данные ещё не синхронизированы.</div>
+    ) : null}
+    {songs.map((song) => <EntityCard entity={song} />)}
+  </div>
+
+  <div class="rounded-2xl bg-panel/60 border border-panel-border p-4">
+    <PaginationNav currentPage={page.currentPage} lastPage={page.lastPage} url={page.url} />
+  </div>
+</BaseLayout>

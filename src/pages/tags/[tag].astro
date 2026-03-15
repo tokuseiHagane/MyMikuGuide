@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadTagsIndex } from "../../lib/site-data";
+import { withBase } from "../../lib/site-utils";
+
+export async function getStaticPaths() {
+  const tagsData = await loadTagsIndex();
+  return tagsData.tags.map((t) => ({
+    params: { tag: t.tag },
+    props: { tagInfo: t },
+  }));
+}
+
+const { tagInfo } = Astro.props as { tagInfo: { tag: string; count: number; slugs: string[] } };
+---
+
+<BaseLayout title={`Тег: ${tagInfo.tag} | MyMikuGuide`}>
+  <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+    <div>
+      <a href={withBase("/tags/")} class="text-sm text-accent hover:text-accent-hover mb-1 inline-block">← Все теги</a>
+      <h1 class="text-3xl font-extrabold m-0">{tagInfo.tag}</h1>
+      <p class="text-muted text-sm mt-1 m-0">{tagInfo.count} песен с этим тегом</p>
+    </div>
+  </div>
+
+  <div class="rounded-2xl bg-panel border border-panel-border p-6">
+    <h2 class="text-lg font-bold m-0 mb-4">Песни</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+      {tagInfo.slugs.map((slug) => (
+        <a
+          href={withBase(`/songs/view/?slug=${encodeURIComponent(slug)}`)}
+          class="flex items-center px-3 py-2.5 rounded-xl hover:bg-accent/8 transition-colors text-sm text-text truncate"
+        >
+          {slug.replace(/--vocadb-\d+$/, "").replaceAll("-", " ")}
+        </a>
+      ))}
+    </div>
+    {tagInfo.count > tagInfo.slugs.length ? (
+      <p class="text-muted text-sm mt-4 m-0">
+        Показаны первые {tagInfo.slugs.length} из {tagInfo.count}. Используйте
+        <a href={withBase("/search/")} class="text-accent hover:text-accent-hover">поиск</a> для полного списка.
+      </p>
+    ) : null}
+  </div>
+</BaseLayout>

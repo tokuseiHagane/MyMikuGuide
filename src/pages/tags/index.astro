@@ -1,0 +1,61 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadTagsIndex } from "../../lib/site-data";
+import { withBase } from "../../lib/site-utils";
+
+const tagsData = await loadTagsIndex();
+const maxCount = Math.max(...tagsData.tags.map((t) => t.count), 1);
+
+function tagSize(count: number): string {
+  const ratio = count / maxCount;
+  if (ratio > 0.5) return "text-xl font-bold";
+  if (ratio > 0.2) return "text-base font-semibold";
+  if (ratio > 0.05) return "text-sm font-medium";
+  return "text-xs";
+}
+---
+
+<BaseLayout title="Теги | MyMikuGuide">
+  <div class="mb-6">
+    <h1 class="text-2xl font-bold m-0">Теги</h1>
+    <p class="text-muted text-sm mt-1 m-0">{tagsData.totalTags} уникальных тегов из {tagsData.totalSongs.toLocaleString("ru-RU")} песен</p>
+  </div>
+
+  <!-- Tag cloud -->
+  <div class="rounded-2xl bg-panel border border-panel-border p-6 mb-6">
+    <h2 class="text-lg font-bold m-0 mb-4">Облако тегов</h2>
+    <div class="flex flex-wrap gap-2 items-baseline">
+      {tagsData.tags.slice(0, 200).map((t) => (
+        <a
+          href={withBase(`/tags/${encodeURIComponent(t.tag)}/`)}
+          class:list={[
+            "inline-flex items-center gap-1 px-2.5 py-1 rounded-full transition-all",
+            "bg-accent/8 text-accent hover:bg-accent/18 hover:text-accent-hover border border-accent/12 hover:border-accent/25",
+            tagSize(t.count),
+          ]}
+        >
+          {t.tag}
+          <span class="text-muted/60 font-normal text-[10px]">{t.count}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <!-- Full tag list -->
+  {tagsData.tags.length > 200 ? (
+    <div class="rounded-2xl bg-panel border border-panel-border p-6">
+      <h2 class="text-lg font-bold m-0 mb-4">Все теги ({tagsData.tags.length})</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1">
+        {tagsData.tags.map((t) => (
+          <a
+            href={withBase(`/tags/${encodeURIComponent(t.tag)}/`)}
+            class="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-accent/8 transition-colors text-sm"
+          >
+            <span class="text-text truncate">{t.tag}</span>
+            <span class="text-muted text-xs shrink-0 ml-2">{t.count}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  ) : null}
+</BaseLayout>

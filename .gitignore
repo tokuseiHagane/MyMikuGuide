@@ -21,3 +21,18 @@ pnpm-debug.log*
 .vscode/
 .idea/
 *.swp
+
+# sync artifacts and generated data
+data/normalized/
+data/derived/
+data/sync.db
+data/raw/vocadb/artists/
+data/raw/vocadb/songs/
+data/raw/vocadb/albums/
+data/raw/vocadb/meta/last-run.json
+data/db/*.sqlite
+data/db/*.sqlite-shm
+data/db/*.sqlite-wal
+tmp/
+public/sqlite/
+public/meta/db-snapshot.local.json
