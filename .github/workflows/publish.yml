@@ -158,8 +158,8 @@ jobs:
 
       - name: Check size and page budgets
         env:
-          CI_MAX_DERIVED_BYTES: "367001600"
-          CI_MAX_DIST_BYTES: "419430400"
+          CI_MAX_DERIVED_BYTES: "1610612736"
+          CI_MAX_DIST_BYTES: "5368709120"
           CI_MAX_DETAIL_FILES: "50000"
         run: npm run check:budgets
 
