@@ -276,6 +276,7 @@ async function main() {
     cacheBust,
     serverMode: "full" as const,
     url: snapshotFileName,
+    databaseLengthBytes: targetStat.size,
   };
 
   await writeFile(targetConfigPath, `${JSON.stringify(config, null, 2)}\n`, "utf8");
