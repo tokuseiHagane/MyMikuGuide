@@ -1,12 +1,35 @@
 import { readdir, readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
+import Database from "better-sqlite3";
 import type { EntitySummary } from "../src/lib/models";
 
 type SummaryPage = { items?: EntitySummary[] };
 
 const repoRoot = process.cwd();
 const summaryRoot = path.join(repoRoot, "data", "derived", "summary");
+const dbPath = path.join(repoRoot, "data", "db", "vocadb.sqlite");
 const outputPath = path.join(repoRoot, "data", "derived", "meta", "stats.json");
+
+function getDbTotals(): { artists: number; songs: number; albums: number } | null {
+  try {
+    const db = new Database(dbPath, { readonly: true });
+    const row = db
+      .prepare<
+        unknown[],
+        { a: number; s: number; al: number }
+      >(
+        `SELECT
+          (SELECT COUNT(*) FROM artists) AS a,
+          (SELECT COUNT(*) FROM songs) AS s,
+          (SELECT COUNT(*) FROM albums) AS al`,
+      )
+      .get();
+    db.close();
+    return row ? { artists: row.a, songs: row.s, albums: row.al } : null;
+  } catch {
+    return null;
+  }
+}
 
 async function readJson<T>(targetPath: string, fallback: T): Promise<T> {
   try {
@@ -35,6 +58,13 @@ async function main() {
     loadBucket("songs"),
     loadBucket("albums"),
   ]);
+
+  const dbTotals = getDbTotals();
+  const totals = dbTotals ?? {
+    artists: artists.length,
+    songs: songs.length,
+    albums: albums.length,
+  };
 
   const MIN_YEAR = 2004;
   const yearDist: Record<string, { songs: number; albums: number }> = {};
@@ -88,11 +118,7 @@ async function main() {
   }
 
   const stats = {
-    totals: {
-      artists: artists.length,
-      songs: songs.length,
-      albums: albums.length,
-    },
+    totals,
     yearDistribution: Object.entries(yearDist)
       .sort((a, b) => Number(a[0]) - Number(b[0]))
       .map(([year, counts]) => ({ year: Number(year), ...counts })),
@@ -111,7 +137,8 @@ async function main() {
 
   await mkdir(path.dirname(outputPath), { recursive: true });
   await writeFile(outputPath, JSON.stringify(stats));
-  console.log(`Stats written: ${artists.length} artists, ${songs.length} songs, ${albums.length} albums, ${topTags.length} tags.`);
+  const src = dbTotals ? "sqlite" : "derived";
+  console.log(`Stats written (${src}): ${totals.artists} artists, ${totals.songs} songs, ${totals.albums} albums, ${topTags.length} tags.`);
 }
 
 await main();
