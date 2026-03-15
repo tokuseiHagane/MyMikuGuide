@@ -32,6 +32,10 @@ function entityTypeLabel(entityType: EntitySummary["entityType"]) {
   return "album";
 }
 
+function stripBrokenSurrogates(str: string): string {
+  return str.replace(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/g, "");
+}
+
 function buildContent(item: EntitySummary) {
   const chunks = [item.displayName, ...item.additionalNames];
 
@@ -43,7 +47,7 @@ function buildContent(item: EntitySummary) {
     chunks.push(item.albumType, item.year ? String(item.year) : "", item.catalogNumber ?? "", `${item.trackCount} tracks`);
   }
 
-  return chunks.filter(Boolean).join("\n");
+  return stripBrokenSurrogates(chunks.filter(Boolean).join("\n"));
 }
 
 async function listSummaryFiles() {
