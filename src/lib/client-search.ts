@@ -8,6 +8,7 @@ export type SearchResult = {
 
 const TYPE_MAP: Record<string, EntityType> = { a: "artist", s: "song", l: "album" };
 const SHARD_COUNT = 256;
+const WORD_RE = /[\p{L}\p{N}]+/gu;
 
 const BASE_URL = import.meta.env.BASE_URL;
 
@@ -24,7 +25,8 @@ function shardId(prefix: string): number {
   return ((h % SHARD_COUNT) + SHARD_COUNT) % SHARD_COUNT;
 }
 
-type ShardData = Record<string, [string, string, string][]>;
+type ShardEntry = [string, string, string];
+type ShardData = Record<string, ShardEntry[]>;
 
 const shardCache = new Map<number, ShardData>();
 
@@ -47,38 +49,71 @@ async function loadShard(sid: number): Promise<ShardData> {
   }
 }
 
+function tokenize(text: string): string[] {
+  const words = text.toLowerCase().match(WORD_RE) ?? [];
+  return [...new Set(words)].filter((w) => w.length >= 2);
+}
+
+function findMatchingUids(shard: ShardData, term: string): Map<string, ShardEntry> {
+  const matches = new Map<string, ShardEntry>();
+  for (const [key, entries] of Object.entries(shard)) {
+    if (!key.startsWith(term)) continue;
+    for (const entry of entries) {
+      const uid = `${entry[0]}:${entry[1]}`;
+      if (!matches.has(uid)) {
+        matches.set(uid, entry);
+      }
+    }
+  }
+  return matches;
+}
+
 export async function searchEntities(
   query: string,
   limit = 50,
   onProgress?: (stage: string) => void,
 ): Promise<SearchResult[]> {
-  const term = query.toLowerCase().trim().replace(/[^\p{L}\p{N}]/gu, "");
-  if (term.length < 2) return [];
+  const terms = tokenize(query);
+  if (terms.length === 0) return [];
 
-  const prefix = term.slice(0, 2);
-  const sid = shardId(prefix);
+  const shardIds = [...new Set(terms.map((t) => shardId(t.slice(0, 2))))];
 
   onProgress?.("Загрузка индекса…");
-  const shard = await loadShard(sid);
+  const shards = await Promise.all(shardIds.map(loadShard));
+  const shardBySid = new Map(shardIds.map((sid, i) => [sid, shards[i]]));
 
   onProgress?.("Поиск…");
 
-  const seen = new Set<string>();
-  const results: SearchResult[] = [];
+  let intersection: Map<string, ShardEntry> | null = null;
 
-  for (const [key, entries] of Object.entries(shard)) {
-    if (!key.startsWith(term)) continue;
-    for (const [code, slug, displayName] of entries) {
-      const uid = `${code}:${slug}`;
-      if (seen.has(uid)) continue;
-      seen.add(uid);
-      results.push({
-        entityType: TYPE_MAP[code] ?? "artist",
-        slug,
-        displayName,
-      });
-      if (results.length >= limit) return results;
+  for (const term of terms) {
+    const sid = shardId(term.slice(0, 2));
+    const shard = shardBySid.get(sid) ?? {};
+    const matches = findMatchingUids(shard, term);
+
+    if (intersection === null) {
+      intersection = matches;
+    } else {
+      for (const uid of intersection.keys()) {
+        if (!matches.has(uid)) {
+          intersection.delete(uid);
+        }
+      }
     }
+
+    if (intersection.size === 0) return [];
+  }
+
+  if (!intersection) return [];
+
+  const results: SearchResult[] = [];
+  for (const [, [code, slug, displayName]] of intersection) {
+    results.push({
+      entityType: TYPE_MAP[code] ?? "artist",
+      slug,
+      displayName,
+    });
+    if (results.length >= limit) break;
   }
 
   return results;
