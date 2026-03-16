@@ -189,7 +189,7 @@ async function main() {
 
   const config = {
     serverMode: "chunked" as const,
-    requestChunkSize: 64 * 1024,
+    requestChunkSize: effectivePageSize,
     serverChunkSize: SERVER_CHUNK_SIZE,
     urlPrefix: `${snapshotFileName}.`,
     databaseLengthBytes: targetStat.size,
