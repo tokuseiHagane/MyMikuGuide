@@ -76,7 +76,8 @@ function isActive(item: NavItem): boolean {
     <slot name="head" />
     <script is:inline define:vars={{ swScope: import.meta.env.BASE_URL }}>
       if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register(swScope + "sw.js", { scope: swScope });
+        const scope = swScope.endsWith("/") ? swScope : swScope + "/";
+        navigator.serviceWorker.register(scope + "sw.js", { scope });
       }
     </script>
   </head>
