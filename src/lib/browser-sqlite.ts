@@ -252,9 +252,24 @@ export async function loadDbSnapshotManifest(): Promise<DbSnapshotManifest> {
   return manifestPromise;
 }
 
+async function waitForServiceWorker(timeoutMs = 3000): Promise<void> {
+  if (!("serviceWorker" in navigator)) return;
+  if (navigator.serviceWorker.controller) return;
+  try {
+    await Promise.race([
+      navigator.serviceWorker.ready,
+      new Promise((r) => setTimeout(r, timeoutMs)),
+    ]);
+  } catch {
+    // proceed without SW
+  }
+}
+
 export async function getBrowserSqliteWorker() {
   if (!workerPromise) {
     workerPromise = (async () => {
+      await waitForServiceWorker();
+
       const manifest = await loadDbSnapshotManifest();
       if (!manifest.available || !manifest.configUrl) {
         return null;
