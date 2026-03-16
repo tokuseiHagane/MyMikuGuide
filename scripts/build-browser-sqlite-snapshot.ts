@@ -85,7 +85,7 @@ async function main() {
   const manifestPath = envValue("PAGES_DB_MANIFEST_PATH", defaultManifestPath);
   const version = envValue("PAGES_DB_VERSION", `local-${Date.now()}`);
   const updatedAt = envValue("PAGES_DB_UPDATED_AT", new Date().toISOString());
-  const pageSize = envInteger("PAGES_DB_PAGE_SIZE", 16384);
+  const pageSize = envInteger("PAGES_DB_PAGE_SIZE", 65536);
   const snapshotFileName = envValue("PAGES_DB_FILE_NAME", defaultSnapshotFileName);
 
   try {
