@@ -1,5 +1,6 @@
 ---
 import { withBase } from "../lib/site-utils";
+import SqliteStatus from "../components/SqliteStatus.astro";
 import "../styles/global.css";
 
 interface Props {
@@ -245,6 +246,8 @@ function isActive(item: NavItem): boolean {
         </div>
       </div>
     </footer>
+
+    <SqliteStatus />
 
     <!-- Sidebar toggle script -->
     <script>

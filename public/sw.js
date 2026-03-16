@@ -8,15 +8,42 @@
  * This SW intercepts Range requests to SQLite chunk files, fetches
  * the full chunk (browser auto-decompresses gzip), caches it in
  * memory, and returns the correct byte slice as a 206 response.
+ *
+ * Also provides stats and cache management via postMessage API.
  */
 
 const CHUNK_RE = /\/sqlite\/[^/]+\/[^/]+\.\d+$/;
 
 /** @type {Map<string, ArrayBuffer>} */
 const bufferCache = new Map();
+let activeRequests = 0;
+let totalFetched = 0;
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (e) => e.waitUntil(self.clients.claim()));
+
+self.addEventListener("message", (event) => {
+  const { type } = event.data;
+  if (type === "getStats") {
+    event.source.postMessage({
+      type: "stats",
+      cachedChunks: bufferCache.size,
+      cachedBytes: [...bufferCache.values()].reduce((s, b) => s + b.byteLength, 0),
+      activeRequests,
+      totalFetched,
+    });
+  } else if (type === "clearCache") {
+    bufferCache.clear();
+    totalFetched = 0;
+    event.source.postMessage({ type: "cacheCleared" });
+  }
+});
+
+function broadcast(msg) {
+  self.clients.matchAll().then((clients) => {
+    for (const c of clients) c.postMessage(msg);
+  });
+}
 
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
@@ -32,9 +59,34 @@ async function handleChunk(request, url) {
   const cacheKey = url.origin + url.pathname;
 
   if (!bufferCache.has(cacheKey)) {
-    const res = await fetch(url.href, { cache: "force-cache" });
-    if (!res.ok) return res;
-    bufferCache.set(cacheKey, await res.arrayBuffer());
+    activeRequests++;
+    broadcast({ type: "chunkStart", url: cacheKey, active: activeRequests });
+
+    try {
+      const res = await fetch(url.href, { cache: "force-cache" });
+      if (!res.ok) {
+        activeRequests--;
+        broadcast({ type: "chunkError", url: cacheKey, status: res.status, active: activeRequests });
+        return res;
+      }
+      const buf = await res.arrayBuffer();
+      bufferCache.set(cacheKey, buf);
+      totalFetched++;
+      activeRequests--;
+      broadcast({
+        type: "chunkLoaded",
+        url: cacheKey,
+        bytes: buf.byteLength,
+        cachedChunks: bufferCache.size,
+        cachedBytes: [...bufferCache.values()].reduce((s, b) => s + b.byteLength, 0),
+        active: activeRequests,
+        totalFetched,
+      });
+    } catch (err) {
+      activeRequests--;
+      broadcast({ type: "chunkError", url: cacheKey, error: String(err), active: activeRequests });
+      throw err;
+    }
   }
 
   const buffer = bufferCache.get(cacheKey);
