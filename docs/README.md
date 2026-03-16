@@ -16,11 +16,10 @@ flowchart TD
 
 ## Что читать
 
-- `architecture.md` - устройство сайта, маршрутов, клиентского runtime и структуры репозитория.
+- `architecture.md` - устройство сайта, маршрутов, клиентского runtime, Service Worker и структуры репозитория.
 - `data-pipeline.md` - как данные попадают из `VocaDB` в `SQLite`, `data/derived`, `dist/` и browser SQLite snapshot.
 - `development.md` - локальный запуск, команды, переменные окружения и практический workflow для разработки.
 - `operations.md` - `GitHub Actions`, деплой, артефакты, бюджеты, runbook и ограничения продакшн-пайплайна.
-- `self-hosted-chat-report.md` - исследование self-hosted альтернатив `Discord` с фокусом на `Matrix`, `Mattermost`, `Rocket.Chat`, мобильные клиенты, системные требования и paywall/лицензионные ограничения.
 
 ## Быстрая модель проекта
 
@@ -30,17 +29,19 @@ flowchart TD
 2. `scripts/sync/index.ts` синхронизирует и нормализует сущности.
 3. Канонический локальный snapshot хранится в `data/db/vocadb.sqlite`.
 4. Из SQLite материализуются JSON-экспорты в `data/derived/`.
-5. `Astro` использует `data/derived/` на этапе сборки.
-6. После сборки дополнительно создаются `dist/pagefind` и browser SQLite snapshot для detail-страниц.
-7. `GitHub Pages` публикует итоговый `dist/`.
+5. Перед сборкой `build:derive-meta` генерирует статистику, индекс тегов и годов.
+6. `Astro` использует `data/derived/` на этапе сборки.
+7. После сборки создаются `dist/search-index` (шардированный JSON-поиск) и browser SQLite snapshot для detail-страниц.
+8. Service Worker с двухуровневым кэшем (Map + Cache API) обеспечивает быструю раздачу чанков SQLite.
+9. `GitHub Pages` публикует итоговый `dist/`.
 
 ## Главные каталоги
 
 - `src/` - Astro-страницы, layout-ы, компоненты и runtime-утилиты.
-- `scripts/` - sync, экспорт detail JSON, поисковый индекс, budgets и browser SQLite snapshot.
+- `scripts/` - sync, экспорт detail JSON, поисковый индекс, meta-генерация, budgets и browser SQLite snapshot.
 - `data/` - локальная база данных, sync-meta и generated exports.
 - `content/` - markdown-архив и коллекции Astro Content.
-- `public/` - статические файлы, включая локальные manifest/snapshot-артефакты.
+- `public/` - статические файлы, включая `sw.js` (Service Worker) и локальные manifest/snapshot-артефакты.
 - `.github/workflows/` - двухступенчатый pipeline `sync -> publish`.
 
 ## Ключевые принципы

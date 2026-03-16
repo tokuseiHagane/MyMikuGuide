@@ -25,6 +25,7 @@ flowchart TD
 
     subgraph Delivery
         I[dist]
+        SW[Service Worker]
         J[GitHub Pages]
     end
 
@@ -37,6 +38,7 @@ flowchart TD
     H --> G
     F --> I
     G --> I
+    SW --> H
     I --> J
 ```
 
@@ -46,19 +48,20 @@ flowchart TD
 - `TypeScript` применяется в sync-скриптах, runtime-утилитах и моделях данных.
 - `better-sqlite3` хранит и обслуживает канонический локальный snapshot.
 - `sql.js-httpvfs` позволяет читать SQLite в браузере по HTTP range-запросам.
-- `Pagefind` строит полнотекстовый поиск по summary-данным.
+- Шардированный JSON-индекс (`scripts/build-search-index.ts`) реализует клиентский полнотекстовый поиск с транслитерацией (wanakana).
+- Service Worker (`public/sw.js`) проксирует Range-запросы к чанкам SQLite с двухуровневым кэшированием.
 - `GitHub Actions` запускает синхронизацию и публикацию без отдельного сервера.
 
 ## Структура репозитория
 
 - `src/pages/` - маршруты Astro.
-- `src/components/` - UI-блоки, например карточки сущностей и client detail shell.
+- `src/components/` - UI-блоки: карточки сущностей, пагинация, detail shell, статус SQLite и др.
 - `src/layouts/` - общий layout сайта.
-- `src/lib/` - модели, URL-утилиты, чтение build-time JSON, browser SQLite runtime и клиентский detail-renderer.
-- `scripts/` - sync-оркестрация, экспорт detail JSON, build search index, budgets и browser SQLite snapshot.
+- `src/lib/` - модели, URL-утилиты, чтение build-time JSON, browser SQLite runtime, клиентский detail-renderer и поиск.
+- `scripts/` - sync-оркестрация, экспорт detail JSON, build search index, meta-генерация (stats, tags, years), budgets и browser SQLite snapshot.
 - `data/` - локальные данные и generated exports.
 - `content/` - markdown-контент для content collections.
-- `public/` - статические ассеты и локальные preview-артефакты.
+- `public/` - статические ассеты, `sw.js` и локальные preview-артефакты.
 - `.github/workflows/` - CI/CD pipeline.
 
 ## Слои данных
@@ -97,7 +100,9 @@ flowchart TD
 
 - главная страница;
 - каталоги артистов, песен и альбомов;
+- страницы тегов и годов;
 - страницы обновлений;
+- статистика и graph;
 - часть служебной сводки по последнему sync.
 
 ### Runtime слой detail-страниц
@@ -122,9 +127,13 @@ Detail-страницы устроены как shell-маршруты:
 Основные страницы сайта:
 
 - `/` - главная и summary по snapshot.
-- `/artists/`, `/songs/`, `/albums/` - каталоги сущностей.
+- `/artists/`, `/songs/`, `/albums/` - каталоги сущностей с пагинацией.
 - `/artists/view/?slug=...`, `/songs/view/?slug=...`, `/albums/view/?slug=...` - detail-страницы.
-- `/search/` - статический поиск на `Pagefind`.
+- `/search/` - клиентский поиск по шардированному JSON-индексу.
+- `/tags/` - индекс тегов; `/tags/<tag>/` - страница конкретного тега.
+- `/years/` - индекс годов; `/years/<year>/` - страница конкретного года.
+- `/stats/` - статистика каталога.
+- `/graph/` - граф связей сущностей.
 - `/updates/`, `/updates/recent/`, `/updates/today/`, `/updates/new/` - раздел обновлений.
 - `/legacy/` и `/legacy/<slug>/` - архивный markdown-контент.
 
@@ -141,7 +150,24 @@ Detail-страницы устроены как shell-маршруты:
 
 ## Поиск
 
-`scripts/build-search.ts` строит `Pagefind`-индекс из summary shards. Поиск не обращается к `VocaDB` и не использует серверную БД во время просмотра. Результаты поиска ведут на detail-shell URL.
+`scripts/build-search-index.ts` строит шардированный JSON-индекс из `data/db/vocadb.sqlite`. Индекс разбивается на 256 шардов по хешу первых двух символов термина и публикуется в `dist/search-index/`. Токенизация включает транслитерацию через `wanakana` (romaji → hiragana/katakana).
+
+Клиентский runtime (`src/lib/client-search.ts`) загружает только нужный шард по запросу и ищет в нём. Поиск не обращается к `VocaDB` и не использует серверную БД. Результаты поиска ведут на detail-shell URL.
+
+> Устаревший `scripts/build-search.ts` (Pagefind) сохранён в репозитории, но не используется в `build` pipeline. `pagefind` отсутствует в зависимостях.
+
+## Service Worker
+
+`public/sw.js` перехватывает Range-запросы к чанкам SQLite и решает проблему GitHub Pages, который отдаёт все ответы с `Content-Encoding: gzip`, ломая HTTP Range-запросы.
+
+SW реализует двухуровневый кэш:
+
+- **L1 (Map)** — RAM, мгновенный доступ к ArrayBuffer для byte-slice. Теряется при перезапуске SW.
+- **L2 (Cache API, `sqlite-chunks-v1`)** — дисковый кэш, переживает перезапуск SW, навигацию между страницами и перезагрузку.
+
+Порядок обращения: Map → Cache API → network fetch. При попадании в L2 буфер промотируется в L1.
+
+`src/components/SqliteStatus.astro` подписывается на сообщения SW через `postMessage` и отображает прогресс загрузки и состояние кэша. Виджет не появляется, пока кэш пуст.
 
 ## Browser SQLite snapshot
 
@@ -156,4 +182,5 @@ Detail-страницы устроены как shell-маршруты:
 
 - `astro.config.mjs` жёстко задаёт `site` и `base` под `GitHub Pages`, поэтому при смене owner, repo или custom domain конфиг нужно обновить.
 - Detail-маршруты сделаны не как `/<entity>/<slug>/`, а как shell с `?slug=...`, чтобы не раздувать количество HTML-файлов.
-- `data/normalized/**` сейчас выглядит как legacy-слой и не является основным рабочим storage в текущей архитектуре.
+- URL пагинации из Astro `paginate()` уже содержат `base` и не должны оборачиваться в `withBase()`.
+- `data/normalized/**` — legacy-слой, не является основным рабочим storage в текущей архитектуре.

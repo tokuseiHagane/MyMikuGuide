@@ -8,8 +8,9 @@
 2. `scripts/sync/index.ts` синхронизирует сущности в локальный graph snapshot.
 3. Канонический результат записывается в `data/db/vocadb.sqlite`.
 4. Из SQLite строятся publish-артефакты в `data/derived/`.
-5. Во время `npm run build` сайт собирается из `data/derived/`.
-6. Дополнительно создаются `dist/derived/detail`, `dist/pagefind` и browser SQLite snapshot.
+5. `build:derive-meta` генерирует статистику, индексы тегов и годов.
+6. Во время `npm run build` сайт собирается из `data/derived/`.
+7. Дополнительно создаются `dist/derived/detail`, `dist/search-index` и browser SQLite snapshot.
 
 ```mermaid
 flowchart TD
@@ -25,6 +26,7 @@ flowchart TD
     H --> J[data/derived/detail]
     H --> K[data/derived/meta]
     G --> L[Browser SQLite snapshot]
+    G --> N[Sharded search index]
     I --> M[Astro build]
     J --> M
     K --> M
@@ -89,6 +91,10 @@ flowchart LR
     E --> F[Publish derived exports]
 ```
 
+### `derive`
+
+Пересобирает только `data/derived/` из существующего `data/db/vocadb.sqlite` без обращения к VocaDB. Полезно для регенерации JSON-экспорта после изменения формата.
+
 ## Что делает sync
 
 В упрощённом виде `scripts/sync/index.ts` делает следующее:
@@ -131,10 +137,19 @@ flowchart LR
 После `npm run build` дополнительно появляются:
 
 - `dist/derived/detail/**` из `scripts/export-client-detail-data.ts`;
-- `dist/pagefind/**` из `scripts/build-search.ts`;
+- `dist/search-index/**` из `scripts/build-search-index.ts` (256 JSON-шардов + manifest);
 - `dist/sqlite/<version>/**` и `dist/meta/db-snapshot.json` из `scripts/build-browser-sqlite-snapshot.ts`.
 
 Для локального preview аналогичные browser SQLite артефакты могут создаваться в `public/sqlite/` и `public/meta/db-snapshot.local.json`.
+
+## Поисковый индекс
+
+`scripts/build-search-index.ts` читает `data/db/vocadb.sqlite` и строит шардированный JSON-индекс:
+
+- Токенизация: слова из `displayName` и `additionalNames`, плюс romaji-транслитерация через `wanakana`.
+- 256 шардов по хешу первых двух символов термина.
+- Формат шарда: `{ term: [[code, slug, displayName], ...] }`, где `code` = `a` (artist), `s` (song), `l` (album).
+- Выход: `dist/search-index/{0..255}.json` + `manifest.json`.
 
 ## Сетевое поведение
 

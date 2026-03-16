@@ -19,12 +19,12 @@ sequenceDiagram
     participant Pages as GitHub Pages
 
     Scheduler->>Sync: Start sync workflow
-    Sync->>Release: Download previous SQLite snapshot if available
+    Sync->>Release: Download previous SQLite + derived snapshots if available
     Sync->>Sync: Run npm ci and npm run sync*
-    Sync->>Artifact: Upload data/db and data/derived
+    Sync->>Artifact: Upload data/db, data/derived and data/raw/vocadb/meta
     Artifact->>Publish: Download snapshot artifact
     Publish->>Publish: Run npm ci and npm run build
-    Publish->>Release: Upload latest vocadb.sqlite and sha256
+    Publish->>Release: Upload latest vocadb.sqlite.zst, derived-data.tar.zst and sha256
     Publish->>Publish: Build browser SQLite snapshot and check budgets
     Publish->>Pages: Deploy dist
 ```
@@ -35,7 +35,8 @@ sequenceDiagram
 
 - запускается по расписанию и вручную;
 - выбирает sync-режим в зависимости от `schedule` или `workflow_dispatch`;
-- пытается скачать предыдущий rolling SQLite snapshot для warm start;
+- пытается скачать предыдущий rolling SQLite snapshot (zstd-сжатый) для warm start;
+- при наличии скачивает предыдущий derived-data snapshot для инкрементальной пересборки;
 - выполняет `npm ci`;
 - запускает нужную `npm run sync*` команду;
 - публикует артефакт `vocadb-snapshot`.
@@ -62,8 +63,9 @@ sequenceDiagram
 - запускается после успешного `Sync Snapshot` через `workflow_run`;
 - может быть запущен вручную через `workflow_dispatch`;
 - при необходимости скачивает `vocadb-snapshot` по `run_id`;
+- если `run_id` не указан, бутстрапит данные из rolling release (`vocadb.sqlite.zst` + `derived-data.tar.zst`);
 - выполняет `npm ci`;
-- публикует rolling release asset с `vocadb.sqlite`;
+- публикует rolling release asset с `vocadb.sqlite.zst` и `derived-data.tar.zst`;
 - собирает сайт;
 - создаёт browser SQLite snapshot для Pages;
 - удаляет `dist/derived/detail`;
@@ -72,15 +74,18 @@ sequenceDiagram
 
 ```mermaid
 flowchart TD
-    A[Resolve snapshot source] --> B[Download artifact if run_id exists]
-    B --> C[npm ci]
-    C --> D[Publish rolling SQLite release asset]
-    D --> E[npm run build]
-    E --> F[Build browser SQLite snapshot]
-    F --> G[Remove dist/derived/detail]
-    G --> H[Run budget checks]
-    H --> I[Upload Pages artifact]
-    I --> J[Deploy to GitHub Pages]
+    A[Resolve snapshot source] --> B{run_id exists?}
+    B -->|Yes| C[Download artifact]
+    B -->|No| D[Bootstrap from release]
+    C --> E[npm ci]
+    D --> E
+    E --> F[Publish rolling release assets]
+    F --> G[npm run build]
+    G --> H[Build browser SQLite snapshot]
+    H --> I[Remove dist/derived/detail]
+    I --> J[Run budget checks]
+    J --> K[Upload Pages artifact]
+    K --> L[Deploy to GitHub Pages]
 ```
 
 ## SQLite snapshot в двух формах
@@ -89,14 +94,16 @@ flowchart TD
 
 `publish.yml` публикует:
 
-- `vocadb.sqlite`
+- `vocadb.sqlite.zst` (zstd-сжатый SQLite snapshot)
 - `vocadb.sqlite.sha256`
+- `derived-data.tar.zst` (zstd-сжатый архив `data/derived/`)
 
 в релиз с тегом `sqlite-snapshot-latest`.
 
-Этот артефакт нужен:
+Эти артефакты нужны:
 
-- следующему `sync` для warm start;
+- следующему `sync` для warm start (SQLite + derived для инкрементального derive);
+- `publish` без `run_id` для frontend-only rebuild;
 - внешним потребителям snapshot;
 - проверке целостности через SHA-256.
 
@@ -112,9 +119,9 @@ flowchart TD
 
 По умолчанию pipeline следит за:
 
-- временем build не более `900` секунд;
-- размером `data/derived` не более `367001600` байт;
-- размером `dist` не более `419430400` байт;
+- временем build не более `1800` секунд;
+- размером `data/derived` не более `1610612736` байт (~1.5 GB);
+- размером `dist` не более `5368709120` байт (~5 GB);
 - количеством detail JSON-файлов не более `50000`.
 
 ## Runbook
@@ -128,9 +135,9 @@ flowchart TD
 Есть два сценария:
 
 1. Передать `snapshot_run_id` существующего sync-run и использовать его artifact.
-2. Не передавать `snapshot_run_id` и надеяться на локальные snapshot-файлы в checkout.
+2. Не передавать `snapshot_run_id` — publish возьмёт данные из rolling release (`vocadb.sqlite.zst` + `derived-data.tar.zst`).
 
-Практически безопаснее всегда использовать первый вариант.
+Второй вариант позволяет пересобрать сайт без нового sync — полезно при изменениях фронтенда.
 
 ### Что делать при проблемах с detail-страницами
 
@@ -139,7 +146,8 @@ flowchart TD
 1. создан ли `data/db/vocadb.sqlite`;
 2. создался ли browser SQLite snapshot;
 3. существует ли manifest `dist/meta/db-snapshot.json` или `public/meta/db-snapshot.local.json`;
-4. не был ли удалён fallback `dist/derived/detail` до того, как runtime смог использовать SQLite.
+4. работает ли Service Worker (проверить DevTools → Application → Service Workers);
+5. не был ли удалён fallback `dist/derived/detail` до того, как runtime смог использовать SQLite.
 
 ### Что делать при слишком долгом или тяжёлом sync
 
@@ -152,9 +160,9 @@ flowchart TD
 ## Ограничения и риски
 
 - Rolling release `sqlite-snapshot-latest` перезаписывается и не является историческим журналом релизов.
-- `vocadb-snapshot` живёт ограниченное время, поэтому старый `snapshot_run_id` может стать непригодным.
-- Ручной `publish` без `snapshot_run_id` не гарантирует полноценный deploy на чистом runner.
+- `vocadb-snapshot` живёт ограниченное время (14 дней), поэтому старый `snapshot_run_id` может стать непригодным.
 - Production detail-страницы зависят от browser SQLite snapshot, потому что detail JSON удаляется из Pages artifact.
+- Service Worker с Cache API (`sqlite-chunks-v1`) кэширует чанки персистентно; при изменении формата snapshot может потребоваться ручная очистка кэша в браузере.
 - `astro.config.mjs` жёстко привязан к `https://tokuseihagane.github.io/MyMikuGuide/` и `base: "/MyMikuGuide"`.
 - В CI нет отдельного тестового stage, а `npm run check` сейчас не встроен в workflows.
 
@@ -164,7 +172,12 @@ flowchart TD
 - `.github/workflows/publish.yml`
 - `scripts/sync/index.ts`
 - `scripts/build-browser-sqlite-snapshot.ts`
+- `scripts/build-search-index.ts`
+- `scripts/build-stats.ts`
+- `scripts/build-tags-index.ts`
+- `scripts/build-years-index.ts`
 - `scripts/check-budgets.ts`
+- `public/sw.js`
 - `.env.example`
 - `.gitignore`
 - `astro.config.mjs`

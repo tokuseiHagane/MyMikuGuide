@@ -36,6 +36,7 @@ npm run sync
 npm run sync:incremental-hot
 npm run sync:reconcile-shard
 npm run sync:full
+npm run sync:derive
 npm run sync:dry-run
 ```
 
@@ -69,17 +70,20 @@ npm run build:local-preview
 
 Если нужно полностью пересканировать каталог, используйте `npm run sync:full`.
 
+Если нужно пересобрать только `data/derived/` без обращения к VocaDB, используйте `npm run sync:derive`.
+
 ## Что делает `npm run build`
 
 Команда `build` не ограничивается `astro build`.
 
 Последовательно выполняются:
 
-1. `astro build`
-2. `scripts/export-client-detail-data.ts`
-3. `scripts/build-search.ts`
+1. `build:derive-meta` — генерация статистики (`build-stats.ts`), индекса тегов (`build-tags-index.ts`) и индекса годов (`build-years-index.ts`).
+2. `astro build`
+3. `scripts/export-client-detail-data.ts`
+4. `scripts/build-search-index.ts` — шардированный JSON-индекс поиска (256 шардов из SQLite).
 
-Из-за этого полноценная сборка ожидает, что `data/derived/` уже подготовлен sync-пайплайном.
+Из-за этого полноценная сборка ожидает, что `data/derived/` уже подготовлен sync-пайплайном и `data/db/vocadb.sqlite` существует.
 
 ## Локальный browser SQLite preview
 
@@ -136,10 +140,16 @@ npm run build:local-preview
 ## Полезные ориентиры по коду
 
 - `src/lib/site-data.ts` - build-time чтение summary/detail/meta.
-- `src/lib/browser-sqlite.ts` - runtime чтение SQLite в браузере.
+- `src/lib/browser-sqlite.ts` - runtime чтение SQLite в браузере через sql.js-httpvfs.
 - `src/lib/client-detail-shell.ts` - отрисовка detail-страниц.
+- `src/lib/client-search.ts` - клиентский runtime поиска по шардированному индексу.
+- `src/lib/site-utils.ts` - `withBase()`, `entityHref()` и другие URL/UI-утилиты.
+- `public/sw.js` - Service Worker с двухуровневым кэшем чанков SQLite.
 - `scripts/sync/index.ts` - sync orchestration.
-- `scripts/build-search.ts` - индексация поиска.
+- `scripts/build-search-index.ts` - сборка шардированного поискового индекса.
+- `scripts/build-stats.ts` - генерация статистики каталога.
+- `scripts/build-tags-index.ts` - генерация индекса тегов.
+- `scripts/build-years-index.ts` - генерация индекса годов.
 - `scripts/build-browser-sqlite-snapshot.ts` - подготовка browser SQLite.
 
 ## Ограничения локальной среды
