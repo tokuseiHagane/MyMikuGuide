@@ -102,6 +102,34 @@ self.addEventListener("fetch", (event) => {
   event.respondWith(handleChunk(event.request, url));
 });
 
+function prefetchAdjacentChunks(url) {
+  const match = url.pathname.match(/^(.+\.)(\d+)$/);
+  if (!match) return;
+  const prefix = match[1];
+  const idx = parseInt(match[2], 10);
+  const padLen = match[2].length;
+
+  for (let d = 1; d <= 2; d++) {
+    const nextKey = url.origin + prefix + String(idx + d).padStart(padLen, "0");
+    if (bufferCache.has(nextKey)) continue;
+    fetch(nextKey, { cache: "force-cache" })
+      .then((r) => (r.ok ? r.arrayBuffer() : null))
+      .then((buf) => {
+        if (!buf) return;
+        bufferCache.set(nextKey, buf);
+        caches.open(CACHE_NAME).then((cache) =>
+          cache.put(
+            new Request(nextKey),
+            new Response(buf.slice(0), {
+              headers: { "X-Chunk-Size": String(buf.byteLength) },
+            }),
+          ),
+        );
+      })
+      .catch(() => {});
+  }
+}
+
 /**
  * @param {Request} request
  * @param {URL} url
@@ -149,6 +177,8 @@ async function handleChunk(request, url) {
           active: activeRequests,
           totalFetched,
         });
+
+        prefetchAdjacentChunks(url);
       } catch (err) {
         activeRequests--;
         broadcast({ type: "chunkError", url: cacheKey, error: String(err), active: activeRequests });

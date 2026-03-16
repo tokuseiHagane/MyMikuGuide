@@ -1,5 +1,5 @@
-import type { AlbumDetail, ArtistDetail, EntityDetail, EntitySummary, EntityType, SongDetail } from "./models";
-import { getEntityDetailBySlug, loadDbSnapshotManifest } from "./browser-sqlite";
+import type { Album, AlbumDetail, Artist, ArtistDetail, EntityDetail, EntitySummary, EntityType, Song, SongDetail } from "./models";
+import { getEntityCountsBatch, getEntityDetailBySlug, getEntityMainBySlug, loadDbSnapshotManifest } from "./browser-sqlite";
 import { withBase } from "./site-utils";
 
 function escapeHtml(value: unknown) {
@@ -44,20 +44,24 @@ function entityDescription(entity: EntitySummary) {
   return entity.trackCount > 0 ? `${entity.trackCount} треков` : "";
 }
 
+function countLabel(count: number, label: string) {
+  return count > 0 ? `${count} ${label}` : `… ${label}`;
+}
+
 function entityMeta(entity: EntitySummary) {
   if (entity.entityType === "artist") {
-    return [`${entity.songCount} песен`, `${entity.albumCount} альбомов`];
+    return [countLabel(entity.songCount, "песен"), countLabel(entity.albumCount, "альбомов")];
   }
   if (entity.entityType === "song") {
     return [
       entity.year ? String(entity.year) : "Без даты",
-      `${entity.artistCount} артистов`,
+      countLabel(entity.artistCount, "артистов"),
       entity.durationSeconds ? `${entity.durationSeconds} сек.` : "Длительность неизвестна",
     ];
   }
   return [
     entity.year ? String(entity.year) : "Без даты",
-    `${entity.trackCount} треков`,
+    countLabel(entity.trackCount, "треков"),
     entity.catalogNumber ? `Cat. ${entity.catalogNumber}` : "Без каталожного номера",
   ];
 }
@@ -72,7 +76,7 @@ function renderEntityCard(entity: EntitySummary) {
     .join("");
 
   return `
-    <article class="entity-card entity-card--compact">
+    <article class="entity-card entity-card--compact" data-entity-id="${escapeHtml(entity.id)}" data-entity-type="${entity.entityType}">
       <a class="entity-card__image" href="${entityHref(entity)}" aria-label="${escapeHtml(entity.displayName)}">
         ${image}
       </a>
@@ -329,6 +333,45 @@ function renderAlbum(detail: AlbumDetail) {
   `;
 }
 
+function renderEntityHeroOnly(entityType: EntityType, entity: Artist | Song | Album) {
+  const image = entity.primaryImage
+    ? `<img src="${escapeHtml(entity.primaryImage)}" alt="${escapeHtml(entity.displayName)}" />`
+    : `<div class="entity-hero__fallback" aria-hidden="true">${escapeHtml(entity.displayName.slice(0, 1))}</div>`;
+
+  const typeLabel =
+    entityType === "artist"
+      ? (entity as Artist).artistType
+      : entityType === "song"
+        ? (entity as Song).songType
+        : (entity as Album).albumType;
+
+  return `
+    <section class="panel entity-hero">
+      <div class="entity-hero__media">${image}</div>
+      <div class="stack">
+        <div>
+          <div class="chip-list">
+            <span class="chip">${escapeHtml(typeLabel)}</span>
+            ${typeof entity.upstreamVersion === "number" ? `<span class="chip">upstream v${entity.upstreamVersion}</span>` : ""}
+          </div>
+          <h1>${escapeHtml(entity.displayName)}</h1>
+          ${
+            entity.additionalNames.length > 0
+              ? `<p class="muted">Другие имена: ${escapeHtml(entity.additionalNames.slice(0, 6).join(", "))}</p>`
+              : ""
+          }
+        </div>
+        <div class="hero__actions">
+          <a class="button-link" href="${escapeHtml(entity.sourceUrl)}">Открыть в VocaDB</a>
+        </div>
+      </div>
+    </section>
+    <section class="panel" data-related-placeholder>
+      <p class="muted">Загрузка связанных сущностей…</p>
+    </section>
+  `;
+}
+
 function renderDetail(detail: EntityDetail) {
   if (detail.entityType === "artist") {
     return renderArtist(detail);
@@ -372,6 +415,56 @@ function renderMissing(shell: HTMLElement, message: string) {
   `;
 }
 
+async function hydrateVisibleCounts(container: HTMLElement) {
+  const cards = container.querySelectorAll<HTMLElement>("[data-entity-id][data-entity-type]");
+  if (cards.length === 0) return;
+
+  const entities: Array<{ entityType: EntityType; id: string }> = [];
+  for (const card of cards) {
+    const id = card.dataset.entityId;
+    const type = card.dataset.entityType as EntityType | undefined;
+    if (id && type) {
+      entities.push({ entityType: type, id });
+    }
+  }
+
+  if (entities.length === 0) return;
+
+  try {
+    const counts = await getEntityCountsBatch(entities);
+
+    for (const card of cards) {
+      const id = card.dataset.entityId;
+      const type = card.dataset.entityType as EntityType | undefined;
+      if (!id || !type) continue;
+      const entry = counts.get(id);
+      if (!entry) continue;
+
+      const metaItems = card.querySelectorAll<HTMLElement>(".entity-card__meta li");
+      for (const li of metaItems) {
+        const text = li.textContent ?? "";
+        if (type === "artist") {
+          if (text.includes("песен") && entry.songCount != null) {
+            li.textContent = `${entry.songCount} песен`;
+          } else if (text.includes("альбомов") && entry.albumCount != null) {
+            li.textContent = `${entry.albumCount} альбомов`;
+          }
+        } else if (type === "song") {
+          if (text.includes("артистов") && entry.artistCount != null) {
+            li.textContent = `${entry.artistCount} артистов`;
+          }
+        } else if (type === "album") {
+          if (text.includes("треков") && entry.trackCount != null) {
+            li.textContent = `${entry.trackCount} треков`;
+          }
+        }
+      }
+    }
+  } catch {
+    // Counts hydration failed silently — placeholders remain.
+  }
+}
+
 export function bootClientDetailShell() {
   const shell = document.querySelector<HTMLElement>("[data-detail-shell]");
   if (!shell) {
@@ -391,39 +484,54 @@ export function bootClientDetailShell() {
 
     try {
       const manifest = await loadDbSnapshotManifest();
+      const useSqlite = manifest.available && manifest.configUrl;
 
-      let detail = null as Awaited<ReturnType<typeof loadDetailFromBrowserSqlite>> | null;
-      if (manifest.available && manifest.configUrl) {
+      if (useSqlite) {
         try {
-          detail = await loadDetailFromBrowserSqlite(entityType, slug);
-        } catch {
-          if (detailRoot) {
-            detail = await loadDetailFromJson(detailRoot, slug);
+          const mainEntity = await getEntityMainBySlug(entityType as "artist", slug);
+          if (mainEntity) {
+            document.title = `${mainEntity.displayName} | MyMikuGuide`;
+            shellElement.innerHTML = renderEntityHeroOnly(entityType, mainEntity);
           }
+        } catch {
+          // Phase 1 failed, will try full load or JSON fallback below.
         }
-      } else if (detailRoot) {
-        detail = await loadDetailFromJson(detailRoot, slug);
+
+        try {
+          const detail = await loadDetailFromBrowserSqlite(entityType, slug);
+          if (detail?.entity) {
+            document.title = `${detail.entity.displayName} | MyMikuGuide`;
+            shellElement.innerHTML = renderDetail(detail);
+            void hydrateVisibleCounts(shellElement);
+            return;
+          }
+        } catch {
+          // Phase 2 failed — hero stays visible, try JSON fallback.
+        }
       }
 
-      if (!detail || !detail.entity) {
-        renderMissing(shellElement, `Не удалось найти карточку для slug "${slug}".`);
-        return;
-      }
-
-      document.title = `${detail.entity.displayName} | MyMikuGuide`;
-      shellElement.innerHTML = renderDetail(detail);
-    } catch {
       if (detailRoot) {
         try {
           const detail = await loadDetailFromJson(detailRoot, slug);
-          document.title = `${detail.entity.displayName} | MyMikuGuide`;
-          shellElement.innerHTML = renderDetail(detail);
-          return;
+          if (detail?.entity) {
+            document.title = `${detail.entity.displayName} | MyMikuGuide`;
+            shellElement.innerHTML = renderDetail(detail);
+            void hydrateVisibleCounts(shellElement);
+            return;
+          }
         } catch {
-          // Both sources failed.
+          // JSON fallback also failed.
         }
       }
 
+      const heroStillShown = shellElement.querySelector("[data-related-placeholder]");
+      if (heroStillShown) {
+        heroStillShown.innerHTML = `<p class="muted">Не удалось загрузить связанные сущности.</p>`;
+        return;
+      }
+
+      renderMissing(shellElement, `Не удалось найти карточку для slug "${slug}".`);
+    } catch {
       renderMissing(shellElement, `Не удалось загрузить карточку для slug "${slug}".`);
     }
   }

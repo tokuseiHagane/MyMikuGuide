@@ -17,7 +17,7 @@ import type {
 const workerUrl = new URL("sql.js-httpvfs/dist/sqlite.worker.js", import.meta.url);
 const wasmUrl = new URL("sql.js-httpvfs/dist/sql-wasm.wasm", import.meta.url);
 const BASE_URL = import.meta.env.BASE_URL;
-const MAX_BYTES_TO_READ = 64 * 1024 * 1024;
+const MAX_BYTES_TO_READ = 512 * 1024 * 1024;
 
 export type DbSnapshotManifest = {
   available: boolean;
@@ -193,6 +193,14 @@ async function queryRows<Row>(query: string, ...params: Array<string | number>) 
   return (await worker.db.query(query, params.length > 0 ? params : undefined)) as Row[];
 }
 
+async function safeQueryRows<Row>(query: string, ...params: Array<string | number>): Promise<Row[]> {
+  try {
+    return await queryRows<Row>(query, ...params);
+  } catch {
+    return [];
+  }
+}
+
 async function queryFirst<Row>(query: string, ...params: Array<string | number>) {
   const rows = await queryRows<Row>(query, ...params);
   return rows[0] ?? null;
@@ -287,6 +295,16 @@ export async function getBrowserSqliteWorker() {
   return workerPromise;
 }
 
+export async function getEntityMainBySlug(entityType: "artist", slug: string): Promise<Artist | null>;
+export async function getEntityMainBySlug(entityType: "song", slug: string): Promise<Song | null>;
+export async function getEntityMainBySlug(entityType: "album", slug: string): Promise<Album | null>;
+export async function getEntityMainBySlug(entityType: EntityType, slug: string) {
+  const table = entityType === "artist" ? "artists" : entityType === "song" ? "songs" : "albums";
+  const row = await queryFirst<PayloadRow>(`SELECT payload_json FROM ${table} WHERE slug = ? LIMIT 1`, slug);
+  if (!row) return null;
+  return JSON.parse(row.payload_json) as Artist | Song | Album;
+}
+
 export async function getEntityDetailBySlug(entityType: "artist", slug: string): Promise<ArtistDetail | null>;
 export async function getEntityDetailBySlug(entityType: "song", slug: string): Promise<SongDetail | null>;
 export async function getEntityDetailBySlug(entityType: "album", slug: string): Promise<AlbumDetail | null>;
@@ -299,11 +317,9 @@ export async function getEntityDetailBySlug(entityType: EntityType, slug: string
 
     const artist = parsePayload<Artist>(artistRow.payload_json);
     const [relatedArtists, relatedSongs, relatedAlbums] = await Promise.all([
-      queryRows<ArtistSummaryRow>(
+      safeQueryRows<ArtistSummaryRow>(
         `
-          SELECT DISTINCT a.payload_json,
-            (SELECT COUNT(*) FROM artist_song WHERE artist_id = a.entity_id) AS song_count,
-            (SELECT COUNT(*) FROM artist_album WHERE artist_id = a.entity_id) AS album_count
+          SELECT DISTINCT a.payload_json, 0 AS song_count, 0 AS album_count
           FROM artist_relation ar
           JOIN artists a ON a.entity_id = ar.related_artist_id
           WHERE ar.artist_id = ?
@@ -311,11 +327,9 @@ export async function getEntityDetailBySlug(entityType: EntityType, slug: string
         `,
         artist.id,
       ),
-      queryRows<SongSummaryRow>(
+      safeQueryRows<SongSummaryRow>(
         `
-          SELECT DISTINCT s.payload_json,
-            (SELECT COUNT(*) FROM artist_song WHERE song_id = s.entity_id) AS artist_count,
-            (SELECT COUNT(*) FROM album_song WHERE song_id = s.entity_id) AS album_count
+          SELECT DISTINCT s.payload_json, 0 AS artist_count, 0 AS album_count
           FROM artist_song rel
           JOIN songs s ON s.entity_id = rel.song_id
           WHERE rel.artist_id = ?
@@ -323,10 +337,9 @@ export async function getEntityDetailBySlug(entityType: EntityType, slug: string
         `,
         artist.id,
       ),
-      queryRows<AlbumSummaryRow>(
+      safeQueryRows<AlbumSummaryRow>(
         `
-          SELECT DISTINCT a.payload_json,
-            (SELECT COUNT(*) FROM album_song WHERE album_id = a.entity_id) AS track_count
+          SELECT DISTINCT a.payload_json, 0 AS track_count
           FROM artist_album rel
           JOIN albums a ON a.entity_id = rel.album_id
           WHERE rel.artist_id = ?
@@ -353,11 +366,9 @@ export async function getEntityDetailBySlug(entityType: EntityType, slug: string
 
     const song = parsePayload<Song>(songRow.payload_json);
     const [relatedArtists, relatedAlbums] = await Promise.all([
-      queryRows<ArtistSummaryRow>(
+      safeQueryRows<ArtistSummaryRow>(
         `
-          SELECT DISTINCT a.payload_json,
-            (SELECT COUNT(*) FROM artist_song WHERE artist_id = a.entity_id) AS song_count,
-            (SELECT COUNT(*) FROM artist_album WHERE artist_id = a.entity_id) AS album_count
+          SELECT DISTINCT a.payload_json, 0 AS song_count, 0 AS album_count
           FROM artist_song rel
           JOIN artists a ON a.entity_id = rel.artist_id
           WHERE rel.song_id = ?
@@ -365,10 +376,9 @@ export async function getEntityDetailBySlug(entityType: EntityType, slug: string
         `,
         song.id,
       ),
-      queryRows<AlbumSummaryRow>(
+      safeQueryRows<AlbumSummaryRow>(
         `
-          SELECT DISTINCT a.payload_json,
-            (SELECT COUNT(*) FROM album_song WHERE album_id = a.entity_id) AS track_count
+          SELECT DISTINCT a.payload_json, 0 AS track_count
           FROM album_song rel
           JOIN albums a ON a.entity_id = rel.album_id
           WHERE rel.song_id = ?
@@ -393,11 +403,9 @@ export async function getEntityDetailBySlug(entityType: EntityType, slug: string
 
   const album = parsePayload<Album>(albumRow.payload_json);
   const [relatedArtists, relatedSongs, tracks] = await Promise.all([
-    queryRows<ArtistSummaryRow>(
+    safeQueryRows<ArtistSummaryRow>(
       `
-        SELECT DISTINCT a.payload_json,
-          (SELECT COUNT(*) FROM artist_song WHERE artist_id = a.entity_id) AS song_count,
-          (SELECT COUNT(*) FROM artist_album WHERE artist_id = a.entity_id) AS album_count
+        SELECT DISTINCT a.payload_json, 0 AS song_count, 0 AS album_count
         FROM artist_album rel
         JOIN artists a ON a.entity_id = rel.artist_id
         WHERE rel.album_id = ?
@@ -405,11 +413,9 @@ export async function getEntityDetailBySlug(entityType: EntityType, slug: string
       `,
       album.id,
     ),
-    queryRows<SongSummaryRow>(
+    safeQueryRows<SongSummaryRow>(
       `
-        SELECT DISTINCT s.payload_json,
-          (SELECT COUNT(*) FROM artist_song WHERE song_id = s.entity_id) AS artist_count,
-          (SELECT COUNT(*) FROM album_song WHERE song_id = s.entity_id) AS album_count
+        SELECT DISTINCT s.payload_json, 0 AS artist_count, 0 AS album_count
         FROM album_song rel
         JOIN songs s ON s.entity_id = rel.song_id
         WHERE rel.album_id = ?
@@ -417,7 +423,7 @@ export async function getEntityDetailBySlug(entityType: EntityType, slug: string
       `,
       album.id,
     ),
-    queryRows<AlbumTrackRow>(
+    safeQueryRows<AlbumTrackRow>(
       `
         SELECT
           rel.song_id,
@@ -425,8 +431,8 @@ export async function getEntityDetailBySlug(entityType: EntityType, slug: string
           rel.disc_number,
           rel.track_name,
           s.payload_json,
-          (SELECT COUNT(*) FROM artist_song WHERE song_id = s.entity_id) AS artist_count,
-          (SELECT COUNT(*) FROM album_song WHERE song_id = s.entity_id) AS album_count
+          0 AS artist_count,
+          0 AS album_count
         FROM album_song rel
         LEFT JOIN songs s ON s.entity_id = rel.song_id
         WHERE rel.album_id = ?
@@ -443,4 +449,104 @@ export async function getEntityDetailBySlug(entityType: EntityType, slug: string
     relatedSongs: relatedSongs.map(mapSongSummaryRow),
     tracks: tracks.map(mapAlbumTrackRow),
   };
+}
+
+export type EntityCountsEntry = {
+  songCount?: number;
+  albumCount?: number;
+  artistCount?: number;
+  trackCount?: number;
+};
+
+type CountRow = {
+  entity_id: string;
+  count_a: number;
+  count_b: number;
+};
+
+export async function getEntityCountsBatch(
+  entities: Array<{ entityType: EntityType; id: string }>,
+): Promise<Map<string, EntityCountsEntry>> {
+  const result = new Map<string, EntityCountsEntry>();
+  if (entities.length === 0) return result;
+
+  const byType = new Map<EntityType, string[]>();
+  for (const e of entities) {
+    let ids = byType.get(e.entityType);
+    if (!ids) {
+      ids = [];
+      byType.set(e.entityType, ids);
+    }
+    ids.push(e.id);
+  }
+
+  const queries: Promise<void>[] = [];
+
+  const artistIds = byType.get("artist");
+  if (artistIds && artistIds.length > 0) {
+    const placeholders = artistIds.map(() => "?").join(",");
+    queries.push(
+      safeQueryRows<CountRow>(
+        `SELECT a.entity_id,
+           COUNT(DISTINCT ars.song_id) AS count_a,
+           COUNT(DISTINCT ara.album_id) AS count_b
+         FROM artists a
+         LEFT JOIN artist_song ars ON ars.artist_id = a.entity_id
+         LEFT JOIN artist_album ara ON ara.artist_id = a.entity_id
+         WHERE a.entity_id IN (${placeholders})
+         GROUP BY a.entity_id`,
+        ...artistIds,
+      ).then((rows) => {
+        for (const r of rows) {
+          result.set(r.entity_id, { songCount: r.count_a, albumCount: r.count_b });
+        }
+      }),
+    );
+  }
+
+  const songIds = byType.get("song");
+  if (songIds && songIds.length > 0) {
+    const placeholders = songIds.map(() => "?").join(",");
+    queries.push(
+      safeQueryRows<CountRow>(
+        `SELECT s.entity_id,
+           COUNT(DISTINCT ars.artist_id) AS count_a,
+           COUNT(DISTINCT als.album_id) AS count_b
+         FROM songs s
+         LEFT JOIN artist_song ars ON ars.song_id = s.entity_id
+         LEFT JOIN album_song als ON als.song_id = s.entity_id
+         WHERE s.entity_id IN (${placeholders})
+         GROUP BY s.entity_id`,
+        ...songIds,
+      ).then((rows) => {
+        for (const r of rows) {
+          result.set(r.entity_id, { artistCount: r.count_a, albumCount: r.count_b });
+        }
+      }),
+    );
+  }
+
+  const albumIds = byType.get("album");
+  if (albumIds && albumIds.length > 0) {
+    const placeholders = albumIds.map(() => "?").join(",");
+    queries.push(
+      safeQueryRows<CountRow>(
+        `SELECT a.entity_id,
+           COUNT(DISTINCT als.song_id) AS count_a,
+           0 AS count_b
+         FROM albums a
+         LEFT JOIN album_song als ON als.album_id = a.entity_id
+         WHERE a.entity_id IN (${placeholders})
+         GROUP BY a.entity_id`,
+        ...albumIds,
+      ).then((rows) => {
+        for (const r of rows) {
+          result.set(r.entity_id, { trackCount: r.count_a });
+        }
+      }),
+    );
+  }
+
+  await Promise.all(queries);
+  return result;
 }
