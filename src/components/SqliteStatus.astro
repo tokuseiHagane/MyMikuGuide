@@ -159,12 +159,14 @@
         });
         requestStats();
       } else if (d.type === "stats") {
-        updateUI({
-          cachedChunks: d.cachedChunks,
-          cachedBytes: d.cachedBytes,
-          active: d.activeRequests,
-          totalFetched: d.totalFetched,
-        });
+        if (d.cachedChunks > 0 || d.activeRequests > 0) {
+          updateUI({
+            cachedChunks: d.cachedChunks,
+            cachedBytes: d.cachedBytes,
+            active: d.activeRequests,
+            totalFetched: d.totalFetched,
+          });
+        }
       } else if (d.type === "cacheCleared") {
         infoEl.textContent = "Кэш очищен. Перезагрузите страницу.";
         titleEl.textContent = "Кэш очищен";
@@ -193,10 +195,7 @@
     hide();
   });
 
-  // On page load, check if SW has cached data
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.ready.then(() => {
-      setTimeout(requestStats, 500);
-    });
+    navigator.serviceWorker.ready.then(() => requestStats());
   }
 </script>
