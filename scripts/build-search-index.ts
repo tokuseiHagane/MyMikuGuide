@@ -35,7 +35,40 @@ function romajiTokens(text: string): string[] {
   }
 }
 
-type ShardEntry = [string, string, string]; // [entityType code, slug, displayName]
+type ShardEntry = [string, string, string, string]; // [code, slug, displayName, preview]
+
+function buildPreview(code: string, payload: Record<string, unknown>): string {
+  const parts: string[] = [];
+
+  if (code === "a") {
+    if (typeof payload.artistType === "string" && payload.artistType !== "Unknown") {
+      parts.push(payload.artistType);
+    }
+  } else if (code === "s") {
+    if (typeof payload.songType === "string" && payload.songType !== "Unspecified") {
+      parts.push(payload.songType);
+    }
+    if (typeof payload.year === "number") {
+      parts.push(String(payload.year));
+    }
+    if (Array.isArray(payload.tags)) {
+      const tags = payload.tags.filter((t): t is string => typeof t === "string");
+      if (tags.length > 0) parts.push(tags.slice(0, 3).join(", "));
+    }
+  } else if (code === "l") {
+    if (typeof payload.albumType === "string") {
+      parts.push(payload.albumType);
+    }
+    if (typeof payload.year === "number") {
+      parts.push(String(payload.year));
+    }
+    if (typeof payload.catalogNumber === "string" && payload.catalogNumber) {
+      parts.push(payload.catalogNumber);
+    }
+  }
+
+  return parts.join(" · ");
+}
 
 async function main() {
   const started = Date.now();
@@ -63,11 +96,13 @@ async function main() {
 
     for (const row of rows) {
       let additionalNames: string[] = [];
+      let preview = "";
       try {
-        const payload = JSON.parse(row.payload_json);
+        const payload = JSON.parse(row.payload_json) as Record<string, unknown>;
         additionalNames = Array.isArray(payload.additionalNames)
           ? payload.additionalNames.filter((n: unknown) => typeof n === "string")
           : [];
+        preview = buildPreview(code, payload);
       } catch {
         // skip
       }
@@ -79,7 +114,7 @@ async function main() {
         for (const t of romajiTokens(name)) terms.add(t);
       }
 
-      const entry: ShardEntry = [code, row.slug, row.display_name];
+      const entry: ShardEntry = [code, row.slug, row.display_name, preview];
 
       for (const term of terms) {
         const prefix = term.slice(0, 2);

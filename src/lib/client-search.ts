@@ -4,6 +4,7 @@ export type SearchResult = {
   entityType: EntityType;
   slug: string;
   displayName: string;
+  preview: string;
 };
 
 const TYPE_MAP: Record<string, EntityType> = { a: "artist", s: "song", l: "album" };
@@ -25,7 +26,7 @@ function shardId(prefix: string): number {
   return ((h % SHARD_COUNT) + SHARD_COUNT) % SHARD_COUNT;
 }
 
-type ShardEntry = [string, string, string];
+type ShardEntry = [string, string, string, string?];
 type ShardData = Record<string, ShardEntry[]>;
 
 const shardCache = new Map<number, ShardData>();
@@ -107,11 +108,12 @@ export async function searchEntities(
   if (!intersection) return [];
 
   const results: SearchResult[] = [];
-  for (const [, [code, slug, displayName]] of intersection) {
+  for (const [, [code, slug, displayName, preview]] of intersection) {
     results.push({
       entityType: TYPE_MAP[code] ?? "artist",
       slug,
       displayName,
+      preview: preview ?? "",
     });
     if (results.length >= limit) break;
   }

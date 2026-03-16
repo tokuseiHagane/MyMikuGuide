@@ -148,8 +148,11 @@ import { withBase } from "../lib/site-utils";
                              px-2 py-0.5 rounded-md border ${TYPE_COLORS[r.entityType] ?? ""}">
                   ${TYPE_LABELS[r.entityType] ?? r.entityType}
                 </span>
-                <span class="text-sm text-text group-hover:text-accent transition-colors truncate">
-                  ${escapeHtml(r.displayName)}
+                <span class="flex flex-col min-w-0">
+                  <span class="text-sm text-text group-hover:text-accent transition-colors truncate">
+                    ${escapeHtml(r.displayName)}
+                  </span>
+                  ${r.preview ? `<span class="text-xs text-muted/70 truncate">${escapeHtml(r.preview)}</span>` : ""}
                 </span>
               </a>`,
           )
